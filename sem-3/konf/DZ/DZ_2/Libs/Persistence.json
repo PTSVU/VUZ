@@ -1,0 +1,9 @@
+{
+    "info": {
+        "requires_dist": [
+            "ExtensionClass>=4.6",
+            "persistent>=4.1.1",
+            "zope.testrunner; extra == \"test\""
+        ]
+    }
+}

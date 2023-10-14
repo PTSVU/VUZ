@@ -1,0 +1,9 @@
+{
+    "info": {
+        "requires_dist": [
+            "pyyaml",
+            "pytest ; extra == 'dev'",
+            "hypothesis ; extra == 'dev'"
+        ]
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "info": {
+        "requires_dist": [
+            "build (>=0.7.0)",
+            "docutils",
+            "packaging",
+            "pygments",
+            "requests",
+            "setuptools (>=42)",
+            "trove-classifiers (>=2022.6.26)",
+            "setuptools (>=60) ; extra == 'test'",
+            "zest.releaser[recommended] ; extra == 'test'"
+        ]
+    }
+}

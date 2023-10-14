@@ -1,0 +1,11 @@
+{
+    "info": {
+        "requires_dist": [
+            "matplotlib",
+            "numpy",
+            "packaging",
+            "colorspacious ; extra == 'plots'",
+            "viscm ; extra == 'plots'"
+        ]
+    }
+}

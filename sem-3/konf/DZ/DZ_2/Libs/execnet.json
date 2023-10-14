@@ -1,0 +1,10 @@
+{
+    "info": {
+        "requires_dist": [
+            "hatch; extra == 'testing'",
+            "pre-commit; extra == 'testing'",
+            "pytest; extra == 'testing'",
+            "tox; extra == 'testing'"
+        ]
+    }
+}

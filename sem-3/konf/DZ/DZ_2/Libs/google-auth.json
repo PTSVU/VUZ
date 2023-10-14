@@ -1,0 +1,17 @@
+{
+    "info": {
+        "requires_dist": [
+            "cachetools (<6.0,>=2.0.0)",
+            "pyasn1-modules (>=0.2.1)",
+            "rsa (<5,>=3.1.4)",
+            "aiohttp (<4.0.0.dev0,>=3.6.2) ; extra == 'aiohttp'",
+            "requests (<3.0.0.dev0,>=2.20.0) ; extra == 'aiohttp'",
+            "cryptography (==36.0.2) ; extra == 'enterprise_cert'",
+            "pyopenssl (==22.0.0) ; extra == 'enterprise_cert'",
+            "pyopenssl (>=20.0.0) ; extra == 'pyopenssl'",
+            "cryptography (>=38.0.3) ; extra == 'pyopenssl'",
+            "pyu2f (>=0.1.5) ; extra == 'reauth'",
+            "requests (<3.0.0.dev0,>=2.20.0) ; extra == 'requests'"
+        ]
+    }
+}

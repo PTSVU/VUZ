@@ -1,0 +1,28 @@
+{
+    "info": {
+        "requires_dist": [
+            "adbc_driver_sqlite ; extra == 'adbc'",
+            "cloudpickle ; extra == 'cloudpickle'",
+            "connectorx ; extra == 'connectorx'",
+            "deltalake >=0.10.0 ; extra == 'deltalake'",
+            "fsspec ; extra == 'fsspec'",
+            "gevent ; extra == 'gevent'",
+            "matplotlib ; extra == 'matplotlib'",
+            "numpy >=1.16.0 ; extra == 'numpy'",
+            "openpyxl >=3.0.0 ; extra == 'openpyxl'",
+            "pyarrow >=7.0.0 ; extra == 'pandas'",
+            "pandas ; extra == 'pandas'",
+            "pyarrow >=7.0.0 ; extra == 'pyarrow'",
+            "pydantic ; extra == 'pydantic'",
+            "pyiceberg >=0.5.0 ; extra == 'pyiceberg'",
+            "pyxlsb >=1.0 ; extra == 'pyxlsb'",
+            "sqlalchemy ; extra == 'sqlalchemy'",
+            "pandas ; extra == 'sqlalchemy'",
+            "backports.zoneinfo ; python_version < '3.9' and extra == 'timezone'",
+            "tzdata ; platform_system == 'Windows' and extra == 'timezone'",
+            "xlsx2csv >=0.8.0 ; extra == 'xlsx2csv'",
+            "xlsxwriter ; extra == 'xlsxwriter'",
+            "polars[pyarrow,pandas,numpy,fsspec,connectorx,xlsx2csv,deltalake,timezone,matplotlib,pydantic,pyiceberg,sqlalchemy,xlsxwriter,adbc,cloudpickle,gevent] ; extra == 'all'"
+        ]
+    }
+}

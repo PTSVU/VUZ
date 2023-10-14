@@ -1,0 +1,12 @@
+{
+    "info": {
+        "requires_dist": [
+            "pytest (>=6.2.0)",
+            "termcolor (>=2.1.0)",
+            "packaging (>=21.3)",
+            "black ; extra == 'dev'",
+            "flake8 ; extra == 'dev'",
+            "pre-commit ; extra == 'dev'"
+        ]
+    }
+}

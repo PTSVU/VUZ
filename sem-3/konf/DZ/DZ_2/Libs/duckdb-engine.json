@@ -1,0 +1,8 @@
+{
+    "info": {
+        "requires_dist": [
+            "duckdb (>=0.4.0)",
+            "sqlalchemy (>=1.3.22)"
+        ]
+    }
+}

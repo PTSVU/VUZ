@@ -1,0 +1,9 @@
+{
+    "info": {
+        "requires_dist": [
+            "mccabe (<0.8.0,>=0.7.0)",
+            "pycodestyle (<2.12.0,>=2.11.0)",
+            "pyflakes (<3.2.0,>=3.1.0)"
+        ]
+    }
+}

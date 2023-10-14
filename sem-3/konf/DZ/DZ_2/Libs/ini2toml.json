@@ -1,0 +1,24 @@
+{
+    "info": {
+        "requires_dist": [
+            "packaging (>=20.7)",
+            "configupdater (<4,>=3.0.1) ; extra == 'all'",
+            "tomlkit (<2,>=0.10.0) ; extra == 'all'",
+            "tomli-w (<2,>=0.4.0) ; extra == 'all'",
+            "pyproject-fmt (>=0.4.0) ; (python_version >= \"3.7\") and extra == 'experimental'",
+            "configupdater (<4,>=3.0.1) ; extra == 'full'",
+            "tomlkit (<2,>=0.10.0) ; extra == 'full'",
+            "importlib-metadata ; (python_version < \"3.8\") and extra == 'full'",
+            "tomli-w (<2,>=0.4.0) ; extra == 'lite'",
+            "importlib-metadata ; (python_version < \"3.8\") and extra == 'lite'",
+            "setuptools ; extra == 'testing'",
+            "tomli ; extra == 'testing'",
+            "pytest ; extra == 'testing'",
+            "pytest-cov ; extra == 'testing'",
+            "pytest-xdist ; extra == 'testing'",
+            "pytest-randomly ; extra == 'testing'",
+            "validate-pyproject (<2,>=0.6) ; extra == 'testing'",
+            "typing-extensions ; (python_version < \"3.8\") and extra == 'typechecking'"
+        ]
+    }
+}

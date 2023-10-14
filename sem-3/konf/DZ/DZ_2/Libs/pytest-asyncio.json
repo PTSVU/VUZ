@@ -1,0 +1,15 @@
+{
+    "info": {
+        "requires_dist": [
+            "pytest (>=7.0.0)",
+            "typing-extensions (>=3.7.2) ; python_version < \"3.8\"",
+            "sphinx (>=5.3) ; extra == 'docs'",
+            "sphinx-rtd-theme (>=1.0) ; extra == 'docs'",
+            "coverage (>=6.2) ; extra == 'testing'",
+            "hypothesis (>=5.7.1) ; extra == 'testing'",
+            "flaky (>=3.5.0) ; extra == 'testing'",
+            "mypy (>=0.931) ; extra == 'testing'",
+            "pytest-trio (>=0.7.0) ; extra == 'testing'"
+        ]
+    }
+}

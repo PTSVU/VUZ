@@ -1,0 +1,7 @@
+{
+    "info": {
+        "requires_dist": [
+            "disnake (==2.3.0)"
+        ]
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "info": {
+        "requires_dist": [
+            "attrs>=19.1.0",
+            "cryptography",
+            "pyasn1",
+            "pyasn1-modules",
+            "pyopenssl; extra == 'dev'",
+            "service-identity[docs,idna,mypy,tests]; extra == 'dev'",
+            "furo; extra == 'docs'",
+            "myst-parser; extra == 'docs'",
+            "pyopenssl; extra == 'docs'",
+            "sphinx; extra == 'docs'",
+            "sphinx-notfound-page; extra == 'docs'",
+            "idna; extra == 'idna'",
+            "idna; extra == 'mypy'",
+            "mypy; extra == 'mypy'",
+            "types-pyopenssl; extra == 'mypy'",
+            "coverage[toml]>=5.0.2; extra == 'tests'",
+            "pytest; extra == 'tests'"
+        ]
+    }
+}

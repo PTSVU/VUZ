@@ -1,0 +1,19 @@
+{
+    "info": {
+        "requires_dist": [
+            "importlib-metadata; python_version < '3.8'",
+            "ipywidgets>=7.6.0",
+            "psygnal>=0.8.1",
+            "typing-extensions>=4.2.0",
+            "comm>=0.1.0; extra == 'dev'",
+            "watchfiles>=0.18.0; extra == 'dev'",
+            "black[jupyter]; extra == 'test'",
+            "ipython<8.13; python_version < '3.9' and extra == 'test'",
+            "msgspec; python_version > '3.7' and extra == 'test'",
+            "pydantic; extra == 'test'",
+            "pytest; extra == 'test'",
+            "pytest-cov; extra == 'test'",
+            "ruff; extra == 'test'"
+        ]
+    }
+}

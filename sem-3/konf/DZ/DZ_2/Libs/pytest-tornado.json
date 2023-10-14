@@ -1,0 +1,9 @@
+{
+    "info": {
+        "requires_dist": [
+            "pytest (>=3.6)",
+            "tornado (>=4.1)",
+            "setuptools"
+        ]
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "info": {
+        "requires_dist": [
+            "requests (<3,>=2.3)",
+            "six",
+            "fixtures ; extra == 'fixture'",
+            "fixtures ; extra == 'test'",
+            "purl ; extra == 'test'",
+            "pytest ; extra == 'test'",
+            "sphinx ; extra == 'test'",
+            "testtools ; extra == 'test'",
+            "requests-futures ; extra == 'test'",
+            "mock ; (( python_version < '3.3')) and extra == 'test'"
+        ]
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "info": {
+        "requires_dist": [
+            "hypothesis[lark] >=6.84.1",
+            "libcst >=1.0.1"
+        ]
+    }
+}

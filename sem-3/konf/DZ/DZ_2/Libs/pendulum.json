@@ -1,0 +1,9 @@
+{
+    "info": {
+        "requires_dist": [
+            "python-dateutil (>=2.6,<3.0)",
+            "typing (>=3.6,<4.0); python_version < \"3.5\"",
+            "pytzdata (>=2020.1)"
+        ]
+    }
+}

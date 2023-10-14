@@ -1,0 +1,15 @@
+{
+    "info": {
+        "requires_dist": [
+            "pandas",
+            "numpy (>=1.20)",
+            "numpy-groupies (>=0.9.19)",
+            "toolz",
+            "cachey ; extra == 'all'",
+            "dask ; extra == 'all'",
+            "numba ; extra == 'all'",
+            "xarray ; extra == 'all'",
+            "netCDF4 ; extra == 'test'"
+        ]
+    }
+}

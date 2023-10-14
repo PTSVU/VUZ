@@ -1,0 +1,9 @@
+{
+    "info": {
+        "requires_dist": [
+            "SQLAlchemy (>=1.4)",
+            "packaging",
+            "Shapely (>=1.7) ; extra == 'shapely'"
+        ]
+    }
+}

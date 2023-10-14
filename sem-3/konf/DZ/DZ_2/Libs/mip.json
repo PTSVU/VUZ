@@ -1,0 +1,15 @@
+{
+    "info": {
+        "requires_dist": [
+            "cffi (==1.15.*)",
+            "gurobipy (>=8) ; extra == 'gurobi'",
+            "numpy (==1.21.6) ; (python_version == \"3.7\") and extra == 'numpy'",
+            "numpy (==1.24.*) ; (python_version >= \"3.8\") and extra == 'numpy'",
+            "pytest (==7.2.0) ; extra == 'test'",
+            "networkx (==2.6.3) ; (python_version == \"3.7\") and extra == 'test'",
+            "matplotlib (==3.5.3) ; (python_version == \"3.7\") and extra == 'test'",
+            "networkx (==2.8.8) ; (python_version >= \"3.8\") and extra == 'test'",
+            "matplotlib (==3.6.2) ; (python_version >= \"3.8\") and extra == 'test'"
+        ]
+    }
+}

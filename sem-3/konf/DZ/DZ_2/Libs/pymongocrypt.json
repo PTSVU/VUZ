@@ -1,0 +1,11 @@
+{
+    "info": {
+        "requires_dist": [
+            "cffi (<2,>=1.12.0)",
+            "cryptography (>=2.5)",
+            "requests (<3.0.0)",
+            "packaging (>=21.0)",
+            "cryptography (<40) ; platform_python_implementation == \"PyPy\" and implementation_version < \"7.3.10\""
+        ]
+    }
+}

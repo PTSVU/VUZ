@@ -1,0 +1,8 @@
+{
+    "info": {
+        "requires_dist": [
+            "attrs (>=21.4)",
+            "flake8 (>=5.0)"
+        ]
+    }
+}

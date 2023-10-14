@@ -1,0 +1,9 @@
+{
+    "info": {
+        "requires_dist": [
+            "requests (>=2.7.0)",
+            "future",
+            "datetime"
+        ]
+    }
+}

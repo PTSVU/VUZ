@@ -1,0 +1,9 @@
+{
+    "info": {
+        "requires_dist": [
+            "coverage[toml] (==5.2) ; extra == 'test'",
+            "pytest (>=6.0.0) ; extra == 'test'",
+            "pytest-mypy-plugins (==1.9.3) ; extra == 'test'"
+        ]
+    }
+}

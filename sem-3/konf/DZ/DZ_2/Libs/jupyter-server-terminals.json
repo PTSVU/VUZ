@@ -1,0 +1,26 @@
+{
+    "info": {
+        "requires_dist": [
+            "pywinpty>=2.0.3; os_name == 'nt'",
+            "terminado>=0.8.3",
+            "jinja2; extra == 'docs'",
+            "jupyter-server; extra == 'docs'",
+            "mistune<3.0; extra == 'docs'",
+            "myst-parser; extra == 'docs'",
+            "nbformat; extra == 'docs'",
+            "packaging; extra == 'docs'",
+            "pydata-sphinx-theme; extra == 'docs'",
+            "sphinxcontrib-github-alt; extra == 'docs'",
+            "sphinxcontrib-openapi; extra == 'docs'",
+            "sphinxcontrib-spelling; extra == 'docs'",
+            "sphinxemoji; extra == 'docs'",
+            "tornado; extra == 'docs'",
+            "coverage; extra == 'test'",
+            "jupyter-server>=2.0.0; extra == 'test'",
+            "pytest-cov; extra == 'test'",
+            "pytest-jupyter[server]>=0.5.3; extra == 'test'",
+            "pytest-timeout; extra == 'test'",
+            "pytest>=7.0; extra == 'test'"
+        ]
+    }
+}

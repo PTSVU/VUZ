@@ -1,0 +1,19 @@
+{
+    "info": {
+        "requires_dist": [
+            "Click (>=7.0)",
+            "Jinja2 (>=2.10)",
+            "toml (>=0.9.4)",
+            "ruamel.yaml (>=0.17.0)",
+            "bump2version (==0.5.11) ; extra == 'dev'",
+            "wheel (==0.38.1) ; extra == 'dev'",
+            "flake8 (==3.7.9) ; extra == 'dev'",
+            "nox (==2019.11.9) ; extra == 'dev'",
+            "mypy (==0.740) ; extra == 'dev'",
+            "sphinx ; extra == 'docs'",
+            "pytest (>=5) ; extra == 'test'",
+            "pyfakefs (==4.6.3) ; extra == 'test'",
+            "pytest-subprocess ; extra == 'test'"
+        ]
+    }
+}

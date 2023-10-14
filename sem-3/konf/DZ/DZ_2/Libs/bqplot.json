@@ -1,0 +1,11 @@
+{
+    "info": {
+        "requires_dist": [
+            "ipywidgets (<9,>=7.5.0)",
+            "traitlets (>=4.3.0)",
+            "traittypes (>=0.0.6)",
+            "numpy (>=1.10.4)",
+            "pandas (<3.0.0,>=1.0.0)"
+        ]
+    }
+}

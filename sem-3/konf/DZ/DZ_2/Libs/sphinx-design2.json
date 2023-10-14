@@ -1,0 +1,11 @@
+{
+    "info": {
+        "requires_dist": [
+            "sphinx>=5,<7",
+            "furo>=2022.06.04 ; extra == \"theme_furo\"",
+            "pydata-sphinx-theme ; extra == \"theme_pydata\"",
+            "sphinx-rtd-theme ; extra == \"theme_rtd\"",
+            "sphinx-book-theme ; extra == \"theme_sbt\""
+        ]
+    }
+}

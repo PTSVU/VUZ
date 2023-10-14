@@ -1,0 +1,22 @@
+{
+    "info": {
+        "requires_dist": [
+            "aiohttp",
+            "importlib-metadata>=4.8.3; python_version < '3.10'",
+            "jupyter-server>=1.0",
+            "simpervisor>=1.0",
+            "jupyter-server-proxy[test]; extra == 'acceptance'",
+            "robotframework-jupyterlibrary>=0.4.2; extra == 'acceptance'",
+            "jupyter-server<2; extra == 'classic'",
+            "jupyterlab<4.0.0a0,>=3.0.0; extra == 'classic'",
+            "notebook<7.0.0a0; extra == 'classic'",
+            "jupyter-server>=2; extra == 'lab'",
+            "jupyterlab<5.0.0a0,>=4.0.5; extra == 'lab'",
+            "nbclassic; extra == 'lab'",
+            "notebook>=7; extra == 'lab'",
+            "pytest; extra == 'test'",
+            "pytest-cov; extra == 'test'",
+            "pytest-html; extra == 'test'"
+        ]
+    }
+}

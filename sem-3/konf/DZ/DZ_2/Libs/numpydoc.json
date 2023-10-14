@@ -1,0 +1,19 @@
+{
+    "info": {
+        "requires_dist": [
+            "sphinx >=5",
+            "Jinja2 >=2.10",
+            "tabulate >=0.8.10",
+            "tomli >=1.1.0 ; python_version < \"3.11\"",
+            "pre-commit >=3.3 ; extra == 'developer'",
+            "tomli ; (python_version < \"3.11\") and extra == 'developer'",
+            "numpy >=1.22 ; extra == 'doc'",
+            "matplotlib >=3.5 ; extra == 'doc'",
+            "pydata-sphinx-theme >=0.13.3 ; extra == 'doc'",
+            "sphinx >=7 ; extra == 'doc'",
+            "pytest ; extra == 'test'",
+            "pytest-cov ; extra == 'test'",
+            "matplotlib ; extra == 'test'"
+        ]
+    }
+}

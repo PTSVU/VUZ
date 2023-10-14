@@ -1,0 +1,7 @@
+{
+    "info": {
+        "requires_dist": [
+            "glfw-preview ; extra == 'preview'"
+        ]
+    }
+}

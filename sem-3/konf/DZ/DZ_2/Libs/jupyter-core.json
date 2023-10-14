@@ -1,0 +1,19 @@
+{
+    "info": {
+        "requires_dist": [
+            "platformdirs>=2.5",
+            "pywin32>=300; sys_platform == 'win32' and platform_python_implementation != 'PyPy'",
+            "traitlets>=5.3",
+            "myst-parser; extra == 'docs'",
+            "sphinx-autodoc-typehints; extra == 'docs'",
+            "sphinxcontrib-github-alt; extra == 'docs'",
+            "sphinxcontrib-spelling; extra == 'docs'",
+            "traitlets; extra == 'docs'",
+            "ipykernel; extra == 'test'",
+            "pre-commit; extra == 'test'",
+            "pytest; extra == 'test'",
+            "pytest-cov; extra == 'test'",
+            "pytest-timeout; extra == 'test'"
+        ]
+    }
+}

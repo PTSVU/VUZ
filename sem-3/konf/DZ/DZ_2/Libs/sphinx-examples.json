@@ -1,0 +1,13 @@
+{
+    "info": {
+        "requires_dist": [
+            "sphinx>4",
+            "sphinx-design",
+            "sphinx-book-theme ; extra == \"sphinx\"",
+            "sphinx-copybutton ; extra == \"sphinx\"",
+            "myst-parser ; extra == \"sphinx\"",
+            "sphinx-rtd-theme ; extra == \"sphinx\"",
+            "furo ; extra == \"sphinx\""
+        ]
+    }
+}

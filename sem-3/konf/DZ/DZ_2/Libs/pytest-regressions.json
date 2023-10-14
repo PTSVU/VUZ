@@ -1,0 +1,23 @@
+{
+    "info": {
+        "requires_dist": [
+            "pytest-datadir >=1.2.0",
+            "pytest >=6.2.0",
+            "pyyaml",
+            "numpy ; extra == 'dataframe'",
+            "pandas ; extra == 'dataframe'",
+            "matplotlib ; extra == 'dev'",
+            "mypy ; extra == 'dev'",
+            "numpy ; extra == 'dev'",
+            "pandas ; extra == 'dev'",
+            "pillow ; extra == 'dev'",
+            "pre-commit ; extra == 'dev'",
+            "restructuredtext-lint ; extra == 'dev'",
+            "tox ; extra == 'dev'",
+            "pillow ; extra == 'image'",
+            "numpy ; extra == 'image'",
+            "numpy ; extra == 'num'",
+            "pandas ; extra == 'num'"
+        ]
+    }
+}

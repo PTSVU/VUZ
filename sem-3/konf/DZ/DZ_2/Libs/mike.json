@@ -1,0 +1,16 @@
+{
+    "info": {
+        "requires_dist": [
+            "jinja2",
+            "mkdocs (>=1.0)",
+            "pyyaml (>=5.1)",
+            "verspec",
+            "coverage ; extra == 'dev'",
+            "flake8 (>=3.0) ; extra == 'dev'",
+            "shtab ; extra == 'dev'",
+            "coverage ; extra == 'test'",
+            "flake8 (>=3.0) ; extra == 'test'",
+            "shtab ; extra == 'test'"
+        ]
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "info": {
+        "requires_dist": [
+            "future",
+            "sphinx ; extra == 'all'",
+            "nose ; extra == 'all'",
+            "numpy ; extra == 'all'",
+            "sphinx ; extra == 'docs'",
+            "numpy ; extra == 'optional'",
+            "nose ; extra == 'tests'",
+            "numpy ; extra == 'tests'"
+        ]
+    }
+}

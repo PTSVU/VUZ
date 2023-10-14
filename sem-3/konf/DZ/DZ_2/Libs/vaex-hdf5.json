@@ -1,0 +1,8 @@
+{
+    "info": {
+        "requires_dist": [
+            "vaex-core (<5,>=4.0.0)",
+            "h5py (>=2.9)"
+        ]
+    }
+}

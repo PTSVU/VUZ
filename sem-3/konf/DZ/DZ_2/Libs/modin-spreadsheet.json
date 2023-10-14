@@ -1,0 +1,11 @@
+{
+    "info": {
+        "requires_dist": [
+            "jupyter (>=1.0.0)",
+            "notebook (>=6.0.3)",
+            "ipywidgets (>=7.0.0)",
+            "pytest (>=2.8.5) ; extra == 'test'",
+            "flake8 (>=3.6.0) ; extra == 'test'"
+        ]
+    }
+}

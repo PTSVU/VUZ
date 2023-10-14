@@ -1,0 +1,14 @@
+{
+    "info": {
+        "requires_dist": [
+            "colorama ; platform_system == \"Windows\"",
+            "pytest >=6 ; extra == 'dev'",
+            "pytest-cov ; extra == 'dev'",
+            "pytest-timeout ; extra == 'dev'",
+            "pytest-xdist ; extra == 'dev'",
+            "ipywidgets >=6 ; extra == 'notebook'",
+            "slack-sdk ; extra == 'slack'",
+            "requests ; extra == 'telegram'"
+        ]
+    }
+}

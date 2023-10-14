@@ -1,0 +1,11 @@
+{
+    "info": {
+        "requires_dist": [
+            "pytest (>=3.1); extra == 'tests'",
+            "docutils (>=0.14); extra == 'tests'",
+            "numpy; extra == 'optional'",
+            "pandas; extra == 'optional'",
+            "xlrd; extra == 'optional'"
+        ]
+    }
+}

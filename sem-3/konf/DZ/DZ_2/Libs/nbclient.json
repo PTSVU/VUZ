@@ -1,0 +1,29 @@
+{
+    "info": {
+        "requires_dist": [
+            "jupyter-client>=6.1.12",
+            "jupyter-core!=5.0.*,>=4.12",
+            "nbformat>=5.1",
+            "traitlets>=5.4",
+            "pre-commit; extra == 'dev'",
+            "autodoc-traits; extra == 'docs'",
+            "mock; extra == 'docs'",
+            "moto; extra == 'docs'",
+            "myst-parser; extra == 'docs'",
+            "nbclient[test]; extra == 'docs'",
+            "sphinx-book-theme; extra == 'docs'",
+            "sphinx>=1.7; extra == 'docs'",
+            "sphinxcontrib-spelling; extra == 'docs'",
+            "flaky; extra == 'test'",
+            "ipykernel>=6.19.3; extra == 'test'",
+            "ipython; extra == 'test'",
+            "ipywidgets; extra == 'test'",
+            "nbconvert>=7.0.0; extra == 'test'",
+            "pytest-asyncio; extra == 'test'",
+            "pytest-cov>=4.0; extra == 'test'",
+            "pytest>=7.0; extra == 'test'",
+            "testpath; extra == 'test'",
+            "xmltodict; extra == 'test'"
+        ]
+    }
+}

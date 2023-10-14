@@ -1,0 +1,12 @@
+{
+    "info": {
+        "requires_dist": [
+            "botocore <1.31.18,>=1.31.17",
+            "aiohttp <4.0.0,>=3.7.4.post0",
+            "wrapt <2.0.0,>=1.10.10",
+            "aioitertools <1.0.0,>=0.5.1",
+            "awscli <1.29.18,>=1.29.17 ; extra == 'awscli'",
+            "boto3 <1.28.18,>=1.28.17 ; extra == 'boto3'"
+        ]
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "info": {
+        "requires_dist": [
+            "mitmproxy_windows ==0.3.11 ; os_name == 'nt'",
+            "mitmproxy_macos ==0.3.11 ; sys_platform == 'darwin'"
+        ]
+    }
+}

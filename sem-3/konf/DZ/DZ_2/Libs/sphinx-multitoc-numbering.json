@@ -1,0 +1,18 @@
+{
+    "info": {
+        "requires_dist": [
+            "sphinx (>=3)",
+            "flake8 (<3.8.0,>=3.7.0) ; extra == 'code_style'",
+            "black ; extra == 'code_style'",
+            "pre-commit (==1.17.0) ; extra == 'code_style'",
+            "sphinx (>=3.0) ; extra == 'rtd'",
+            "sphinx-book-theme ; extra == 'rtd'",
+            "myst-parser ; extra == 'rtd'",
+            "pytest (~=5.4) ; extra == 'testing'",
+            "pytest-cov (~=2.8) ; extra == 'testing'",
+            "coverage (<5.0) ; extra == 'testing'",
+            "pytest-regressions ; extra == 'testing'",
+            "jupyter-book ; extra == 'testing'"
+        ]
+    }
+}

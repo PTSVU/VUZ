@@ -1,0 +1,7 @@
+{
+    "info": {
+        "requires_dist": [
+            "pybind11-global (==2.11.1) ; extra == 'global'"
+        ]
+    }
+}

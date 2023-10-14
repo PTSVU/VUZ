@@ -1,0 +1,11 @@
+{
+    "info": {
+        "requires_dist": [
+            "cfgv (>=2.0.0)",
+            "identify (>=1.0.0)",
+            "nodeenv (>=0.11.1)",
+            "pyyaml (>=5.1)",
+            "virtualenv (>=20.10.0)"
+        ]
+    }
+}

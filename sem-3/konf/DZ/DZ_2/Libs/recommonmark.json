@@ -1,0 +1,9 @@
+{
+    "info": {
+        "requires_dist": [
+            "commonmark (>=0.8.1)",
+            "docutils (>=0.11)",
+            "sphinx (>=1.3.1)"
+        ]
+    }
+}

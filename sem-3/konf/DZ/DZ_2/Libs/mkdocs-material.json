@@ -1,0 +1,24 @@
+{
+    "info": {
+        "requires_dist": [
+            "babel~=2.10",
+            "colorama~=0.4",
+            "jinja2~=3.0",
+            "markdown~=3.2",
+            "mkdocs-material-extensions~=1.2",
+            "mkdocs>=1.5.3,~=1.5",
+            "paginate~=0.5",
+            "pygments~=2.16",
+            "pymdown-extensions~=10.2",
+            "regex>=2022.4",
+            "requests~=2.26",
+            "mkdocs-git-committers-plugin-2~=1.1; extra == 'git'",
+            "mkdocs-git-revision-date-localized-plugin~=1.2; extra == 'git'",
+            "cairosvg~=2.6; extra == 'imaging'",
+            "pillow~=9.4; extra == 'imaging'",
+            "mkdocs-minify-plugin~=0.7; extra == 'recommended'",
+            "mkdocs-redirects~=1.2; extra == 'recommended'",
+            "mkdocs-rss-plugin~=1.6; extra == 'recommended'"
+        ]
+    }
+}

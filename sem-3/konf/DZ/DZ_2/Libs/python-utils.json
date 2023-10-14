@@ -1,0 +1,19 @@
+{
+    "info": {
+        "requires_dist": [
+            "typing-extensions >3.10.0.2",
+            "mock ; extra == 'docs'",
+            "sphinx ; extra == 'docs'",
+            "python-utils ; extra == 'docs'",
+            "loguru ; extra == 'loguru'",
+            "flake8 ; extra == 'tests'",
+            "pytest ; extra == 'tests'",
+            "pytest-cov ; extra == 'tests'",
+            "pytest-mypy ; extra == 'tests'",
+            "pytest-asyncio ; extra == 'tests'",
+            "sphinx ; extra == 'tests'",
+            "types-setuptools ; extra == 'tests'",
+            "loguru ; extra == 'tests'"
+        ]
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "info": {
+        "requires_dist": [
+            "ipaddress ; (python_version < \"3.0\") and extra == 'test'",
+            "mock ; (python_version < \"3.0\") and extra == 'test'",
+            "enum34 ; (python_version <= \"3.4\") and extra == 'test'",
+            "pywin32 ; (sys_platform == \"win32\") and extra == 'test'",
+            "wmi ; (sys_platform == \"win32\") and extra == 'test'"
+        ]
+    }
+}

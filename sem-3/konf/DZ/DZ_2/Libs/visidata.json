@@ -1,0 +1,9 @@
+{
+    "info": {
+        "requires_dist": [
+            "python-dateutil",
+            "importlib-metadata (>=3.6)",
+            "windows-curses ; platform_system == \"Windows\""
+        ]
+    }
+}

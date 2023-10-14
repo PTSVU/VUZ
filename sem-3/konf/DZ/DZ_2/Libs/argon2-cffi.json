@@ -1,0 +1,18 @@
+{
+    "info": {
+        "requires_dist": [
+            "argon2-cffi-bindings",
+            "typing-extensions; python_version < '3.8'",
+            "argon2-cffi[tests,typing]; extra == 'dev'",
+            "tox>4; extra == 'dev'",
+            "furo; extra == 'docs'",
+            "myst-parser; extra == 'docs'",
+            "sphinx; extra == 'docs'",
+            "sphinx-copybutton; extra == 'docs'",
+            "sphinx-notfound-page; extra == 'docs'",
+            "hypothesis; extra == 'tests'",
+            "pytest; extra == 'tests'",
+            "mypy; extra == 'typing'"
+        ]
+    }
+}

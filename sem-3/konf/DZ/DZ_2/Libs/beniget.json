@@ -1,0 +1,7 @@
+{
+    "info": {
+        "requires_dist": [
+            "gast (~=0.5.0)"
+        ]
+    }
+}

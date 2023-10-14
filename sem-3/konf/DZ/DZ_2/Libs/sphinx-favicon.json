@@ -1,0 +1,16 @@
+{
+    "info": {
+        "requires_dist": [
+            "sphinx (>=3.4)",
+            "pre-commit ; extra == 'dev'",
+            "nox ; extra == 'dev'",
+            "sphinx (<6) ; extra == 'doc'",
+            "pydata-sphinx-theme ; extra == 'doc'",
+            "sphinx-copybutton ; extra == 'doc'",
+            "sphinx-design ; extra == 'doc'",
+            "pytest ; extra == 'test'",
+            "beautifulsoup4 ; extra == 'test'",
+            "pytest-cov ; extra == 'test'"
+        ]
+    }
+}

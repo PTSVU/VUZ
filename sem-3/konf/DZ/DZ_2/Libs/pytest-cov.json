@@ -1,0 +1,14 @@
+{
+    "info": {
+        "requires_dist": [
+            "pytest (>=4.6)",
+            "coverage[toml] (>=5.2.1)",
+            "fields ; extra == 'testing'",
+            "hunter ; extra == 'testing'",
+            "process-tests ; extra == 'testing'",
+            "six ; extra == 'testing'",
+            "pytest-xdist ; extra == 'testing'",
+            "virtualenv ; extra == 'testing'"
+        ]
+    }
+}

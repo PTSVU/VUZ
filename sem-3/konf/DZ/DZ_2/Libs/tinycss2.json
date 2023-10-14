@@ -1,0 +1,12 @@
+{
+    "info": {
+        "requires_dist": [
+            "webencodings >=0.4",
+            "sphinx ; extra == \"doc\"",
+            "sphinx_rtd_theme ; extra == \"doc\"",
+            "pytest ; extra == \"test\"",
+            "isort ; extra == \"test\"",
+            "flake8 ; extra == \"test\""
+        ]
+    }
+}

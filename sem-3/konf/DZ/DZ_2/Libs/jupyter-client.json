@@ -1,0 +1,28 @@
+{
+    "info": {
+        "requires_dist": [
+            "importlib-metadata>=4.8.3; python_version < '3.10'",
+            "jupyter-core!=5.0.*,>=4.12",
+            "python-dateutil>=2.8.2",
+            "pyzmq>=23.0",
+            "tornado>=6.2",
+            "traitlets>=5.3",
+            "ipykernel; extra == 'docs'",
+            "myst-parser; extra == 'docs'",
+            "pydata-sphinx-theme; extra == 'docs'",
+            "sphinx-autodoc-typehints; extra == 'docs'",
+            "sphinx>=4; extra == 'docs'",
+            "sphinxcontrib-github-alt; extra == 'docs'",
+            "sphinxcontrib-spelling; extra == 'docs'",
+            "coverage; extra == 'test'",
+            "ipykernel>=6.14; extra == 'test'",
+            "mypy; extra == 'test'",
+            "paramiko; sys_platform == 'win32' and extra == 'test'",
+            "pre-commit; extra == 'test'",
+            "pytest; extra == 'test'",
+            "pytest-cov; extra == 'test'",
+            "pytest-jupyter[client]>=0.4.1; extra == 'test'",
+            "pytest-timeout; extra == 'test'"
+        ]
+    }
+}

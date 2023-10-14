@@ -1,0 +1,19 @@
+{
+    "info": {
+        "requires_dist": [
+            "jsonschema",
+            "regex ; python_version < \"3\"",
+            "check-manifest ; extra == 'dev'",
+            "sphinx ; extra == 'dev'",
+            "sphinx-rtd-theme ; extra == 'dev'",
+            "sphinx-tabs ; extra == 'dev'",
+            "coverage ; extra == 'test'",
+            "pytest ; extra == 'test'",
+            "pytest-benchmark ; extra == 'test'",
+            "pytest-cov ; extra == 'test'",
+            "tox ; extra == 'test'",
+            "codecov ; extra == 'test'",
+            "pyfakefs ; extra == 'test'"
+        ]
+    }
+}

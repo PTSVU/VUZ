@@ -1,0 +1,8 @@
+{
+    "info": {
+        "requires_dist": [
+            "protobuf (<5.0.0dev,>=3.19.0)",
+            "google-api-core[grpc] (>=1.31.5) ; extra == 'testing'"
+        ]
+    }
+}

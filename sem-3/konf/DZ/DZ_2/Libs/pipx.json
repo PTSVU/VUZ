@@ -1,0 +1,11 @@
+{
+    "info": {
+        "requires_dist": [
+            "argcomplete>=1.9.4",
+            "colorama>=0.4.4; sys_platform == 'win32'",
+            "importlib-metadata>=3.3.0; python_version < '3.8'",
+            "packaging>=20.0",
+            "userpath>=1.6.0"
+        ]
+    }
+}

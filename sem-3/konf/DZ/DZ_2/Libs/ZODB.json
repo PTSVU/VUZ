@@ -1,0 +1,23 @@
+{
+    "info": {
+        "requires_dist": [
+            "persistent (>=4.4.0)",
+            "BTrees (>=4.2.0)",
+            "ZConfig",
+            "transaction (>=2.4)",
+            "six",
+            "zc.lockfile",
+            "zope.interface",
+            "zodbpickle (>=1.0.1)",
+            "Sphinx ; extra == 'docs'",
+            "ZODB ; extra == 'docs'",
+            "j1m.sphinxautozconfig ; extra == 'docs'",
+            "sphinx-rtd-theme ; extra == 'docs'",
+            "sphinxcontrib-zopeext ; extra == 'docs'",
+            "manuel ; extra == 'test'",
+            "zope.testing ; extra == 'test'",
+            "zope.testrunner (>=4.4.6) ; extra == 'test'",
+            "mock ; (python_version == \"2.7\") and extra == 'test'"
+        ]
+    }
+}

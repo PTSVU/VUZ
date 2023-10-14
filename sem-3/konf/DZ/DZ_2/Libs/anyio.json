@@ -1,0 +1,21 @@
+{
+    "info": {
+        "requires_dist": [
+            "idna >=2.8",
+            "sniffio >=1.1",
+            "exceptiongroup >=1.0.2 ; python_version < \"3.11\"",
+            "packaging ; extra == 'doc'",
+            "Sphinx >=7 ; extra == 'doc'",
+            "sphinx-autodoc-typehints >=1.2.0 ; extra == 'doc'",
+            "anyio[trio] ; extra == 'test'",
+            "coverage[toml] >=7 ; extra == 'test'",
+            "hypothesis >=4.0 ; extra == 'test'",
+            "psutil >=5.9 ; extra == 'test'",
+            "pytest >=7.0 ; extra == 'test'",
+            "pytest-mock >=3.6.1 ; extra == 'test'",
+            "trustme ; extra == 'test'",
+            "uvloop >=0.17 ; (python_version < \"3.12\" and platform_python_implementation == \"CPython\" and platform_system != \"Windows\") and extra == 'test'",
+            "trio >=0.22 ; extra == 'trio'"
+        ]
+    }
+}

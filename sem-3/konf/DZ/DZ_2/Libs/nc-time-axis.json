@@ -1,0 +1,24 @@
+{
+    "info": {
+        "requires_dist": [
+            "cftime (>=1.5)",
+            "matplotlib",
+            "numpy",
+            "pre-commit ; extra == 'all'",
+            "ipython ; extra == 'all'",
+            "numpydoc ; extra == 'all'",
+            "sphinx ; extra == 'all'",
+            "sphinx-rtd-theme ; extra == 'all'",
+            "codecov ; extra == 'all'",
+            "pytest (>=6.0) ; extra == 'all'",
+            "pytest-cov ; extra == 'all'",
+            "ipython ; extra == 'docs'",
+            "numpydoc ; extra == 'docs'",
+            "sphinx ; extra == 'docs'",
+            "sphinx-rtd-theme ; extra == 'docs'",
+            "codecov ; extra == 'test'",
+            "pytest (>=6.0) ; extra == 'test'",
+            "pytest-cov ; extra == 'test'"
+        ]
+    }
+}

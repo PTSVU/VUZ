@@ -1,0 +1,11 @@
+{
+    "info": {
+        "requires_dist": [
+            "click (>=6.0) ; extra == 'mypy'",
+            "twisted (>=16.4.0) ; extra == 'mypy'",
+            "mypy (==0.812) ; extra == 'mypy'",
+            "click (>=6.0) ; extra == 'scripts'",
+            "twisted (>=16.4.0) ; extra == 'scripts'"
+        ]
+    }
+}

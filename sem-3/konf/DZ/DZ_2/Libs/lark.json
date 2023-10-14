@@ -1,0 +1,10 @@
+{
+    "info": {
+        "requires_dist": [
+            "atomicwrites ; extra == 'atomic_cache'",
+            "interegular (<0.4.0,>=0.3.1) ; extra == 'interegular'",
+            "js2py ; extra == 'nearley'",
+            "regex ; extra == 'regex'"
+        ]
+    }
+}

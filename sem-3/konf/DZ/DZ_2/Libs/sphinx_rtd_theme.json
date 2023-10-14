@@ -1,0 +1,13 @@
+{
+    "info": {
+        "requires_dist": [
+            "sphinx (<8,>=1.6)",
+            "docutils (<0.19)",
+            "sphinxcontrib-jquery (<5,>=4)",
+            "transifex-client ; extra == 'dev'",
+            "sphinxcontrib-httpdomain ; extra == 'dev'",
+            "bump2version ; extra == 'dev'",
+            "wheel ; extra == 'dev'"
+        ]
+    }
+}

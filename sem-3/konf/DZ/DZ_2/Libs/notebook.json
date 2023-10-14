@@ -1,0 +1,29 @@
+{
+    "info": {
+        "requires_dist": [
+            "jupyter-server<3,>=2.4.0",
+            "jupyterlab-server<3,>=2.22.1",
+            "jupyterlab<5,>=4.0.2",
+            "notebook-shim<0.3,>=0.2",
+            "tornado>=6.2.0",
+            "hatch; extra == 'dev'",
+            "pre-commit; extra == 'dev'",
+            "myst-parser; extra == 'docs'",
+            "nbsphinx; extra == 'docs'",
+            "pydata-sphinx-theme; extra == 'docs'",
+            "sphinx>=1.3.6; extra == 'docs'",
+            "sphinxcontrib-github-alt; extra == 'docs'",
+            "sphinxcontrib-spelling; extra == 'docs'",
+            "importlib-resources>=5.0; python_version < '3.10' and extra == 'test'",
+            "ipykernel; extra == 'test'",
+            "jupyter-server[test]<3,>=2.4.0; extra == 'test'",
+            "jupyterlab-server[test]<3,>=2.22.1; extra == 'test'",
+            "nbval; extra == 'test'",
+            "pytest-console-scripts; extra == 'test'",
+            "pytest-timeout; extra == 'test'",
+            "pytest-tornasync; extra == 'test'",
+            "pytest>=7.0; extra == 'test'",
+            "requests; extra == 'test'"
+        ]
+    }
+}

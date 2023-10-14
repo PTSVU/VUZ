@@ -1,0 +1,12 @@
+{
+    "info": {
+        "requires_dist": [
+            "cryptography (!=40.0.0,!=40.0.1,<42,>=38.0.0)",
+            "sphinx (!=5.2.0,!=5.2.0.post0) ; extra == 'docs'",
+            "sphinx-rtd-theme ; extra == 'docs'",
+            "flaky ; extra == 'test'",
+            "pretend ; extra == 'test'",
+            "pytest (>=3.0.1) ; extra == 'test'"
+        ]
+    }
+}

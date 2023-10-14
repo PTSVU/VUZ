@@ -1,0 +1,8 @@
+{
+    "info": {
+        "requires_dist": [
+            "cryptography (>=3.1)",
+            "idna (>=2.0)"
+        ]
+    }
+}

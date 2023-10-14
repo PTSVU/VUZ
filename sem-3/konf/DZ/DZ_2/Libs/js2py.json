@@ -1,0 +1,9 @@
+{
+    "info": {
+        "requires_dist": [
+            "tzlocal (>=1.2)",
+            "six (>=1.10)",
+            "pyjsparser (>=2.5.1)"
+        ]
+    }
+}

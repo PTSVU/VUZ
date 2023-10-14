@@ -1,0 +1,32 @@
+{
+    "info": {
+        "requires_dist": [
+            "jupyter-client<9,>=7.4.4",
+            "jupyter-core>=4.11.0",
+            "jupyter-server<3,>=2.0.0",
+            "jupyterlab-server<3,>=2.3.0",
+            "nbclient<0.8,>=0.4.0",
+            "nbconvert<8,>=6.4.5",
+            "traitlets<6,>=5.0.3",
+            "websockets>=9.0",
+            "black; extra == 'dev'",
+            "hatch; extra == 'dev'",
+            "jupyter-releaser; extra == 'dev'",
+            "pre-commit; extra == 'dev'",
+            "myst-parser; extra == 'docs'",
+            "pydata-sphinx-theme; extra == 'docs'",
+            "sphinx; extra == 'docs'",
+            "sphinx-autobuild; extra == 'docs'",
+            "sphinxcontrib-video; extra == 'docs'",
+            "ipykernel; extra == 'test'",
+            "ipywidgets; extra == 'test'",
+            "matplotlib; extra == 'test'",
+            "mock; extra == 'test'",
+            "numpy; extra == 'test'",
+            "pandas; extra == 'test'",
+            "papermill; extra == 'test'",
+            "pytest; extra == 'test'",
+            "pytest-tornasync; extra == 'test'"
+        ]
+    }
+}

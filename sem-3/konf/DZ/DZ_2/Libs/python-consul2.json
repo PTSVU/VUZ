@@ -1,0 +1,12 @@
+{
+    "info": {
+        "requires_dist": [
+            "requests",
+            "six (>=1.4)",
+            "aiohttp ; extra == 'asyncio'",
+            "tornado ; extra == 'tornado'",
+            "twisted ; extra == 'twisted'",
+            "treq ; extra == 'twisted'"
+        ]
+    }
+}

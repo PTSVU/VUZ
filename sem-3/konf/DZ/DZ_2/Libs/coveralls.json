@@ -1,0 +1,10 @@
+{
+    "info": {
+        "requires_dist": [
+            "coverage (!=6.0.*,!=6.1,!=6.1.1,<7.0,>=4.1)",
+            "docopt (>=0.6.1)",
+            "requests (>=1.0.0)",
+            "PyYAML (>=3.10) ; extra == 'yaml'"
+        ]
+    }
+}

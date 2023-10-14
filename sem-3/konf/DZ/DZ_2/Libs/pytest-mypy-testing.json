@@ -1,0 +1,8 @@
+{
+    "info": {
+        "requires_dist": [
+            "pytest>=7,<8",
+            "mypy>=0.931"
+        ]
+    }
+}

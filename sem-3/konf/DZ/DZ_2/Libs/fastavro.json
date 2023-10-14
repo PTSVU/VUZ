@@ -1,0 +1,12 @@
+{
+    "info": {
+        "requires_dist": [
+            "python-snappy; extra == \"codecs\"",
+            "zstandard; extra == \"codecs\"",
+            "lz4; extra == \"codecs\"",
+            "python-snappy; extra == \"snappy\"",
+            "zstandard; extra == \"zstandard\"",
+            "lz4; extra == \"lz4\""
+        ]
+    }
+}

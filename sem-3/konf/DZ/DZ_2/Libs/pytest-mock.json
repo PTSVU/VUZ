@@ -1,0 +1,10 @@
+{
+    "info": {
+        "requires_dist": [
+            "pytest (>=5.0)",
+            "pre-commit ; extra == 'dev'",
+            "tox ; extra == 'dev'",
+            "pytest-asyncio ; extra == 'dev'"
+        ]
+    }
+}

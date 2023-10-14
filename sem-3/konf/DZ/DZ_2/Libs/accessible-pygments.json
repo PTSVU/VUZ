@@ -1,0 +1,7 @@
+{
+    "info": {
+        "requires_dist": [
+            "pygments (>=1.5)"
+        ]
+    }
+}

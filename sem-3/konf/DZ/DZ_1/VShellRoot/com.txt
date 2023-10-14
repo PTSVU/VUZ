@@ -1,0 +1,9 @@
+pwd
+ls
+cd no
+pwd
+ls
+cd ..
+pwd
+ls
+ls .\VShellRoot\no

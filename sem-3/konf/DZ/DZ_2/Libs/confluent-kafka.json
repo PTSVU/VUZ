@@ -1,0 +1,33 @@
+{
+    "info": {
+        "requires_dist": [
+            "futures ; python_version < \"3.2\"",
+            "enum34 ; python_version < \"3.4\"",
+            "avro (<2,>=1.11.1) ; extra == 'avro'",
+            "requests ; extra == 'avro'",
+            "fastavro (<1.0,>=0.23.0) ; (python_version < \"3.0\") and extra == 'avro'",
+            "fastavro (>=1.0) ; (python_version > \"3.0\") and extra == 'avro'",
+            "pytest-timeout ; extra == 'dev'",
+            "flake8 ; extra == 'dev'",
+            "avro (<2,>=1.11.1) ; extra == 'dev'",
+            "requests ; extra == 'dev'",
+            "pytest (==4.6.4) ; (python_version < \"3.0\") and extra == 'dev'",
+            "fastavro (<1.0,>=0.23.0) ; (python_version < \"3.0\") and extra == 'dev'",
+            "fastavro (>=1.0) ; (python_version > \"3.0\") and extra == 'dev'",
+            "pytest ; (python_version >= \"3.0\") and extra == 'dev'",
+            "sphinx ; extra == 'doc'",
+            "sphinx-rtd-theme ; extra == 'doc'",
+            "avro (<2,>=1.11.1) ; extra == 'doc'",
+            "requests ; extra == 'doc'",
+            "fastavro (<1.0,>=0.23.0) ; (python_version < \"3.0\") and extra == 'doc'",
+            "fastavro (>=1.0) ; (python_version > \"3.0\") and extra == 'doc'",
+            "jsonschema ; extra == 'json'",
+            "requests ; extra == 'json'",
+            "pyrsistent (==0.16.1) ; (python_version < \"3.0\") and extra == 'json'",
+            "pyrsistent ; (python_version > \"3.0\") and extra == 'json'",
+            "protobuf ; extra == 'protobuf'",
+            "requests ; extra == 'protobuf'",
+            "requests ; extra == 'schema-registry'"
+        ]
+    }
+}

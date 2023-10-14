@@ -1,0 +1,19 @@
+{
+    "info": {
+        "requires_dist": [
+            "pywin32",
+            "pytest ; extra == 'all'",
+            "wheel ; extra == 'all'",
+            "twine ; extra == 'all'",
+            "sphinx ; extra == 'all'",
+            "pytest ; extra == 'dev'",
+            "sphinx ; extra == 'dev'",
+            "wheel ; extra == 'dev'",
+            "twine ; extra == 'dev'",
+            "sphinx ; extra == 'docs'",
+            "wheel ; extra == 'package'",
+            "twine ; extra == 'package'",
+            "pytest ; extra == 'tests'"
+        ]
+    }
+}

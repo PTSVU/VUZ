@@ -1,0 +1,12 @@
+{
+    "info": {
+        "requires_dist": [
+            "sphinx>=5",
+            "sphinx-tabs ; extra == \"doc\"",
+            "sphinx-rtd-theme ; extra == \"doc\"",
+            "sphinxemoji ; extra == \"doc\"",
+            "sphinx-autoapi ; extra == \"doc\"",
+            "tox ; extra == \"test\""
+        ]
+    }
+}

@@ -1,0 +1,616 @@
+{
+    "info": {
+        "author": "Rapptz",
+        "author_email": "",
+        "bugtrack_url": null,
+        "classifiers": [],
+        "description": "### This is a mirror package!\n\nIt is recommended to install `discord.py` instead.\n\n\n",
+        "description_content_type": "text/markdown",
+        "docs_url": null,
+        "download_url": "",
+        "downloads": {
+            "last_day": -1,
+            "last_month": -1,
+            "last_week": -1
+        },
+        "home_page": "https://github.com/Rapptz/discord.py",
+        "keywords": "",
+        "license": "",
+        "maintainer": "",
+        "maintainer_email": "",
+        "name": "discord",
+        "package_url": "https://pypi.org/project/discord/",
+        "platform": null,
+        "project_url": "https://pypi.org/project/discord/",
+        "project_urls": {
+            "Homepage": "https://github.com/Rapptz/discord.py"
+        },
+        "release_url": "https://pypi.org/project/discord/2.3.2/",
+        "requires_dist": [
+            "discord.py (>=2.3.2)"
+        ],
+        "requires_python": "",
+        "summary": "A mirror package for discord.py. Please install that instead.",
+        "version": "2.3.2",
+        "yanked": false,
+        "yanked_reason": null
+    },
+    "last_serial": 19260755,
+    "releases": {
+        "0.0.2": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "7dd27424dcf9c008623961acf996a3476e692752bb23b553eb28a668beee4136",
+                    "md5": "1e3a67ad942fbd1f32cc73d7a4c42322",
+                    "sha256": "4ee1e605c41ea91d3607df0ca7ee7deaf787fb188d35e01395d5fa7d06c91b0d"
+                },
+                "downloads": -1,
+                "filename": "discord-0.0.2.tar.gz",
+                "has_sig": false,
+                "md5_digest": "1e3a67ad942fbd1f32cc73d7a4c42322",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 1193,
+                "upload_time": "2017-08-18T11:16:04",
+                "upload_time_iso_8601": "2017-08-18T11:16:04.953593Z",
+                "url": "https://files.pythonhosted.org/packages/7d/d2/7424dcf9c008623961acf996a3476e692752bb23b553eb28a668beee4136/discord-0.0.2.tar.gz",
+                "yanked": false,
+                "yanked_reason": null
+            }
+        ],
+        "0.16.12": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "444f3a26872a89f712a2f3b9ee1e6f32bb2e1c20afd941af9a6882164ea97fb1",
+                    "md5": "479de0b6d8ada1fbb9206de3b8731ac5",
+                    "sha256": "e6892abef55f66c918832afc57a8ec86ee82b6dd649cc4dd50aae024901be634"
+                },
+                "downloads": -1,
+                "filename": "discord-0.16.12.tar.gz",
+                "has_sig": false,
+                "md5_digest": "479de0b6d8ada1fbb9206de3b8731ac5",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 1241,
+                "upload_time": "2019-01-24T20:46:39",
+                "upload_time_iso_8601": "2019-01-24T20:46:39.491144Z",
+                "url": "https://files.pythonhosted.org/packages/44/4f/3a26872a89f712a2f3b9ee1e6f32bb2e1c20afd941af9a6882164ea97fb1/discord-0.16.12.tar.gz",
+                "yanked": false,
+                "yanked_reason": null
+            }
+        ],
+        "1.0.1": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "aa7675382e581c7932c177568e985a6967a305b1788f51936e819010e5538ef4",
+                    "md5": "86d19009c4c573b04bd823a48c7f25e5",
+                    "sha256": "9d4debb4a37845543bd4b92cb195bc53a302797333e768e70344222857ff1559"
+                },
+                "downloads": -1,
+                "filename": "discord-1.0.1-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "86d19009c4c573b04bd823a48c7f25e5",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": null,
+                "size": 1137,
+                "upload_time": "2019-04-14T10:36:35",
+                "upload_time_iso_8601": "2019-04-14T10:36:35.947643Z",
+                "url": "https://files.pythonhosted.org/packages/aa/76/75382e581c7932c177568e985a6967a305b1788f51936e819010e5538ef4/discord-1.0.1-py3-none-any.whl",
+                "yanked": false,
+                "yanked_reason": null
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "a30b5d042064a1b1efa99bbe1c98458d35fdca6dcbef4e5c7700ec01bc3b0794",
+                    "md5": "5b6045babaf259f27e76300f98524355",
+                    "sha256": "ff6653655e342e7721dfb3f10421345fd852c2a33f2cca912b1c39b3778a9429"
+                },
+                "downloads": -1,
+                "filename": "discord-1.0.1.tar.gz",
+                "has_sig": false,
+                "md5_digest": "5b6045babaf259f27e76300f98524355",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 956,
+                "upload_time": "2019-04-14T10:36:37",
+                "upload_time_iso_8601": "2019-04-14T10:36:37.123867Z",
+                "url": "https://files.pythonhosted.org/packages/a3/0b/5d042064a1b1efa99bbe1c98458d35fdca6dcbef4e5c7700ec01bc3b0794/discord-1.0.1.tar.gz",
+                "yanked": false,
+                "yanked_reason": null
+            }
+        ],
+        "1.7.3": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "e8944beaba798e2e92d79b91e486c84b5f2dda763c492d5ad5d061d43c9be86e",
+                    "md5": "61b6a7069dddb97b21b13cb541cf6cb7",
+                    "sha256": "248d728356e149c818a81b94659047a19305ea1623d4810bbb342f6b7df55f36"
+                },
+                "downloads": -1,
+                "filename": "discord-1.7.3-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "61b6a7069dddb97b21b13cb541cf6cb7",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": null,
+                "size": 1132,
+                "upload_time": "2021-06-22T13:17:32",
+                "upload_time_iso_8601": "2021-06-22T13:17:32.095255Z",
+                "url": "https://files.pythonhosted.org/packages/e8/94/4beaba798e2e92d79b91e486c84b5f2dda763c492d5ad5d061d43c9be86e/discord-1.7.3-py3-none-any.whl",
+                "yanked": false,
+                "yanked_reason": null
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "cd742e682221d6ccc7b4e7e7ca4d95725d170c885b9d755cacb262c4adc87967",
+                    "md5": "02f33c2df5c264626e149746864190a6",
+                    "sha256": "846dd3d66888c2e0a8bd9120d8778a0fe088c003a7f6451668497f14e322a304"
+                },
+                "downloads": -1,
+                "filename": "discord-1.7.3.tar.gz",
+                "has_sig": false,
+                "md5_digest": "02f33c2df5c264626e149746864190a6",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 1124,
+                "upload_time": "2021-06-22T13:17:33",
+                "upload_time_iso_8601": "2021-06-22T13:17:33.727820Z",
+                "url": "https://files.pythonhosted.org/packages/cd/74/2e682221d6ccc7b4e7e7ca4d95725d170c885b9d755cacb262c4adc87967/discord-1.7.3.tar.gz",
+                "yanked": false,
+                "yanked_reason": null
+            }
+        ],
+        "2.0.0": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "119175a2371aeff949e65b3ce6abfb0180a4adfa048097bca6c32205638e0f3b",
+                    "md5": "de9f23b6ff710af62f286ed21255e186",
+                    "sha256": "ffc714978d338d2b506e4924d66d7d02a649378a46743e2bdf42ef1bd43d1a67"
+                },
+                "downloads": -1,
+                "filename": "discord-2.0.0-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "de9f23b6ff710af62f286ed21255e186",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": null,
+                "size": 1131,
+                "upload_time": "2022-08-20T23:51:41",
+                "upload_time_iso_8601": "2022-08-20T23:51:41.995618Z",
+                "url": "https://files.pythonhosted.org/packages/11/91/75a2371aeff949e65b3ce6abfb0180a4adfa048097bca6c32205638e0f3b/discord-2.0.0-py3-none-any.whl",
+                "yanked": false,
+                "yanked_reason": null
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "e4265ce097f97f22d517a30de4ec95464c9a01fd75b44c14da7c561506a8d8e9",
+                    "md5": "3a42a8e4e3c9f3e251bb9b6a7839d768",
+                    "sha256": "b6df1dd56c19750b3cb9b69de85bf463e712a0db232546ae8109c04bf0a61083"
+                },
+                "downloads": -1,
+                "filename": "discord-2.0.0.tar.gz",
+                "has_sig": false,
+                "md5_digest": "3a42a8e4e3c9f3e251bb9b6a7839d768",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 1146,
+                "upload_time": "2022-08-20T23:51:43",
+                "upload_time_iso_8601": "2022-08-20T23:51:43.277980Z",
+                "url": "https://files.pythonhosted.org/packages/e4/26/5ce097f97f22d517a30de4ec95464c9a01fd75b44c14da7c561506a8d8e9/discord-2.0.0.tar.gz",
+                "yanked": false,
+                "yanked_reason": null
+            }
+        ],
+        "2.1.0": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "a65952c6f4d7eb52e0dd761797fec744c20f32b9a8f210711acb0db015fb59ae",
+                    "md5": "e3134b2dce64cc81a80c5d36526e44e6",
+                    "sha256": "44515e6d02e61528b2a81e511e03b3f60ce0b3737ba9efc69c2defce2f1ebc1d"
+                },
+                "downloads": -1,
+                "filename": "discord-2.1.0-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "e3134b2dce64cc81a80c5d36526e44e6",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": null,
+                "size": 1130,
+                "upload_time": "2022-11-12T20:08:36",
+                "upload_time_iso_8601": "2022-11-12T20:08:36.631192Z",
+                "url": "https://files.pythonhosted.org/packages/a6/59/52c6f4d7eb52e0dd761797fec744c20f32b9a8f210711acb0db015fb59ae/discord-2.1.0-py3-none-any.whl",
+                "yanked": false,
+                "yanked_reason": null
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "f754073d225867668dc66390433a4b74206863cb61cd5a9c25e7d74da33f0a4f",
+                    "md5": "57838e0efc9ce3fc29ea4ebedd54f2be",
+                    "sha256": "3f479fcab569c621528c0190092d6383b4da13ec9631711ce3c14f33aedff4ff"
+                },
+                "downloads": -1,
+                "filename": "discord-2.1.0.tar.gz",
+                "has_sig": false,
+                "md5_digest": "57838e0efc9ce3fc29ea4ebedd54f2be",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 1132,
+                "upload_time": "2022-11-12T20:08:37",
+                "upload_time_iso_8601": "2022-11-12T20:08:37.944990Z",
+                "url": "https://files.pythonhosted.org/packages/f7/54/073d225867668dc66390433a4b74206863cb61cd5a9c25e7d74da33f0a4f/discord-2.1.0.tar.gz",
+                "yanked": false,
+                "yanked_reason": null
+            }
+        ],
+        "2.2.0": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "ecd810fa0d9e95d11b7aafd3c55e67f4040f0c6d263735d743cb361a9b0e40d6",
+                    "md5": "42b9a79db9ebcfc5a36415e161594292",
+                    "sha256": "f847e0d3adbbc2fabc750917d6a60309872b5b1740f27c2cb699d1f46201a1c5"
+                },
+                "downloads": -1,
+                "filename": "discord-2.2.0-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "42b9a79db9ebcfc5a36415e161594292",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": null,
+                "size": 1130,
+                "upload_time": "2023-03-02T00:51:20",
+                "upload_time_iso_8601": "2023-03-02T00:51:20.380363Z",
+                "url": "https://files.pythonhosted.org/packages/ec/d8/10fa0d9e95d11b7aafd3c55e67f4040f0c6d263735d743cb361a9b0e40d6/discord-2.2.0-py3-none-any.whl",
+                "yanked": false,
+                "yanked_reason": null
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "90a7bf23627377d9fa30aee6ba3e8e1f189e76e91308ad10f89e0d109d8c069c",
+                    "md5": "4142e73160623c5230916d5f99ab575d",
+                    "sha256": "76278ce8ec8e53a08297db198a4fd27c80f0e155409f5bcecd6a02c53126b1f6"
+                },
+                "downloads": -1,
+                "filename": "discord-2.2.0.tar.gz",
+                "has_sig": false,
+                "md5_digest": "4142e73160623c5230916d5f99ab575d",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 1148,
+                "upload_time": "2023-03-02T00:51:22",
+                "upload_time_iso_8601": "2023-03-02T00:51:22.990830Z",
+                "url": "https://files.pythonhosted.org/packages/90/a7/bf23627377d9fa30aee6ba3e8e1f189e76e91308ad10f89e0d109d8c069c/discord-2.2.0.tar.gz",
+                "yanked": false,
+                "yanked_reason": null
+            }
+        ],
+        "2.2.1": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "d8632349a77b569118df7b0f68952407fb20d3aa5bcecfc3efa8691a71c20884",
+                    "md5": "3d14af08ef2e79dbb2611845ddd859b8",
+                    "sha256": "68a6bbd8499a95fbccc97f484a97ba50b6631c4020201a1ade7c9195be9f26b3"
+                },
+                "downloads": -1,
+                "filename": "discord-2.2.1-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "3d14af08ef2e79dbb2611845ddd859b8",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": null,
+                "size": 1130,
+                "upload_time": "2023-03-02T00:51:21",
+                "upload_time_iso_8601": "2023-03-02T00:51:21.364906Z",
+                "url": "https://files.pythonhosted.org/packages/d8/63/2349a77b569118df7b0f68952407fb20d3aa5bcecfc3efa8691a71c20884/discord-2.2.1-py3-none-any.whl",
+                "yanked": false,
+                "yanked_reason": null
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "b032c6ee8144ff21cc583450df16eecc29716df4f7b05c897249763799381c37",
+                    "md5": "7f7cff00b3ae6dd3c7716922a0f5f4cc",
+                    "sha256": "da0ba2ffdfa3472cf79b6a61b19c8d39ad8c084f063a601dc6391ba842f386e1"
+                },
+                "downloads": -1,
+                "filename": "discord-2.2.1.tar.gz",
+                "has_sig": false,
+                "md5_digest": "7f7cff00b3ae6dd3c7716922a0f5f4cc",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 1136,
+                "upload_time": "2023-03-02T00:51:23",
+                "upload_time_iso_8601": "2023-03-02T00:51:23.868536Z",
+                "url": "https://files.pythonhosted.org/packages/b0/32/c6ee8144ff21cc583450df16eecc29716df4f7b05c897249763799381c37/discord-2.2.1.tar.gz",
+                "yanked": false,
+                "yanked_reason": null
+            }
+        ],
+        "2.2.2": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "15a06f07dca97d1f2a1276bac37877b93185a47f88a6bfd2479d986003f3fcc5",
+                    "md5": "314ea64de9d0c3b50b39a4aed586c56b",
+                    "sha256": "1c6af76ed703d07159149e5406d2857419970925454867e145a228cc0996045e"
+                },
+                "downloads": -1,
+                "filename": "discord-2.2.2-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "314ea64de9d0c3b50b39a4aed586c56b",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": null,
+                "size": 1129,
+                "upload_time": "2023-03-02T03:53:00",
+                "upload_time_iso_8601": "2023-03-02T03:53:00.732293Z",
+                "url": "https://files.pythonhosted.org/packages/15/a0/6f07dca97d1f2a1276bac37877b93185a47f88a6bfd2479d986003f3fcc5/discord-2.2.2-py3-none-any.whl",
+                "yanked": false,
+                "yanked_reason": null
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "a61c0c071a52dcee778c667720214bedeea3d3b87ebd21c52618f49191ca4d8e",
+                    "md5": "12f5672a9eec56679b9e4a289217e367",
+                    "sha256": "d6b9c3420150cea67fc72f0aa2f0bd885c37406cf3d13def8fdf77cc59ca510a"
+                },
+                "downloads": -1,
+                "filename": "discord-2.2.2.tar.gz",
+                "has_sig": false,
+                "md5_digest": "12f5672a9eec56679b9e4a289217e367",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 1145,
+                "upload_time": "2023-03-02T03:53:03",
+                "upload_time_iso_8601": "2023-03-02T03:53:03.829103Z",
+                "url": "https://files.pythonhosted.org/packages/a6/1c/0c071a52dcee778c667720214bedeea3d3b87ebd21c52618f49191ca4d8e/discord-2.2.2.tar.gz",
+                "yanked": false,
+                "yanked_reason": null
+            }
+        ],
+        "2.2.3": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "0d4cf94ed34771c1f498726537bde9cecccb4fbf0c47730abb48f4d03cfd20df",
+                    "md5": "42ce52155e39618e63bbb71fc2155900",
+                    "sha256": "b170972fc97e0582f2e4cbb1e2774f1324aae43d451a4f094212e88f22e564a5"
+                },
+                "downloads": -1,
+                "filename": "discord-2.2.3-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "42ce52155e39618e63bbb71fc2155900",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": null,
+                "size": 1131,
+                "upload_time": "2023-05-01T22:45:25",
+                "upload_time_iso_8601": "2023-05-01T22:45:25.871356Z",
+                "url": "https://files.pythonhosted.org/packages/0d/4c/f94ed34771c1f498726537bde9cecccb4fbf0c47730abb48f4d03cfd20df/discord-2.2.3-py3-none-any.whl",
+                "yanked": false,
+                "yanked_reason": null
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "6f8747ed2e622ef978b700b9c444973a99555882d12e1b67ae5d81333aa0f048",
+                    "md5": "cd3516e7926189498269c7bb6550a433",
+                    "sha256": "a8de4ed7529930fb655ac0fb73e016f7e647165de5877ff66dbcb395717b7690"
+                },
+                "downloads": -1,
+                "filename": "discord-2.2.3.tar.gz",
+                "has_sig": false,
+                "md5_digest": "cd3516e7926189498269c7bb6550a433",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 1141,
+                "upload_time": "2023-05-01T22:45:27",
+                "upload_time_iso_8601": "2023-05-01T22:45:27.681958Z",
+                "url": "https://files.pythonhosted.org/packages/6f/87/47ed2e622ef978b700b9c444973a99555882d12e1b67ae5d81333aa0f048/discord-2.2.3.tar.gz",
+                "yanked": false,
+                "yanked_reason": null
+            }
+        ],
+        "2.3.0": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "8516b07f057dc179019787cf27726cc3779fe82b2f6d94863312f06e3ddf7a52",
+                    "md5": "520d115d8998b460b281b7fd3d639803",
+                    "sha256": "c48db74a1eb0dd9ffc6cd7fe25a90bbc8f0ad8bde8211d898dc89c6d88d08836"
+                },
+                "downloads": -1,
+                "filename": "discord-2.3.0-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "520d115d8998b460b281b7fd3d639803",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": null,
+                "size": 1132,
+                "upload_time": "2023-06-12T18:08:30",
+                "upload_time_iso_8601": "2023-06-12T18:08:30.222538Z",
+                "url": "https://files.pythonhosted.org/packages/85/16/b07f057dc179019787cf27726cc3779fe82b2f6d94863312f06e3ddf7a52/discord-2.3.0-py3-none-any.whl",
+                "yanked": false,
+                "yanked_reason": null
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "31f49d3a1c1c675164e4bf14beb4f0433ba4cc54351179c90359b5fb81ff30d8",
+                    "md5": "f17bc3c910e104c4c1bfd7c85c26bd08",
+                    "sha256": "e20b9af97a91d321d09aad7bbeb45ad6c50a2784bdd739d1d7be480baf96b905"
+                },
+                "downloads": -1,
+                "filename": "discord-2.3.0.tar.gz",
+                "has_sig": false,
+                "md5_digest": "f17bc3c910e104c4c1bfd7c85c26bd08",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 1143,
+                "upload_time": "2023-06-12T18:08:31",
+                "upload_time_iso_8601": "2023-06-12T18:08:31.184314Z",
+                "url": "https://files.pythonhosted.org/packages/31/f4/9d3a1c1c675164e4bf14beb4f0433ba4cc54351179c90359b5fb81ff30d8/discord-2.3.0.tar.gz",
+                "yanked": false,
+                "yanked_reason": null
+            }
+        ],
+        "2.3.1": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "6310b5c31ebcccca0e9d69bea5655abfff70d67bf9d92975ec3a1ea19a182a5f",
+                    "md5": "585e712b2ad1854b1a615c2d5e43ba02",
+                    "sha256": "6bce94c14019e62baf1d3426603ed388e564a1d6f2239404ea42d172181083b3"
+                },
+                "downloads": -1,
+                "filename": "discord-2.3.1-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "585e712b2ad1854b1a615c2d5e43ba02",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": null,
+                "size": 1131,
+                "upload_time": "2023-06-26T08:21:32",
+                "upload_time_iso_8601": "2023-06-26T08:21:32.176627Z",
+                "url": "https://files.pythonhosted.org/packages/63/10/b5c31ebcccca0e9d69bea5655abfff70d67bf9d92975ec3a1ea19a182a5f/discord-2.3.1-py3-none-any.whl",
+                "yanked": false,
+                "yanked_reason": null
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "763ff45716e310fe0e1144706706442a990e99d9052c5c92a92e0be2e0d02c34",
+                    "md5": "b2c08e36d94efd61c3bd59d20991c55e",
+                    "sha256": "c180bea8f0db059b3cdd8008d6de88d9fce4283d6301cb2c9f395b5150138c32"
+                },
+                "downloads": -1,
+                "filename": "discord-2.3.1.tar.gz",
+                "has_sig": false,
+                "md5_digest": "b2c08e36d94efd61c3bd59d20991c55e",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 1140,
+                "upload_time": "2023-06-26T08:21:33",
+                "upload_time_iso_8601": "2023-06-26T08:21:33.495036Z",
+                "url": "https://files.pythonhosted.org/packages/76/3f/f45716e310fe0e1144706706442a990e99d9052c5c92a92e0be2e0d02c34/discord-2.3.1.tar.gz",
+                "yanked": false,
+                "yanked_reason": null
+            }
+        ],
+        "2.3.2": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "2d38d91ac49e8169b6c0f724f7aad26704eec07c4ecf31e067ca3d46a87e33d6",
+                    "md5": "86825694d7f1721fa81963f261ab404d",
+                    "sha256": "d7959418799dd3b1e896685812d880169c193468b061b3431fa2a4664febd3da"
+                },
+                "downloads": -1,
+                "filename": "discord-2.3.2-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "86825694d7f1721fa81963f261ab404d",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": null,
+                "size": 1132,
+                "upload_time": "2023-08-10T21:45:06",
+                "upload_time_iso_8601": "2023-08-10T21:45:06.334464Z",
+                "url": "https://files.pythonhosted.org/packages/2d/38/d91ac49e8169b6c0f724f7aad26704eec07c4ecf31e067ca3d46a87e33d6/discord-2.3.2-py3-none-any.whl",
+                "yanked": false,
+                "yanked_reason": null
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "7e9f0763429949416aeff9c6f33051270831b72e5582273acd28053b9b949462",
+                    "md5": "34ed04dd3948037d88d45513caccef6f",
+                    "sha256": "cc1ee2dbe6df218ca51519af355b97e87309f8230f58c7f34885feb8e8a76145"
+                },
+                "downloads": -1,
+                "filename": "discord-2.3.2.tar.gz",
+                "has_sig": false,
+                "md5_digest": "34ed04dd3948037d88d45513caccef6f",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 1137,
+                "upload_time": "2023-08-10T21:45:07",
+                "upload_time_iso_8601": "2023-08-10T21:45:07.930010Z",
+                "url": "https://files.pythonhosted.org/packages/7e/9f/0763429949416aeff9c6f33051270831b72e5582273acd28053b9b949462/discord-2.3.2.tar.gz",
+                "yanked": false,
+                "yanked_reason": null
+            }
+        ]
+    },
+    "urls": [
+        {
+            "comment_text": "",
+            "digests": {
+                "blake2b_256": "2d38d91ac49e8169b6c0f724f7aad26704eec07c4ecf31e067ca3d46a87e33d6",
+                "md5": "86825694d7f1721fa81963f261ab404d",
+                "sha256": "d7959418799dd3b1e896685812d880169c193468b061b3431fa2a4664febd3da"
+            },
+            "downloads": -1,
+            "filename": "discord-2.3.2-py3-none-any.whl",
+            "has_sig": false,
+            "md5_digest": "86825694d7f1721fa81963f261ab404d",
+            "packagetype": "bdist_wheel",
+            "python_version": "py3",
+            "requires_python": null,
+            "size": 1132,
+            "upload_time": "2023-08-10T21:45:06",
+            "upload_time_iso_8601": "2023-08-10T21:45:06.334464Z",
+            "url": "https://files.pythonhosted.org/packages/2d/38/d91ac49e8169b6c0f724f7aad26704eec07c4ecf31e067ca3d46a87e33d6/discord-2.3.2-py3-none-any.whl",
+            "yanked": false,
+            "yanked_reason": null
+        },
+        {
+            "comment_text": "",
+            "digests": {
+                "blake2b_256": "7e9f0763429949416aeff9c6f33051270831b72e5582273acd28053b9b949462",
+                "md5": "34ed04dd3948037d88d45513caccef6f",
+                "sha256": "cc1ee2dbe6df218ca51519af355b97e87309f8230f58c7f34885feb8e8a76145"
+            },
+            "downloads": -1,
+            "filename": "discord-2.3.2.tar.gz",
+            "has_sig": false,
+            "md5_digest": "34ed04dd3948037d88d45513caccef6f",
+            "packagetype": "sdist",
+            "python_version": "source",
+            "requires_python": null,
+            "size": 1137,
+            "upload_time": "2023-08-10T21:45:07",
+            "upload_time_iso_8601": "2023-08-10T21:45:07.930010Z",
+            "url": "https://files.pythonhosted.org/packages/7e/9f/0763429949416aeff9c6f33051270831b72e5582273acd28053b9b949462/discord-2.3.2.tar.gz",
+            "yanked": false,
+            "yanked_reason": null
+        }
+    ],
+    "vulnerabilities": []
+}

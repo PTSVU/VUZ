@@ -1,0 +1,16 @@
+{
+    "info": {
+        "requires_dist": [
+            "sphinx (<7,>=4)",
+            "matplotlib ; extra == 'sphinx'",
+            "myst-nb ; extra == 'sphinx'",
+            "sphinx-book-theme (>=0.4.0rc1) ; extra == 'sphinx'",
+            "sphinx-copybutton ; extra == 'sphinx'",
+            "sphinx-design ; extra == 'sphinx'",
+            "matplotlib ; extra == 'testing'",
+            "pytest ; extra == 'testing'",
+            "pytest-regressions ; extra == 'testing'",
+            "beautifulsoup4 ; extra == 'testing'"
+        ]
+    }
+}

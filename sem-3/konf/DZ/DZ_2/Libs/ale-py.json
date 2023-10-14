@@ -1,0 +1,12 @@
+{
+    "info": {
+        "requires_dist": [
+            "numpy",
+            "importlib-resources",
+            "importlib-metadata (>=4.10.0) ; python_version < \"3.10\"",
+            "typing-extensions ; python_version < \"3.11\"",
+            "pytest (>=7.0) ; extra == 'test'",
+            "gym (~=0.23) ; extra == 'test'"
+        ]
+    }
+}

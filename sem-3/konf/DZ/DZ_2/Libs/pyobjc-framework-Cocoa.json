@@ -1,0 +1,7 @@
+{
+    "info": {
+        "requires_dist": [
+            "pyobjc-core (>=10.0)"
+        ]
+    }
+}

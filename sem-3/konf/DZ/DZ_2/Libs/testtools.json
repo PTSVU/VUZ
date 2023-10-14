@@ -1,0 +1,11 @@
+{
+    "info": {
+        "requires_dist": [
+            "pbr (>=0.11)",
+            "fixtures (>=2.0)",
+            "testscenarios ; extra == 'test'",
+            "testresources ; extra == 'test'",
+            "Twisted ; extra == 'twisted'"
+        ]
+    }
+}

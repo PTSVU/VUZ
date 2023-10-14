@@ -1,0 +1,9 @@
+{
+    "info": {
+        "requires_dist": [
+            "numpy",
+            "packaging",
+            "protobuf >=3.20"
+        ]
+    }
+}

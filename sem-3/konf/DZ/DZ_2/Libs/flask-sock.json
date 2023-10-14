@@ -1,0 +1,9 @@
+{
+    "info": {
+        "requires_dist": [
+            "flask >=2",
+            "simple-websocket >=0.5.1",
+            "sphinx ; extra == 'docs'"
+        ]
+    }
+}

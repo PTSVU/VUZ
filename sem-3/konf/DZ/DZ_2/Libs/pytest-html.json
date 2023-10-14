@@ -1,0 +1,20 @@
+{
+    "info": {
+        "requires_dist": [
+            "jinja2>=3.0.0",
+            "pytest-metadata>=2.0.0",
+            "pytest>=7.0.0",
+            "pip-tools>=6.13.0; extra == 'docs'",
+            "assertpy>=1.1; extra == 'test'",
+            "beautifulsoup4>=4.11.1; extra == 'test'",
+            "black>=22.1.0; extra == 'test'",
+            "flake8>=4.0.1; extra == 'test'",
+            "pre-commit>=2.17.0; extra == 'test'",
+            "pytest-mock>=3.7.0; extra == 'test'",
+            "pytest-rerunfailures>=11.1.2; extra == 'test'",
+            "pytest-xdist>=2.4.0; extra == 'test'",
+            "selenium>=4.3.0; extra == 'test'",
+            "tox>=3.24.5; extra == 'test'"
+        ]
+    }
+}

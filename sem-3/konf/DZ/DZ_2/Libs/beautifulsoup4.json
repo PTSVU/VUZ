@@ -1,0 +1,9 @@
+{
+    "info": {
+        "requires_dist": [
+            "soupsieve>1.2",
+            "html5lib; extra == 'html5lib'",
+            "lxml; extra == 'lxml'"
+        ]
+    }
+}

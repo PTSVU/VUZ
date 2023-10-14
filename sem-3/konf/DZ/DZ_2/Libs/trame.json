@@ -1,0 +1,8 @@
+{
+    "info": {
+        "requires_dist": [
+            "trame-server >=2.12.0",
+            "trame-client >=2.12.0"
+        ]
+    }
+}

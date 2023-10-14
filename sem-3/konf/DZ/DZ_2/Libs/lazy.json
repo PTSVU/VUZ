@@ -1,0 +1,9 @@
+{
+    "info": {
+        "requires_dist": [
+            "sphinx (==5.3.0) ; extra == 'docs'",
+            "sphinx-rtd-theme (==1.0.0) ; extra == 'docs'",
+            "mypy ; extra == 'mypy'"
+        ]
+    }
+}

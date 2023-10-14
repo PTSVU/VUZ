@@ -1,0 +1,9 @@
+{
+    "info": {
+        "requires_dist": [
+            "sphinx",
+            "towncrier (>=19.2)",
+            "importlib-metadata (>=4) ; python_version < \"3.8\""
+        ]
+    }
+}

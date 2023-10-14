@@ -1,0 +1,15 @@
+{
+    "info": {
+        "requires_dist": [
+            "ptyprocess; os_name != 'nt'",
+            "pywinpty>=1.1.0; os_name == 'nt'",
+            "tornado>=6.1.0",
+            "myst-parser; extra == 'docs'",
+            "pydata-sphinx-theme; extra == 'docs'",
+            "sphinx; extra == 'docs'",
+            "pre-commit; extra == 'test'",
+            "pytest-timeout; extra == 'test'",
+            "pytest>=7.0; extra == 'test'"
+        ]
+    }
+}

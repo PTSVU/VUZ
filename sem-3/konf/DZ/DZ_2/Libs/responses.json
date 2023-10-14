@@ -1,0 +1,21 @@
+{
+    "info": {
+        "requires_dist": [
+            "requests (<3.0,>=2.30.0)",
+            "urllib3 (<3.0,>=1.25.10)",
+            "pyyaml",
+            "types-PyYAML",
+            "typing-extensions ; python_version < \"3.8\"",
+            "pytest (>=7.0.0) ; extra == 'tests'",
+            "coverage (>=6.0.0) ; extra == 'tests'",
+            "pytest-cov ; extra == 'tests'",
+            "pytest-asyncio ; extra == 'tests'",
+            "pytest-httpserver ; extra == 'tests'",
+            "flake8 ; extra == 'tests'",
+            "types-requests ; extra == 'tests'",
+            "mypy ; extra == 'tests'",
+            "tomli-w ; extra == 'tests'",
+            "tomli ; (python_version < \"3.11\") and extra == 'tests'"
+        ]
+    }
+}

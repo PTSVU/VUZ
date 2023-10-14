@@ -1,0 +1,19 @@
+{
+    "info": {
+        "requires_dist": [
+            "docutils",
+            "lockfile (>=0.10)",
+            "setuptools (>=62.4.0)",
+            "coverage ; extra == 'devel'",
+            "docutils ; extra == 'devel'",
+            "isort ; extra == 'devel'",
+            "testscenarios (>=0.4) ; extra == 'devel'",
+            "testtools ; extra == 'devel'",
+            "twine ; extra == 'devel'",
+            "coverage ; extra == 'test'",
+            "docutils ; extra == 'test'",
+            "testscenarios (>=0.4) ; extra == 'test'",
+            "testtools ; extra == 'test'"
+        ]
+    }
+}

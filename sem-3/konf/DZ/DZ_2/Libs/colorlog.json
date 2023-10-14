@@ -1,0 +1,12 @@
+{
+    "info": {
+        "requires_dist": [
+            "colorama ; sys_platform==\"win32\"",
+            "black ; extra == 'development'",
+            "flake8 ; extra == 'development'",
+            "mypy ; extra == 'development'",
+            "pytest ; extra == 'development'",
+            "types-colorama ; extra == 'development'"
+        ]
+    }
+}

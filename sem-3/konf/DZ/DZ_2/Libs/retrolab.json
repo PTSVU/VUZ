@@ -1,0 +1,11 @@
+{
+    "info": {
+        "requires_dist": [
+            "jupyterlab (~=3.4.0)",
+            "jupyterlab-server (~=2.3)",
+            "jupyter-server (~=1.4)",
+            "nbclassic (~=0.2)",
+            "tornado (>=6.1.0)"
+        ]
+    }
+}

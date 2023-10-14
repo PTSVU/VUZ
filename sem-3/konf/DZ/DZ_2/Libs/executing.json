@@ -1,0 +1,13 @@
+{
+    "info": {
+        "requires_dist": [
+            "asttokens >=2.1.0 ; extra == 'tests'",
+            "ipython ; extra == 'tests'",
+            "pytest ; extra == 'tests'",
+            "coverage ; extra == 'tests'",
+            "coverage-enable-subprocess ; extra == 'tests'",
+            "littleutils ; extra == 'tests'",
+            "rich ; (python_version >= \"3.11\") and extra == 'tests'"
+        ]
+    }
+}

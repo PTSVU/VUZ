@@ -1,0 +1,41 @@
+{
+    "info": {
+        "requires_dist": [
+            "asn1crypto <2.0.0,>0.24.0",
+            "cffi <2.0.0,>=1.9",
+            "cryptography <42.0.0,>=3.1.0",
+            "oscrypto <2.0.0",
+            "pyOpenSSL <24.0.0,>=16.2.0",
+            "pycryptodomex !=3.5.0,<4.0.0,>=3.2",
+            "pyjwt <3.0.0",
+            "pytz",
+            "requests <3.0.0",
+            "packaging",
+            "charset-normalizer <4,>=2",
+            "idna <4,>=2.5",
+            "urllib3 <1.27,>=1.21.1",
+            "certifi >=2017.4.17",
+            "typing-extensions <5,>=4.3",
+            "filelock <4,>=3.5",
+            "sortedcontainers >=2.4.0",
+            "platformdirs <4.0.0,>=2.6.0",
+            "tomlkit",
+            "importlib-metadata ; python_version < \"3.8\"",
+            "Cython ; extra == 'development'",
+            "coverage ; extra == 'development'",
+            "more-itertools ; extra == 'development'",
+            "numpy <1.26.0 ; extra == 'development'",
+            "pendulum !=2.1.1 ; extra == 'development'",
+            "pexpect ; extra == 'development'",
+            "pytest <7.5.0 ; extra == 'development'",
+            "pytest-cov ; extra == 'development'",
+            "pytest-rerunfailures ; extra == 'development'",
+            "pytest-timeout ; extra == 'development'",
+            "pytest-xdist ; extra == 'development'",
+            "pytzdata ; extra == 'development'",
+            "pandas <2.1.0,>=1.0.0 ; extra == 'pandas'",
+            "pyarrow <10.1.0,>=10.0.1 ; extra == 'pandas'",
+            "keyring !=16.1.0,<25.0.0 ; extra == 'secure-local-storage'"
+        ]
+    }
+}

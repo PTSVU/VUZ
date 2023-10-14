@@ -1,0 +1,8 @@
+{
+    "info": {
+        "requires_dist": [
+            "PyQt5-sip (>=12.11, <13)",
+            "PyQt5-Qt5 (>=5.15.2)"
+        ]
+    }
+}

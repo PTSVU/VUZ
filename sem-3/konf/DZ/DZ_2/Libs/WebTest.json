@@ -1,0 +1,18 @@
+{
+    "info": {
+        "requires_dist": [
+            "WebOb (>=1.2)",
+            "waitress (>=0.8.5)",
+            "beautifulsoup4",
+            "docutils ; extra == 'docs'",
+            "pylons-sphinx-themes (>=1.0.8) ; extra == 'docs'",
+            "Sphinx (>=1.8.1) ; extra == 'docs'",
+            "coverage ; extra == 'tests'",
+            "PasteDeploy ; extra == 'tests'",
+            "pyquery ; extra == 'tests'",
+            "pytest ; extra == 'tests'",
+            "pytest-cov ; extra == 'tests'",
+            "WSGIProxy2 ; extra == 'tests'"
+        ]
+    }
+}

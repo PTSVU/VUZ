@@ -1,0 +1,34 @@
+{
+    "info": {
+        "requires_dist": [
+            "attrs",
+            "click",
+            "importlib-metadata",
+            "nbclient>=0.2,<0.8",
+            "nbformat",
+            "pyyaml",
+            "sqlalchemy>=1.3.12,<3",
+            "tabulate",
+            "click-log ; extra == \"cli\"",
+            "pre-commit>=2.12,<4.0 ; extra == \"code_style\"",
+            "nbdime ; extra == \"rtd\"",
+            "ipykernel ; extra == \"rtd\"",
+            "jupytext ; extra == \"rtd\"",
+            "myst-nb ; extra == \"rtd\"",
+            "sphinx-book-theme ; extra == \"rtd\"",
+            "sphinx-copybutton ; extra == \"rtd\"",
+            "nbdime ; extra == \"testing\"",
+            "coverage ; extra == \"testing\"",
+            "ipykernel ; extra == \"testing\"",
+            "jupytext ; extra == \"testing\"",
+            "matplotlib ; extra == \"testing\"",
+            "nbformat>=5.1 ; extra == \"testing\"",
+            "numpy ; extra == \"testing\"",
+            "pandas ; extra == \"testing\"",
+            "pytest>=6,<8 ; extra == \"testing\"",
+            "pytest-cov ; extra == \"testing\"",
+            "pytest-regressions ; extra == \"testing\"",
+            "sympy ; extra == \"testing\""
+        ]
+    }
+}

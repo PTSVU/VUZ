@@ -1,0 +1,9 @@
+{
+    "info": {
+        "requires_dist": [
+            "requests",
+            "Jinja2 >=2.9",
+            "packaging"
+        ]
+    }
+}

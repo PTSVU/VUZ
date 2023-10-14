@@ -1,0 +1,16 @@
+{
+    "info": {
+        "requires_dist": [
+            "pyyaml >5.4",
+            "aws-sam-translator >=1.75.0",
+            "jsonpatch",
+            "jsonschema <5,>=3.0",
+            "networkx <4,>=2.4",
+            "junit-xml ~=1.9",
+            "jschema-to-python ~=1.2.3",
+            "sarif-om ~=1.0.4",
+            "sympy >=1.0.0",
+            "regex >=2021.7.1"
+        ]
+    }
+}

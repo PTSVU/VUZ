@@ -1,0 +1,9 @@
+{
+    "info": {
+        "requires_dist": [
+            "attrs",
+            "jsonpickle",
+            "pbr"
+        ]
+    }
+}

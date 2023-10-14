@@ -1,0 +1,9 @@
+{
+    "info": {
+        "requires_dist": [
+            "sphinx >=2.0",
+            "click >=7.0",
+            "docutils"
+        ]
+    }
+}

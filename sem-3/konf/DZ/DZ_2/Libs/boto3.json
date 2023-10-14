@@ -1,0 +1,10 @@
+{
+    "info": {
+        "requires_dist": [
+            "botocore (<1.32.0,>=1.31.62)",
+            "jmespath (<2.0.0,>=0.7.1)",
+            "s3transfer (<0.8.0,>=0.7.0)",
+            "botocore[crt] (<2.0a0,>=1.21.0) ; extra == 'crt'"
+        ]
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "info": {
+        "requires_dist": [
+            "pytest (>=4.6)",
+            "numpy ; extra == 'test'",
+            "astropy (>=4.0) ; extra == 'test'"
+        ]
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "info": {
+        "requires_dist": [
+            "annotated-types>=0.4.0",
+            "pydantic-core==2.10.1",
+            "typing-extensions>=4.6.1",
+            "email-validator>=2.0.0; extra == 'email'"
+        ]
+    }
+}

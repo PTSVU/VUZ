@@ -1,0 +1,7 @@
+{
+    "info": {
+        "requires_dist": [
+            "dill (>=0.3.7)"
+        ]
+    }
+}

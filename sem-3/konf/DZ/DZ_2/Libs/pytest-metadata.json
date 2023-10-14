@@ -1,0 +1,11 @@
+{
+    "info": {
+        "requires_dist": [
+            "pytest>=7.0.0",
+            "black>=22.1.0; extra == 'test'",
+            "flake8>=4.0.1; extra == 'test'",
+            "pre-commit>=2.17.0; extra == 'test'",
+            "tox>=3.24.5; extra == 'test'"
+        ]
+    }
+}

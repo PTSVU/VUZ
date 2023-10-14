@@ -1,0 +1,22 @@
+{
+    "info": {
+        "requires_dist": [
+            "asdf >=2.8.1",
+            "astropy >=5.3",
+            "numpy",
+            "scipy",
+            "asdf-wcs-schemas",
+            "asdf-astropy >=0.2.0",
+            "sphinx ; extra == 'docs'",
+            "sphinx-automodapi ; extra == 'docs'",
+            "sphinx-rtd-theme ; extra == 'docs'",
+            "stsci-rtd-theme ; extra == 'docs'",
+            "sphinx-astropy ; extra == 'docs'",
+            "sphinx-asdf ; extra == 'docs'",
+            "tomli ; (python_version < \"3.11\") and extra == 'docs'",
+            "ci-watson >=0.3.0 ; extra == 'test'",
+            "pytest >=4.6.0 ; extra == 'test'",
+            "pytest-astropy ; extra == 'test'"
+        ]
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "info": {
+        "requires_dist": [
+            "ipyvue (<2,>=1.7)"
+        ]
+    }
+}

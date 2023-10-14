@@ -1,0 +1,14 @@
+{
+    "info": {
+        "requires_dist": [
+            "itsdangerous",
+            "python-multipart",
+            "pytest ; extra == 'test'",
+            "pytest-asyncio ; extra == 'test'",
+            "httpx (>=0.16) ; extra == 'test'",
+            "starlette ; extra == 'test'",
+            "pytest-cov ; extra == 'test'",
+            "asgi-lifespan ; extra == 'test'"
+        ]
+    }
+}

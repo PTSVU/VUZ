@@ -1,0 +1,27 @@
+{
+    "info": {
+        "requires_dist": [
+            "black; extra == 'dev'",
+            "flake8; extra == 'dev'",
+            "pyhamcrest[docs,tests]; extra == 'dev'",
+            "pytest-mypy; extra == 'dev'",
+            "towncrier; extra == 'dev'",
+            "tox; extra == 'dev'",
+            "tox-asdf; extra == 'dev'",
+            "twine; extra == 'dev'",
+            "alabaster~=0.7; extra == 'docs'",
+            "sphinx~=4.0; extra == 'docs'",
+            "coverage[toml]; extra == 'tests'",
+            "dataclasses; python_version < '3.7' and extra == 'tests'",
+            "mypy!=0.940; platform_python_implementation != 'PyPy' and extra == 'tests'",
+            "pytest-mypy-plugins; platform_python_implementation != 'PyPy' and extra == 'tests'",
+            "pytest-sugar; extra == 'tests'",
+            "pytest-xdist; extra == 'tests'",
+            "pytest>=5.0; extra == 'tests'",
+            "types-dataclasses; python_version < '3.7' and extra == 'tests'",
+            "types-mock; extra == 'tests'",
+            "numpy; extra == 'tests-numpy'",
+            "pyhamcrest[tests]; extra == 'tests-numpy'"
+        ]
+    }
+}

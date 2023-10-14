@@ -1,0 +1,19 @@
+{
+    "info": {
+        "requires_dist": [
+            "tox (>=3) ; extra == 'dev'",
+            "flake8 ; extra == 'dev'",
+            "pep8-naming ; extra == 'dev'",
+            "wheel ; extra == 'dev'",
+            "twine ; extra == 'dev'",
+            "sphinx (>=5) ; extra == 'docs'",
+            "sphinx-autodoc-typehints ; extra == 'docs'",
+            "sphinx-rtd-theme ; extra == 'docs'",
+            "pytest (>=7) ; extra == 'test'",
+            "pytest-mock (>=3) ; extra == 'test'",
+            "mock (>=4) ; extra == 'test'",
+            "pytest-cov ; extra == 'test'",
+            "coverage ; extra == 'test'"
+        ]
+    }
+}

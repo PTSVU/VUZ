@@ -1,0 +1,19 @@
+{
+    "info": {
+        "requires_dist": [
+            "ipython (<9)",
+            "numpy",
+            "ipython-genutils",
+            "pillow",
+            "traitlets (<6)",
+            "ipywidgets (<9,>=7.6.0)",
+            "matplotlib (<4,>=3.4.0)",
+            "myst-nb ; extra == 'docs'",
+            "Sphinx (>=1.5) ; extra == 'docs'",
+            "sphinx-copybutton ; extra == 'docs'",
+            "sphinx-thebe ; extra == 'docs'",
+            "sphinx-togglebutton ; extra == 'docs'",
+            "sphinx-book-theme ; extra == 'docs'"
+        ]
+    }
+}

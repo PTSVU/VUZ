@@ -1,0 +1,26 @@
+{
+    "info": {
+        "requires_dist": [
+            "markdown-it-py",
+            "pyyaml",
+            "tomli; python_version < '3.11'",
+            "typing-extensions; python_version < '3.11'",
+            "click>=8; extra == 'cli'",
+            "rich-click; extra == 'cli'",
+            "rich>=12.2; extra == 'cli'",
+            "repo-review[cli,test]; extra == 'dev'",
+            "furo; extra == 'docs'",
+            "myst-parser>=0.13; extra == 'docs'",
+            "repo-review[cli]; extra == 'docs'",
+            "sphinx-autodoc-typehints; extra == 'docs'",
+            "sphinx-copybutton; extra == 'docs'",
+            "sphinx-github-changelog; extra == 'docs'",
+            "sphinx>=4.0; extra == 'docs'",
+            "sphinxcontrib-programoutput; extra == 'docs'",
+            "sphinxext-opengraph; extra == 'docs'",
+            "pytest>=7; extra == 'test'",
+            "sp-repo-review>=2023.08.23; extra == 'test'",
+            "validate-pyproject>=0.14; extra == 'test'"
+        ]
+    }
+}

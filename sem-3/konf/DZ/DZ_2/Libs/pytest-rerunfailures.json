@@ -1,0 +1,9 @@
+{
+    "info": {
+        "requires_dist": [
+            "packaging (>=17.1)",
+            "pytest (>=6.2)",
+            "importlib-metadata (>=1) ; python_version < \"3.8\""
+        ]
+    }
+}

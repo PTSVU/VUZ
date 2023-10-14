@@ -1,0 +1,11 @@
+{
+    "info": {
+        "requires_dist": [
+            "setuptools",
+            "google-auth (<2.0dev,>=1.25.0) ; python_version < \"3.0\"",
+            "google-auth-oauthlib (<0.4.2dev,>=0.4.0) ; python_version < \"3.0\"",
+            "google-auth (<3.0dev,>=1.25.0) ; python_version >= \"3.6\"",
+            "google-auth-oauthlib (>=0.4.0) ; python_version >= \"3.6\""
+        ]
+    }
+}

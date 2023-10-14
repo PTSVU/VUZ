@@ -1,0 +1,16 @@
+{
+    "info": {
+        "requires_dist": [
+            "googleapis-common-protos (<2.0.dev0,>=1.56.2)",
+            "protobuf (!=3.20.0,!=3.20.1,!=4.21.0,!=4.21.1,!=4.21.2,!=4.21.3,!=4.21.4,!=4.21.5,<5.0.0.dev0,>=3.19.5)",
+            "google-auth (<3.0.dev0,>=2.14.1)",
+            "requests (<3.0.0.dev0,>=2.18.0)",
+            "grpcio (<2.0dev,>=1.33.2) ; extra == 'grpc'",
+            "grpcio-status (<2.0.dev0,>=1.33.2) ; extra == 'grpc'",
+            "grpcio (<2.0dev,>=1.49.1) ; (python_version >= \"3.11\") and extra == 'grpc'",
+            "grpcio-status (<2.0.dev0,>=1.49.1) ; (python_version >= \"3.11\") and extra == 'grpc'",
+            "grpcio-gcp (<1.0.dev0,>=0.2.2) ; extra == 'grpcgcp'",
+            "grpcio-gcp (<1.0.dev0,>=0.2.2) ; extra == 'grpcio-gcp'"
+        ]
+    }
+}

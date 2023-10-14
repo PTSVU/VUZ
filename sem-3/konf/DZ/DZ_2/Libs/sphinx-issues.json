@@ -1,0 +1,16 @@
+{
+    "info": {
+        "requires_dist": [
+            "sphinx",
+            "pytest (>=6.2.0) ; extra == 'dev'",
+            "flake8 (==3.9.2) ; extra == 'dev'",
+            "flake8-bugbear (==20.11.1) ; extra == 'dev'",
+            "pre-commit (~=2.7) ; extra == 'dev'",
+            "tox ; extra == 'dev'",
+            "flake8 (==3.9.2) ; extra == 'lint'",
+            "flake8-bugbear (==20.11.1) ; extra == 'lint'",
+            "pre-commit (~=2.7) ; extra == 'lint'",
+            "pytest (>=6.2.0) ; extra == 'tests'"
+        ]
+    }
+}

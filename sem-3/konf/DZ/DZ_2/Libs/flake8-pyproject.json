@@ -1,0 +1,11 @@
+{
+    "info": {
+        "requires_dist": [
+            "Flake8 >= 5",
+            "TOMLi; python_version < \"3.11\"",
+            "TOMLi < 2; python_version < \"3.7\"",
+            "pyTest ; extra == \"dev\"",
+            "pyTest-cov ; extra == \"dev\""
+        ]
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "info": {
+        "requires_dist": [
+            "beautifulsoup4",
+            "bleach!=5.0.0",
+            "defusedxml",
+            "importlib-metadata>=3.6; python_version < '3.10'",
+            "jinja2>=3.0",
+            "jupyter-core>=4.7",
+            "jupyterlab-pygments",
+            "markupsafe>=2.0",
+            "mistune<4,>=2.0.3",
+            "nbclient>=0.5.0",
+            "nbformat>=5.7",
+            "packaging",
+            "pandocfilters>=1.4.1",
+            "pygments>=2.4.1",
+            "tinycss2",
+            "traitlets>=5.1",
+            "nbconvert[docs,qtpdf,serve,test,webpdf]; extra == 'all'",
+            "ipykernel; extra == 'docs'",
+            "ipython; extra == 'docs'",
+            "myst-parser; extra == 'docs'",
+            "nbsphinx>=0.2.12; extra == 'docs'",
+            "pydata-sphinx-theme; extra == 'docs'",
+            "sphinx==5.0.2; extra == 'docs'",
+            "sphinxcontrib-spelling; extra == 'docs'",
+            "nbconvert[qtpng]; extra == 'qtpdf'",
+            "pyqtwebengine>=5.15; extra == 'qtpng'",
+            "tornado>=6.1; extra == 'serve'",
+            "flaky; extra == 'test'",
+            "ipykernel; extra == 'test'",
+            "ipywidgets>=7; extra == 'test'",
+            "pytest; extra == 'test'",
+            "pytest-dependency; extra == 'test'",
+            "playwright; extra == 'webpdf'"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "info": {
+        "requires_dist": [
+            "numpy >=1.7",
+            "sphinx <7.0.0 ; extra == 'docs'",
+            "sphinx-issues ; extra == 'docs'",
+            "numpydoc ; extra == 'docs'",
+            "mock ; extra == 'docs'",
+            "msgpack ; extra == 'msgpack'",
+            "coverage ; extra == 'test'",
+            "flake8 ; extra == 'test'",
+            "pytest ; extra == 'test'",
+            "pytest-cov ; extra == 'test'",
+            "zfpy >=1.0.0 ; extra == 'zfpy'"
+        ]
+    }
+}

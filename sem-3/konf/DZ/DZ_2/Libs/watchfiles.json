@@ -1,0 +1,7 @@
+{
+    "info": {
+        "requires_dist": [
+            "anyio >=3.0.0"
+        ]
+    }
+}

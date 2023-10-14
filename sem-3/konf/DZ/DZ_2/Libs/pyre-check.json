@@ -1,0 +1,15 @@
+{
+    "info": {
+        "requires_dist": [
+            "click (>=8.0)",
+            "dataclasses-json",
+            "intervaltree",
+            "libcst",
+            "psutil",
+            "pyre-extensions (>=0.0.29)",
+            "tabulate",
+            "testslide (>=2.7.0)",
+            "typing-extensions"
+        ]
+    }
+}

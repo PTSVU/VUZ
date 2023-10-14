@@ -1,0 +1,11 @@
+{
+    "info": {
+        "requires_dist": [
+            "flake8 ; extra == \"dev\"",
+            "build ; extra == \"dev\"",
+            "sphinx ; extra == \"doc\"",
+            "pytest ; extra == \"test\"",
+            "pytest-cov ; extra == \"test\""
+        ]
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "info": {
+        "requires_dist": [
+            "zope.interface",
+            "Sphinx ; extra == 'docs'",
+            "repoze.sphinx.autointerface ; extra == 'docs'",
+            "mock ; extra == 'test'",
+            "nose ; extra == 'testing'",
+            "coverage ; extra == 'testing'",
+            "mock ; extra == 'testing'"
+        ]
+    }
+}

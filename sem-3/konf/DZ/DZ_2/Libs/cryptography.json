@@ -1,0 +1,25 @@
+{
+    "info": {
+        "requires_dist": [
+            "cffi >=1.12",
+            "sphinx >=5.3.0 ; extra == 'docs'",
+            "sphinx-rtd-theme >=1.1.1 ; extra == 'docs'",
+            "pyenchant >=1.6.11 ; extra == 'docstest'",
+            "twine >=1.12.0 ; extra == 'docstest'",
+            "sphinxcontrib-spelling >=4.0.1 ; extra == 'docstest'",
+            "nox ; extra == 'nox'",
+            "black ; extra == 'pep8test'",
+            "ruff ; extra == 'pep8test'",
+            "mypy ; extra == 'pep8test'",
+            "check-sdist ; extra == 'pep8test'",
+            "build ; extra == 'sdist'",
+            "bcrypt >=3.1.5 ; extra == 'ssh'",
+            "pytest >=6.2.0 ; extra == 'test'",
+            "pytest-benchmark ; extra == 'test'",
+            "pytest-cov ; extra == 'test'",
+            "pytest-xdist ; extra == 'test'",
+            "pretend ; extra == 'test'",
+            "pytest-randomly ; extra == 'test-randomorder'"
+        ]
+    }
+}

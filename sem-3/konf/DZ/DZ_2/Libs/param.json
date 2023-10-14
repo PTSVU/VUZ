@@ -1,0 +1,36 @@
+{
+    "info": {
+        "requires_dist": [
+            "aiohttp ; extra == 'all'",
+            "coverage ; extra == 'all'",
+            "flake8 ; extra == 'all'",
+            "graphviz ; extra == 'all'",
+            "ipython (!=8.7.0) ; extra == 'all'",
+            "myst-parser ; extra == 'all'",
+            "myst-nb (==0.12.2) ; extra == 'all'",
+            "nbconvert ; extra == 'all'",
+            "nbsite (==0.8.0rc2) ; extra == 'all'",
+            "pandas ; extra == 'all'",
+            "panel ; extra == 'all'",
+            "pydata-sphinx-theme (<0.9.0) ; extra == 'all'",
+            "pygraphviz ; extra == 'all'",
+            "pytest ; extra == 'all'",
+            "sphinx-copybutton ; extra == 'all'",
+            "pygraphviz ; extra == 'doc'",
+            "nbsite (==0.8.0rc2) ; extra == 'doc'",
+            "pydata-sphinx-theme (<0.9.0) ; extra == 'doc'",
+            "myst-parser ; extra == 'doc'",
+            "nbconvert ; extra == 'doc'",
+            "graphviz ; extra == 'doc'",
+            "myst-nb (==0.12.2) ; extra == 'doc'",
+            "sphinx-copybutton ; extra == 'doc'",
+            "aiohttp ; extra == 'doc'",
+            "panel ; extra == 'doc'",
+            "pandas ; extra == 'doc'",
+            "ipython (!=8.7.0) ; extra == 'doc'",
+            "pytest ; extra == 'tests'",
+            "coverage ; extra == 'tests'",
+            "flake8 ; extra == 'tests'"
+        ]
+    }
+}

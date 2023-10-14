@@ -1,0 +1,8 @@
+{
+    "info": {
+        "requires_dist": [
+            "hyperframe (<7,>=6.0)",
+            "hpack (<5,>=4.0)"
+        ]
+    }
+}

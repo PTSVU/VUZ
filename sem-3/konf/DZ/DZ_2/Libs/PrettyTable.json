@@ -1,0 +1,10 @@
+{
+    "info": {
+        "requires_dist": [
+            "wcwidth",
+            "pytest; extra == 'tests'",
+            "pytest-cov; extra == 'tests'",
+            "pytest-lazy-fixture; extra == 'tests'"
+        ]
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "info": {
+        "requires_dist": [
+            "types-pyOpenSSL",
+            "cryptography >=35.0.0"
+        ]
+    }
+}

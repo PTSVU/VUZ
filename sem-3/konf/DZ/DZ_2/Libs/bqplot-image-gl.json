@@ -1,0 +1,8 @@
+{
+    "info": {
+        "requires_dist": [
+            "ipywidgets (>=7.0.0)",
+            "bqplot (>=0.12)"
+        ]
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "info": {
+        "requires_dist": [
+            "six (>=1.9.0)",
+            "gmpy ; extra == 'gmpy'",
+            "gmpy2 ; extra == 'gmpy2'"
+        ]
+    }
+}

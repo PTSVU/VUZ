@@ -1,0 +1,13 @@
+{
+    "info": {
+        "requires_dist": [
+            "filelock",
+            "typing-extensions",
+            "sympy",
+            "networkx",
+            "jinja2",
+            "fsspec",
+            "opt-einsum (>=3.3) ; extra == 'opt-einsum'"
+        ]
+    }
+}

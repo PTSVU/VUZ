@@ -1,0 +1,14 @@
+{
+    "info": {
+        "requires_dist": [
+            "codecov >=2.0.5 ; extra == 'test'",
+            "coverage >=4.2 ; extra == 'test'",
+            "flake8 >=3.0.4 ; extra == 'test'",
+            "pytest >=4.5.0 ; extra == 'test'",
+            "pytest-cov >=2.7.1 ; extra == 'test'",
+            "pytest-runner >=5.1 ; extra == 'test'",
+            "pytest-virtualenv >=1.7.0 ; extra == 'test'",
+            "virtualenv >=15.0.3 ; extra == 'test'"
+        ]
+    }
+}

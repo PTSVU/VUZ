@@ -1,0 +1,9 @@
+{
+    "info": {
+        "requires_dist": [
+            "jupyter-server (>=1.1)",
+            "jupyter-server[test] ; extra == 'test'",
+            "pytest ; extra == 'test'"
+        ]
+    }
+}

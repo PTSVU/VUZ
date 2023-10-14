@@ -1,0 +1,10 @@
+{
+    "info": {
+        "requires_dist": [
+            "decopatch",
+            "makefun (>=1.9.5)",
+            "functools32 ; python_version < \"3.2\"",
+            "funcsigs ; python_version < \"3.3\""
+        ]
+    }
+}

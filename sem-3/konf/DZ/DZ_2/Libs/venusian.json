@@ -1,0 +1,11 @@
+{
+    "info": {
+        "requires_dist": [
+            "Sphinx ; extra == 'docs'",
+            "repoze.sphinx.autointerface ; extra == 'docs'",
+            "pytest ; extra == 'testing'",
+            "pytest-cov ; extra == 'testing'",
+            "coverage ; extra == 'testing'"
+        ]
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "info": {
+        "requires_dist": [
+            "dnspython (>=1.15.0)",
+            "greenlet (>=0.3)",
+            "six (>=1.10.0)",
+            "monotonic (>=1.4) ; python_version < \"3.5\""
+        ]
+    }
+}

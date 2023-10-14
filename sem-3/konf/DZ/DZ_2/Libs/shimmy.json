@@ -1,0 +1,36 @@
+{
+    "info": {
+        "requires_dist": [
+            "numpy (>=1.18.0)",
+            "gymnasium (>=0.27.0)",
+            "gym (>=0.26.2) ; extra == 'all'",
+            "ale-py (~=0.8.1) ; extra == 'all'",
+            "dm-control (>=1.0.10) ; extra == 'all'",
+            "imageio ; extra == 'all'",
+            "h5py (>=3.7.0) ; extra == 'all'",
+            "pettingzoo (>=1.23) ; extra == 'all'",
+            "dm-env (>=1.6) ; extra == 'all'",
+            "open-spiel (>=1.2) ; extra == 'all'",
+            "bsuite (>=0.3.5) ; extra == 'all'",
+            "ale-py (~=0.8.1) ; extra == 'atari'",
+            "bsuite (>=0.3.5) ; extra == 'bsuite'",
+            "dm-control (>=1.0.10) ; extra == 'dm-control'",
+            "imageio ; extra == 'dm-control'",
+            "h5py (>=3.7.0) ; extra == 'dm-control'",
+            "dm-control (>=1.0.10) ; extra == 'dm-control-multi-agent'",
+            "imageio ; extra == 'dm-control-multi-agent'",
+            "h5py (>=3.7.0) ; extra == 'dm-control-multi-agent'",
+            "pettingzoo (>=1.23) ; extra == 'dm-control-multi-agent'",
+            "dm-env (>=1.6) ; extra == 'dm-lab'",
+            "gym (<0.26,>=0.21.0) ; extra == 'gym-v21'",
+            "pyglet (==1.5.11) ; extra == 'gym-v21'",
+            "gym (>=0.26.2) ; extra == 'gym-v26'",
+            "pettingzoo (>=1.23) ; extra == 'meltingpot'",
+            "open-spiel (>=1.2) ; extra == 'openspiel'",
+            "pettingzoo (>=1.23) ; extra == 'openspiel'",
+            "pytest (==7.1.3) ; extra == 'testing'",
+            "pillow (>=9.3.0) ; extra == 'testing'",
+            "autorom[accept-rom-license] (~=0.6.0) ; extra == 'testing'"
+        ]
+    }
+}

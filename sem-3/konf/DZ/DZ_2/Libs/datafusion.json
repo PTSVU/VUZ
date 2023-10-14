@@ -1,0 +1,7 @@
+{
+    "info": {
+        "requires_dist": [
+            "pyarrow >=11.0.0"
+        ]
+    }
+}

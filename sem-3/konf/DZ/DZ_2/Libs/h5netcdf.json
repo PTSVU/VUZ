@@ -1,0 +1,10 @@
+{
+    "info": {
+        "requires_dist": [
+            "h5py",
+            "packaging",
+            "netCDF4 ; extra == 'test'",
+            "pytest ; extra == 'test'"
+        ]
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "info": {
+        "requires_dist": [
+            "requests (>=1.2.0)",
+            "pytest (>=6.2.5) ; extra == 'dev'",
+            "pytest-cov (>=3.0.0) ; extra == 'dev'",
+            "pytest-network (>=0.0.1) ; extra == 'dev'",
+            "black (>=22.3.0) ; extra == 'dev'",
+            "build (>=0.7.0) ; extra == 'dev'",
+            "isort (>=5.11.4) ; extra == 'dev'",
+            "pyflakes (>=2.2.0) ; extra == 'dev'",
+            "readme-renderer[rst] (>=26.0) ; extra == 'dev'",
+            "twine (>=3.4.2) ; extra == 'dev'"
+        ]
+    }
+}

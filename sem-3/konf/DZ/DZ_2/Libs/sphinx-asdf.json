@@ -1,0 +1,17 @@
+{
+    "info": {
+        "requires_dist": [
+            "asdf",
+            "astropy >=5.0.4",
+            "docutils",
+            "mistune >=3",
+            "packaging",
+            "sphinx",
+            "sphinx-astropy",
+            "sphinx-bootstrap-theme",
+            "sphinx-rtd-theme",
+            "toml",
+            "pytest ; extra == 'tests'"
+        ]
+    }
+}

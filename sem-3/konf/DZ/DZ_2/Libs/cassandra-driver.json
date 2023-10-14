@@ -1,0 +1,10 @@
+{
+    "info": {
+        "requires_dist": [
+            "six (>=1.9)",
+            "geomet (<0.3,>=0.1)",
+            "cryptography (>=35.0) ; extra == 'cle'",
+            "gremlinpython (==3.4.6) ; extra == 'graph'"
+        ]
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "info": {
+        "requires_dist": [
+            "ipywidgets",
+            "typing-extensions>=4.1.1",
+            "black; extra == 'dev'",
+            "bqplot; extra == 'dev'",
+            "bump2version; extra == 'dev'",
+            "coverage; extra == 'dev'",
+            "flake8; extra == 'dev'",
+            "ipykernel; extra == 'dev'",
+            "ipyvuetify; extra == 'dev'",
+            "jinja2; extra == 'dev'",
+            "mypy; extra == 'dev'",
+            "numpy; extra == 'dev'",
+            "pandas; extra == 'dev'",
+            "pre-commit; extra == 'dev'",
+            "pytest; extra == 'dev'",
+            "pytest-cov; extra == 'dev'"
+        ]
+    }
+}

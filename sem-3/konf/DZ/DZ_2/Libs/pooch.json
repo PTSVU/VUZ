@@ -1,0 +1,12 @@
+{
+    "info": {
+        "requires_dist": [
+            "platformdirs (>=2.5.0)",
+            "packaging (>=20.0)",
+            "requests (>=2.19.0)",
+            "tqdm (<5.0.0,>=4.41.0) ; extra == 'progress'",
+            "paramiko (>=2.7.0) ; extra == 'sftp'",
+            "xxhash (>=1.4.3) ; extra == 'xxhash'"
+        ]
+    }
+}

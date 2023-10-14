@@ -1,0 +1,9 @@
+{
+    "info": {
+        "requires_dist": [
+            "pytest (>=5.0)",
+            "importlib-metadata; python_version < \"3.8\"",
+            "isort (>=4.0)"
+        ]
+    }
+}

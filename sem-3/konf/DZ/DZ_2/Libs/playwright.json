@@ -1,0 +1,9 @@
+{
+    "info": {
+        "requires_dist": [
+            "greenlet ==2.0.2",
+            "pyee ==9.0.4",
+            "typing-extensions ; python_version <= \"3.8\""
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "info": {
+        "requires_dist": [
+            "packaging>=23.1",
+            "tomli>=2.0.1; python_version < '3.11'",
+            "furo>=2023.8.19; extra == 'docs'",
+            "sphinx-autodoc-typehints>=1.24; extra == 'docs'",
+            "sphinx<7.2; extra == 'docs'",
+            "covdefaults>=2.3; extra == 'testing'",
+            "pytest-cov>=4.1; extra == 'testing'",
+            "pytest-mock>=3.11.1; extra == 'testing'",
+            "pytest>=7.4; extra == 'testing'",
+            "setuptools>=68.1.2; extra == 'testing'",
+            "wheel>=0.41.2; extra == 'testing'"
+        ]
+    }
+}

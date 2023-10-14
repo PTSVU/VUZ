@@ -1,0 +1,8 @@
+{
+    "info": {
+        "requires_dist": [
+            "sphinx (>=4.0)",
+            "matplotlib"
+        ]
+    }
+}

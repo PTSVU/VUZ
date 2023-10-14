@@ -1,0 +1,8 @@
+{
+    "info": {
+        "requires_dist": [
+            "click",
+            "pytest ; extra == \"test\""
+        ]
+    }
+}

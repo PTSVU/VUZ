@@ -1,0 +1,12 @@
+{
+    "info": {
+        "requires_dist": [
+            "google-auth (<3.0dev,>=1.25.0)",
+            "google-api-core (!=2.0.*,!=2.1.*,!=2.2.*,!=2.3.0,<3.0.0dev,>=1.31.5)",
+            "google-cloud-core (<3.0dev,>=2.3.0)",
+            "google-resumable-media (>=2.6.0)",
+            "requests (<3.0.0dev,>=2.18.0)",
+            "protobuf (<5.0.0dev) ; extra == 'protobuf'"
+        ]
+    }
+}

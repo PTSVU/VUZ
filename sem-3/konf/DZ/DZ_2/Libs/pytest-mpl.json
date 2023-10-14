@@ -1,0 +1,13 @@
+{
+    "info": {
+        "requires_dist": [
+            "pytest",
+            "matplotlib",
+            "packaging",
+            "Jinja2",
+            "Pillow",
+            "importlib-resources ; python_version < \"3.8\"",
+            "pytest-cov ; extra == 'test'"
+        ]
+    }
+}

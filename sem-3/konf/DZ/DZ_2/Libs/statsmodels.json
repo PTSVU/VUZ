@@ -1,0 +1,35 @@
+{
+    "info": {
+        "requires_dist": [
+            "numpy (>=1.18)",
+            "scipy (!=1.9.2,>=1.4)",
+            "pandas (>=1.0)",
+            "patsy (>=0.5.2)",
+            "packaging (>=21.3)",
+            "numpy (>=1.22.3) ; python_version == \"3.10\" and platform_system == \"Windows\" and platform_python_implementation != \"PyPy\"",
+            "scipy (!=1.9.2,>=1.4) ; sys_platform == \"win32\"",
+            "cython (>=0.29.26) ; extra == 'build'",
+            "cython (>=0.29.26) ; extra == 'develop'",
+            "cython (<3.0.0,>=0.29.28) ; extra == 'develop'",
+            "setuptools-scm[toml] (~=7.0.0) ; extra == 'develop'",
+            "oldest-supported-numpy (>=2022.4.18) ; extra == 'develop'",
+            "matplotlib (>=3) ; extra == 'develop'",
+            "colorama ; extra == 'develop'",
+            "joblib ; extra == 'develop'",
+            "pytest (~=7.0.1) ; extra == 'develop'",
+            "pytest-randomly ; extra == 'develop'",
+            "pytest-xdist ; extra == 'develop'",
+            "flake8 ; extra == 'develop'",
+            "isort ; extra == 'develop'",
+            "pywinpty ; (os_name == \"nt\") and extra == 'develop'",
+            "sphinx ; extra == 'docs'",
+            "nbconvert ; extra == 'docs'",
+            "jupyter-client ; extra == 'docs'",
+            "ipykernel ; extra == 'docs'",
+            "matplotlib ; extra == 'docs'",
+            "nbformat ; extra == 'docs'",
+            "numpydoc ; extra == 'docs'",
+            "pandas-datareader ; extra == 'docs'"
+        ]
+    }
+}

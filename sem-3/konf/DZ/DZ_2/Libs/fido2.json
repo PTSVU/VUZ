@@ -1,0 +1,8 @@
+{
+    "info": {
+        "requires_dist": [
+            "cryptography (>=2.6,!=35,<44)",
+            "pyscard (>=1.9,<3) ; extra == \"pcsc\""
+        ]
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "info": {
+        "requires_dist": [
+            "six",
+            "execnet",
+            "contextlib2",
+            "pytest",
+            "path.py",
+            "mock",
+            "termcolor",
+            "pytest ; extra == 'tests'"
+        ]
+    }
+}

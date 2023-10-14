@@ -1,0 +1,9 @@
+{
+    "info": {
+        "requires_dist": [
+            "cryptography >=2.0",
+            "pyspnego",
+            "pyspnego[kerberos] ; extra == 'kerberos'"
+        ]
+    }
+}

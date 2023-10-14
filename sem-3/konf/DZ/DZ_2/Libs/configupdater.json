@@ -1,0 +1,13 @@
+{
+    "info": {
+        "requires_dist": [
+            "importlib-metadata ; python_version < \"3.8\"",
+            "sphinx ; extra == 'testing'",
+            "flake8 ; extra == 'testing'",
+            "pytest ; extra == 'testing'",
+            "pytest-cov ; extra == 'testing'",
+            "pytest-virtualenv ; extra == 'testing'",
+            "pytest-xdist ; extra == 'testing'"
+        ]
+    }
+}

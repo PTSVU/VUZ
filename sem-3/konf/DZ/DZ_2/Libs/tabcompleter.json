@@ -1,0 +1,7 @@
+{
+    "info": {
+        "requires_dist": [
+            "pyreadline3 ; platform_system == \"Windows\""
+        ]
+    }
+}

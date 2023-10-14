@@ -1,0 +1,11 @@
+{
+    "info": {
+        "requires_dist": [
+            "jupyter-server<3,>=1.8",
+            "pytest; extra == 'test'",
+            "pytest-console-scripts; extra == 'test'",
+            "pytest-jupyter; extra == 'test'",
+            "pytest-tornasync; extra == 'test'"
+        ]
+    }
+}

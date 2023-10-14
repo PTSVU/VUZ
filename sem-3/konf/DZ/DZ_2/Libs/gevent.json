@@ -1,0 +1,31 @@
+{
+    "info": {
+        "requires_dist": [
+            "greenlet>=2.0.0; platform_python_implementation == \"CPython\" and python_version < \"3.11\"",
+            "greenlet>=3.0rc3; platform_python_implementation == \"CPython\" and python_version >= \"3.11\"",
+            "cffi>=1.12.2; platform_python_implementation == \"CPython\" and sys_platform == \"win32\"",
+            "zope.event",
+            "zope.interface",
+            "dnspython<2.0,>=1.16.0; python_version < \"3.10\" and extra == \"dnspython\"",
+            "idna; python_version < \"3.10\" and extra == \"dnspython\"",
+            "psutil>=5.7.0; (sys_platform != \"win32\" or platform_python_implementation == \"CPython\") and extra == \"monitor\"",
+            "cffi>=1.12.2; platform_python_implementation == \"CPython\" and extra == \"recommended\"",
+            "dnspython<2.0,>=1.16.0; python_version < \"3.10\" and extra == \"recommended\"",
+            "idna; python_version < \"3.10\" and extra == \"recommended\"",
+            "psutil>=5.7.0; (sys_platform != \"win32\" or platform_python_implementation == \"CPython\") and extra == \"recommended\"",
+            "sphinx; extra == \"docs\"",
+            "furo; extra == \"docs\"",
+            "repoze.sphinx.autointerface; extra == \"docs\"",
+            "sphinxcontrib-programoutput; extra == \"docs\"",
+            "zope.schema; extra == \"docs\"",
+            "cffi>=1.12.2; platform_python_implementation == \"CPython\" and extra == \"test\"",
+            "dnspython<2.0,>=1.16.0; python_version < \"3.10\" and extra == \"test\"",
+            "idna; python_version < \"3.10\" and extra == \"test\"",
+            "psutil>=5.7.0; (sys_platform != \"win32\" or platform_python_implementation == \"CPython\") and extra == \"test\"",
+            "requests; extra == \"test\"",
+            "coverage>=5.0; sys_platform != \"win32\" and extra == \"test\"",
+            "objgraph; extra == \"test\"",
+            "setuptools; extra == \"test\""
+        ]
+    }
+}

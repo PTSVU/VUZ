@@ -1,0 +1,24 @@
+{
+    "info": {
+        "requires_dist": [
+            "click>=8.0",
+            "libcst>=0.3.18",
+            "moreorless>=0.4.0",
+            "packaging>=21",
+            "tomli>=2.0; python_version < '3.11'",
+            "trailrunner>=1.2",
+            "attribution==1.6.2; extra == 'dev'",
+            "black==23.3.0; extra == 'dev'",
+            "click<8.1.4; extra == 'dev'",
+            "flake8-bugbear==23.6.5; extra == 'dev'",
+            "flake8==6.0.0; extra == 'dev'",
+            "mypy==1.4.1; extra == 'dev'",
+            "ufmt==2.1.0; extra == 'dev'",
+            "usort==1.0.7; extra == 'dev'",
+            "jinja2==3.1.2; extra == 'docs'",
+            "sphinx-mdinclude==0.5.3; extra == 'docs'",
+            "sphinx==7.0.1; extra == 'docs'",
+            "rich>=12.6.0; extra == 'pretty'"
+        ]
+    }
+}

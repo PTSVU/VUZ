@@ -1,0 +1,20 @@
+{
+    "info": {
+        "requires_dist": [
+            "uc-micro-py",
+            "pytest ; extra == 'benchmark'",
+            "pytest-benchmark ; extra == 'benchmark'",
+            "pre-commit ; extra == 'dev'",
+            "isort ; extra == 'dev'",
+            "flake8 ; extra == 'dev'",
+            "black ; extra == 'dev'",
+            "pyproject-flake8 ; extra == 'dev'",
+            "sphinx ; extra == 'doc'",
+            "sphinx-book-theme ; extra == 'doc'",
+            "myst-parser ; extra == 'doc'",
+            "pytest ; extra == 'test'",
+            "coverage ; extra == 'test'",
+            "pytest-cov ; extra == 'test'"
+        ]
+    }
+}

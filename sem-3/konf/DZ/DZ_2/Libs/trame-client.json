@@ -1,0 +1,11 @@
+{
+    "info": {
+        "requires_dist": [
+            "pytest ; extra == 'test'",
+            "seleniumbase ; extra == 'test'",
+            "pytest-xprocess ; extra == 'test'",
+            "Pillow ; extra == 'test'",
+            "pixelmatch ; extra == 'test'"
+        ]
+    }
+}

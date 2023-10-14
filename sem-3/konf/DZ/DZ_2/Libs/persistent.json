@@ -1,0 +1,13 @@
+{
+    "info": {
+        "requires_dist": [
+            "zope.interface",
+            "cffi; platform_python_implementation == \"CPython\"",
+            "zope.testrunner; extra == \"test\"",
+            "manuel; extra == \"test\"",
+            "Sphinx; extra == \"docs\"",
+            "repoze.sphinx.autointerface; extra == \"docs\"",
+            "sphinx_rtd_theme; extra == \"docs\""
+        ]
+    }
+}

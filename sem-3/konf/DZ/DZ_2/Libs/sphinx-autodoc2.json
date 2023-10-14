@@ -1,0 +1,18 @@
+{
+    "info": {
+        "requires_dist": [
+            "astroid>=2.7",
+            "tomli; python_version<'3.11'",
+            "typing-extensions",
+            "typer[all] ; extra == \"cli\"",
+            "sphinx>=4.0.0 ; extra == \"docs\"",
+            "furo ; extra == \"docs\"",
+            "myst-parser ; extra == \"docs\"",
+            "sphinx>=4.0.0 ; extra == \"sphinx\"",
+            "pytest ; extra == \"testing\"",
+            "pytest-regressions ; extra == \"testing\"",
+            "pytest-cov ; extra == \"testing\"",
+            "sphinx>=4.0.0 ; extra == \"testing\""
+        ]
+    }
+}

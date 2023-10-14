@@ -1,0 +1,7 @@
+{
+    "info": {
+        "requires_dist": [
+            "contextvars ; python_version >= \"3.6\" and python_version < \"3.7\""
+        ]
+    }
+}

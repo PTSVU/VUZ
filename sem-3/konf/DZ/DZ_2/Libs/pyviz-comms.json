@@ -1,0 +1,16 @@
+{
+    "info": {
+        "requires_dist": [
+            "param",
+            "pyviz-comms[build]; extra == 'all'",
+            "pyviz-comms[tests]; extra == 'all'",
+            "jupyterlab~=4.0; extra == 'build'",
+            "keyring; extra == 'build'",
+            "rfc3986; extra == 'build'",
+            "setuptools>=40.8.0; extra == 'build'",
+            "twine; extra == 'build'",
+            "flake8; extra == 'tests'",
+            "pytest; extra == 'tests'"
+        ]
+    }
+}

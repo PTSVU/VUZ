@@ -1,0 +1,17 @@
+{
+    "info": {
+        "requires_dist": [
+            "ipykernel>=6.14",
+            "ipython",
+            "jupyter-client>=7.0.0",
+            "jupyter-core!=5.0.*,>=4.12",
+            "prompt-toolkit>=3.0.30",
+            "pygments",
+            "pyzmq>=17",
+            "traitlets>=5.4",
+            "flaky; extra == 'test'",
+            "pexpect; extra == 'test'",
+            "pytest; extra == 'test'"
+        ]
+    }
+}

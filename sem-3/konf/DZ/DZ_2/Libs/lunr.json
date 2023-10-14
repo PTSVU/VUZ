@@ -1,0 +1,29 @@
+{
+    "info": {
+        "requires_dist": [
+            "importlib-metadata; python_version < '3.8'",
+            "typing-extensions; python_version < '3.8'",
+            "lunr[docs,local,tests]; extra == 'dev'",
+            "furo; extra == 'docs'",
+            "myst-parser; extra == 'docs'",
+            "sphinx; extra == 'docs'",
+            "sphinx-autobuild; extra == 'docs'",
+            "nltk; extra == 'languages'",
+            "black; extra == 'local'",
+            "build; extra == 'local'",
+            "flake8; extra == 'local'",
+            "hatch-fancy-pypi-readme; extra == 'local'",
+            "ipython; extra == 'local'",
+            "mypy; extra == 'local'",
+            "pdbpp; extra == 'local'",
+            "pytest-benchmark; extra == 'local'",
+            "twine; extra == 'local'",
+            "wheel; extra == 'local'",
+            "coverage; extra == 'tests'",
+            "lunr[languages]; extra == 'tests'",
+            "pytest; extra == 'tests'",
+            "pytest-timeout; extra == 'tests'",
+            "tox; extra == 'tests'"
+        ]
+    }
+}

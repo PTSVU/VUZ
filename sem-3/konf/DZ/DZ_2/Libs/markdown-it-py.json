@@ -1,0 +1,31 @@
+{
+    "info": {
+        "requires_dist": [
+            "mdurl~=0.1",
+            "psutil ; extra == \"benchmarking\"",
+            "pytest ; extra == \"benchmarking\"",
+            "pytest-benchmark ; extra == \"benchmarking\"",
+            "pre-commit~=3.0 ; extra == \"code_style\"",
+            "commonmark~=0.9 ; extra == \"compare\"",
+            "markdown~=3.4 ; extra == \"compare\"",
+            "mistletoe~=1.0 ; extra == \"compare\"",
+            "mistune~=2.0 ; extra == \"compare\"",
+            "panflute~=2.3 ; extra == \"compare\"",
+            "linkify-it-py>=1,<3 ; extra == \"linkify\"",
+            "mdit-py-plugins ; extra == \"plugins\"",
+            "gprof2dot ; extra == \"profiling\"",
+            "mdit-py-plugins ; extra == \"rtd\"",
+            "myst-parser ; extra == \"rtd\"",
+            "pyyaml ; extra == \"rtd\"",
+            "sphinx ; extra == \"rtd\"",
+            "sphinx-copybutton ; extra == \"rtd\"",
+            "sphinx-design ; extra == \"rtd\"",
+            "sphinx_book_theme ; extra == \"rtd\"",
+            "jupyter_sphinx ; extra == \"rtd\"",
+            "coverage ; extra == \"testing\"",
+            "pytest ; extra == \"testing\"",
+            "pytest-cov ; extra == \"testing\"",
+            "pytest-regressions ; extra == \"testing\""
+        ]
+    }
+}

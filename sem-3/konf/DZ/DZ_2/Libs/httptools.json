@@ -1,0 +1,7 @@
+{
+    "info": {
+        "requires_dist": [
+            "Cython (<0.30.0,>=0.29.24) ; extra == 'test'"
+        ]
+    }
+}

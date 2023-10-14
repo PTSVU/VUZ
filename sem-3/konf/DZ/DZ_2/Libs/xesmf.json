@@ -1,0 +1,12 @@
+{
+    "info": {
+        "requires_dist": [
+            "cf-xarray >=0.5.1",
+            "numba >=0.55.2",
+            "numpy >=1.16",
+            "shapely",
+            "sparse >=0.8.0",
+            "xarray >=0.16.2"
+        ]
+    }
+}

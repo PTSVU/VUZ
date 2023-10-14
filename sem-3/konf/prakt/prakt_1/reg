@@ -1,0 +1,40 @@
+#!/bin/bash
+
+# Проверка наличия аргумента командной строки
+if [ $# -eq 0 ]; then
+    echo "Usage: $0 <command>"
+    exit 1
+fi
+
+# Получение имени команды из аргумента
+command_name="$1"
+
+# Проверка существования файла команды
+if [ ! -f "$command_name" ]; then
+    echo "Error: '$command_name' not found."
+    exit 1
+fi
+
+# Проверка, что файл команды имеет исполняемые права
+if [ ! -x "$command_name" ]; then
+    echo "Error: '$command_name' is not executable."
+    exit 1
+fi
+
+# Определение пути для копирования команды
+destination="/usr/local/bin/$command_name"
+
+# Проверка, существует ли уже команда с таким именем в /usr/local/bin
+if [ -f "$destination" ]; then
+    echo "Error: '$command_name' already exists in /usr/local/bin."
+    exit 1
+fi
+
+# Копирование команды в /usr/local/bin
+sudo cp "$command_name" "$destination"
+
+# Установка правильных прав доступа
+sudo chmod +x "$destination"
+
+echo "Command '$command_name' has been registered in /usr/local/bin."
+

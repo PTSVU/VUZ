@@ -1,0 +1,8 @@
+{
+    "info": {
+        "requires_dist": [
+            "pyflakes>=3.0.0",
+            "tomli>=2.0.1; python_version < '3.11'"
+        ]
+    }
+}

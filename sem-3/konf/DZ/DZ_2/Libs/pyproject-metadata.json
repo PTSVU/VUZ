@@ -1,0 +1,14 @@
+{
+    "info": {
+        "requires_dist": [
+            "packaging (>=19.0)",
+            "furo (>=2020.11.19b18) ; extra == 'docs'",
+            "sphinx (~=3.0) ; extra == 'docs'",
+            "sphinx-autodoc-typehints (>=1.10.0) ; extra == 'docs'",
+            "Jinja2 (<3.1) ; extra == 'docs'",
+            "pytest (>=6.2.4) ; extra == 'test'",
+            "pytest-cov (>=2) ; extra == 'test'",
+            "tomli (>=1.0.0) ; (python_version < \"3.11\") and extra == 'test'"
+        ]
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "info": {
+        "requires_dist": [
+            "six (>=1.9)",
+            "webencodings",
+            "genshi ; extra == 'all'",
+            "chardet (>=2.2) ; extra == 'all'",
+            "lxml ; (platform_python_implementation == 'CPython') and extra == 'all'",
+            "chardet (>=2.2) ; extra == 'chardet'",
+            "genshi ; extra == 'genshi'",
+            "lxml ; (platform_python_implementation == 'CPython') and extra == 'lxml'"
+        ]
+    }
+}

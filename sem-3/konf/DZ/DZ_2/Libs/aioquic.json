@@ -1,0 +1,10 @@
+{
+    "info": {
+        "requires_dist": [
+            "certifi",
+            "pylsqpack (<0.4.0,>=0.3.3)",
+            "pyopenssl (>=22)",
+            "coverage[toml] (>=7.2.2) ; extra == 'dev'"
+        ]
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "info": {
+        "requires_dist": [
+            "docutils",
+            "jinja2",
+            "sphinx (>=1.1)",
+            "matplotlib (>=2.2.4) ; extra == 'plot'",
+            "ipython ; extra == 'test'",
+            "matplotlib (>=2.2.4) ; extra == 'test'",
+            "numpy ; extra == 'test'",
+            "pytest (>=6.0.0) ; extra == 'test'",
+            "pytest-asyncio ; extra == 'test'",
+            "playwright ; extra == 'visual_test'"
+        ]
+    }
+}

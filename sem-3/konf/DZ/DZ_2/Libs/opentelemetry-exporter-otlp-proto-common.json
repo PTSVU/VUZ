@@ -1,0 +1,9 @@
+{
+    "info": {
+        "requires_dist": [
+            "backoff<2.0.0,>=1.10.0; python_version < '3.7'",
+            "backoff<3.0.0,>=1.10.0; python_version >= '3.7'",
+            "opentelemetry-proto==1.20.0"
+        ]
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "info": {
+        "requires_dist": [
+            "build (>=0.1)",
+            "setuptools",
+            "tomli ; python_version < \"3.11\"",
+            "pytest ; extra == 'test'",
+            "mock (>=3.0.0) ; (python_version == \"3.7\") and extra == 'test'"
+        ]
+    }
+}

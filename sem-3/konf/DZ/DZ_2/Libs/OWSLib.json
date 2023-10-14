@@ -1,0 +1,12 @@
+{
+    "info": {
+        "requires_dist": [
+            "lxml",
+            "python-dateutil (>=1.5)",
+            "pytz",
+            "pyyaml",
+            "requests (>=1.0)",
+            "dataclasses ; python_version < \"3.7\""
+        ]
+    }
+}

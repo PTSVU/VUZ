@@ -1,0 +1,10 @@
+{
+    "info": {
+        "requires_dist": [
+            "cython (>=0.29.32)",
+            "pycodestyle",
+            "tokenize-rt (>=3.2.0)",
+            "tomli ; python_version < \"3.11\""
+        ]
+    }
+}

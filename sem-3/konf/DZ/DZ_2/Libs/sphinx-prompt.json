@@ -1,0 +1,9 @@
+{
+    "info": {
+        "requires_dist": [
+            "Sphinx (>=7.0.0,<8.0.0)",
+            "docutils",
+            "pygments"
+        ]
+    }
+}

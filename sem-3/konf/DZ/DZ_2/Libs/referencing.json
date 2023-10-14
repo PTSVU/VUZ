@@ -1,0 +1,8 @@
+{
+    "info": {
+        "requires_dist": [
+            "attrs>=22.2.0",
+            "rpds-py>=0.7.0"
+        ]
+    }
+}

@@ -1,0 +1,1524 @@
+{
+    "info": {
+        "author": "Disnake Development",
+        "author_email": "",
+        "bugtrack_url": null,
+        "classifiers": [
+            "Development Status :: 5 - Production/Stable",
+            "Intended Audience :: Developers",
+            "License :: OSI Approved :: MIT License",
+            "Natural Language :: English",
+            "Operating System :: OS Independent",
+            "Programming Language :: Python :: 3.10",
+            "Programming Language :: Python :: 3.11",
+            "Programming Language :: Python :: 3.8",
+            "Programming Language :: Python :: 3.9",
+            "Topic :: Internet",
+            "Topic :: Software Development :: Libraries",
+            "Topic :: Software Development :: Libraries :: Python Modules",
+            "Topic :: Utilities",
+            "Typing :: Typed"
+        ],
+        "description": "<!-- SPDX-License-Identifier: MIT -->\n\n[![Disnake Banner](https://raw.githubusercontent.com/DisnakeDev/disnake/master/assets/banner.png)](https://disnake.dev/)\n\ndisnake\n=======\n<p align=\"center\">\n    <img src=\"https://img.shields.io/github/actions/workflow/status/DisnakeDev/disnake/lint-test.yml?branch=master&style=flat-square\"></img>\n    <a href=\"https://discord.gg/disnake\"><img src=\"https://img.shields.io/discord/808030843078836254?style=flat-square&color=5865f2&logo=discord&logoColor=ffffff&label=discord\" alt=\"Discord server invite\" /></a>\n    <a href=\"https://pypi.org/project/disnake/\"><img src=\"https://img.shields.io/pypi/v/disnake.svg?style=flat-square\" alt=\"PyPI version info\" /></a>\n    <a href=\"https://pypi.org/project/disnake/\"><img src=\"https://img.shields.io/pypi/pyversions/disnake.svg?style=flat-square\" alt=\"PyPI supported Python versions\" /></a>\n    <a href=\"https://github.com/DisnakeDev/disnake/commits\"><img src=\"https://img.shields.io/github/commit-activity/w/DisnakeDev/disnake.svg?style=flat-square\" alt=\"Commit activity\" /></a>\n</p>\n\nA modern, easy to use, feature-rich, and async-ready API wrapper for Discord written in Python.\n\nKey Features\n------------\n\n- Proper rate limit handling.\n- Type-safety measures.\n- [FastAPI](https://fastapi.tiangolo.com/)-like slash command syntax.\n\n<sup>The syntax and structure of `discord.py 2.0` is preserved.</sup>\n\nInstalling\n----------\n\n**Python 3.8 or higher is required.**\n\nTo install the library without full voice support, you can just run the\nfollowing command:\n\n``` sh\n# Linux/macOS\npython3 -m pip install -U disnake\n\n# Windows\npy -3 -m pip install -U disnake\n```\n\nInstalling `disnake` with full voice support requires you to replace `disnake` here, with `disnake[voice]`. To learn more about voice support (or installing the development version), please visit [this section of our guide](https://guide.disnake.dev/prerequisites/installing-disnake/).\n\n(You can optionally install [PyNaCl](https://pypi.org/project/PyNaCl/) for voice support.)\n\nNote that voice support on Linux requires installation of `libffi-dev` and `python-dev` packages, via your preferred package manager (e.g. `apt`, `dnf`, etc.) before running the following commands.\n\nVersioning\n----------\n\nThis project does **not** quite follow semantic versioning; for more details, see [version guarantees](https://docs.disnake.dev/en/latest/version_guarantees.html).\n\nTo be on the safe side and avoid unexpected breaking changes, pin the dependency to a minor version (e.g. `disnake==a.b.*` or `disnake~=a.b.c`) or an exact version (e.g. `disnake==a.b.c`).\n\nQuick Example\n-------------\n\n### Slash Commands Example\n\n``` py\nimport disnake\nfrom disnake.ext import commands\n\nbot = commands.InteractionBot(test_guilds=[12345])\n\n@bot.slash_command()\nasync def ping(inter):\n    await inter.response.send_message(\"Pong!\")\n\nbot.run(\"BOT_TOKEN\")\n```\n\n### Context Menus Example\n\n``` py\nimport disnake\nfrom disnake.ext import commands\n\nbot = commands.InteractionBot(test_guilds=[12345])\n\n@bot.user_command()\nasync def avatar(inter, user):\n    embed = disnake.Embed(title=str(user))\n    embed.set_image(url=user.display_avatar.url)\n    await inter.response.send_message(embed=embed)\n\nbot.run(\"BOT_TOKEN\")\n```\n\n### Prefix Commands Example\n\n``` py\nimport disnake\nfrom disnake.ext import commands\n\nbot = commands.Bot(command_prefix=commands.when_mentioned)\n\n@bot.command()\nasync def ping(ctx):\n    await ctx.send(\"Pong!\")\n\nbot.run(\"BOT_TOKEN\")\n```\n\nYou can find more examples in the [examples directory](./examples).\n\n<br>\n<p align=\"center\">\n    <a href=\"https://docs.disnake.dev/\">Documentation</a>\n    \u2055\n    <a href=\"https://guide.disnake.dev/\">Guide</a>\n    \u2055\n    <a href=\"https://discord.gg/disnake\">Discord Server</a>\n    \u2055\n    <a href=\"https://discord.gg/discord-developers\">Discord Developers</a>\n</p>\n<br>\n",
+        "description_content_type": "text/markdown",
+        "docs_url": null,
+        "download_url": "",
+        "downloads": {
+            "last_day": -1,
+            "last_month": -1,
+            "last_week": -1
+        },
+        "home_page": "",
+        "keywords": "disnake,discord,discord api",
+        "license": "MIT",
+        "maintainer": "",
+        "maintainer_email": "",
+        "name": "disnake",
+        "package_url": "https://pypi.org/project/disnake/",
+        "platform": null,
+        "project_url": "https://pypi.org/project/disnake/",
+        "project_urls": {
+            "Changelog": "https://docs.disnake.dev/page/whats_new.html",
+            "Documentation": "https://docs.disnake.dev/",
+            "Repository": "https://github.com/DisnakeDev/disnake"
+        },
+        "release_url": "https://pypi.org/project/disnake/2.9.0/",
+        "requires_dist": [
+            "aiohttp (<4.0,>=3.7.0)",
+            "discord-disnake ; extra == 'discord'",
+            "sphinx (==7.0.1) ; extra == 'docs'",
+            "sphinxcontrib-trio (~=1.1.2) ; extra == 'docs'",
+            "sphinx-hoverxref (==1.3.0) ; extra == 'docs'",
+            "sphinx-autobuild (~=2021.3) ; extra == 'docs'",
+            "sphinxcontrib-towncrier (==0.3.2a0) ; extra == 'docs'",
+            "towncrier (==23.6.0) ; extra == 'docs'",
+            "sphinx-notfound-page (==0.8.3) ; extra == 'docs'",
+            "orjson (~=3.6) ; extra == 'speed'",
+            "aiodns (>=1.1) ; extra == 'speed'",
+            "Brotli ; extra == 'speed'",
+            "cchardet ; (python_version < \"3.10\") and extra == 'speed'",
+            "PyNaCl (<1.6,>=1.3.0) ; extra == 'voice'"
+        ],
+        "requires_python": ">=3.8",
+        "summary": "A Python wrapper for the Discord API",
+        "version": "2.9.0",
+        "yanked": false,
+        "yanked_reason": null
+    },
+    "last_serial": 18593449,
+    "releases": {
+        "0.0.1": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "98c9946a3a6ad6a0cf63b68e27c19a8ff5db7516a9e50e082004ffbbe83f8a6e",
+                    "md5": "fc57780b4203441c36930a1d4f60e1fc",
+                    "sha256": "d4b37223fabf026a242fb2f5730d8ca7a6f05ed69fe9e7d55621c9f14c160211"
+                },
+                "downloads": -1,
+                "filename": "disnake-0.0.1-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "fc57780b4203441c36930a1d4f60e1fc",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": ">=3.8, <4",
+                "size": 2472,
+                "upload_time": "2021-08-30T12:56:10",
+                "upload_time_iso_8601": "2021-08-30T12:56:10.998783Z",
+                "url": "https://files.pythonhosted.org/packages/98/c9/946a3a6ad6a0cf63b68e27c19a8ff5db7516a9e50e082004ffbbe83f8a6e/disnake-0.0.1-py3-none-any.whl",
+                "yanked": false,
+                "yanked_reason": null
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "bda250e460f846818ecb59c4cf0eb0ca23e5391d4c281179739f72ec996d8a8c",
+                    "md5": "45680ab8db78bddb585509f9880765b1",
+                    "sha256": "70acdcaf14fef6dd1528c4a2f5e3a29877b2131693c91bf9d0559ef909b7a067"
+                },
+                "downloads": -1,
+                "filename": "disnake-0.0.1.tar.gz",
+                "has_sig": false,
+                "md5_digest": "45680ab8db78bddb585509f9880765b1",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": ">=3.8, <4",
+                "size": 2637,
+                "upload_time": "2021-08-30T12:56:12",
+                "upload_time_iso_8601": "2021-08-30T12:56:12.302117Z",
+                "url": "https://files.pythonhosted.org/packages/bd/a2/50e460f846818ecb59c4cf0eb0ca23e5391d4c281179739f72ec996d8a8c/disnake-0.0.1.tar.gz",
+                "yanked": false,
+                "yanked_reason": null
+            }
+        ],
+        "2.1.0": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "c53938e23980de82223ac08b19e27415c0e488b24b8c9494ec56cbeca66b8cdd",
+                    "md5": "3fe29f8dbf26002f6307f08b7d1e4371",
+                    "sha256": "079ea2b2e59b0467a5c765bc4d64f8bb14fb64b2ef39de7a13cdd85d38bc959c"
+                },
+                "downloads": -1,
+                "filename": "disnake-2.1.0-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "3fe29f8dbf26002f6307f08b7d1e4371",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": ">=3.8.0",
+                "size": 932878,
+                "upload_time": "2021-09-01T20:08:39",
+                "upload_time_iso_8601": "2021-09-01T20:08:39.637847Z",
+                "url": "https://files.pythonhosted.org/packages/c5/39/38e23980de82223ac08b19e27415c0e488b24b8c9494ec56cbeca66b8cdd/disnake-2.1.0-py3-none-any.whl",
+                "yanked": false,
+                "yanked_reason": null
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "5505f0363a3991fc1f0ca0ad07c4a8da9463851ff32ce18ea26a4445a2e22e6a",
+                    "md5": "33cd7d6d80377b373ee745370d95655b",
+                    "sha256": "a1a59be0456dfba6ad02d11527fd33572e6d009313e14faa490a8803822c60ac"
+                },
+                "downloads": -1,
+                "filename": "disnake-2.1.0.tar.gz",
+                "has_sig": false,
+                "md5_digest": "33cd7d6d80377b373ee745370d95655b",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": ">=3.8.0",
+                "size": 839292,
+                "upload_time": "2021-09-01T20:08:41",
+                "upload_time_iso_8601": "2021-09-01T20:08:41.295026Z",
+                "url": "https://files.pythonhosted.org/packages/55/05/f0363a3991fc1f0ca0ad07c4a8da9463851ff32ce18ea26a4445a2e22e6a/disnake-2.1.0.tar.gz",
+                "yanked": false,
+                "yanked_reason": null
+            }
+        ],
+        "2.1.1": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "34cf84ca8bba2ffdbe5fd1393fbf8a7c17ee40f931226c9eba734c79419f0d37",
+                    "md5": "a9c9c1943481d1f8577ac5fda5ae4825",
+                    "sha256": "fba164a854fb5d4113e8a60ca8d634fb99bae25c3c90f1c67100ee1653054970"
+                },
+                "downloads": -1,
+                "filename": "disnake-2.1.1-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "a9c9c1943481d1f8577ac5fda5ae4825",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": ">=3.8.0",
+                "size": 933113,
+                "upload_time": "2021-09-04T21:14:44",
+                "upload_time_iso_8601": "2021-09-04T21:14:44.404239Z",
+                "url": "https://files.pythonhosted.org/packages/34/cf/84ca8bba2ffdbe5fd1393fbf8a7c17ee40f931226c9eba734c79419f0d37/disnake-2.1.1-py3-none-any.whl",
+                "yanked": false,
+                "yanked_reason": null
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "1f34a1dc7cea5e49b13fabe7d3ae769e75c37d20fdfcebf00b8aee5e062b598c",
+                    "md5": "12881c1e783af6c6222f0b9182993cbd",
+                    "sha256": "8d562269663094aef50fa0171b8f236960dd9acaac166233209946d736451be2"
+                },
+                "downloads": -1,
+                "filename": "disnake-2.1.1.tar.gz",
+                "has_sig": false,
+                "md5_digest": "12881c1e783af6c6222f0b9182993cbd",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": ">=3.8.0",
+                "size": 839575,
+                "upload_time": "2021-09-04T21:14:46",
+                "upload_time_iso_8601": "2021-09-04T21:14:46.463329Z",
+                "url": "https://files.pythonhosted.org/packages/1f/34/a1dc7cea5e49b13fabe7d3ae769e75c37d20fdfcebf00b8aee5e062b598c/disnake-2.1.1.tar.gz",
+                "yanked": false,
+                "yanked_reason": null
+            }
+        ],
+        "2.1.2": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "f6eaa56e16ae82ae1e22ed90cad07f5de878f19a60378ab2bd1c77f6d0d73ff4",
+                    "md5": "8ebcaeeff370223a05f164707352df64",
+                    "sha256": "0ab360eabc827464d377ab29fa34bc32b28cf673b8c399fcdc03ef57947c7823"
+                },
+                "downloads": -1,
+                "filename": "disnake-2.1.2-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "8ebcaeeff370223a05f164707352df64",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": ">=3.8.0",
+                "size": 950239,
+                "upload_time": "2021-09-27T22:16:07",
+                "upload_time_iso_8601": "2021-09-27T22:16:07.694693Z",
+                "url": "https://files.pythonhosted.org/packages/f6/ea/a56e16ae82ae1e22ed90cad07f5de878f19a60378ab2bd1c77f6d0d73ff4/disnake-2.1.2-py3-none-any.whl",
+                "yanked": false,
+                "yanked_reason": null
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "47665334ee526e53c7d245db85d3dcbe720e9fd6836bf3b70fc48ab1421086d1",
+                    "md5": "c9f06c699ef80c0ab1d577d778a9c944",
+                    "sha256": "cb876131d6e19bbeb8e0357e8aab6364e6853e06a8791dfec739507c8eff3036"
+                },
+                "downloads": -1,
+                "filename": "disnake-2.1.2.tar.gz",
+                "has_sig": false,
+                "md5_digest": "c9f06c699ef80c0ab1d577d778a9c944",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": ">=3.8.0",
+                "size": 855957,
+                "upload_time": "2021-09-27T22:16:09",
+                "upload_time_iso_8601": "2021-09-27T22:16:09.911533Z",
+                "url": "https://files.pythonhosted.org/packages/47/66/5334ee526e53c7d245db85d3dcbe720e9fd6836bf3b70fc48ab1421086d1/disnake-2.1.2.tar.gz",
+                "yanked": false,
+                "yanked_reason": null
+            }
+        ],
+        "2.1.3": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "dc1369bce97b7e66b407ff007ced53c2e3686bf86d50ce1bcbaee103464707b4",
+                    "md5": "55a0698ba817b22ef61c3fa0d98e7866",
+                    "sha256": "c11bc992bbb40811fe13da5dcf4def31caa4d25916fc9c40fd53ffd2580bfbb5"
+                },
+                "downloads": -1,
+                "filename": "disnake-2.1.3-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "55a0698ba817b22ef61c3fa0d98e7866",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": ">=3.8.0",
+                "size": 966927,
+                "upload_time": "2021-10-17T20:52:41",
+                "upload_time_iso_8601": "2021-10-17T20:52:41.301280Z",
+                "url": "https://files.pythonhosted.org/packages/dc/13/69bce97b7e66b407ff007ced53c2e3686bf86d50ce1bcbaee103464707b4/disnake-2.1.3-py3-none-any.whl",
+                "yanked": false,
+                "yanked_reason": null
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "ef38598c058218ab38fbbcc819672f93505fc4776c61b71f480bd554b231a0cd",
+                    "md5": "76a22a214166062c7d3d9180d183f32b",
+                    "sha256": "abc64b8b710a11671b806257d8bb067ad785c8bff58603142936efc4abaad405"
+                },
+                "downloads": -1,
+                "filename": "disnake-2.1.3.tar.gz",
+                "has_sig": false,
+                "md5_digest": "76a22a214166062c7d3d9180d183f32b",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": ">=3.8.0",
+                "size": 863587,
+                "upload_time": "2021-10-17T20:52:48",
+                "upload_time_iso_8601": "2021-10-17T20:52:48.328885Z",
+                "url": "https://files.pythonhosted.org/packages/ef/38/598c058218ab38fbbcc819672f93505fc4776c61b71f480bd554b231a0cd/disnake-2.1.3.tar.gz",
+                "yanked": false,
+                "yanked_reason": null
+            }
+        ],
+        "2.1.4": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "438c26448b7cf5247a7767b2bb75fc58e06d27996e855da0f77d1f9a94a57119",
+                    "md5": "ec2f617137f57be99743eaaf92ebf06b",
+                    "sha256": "5e669542934df3318e49691716a1c3f1f698afcd46011c93557549142cb3a8f1"
+                },
+                "downloads": -1,
+                "filename": "disnake-2.1.4-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "ec2f617137f57be99743eaaf92ebf06b",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": ">=3.8.0",
+                "size": 966921,
+                "upload_time": "2021-10-18T20:55:59",
+                "upload_time_iso_8601": "2021-10-18T20:55:59.124977Z",
+                "url": "https://files.pythonhosted.org/packages/43/8c/26448b7cf5247a7767b2bb75fc58e06d27996e855da0f77d1f9a94a57119/disnake-2.1.4-py3-none-any.whl",
+                "yanked": false,
+                "yanked_reason": null
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "94f97cf699380b68d7c5b544eb489ed455566bb819ad7ee082eced7aa5fccdff",
+                    "md5": "953538f65576cee5422a604c589ec357",
+                    "sha256": "11443db320e027ac0f28db226213f2581dd18c89e02e303dacc553d06546702d"
+                },
+                "downloads": -1,
+                "filename": "disnake-2.1.4.tar.gz",
+                "has_sig": false,
+                "md5_digest": "953538f65576cee5422a604c589ec357",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": ">=3.8.0",
+                "size": 863602,
+                "upload_time": "2021-10-18T20:56:06",
+                "upload_time_iso_8601": "2021-10-18T20:56:06.132894Z",
+                "url": "https://files.pythonhosted.org/packages/94/f9/7cf699380b68d7c5b544eb489ed455566bb819ad7ee082eced7aa5fccdff/disnake-2.1.4.tar.gz",
+                "yanked": false,
+                "yanked_reason": null
+            }
+        ],
+        "2.1.5": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "b55b24fc5448750d4b3caa3ac732725c6eecf39a431759dd97dc491b67fc2eb0",
+                    "md5": "f9c0dd97a1be0cabb555e2bfef093a47",
+                    "sha256": "8f28ace031b6ab04f6d328a03e52a8bb492f2c1b4790088ce77a3bea8b97a86b"
+                },
+                "downloads": -1,
+                "filename": "disnake-2.1.5-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "f9c0dd97a1be0cabb555e2bfef093a47",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": ">=3.8.0",
+                "size": 968601,
+                "upload_time": "2021-10-25T13:16:50",
+                "upload_time_iso_8601": "2021-10-25T13:16:50.005743Z",
+                "url": "https://files.pythonhosted.org/packages/b5/5b/24fc5448750d4b3caa3ac732725c6eecf39a431759dd97dc491b67fc2eb0/disnake-2.1.5-py3-none-any.whl",
+                "yanked": false,
+                "yanked_reason": null
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "37c31f20fc450b7bff936135985f3fde926cb8a7c8916fb967d4dc89ec4dbc0e",
+                    "md5": "e38f6ced81ed37a01064808595472a11",
+                    "sha256": "8538fc36928bc4349178b9ba00f17e00e6b58fe7ab51cee753e0f72ea71607e7"
+                },
+                "downloads": -1,
+                "filename": "disnake-2.1.5.tar.gz",
+                "has_sig": false,
+                "md5_digest": "e38f6ced81ed37a01064808595472a11",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": ">=3.8.0",
+                "size": 865836,
+                "upload_time": "2021-10-25T13:16:59",
+                "upload_time_iso_8601": "2021-10-25T13:16:59.096886Z",
+                "url": "https://files.pythonhosted.org/packages/37/c3/1f20fc450b7bff936135985f3fde926cb8a7c8916fb967d4dc89ec4dbc0e/disnake-2.1.5.tar.gz",
+                "yanked": false,
+                "yanked_reason": null
+            }
+        ],
+        "2.2.0": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "36f474e595e04d973bd70ef5c4b68c9e8d334245fba35b738e41198e577a3f65",
+                    "md5": "ac0029608ebaaca872f9d59409e84a0d",
+                    "sha256": "b911e0fa1991d1e9f0a2f7bbeb9fd7c3d5e31c6b1b3da4a0f08b1f6330375b00"
+                },
+                "downloads": -1,
+                "filename": "disnake-2.2.0-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "ac0029608ebaaca872f9d59409e84a0d",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": ">=3.8.0",
+                "size": 973935,
+                "upload_time": "2021-11-01T14:36:25",
+                "upload_time_iso_8601": "2021-11-01T14:36:25.414789Z",
+                "url": "https://files.pythonhosted.org/packages/36/f4/74e595e04d973bd70ef5c4b68c9e8d334245fba35b738e41198e577a3f65/disnake-2.2.0-py3-none-any.whl",
+                "yanked": false,
+                "yanked_reason": null
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "79a18ad4c5bc0661538ce9be0487d9dc0b0d6e332ed021214691adc4770f56e2",
+                    "md5": "734f8f7bd5db6572e96b6746ebdc85c9",
+                    "sha256": "79ce0042e07ef75151cfcabc05c9c1a6be93a6020aa43896531b24c22a59cb8a"
+                },
+                "downloads": -1,
+                "filename": "disnake-2.2.0.tar.gz",
+                "has_sig": false,
+                "md5_digest": "734f8f7bd5db6572e96b6746ebdc85c9",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": ">=3.8.0",
+                "size": 870800,
+                "upload_time": "2021-11-01T14:36:27",
+                "upload_time_iso_8601": "2021-11-01T14:36:27.266095Z",
+                "url": "https://files.pythonhosted.org/packages/79/a1/8ad4c5bc0661538ce9be0487d9dc0b0d6e332ed021214691adc4770f56e2/disnake-2.2.0.tar.gz",
+                "yanked": false,
+                "yanked_reason": null
+            }
+        ],
+        "2.2.1": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "c2ca02f9b24db31b38767b2c2bb8163b42f6cf5803633af05f14d036f5a07e2a",
+                    "md5": "3909d7e732a4e39175302fb478f02708",
+                    "sha256": "4780d6d7c1b8b94f1c93bdff827aa5dbbc0b0fc8383d5c8c56bbcb9f2e335047"
+                },
+                "downloads": -1,
+                "filename": "disnake-2.2.1-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "3909d7e732a4e39175302fb478f02708",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": ">=3.8.0",
+                "size": 973946,
+                "upload_time": "2021-11-02T06:14:37",
+                "upload_time_iso_8601": "2021-11-02T06:14:37.326382Z",
+                "url": "https://files.pythonhosted.org/packages/c2/ca/02f9b24db31b38767b2c2bb8163b42f6cf5803633af05f14d036f5a07e2a/disnake-2.2.1-py3-none-any.whl",
+                "yanked": false,
+                "yanked_reason": null
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "90966a6fdee5bfddcb6967ff116df5b5d4deb31206f22500ffcb31209ed9ab39",
+                    "md5": "8290c04a4affb534191e0ac9d9fe70c5",
+                    "sha256": "bc0b7ebc9a3f9330c3fd3e694bfc2c2d0701b41ba94f531b2de780a79e87773c"
+                },
+                "downloads": -1,
+                "filename": "disnake-2.2.1.tar.gz",
+                "has_sig": false,
+                "md5_digest": "8290c04a4affb534191e0ac9d9fe70c5",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": ">=3.8.0",
+                "size": 870816,
+                "upload_time": "2021-11-02T06:14:43",
+                "upload_time_iso_8601": "2021-11-02T06:14:43.181230Z",
+                "url": "https://files.pythonhosted.org/packages/90/96/6a6fdee5bfddcb6967ff116df5b5d4deb31206f22500ffcb31209ed9ab39/disnake-2.2.1.tar.gz",
+                "yanked": false,
+                "yanked_reason": null
+            }
+        ],
+        "2.2.2": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "b6c6c4c21b122440098d416c12e81db12e88407c5c0ed83245618564d6fe3782",
+                    "md5": "2143af8c0349028d4af337da4f97bff3",
+                    "sha256": "0e78dd44aed399e60e7f56b9db28ddca915a60e7d182895a0e9c8566dcc0c112"
+                },
+                "downloads": -1,
+                "filename": "disnake-2.2.2-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "2143af8c0349028d4af337da4f97bff3",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": ">=3.8.0",
+                "size": 974195,
+                "upload_time": "2021-11-16T20:32:02",
+                "upload_time_iso_8601": "2021-11-16T20:32:02.129032Z",
+                "url": "https://files.pythonhosted.org/packages/b6/c6/c4c21b122440098d416c12e81db12e88407c5c0ed83245618564d6fe3782/disnake-2.2.2-py3-none-any.whl",
+                "yanked": false,
+                "yanked_reason": null
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "577887579f0dfcc59dd53789b6b1e078c730f3dd689f0c7a61f8e285b20574d5",
+                    "md5": "7e6ddc0c0fe44025a90c07a072ad54d5",
+                    "sha256": "cc0b7bef8e5235b442ee85885373a0b0923c684ceb4960322de25e9e64965508"
+                },
+                "downloads": -1,
+                "filename": "disnake-2.2.2.tar.gz",
+                "has_sig": false,
+                "md5_digest": "7e6ddc0c0fe44025a90c07a072ad54d5",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": ">=3.8.0",
+                "size": 871140,
+                "upload_time": "2021-11-16T20:32:05",
+                "upload_time_iso_8601": "2021-11-16T20:32:05.711229Z",
+                "url": "https://files.pythonhosted.org/packages/57/78/87579f0dfcc59dd53789b6b1e078c730f3dd689f0c7a61f8e285b20574d5/disnake-2.2.2.tar.gz",
+                "yanked": false,
+                "yanked_reason": null
+            }
+        ],
+        "2.2.3": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "e6bcefbe6d1019b8d9a3cf8bbdfdb780b4e3f847055b9eba2a49ce5e02532e29",
+                    "md5": "75b634b547c32aca21e7976c27fb881f",
+                    "sha256": "bdddfad1711f3e41a044b402dacde9cdba0385ebd13aa09aa21cff21c741e785"
+                },
+                "downloads": -1,
+                "filename": "disnake-2.2.3-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "75b634b547c32aca21e7976c27fb881f",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": ">=3.8.0",
+                "size": 978674,
+                "upload_time": "2022-02-11T13:15:05",
+                "upload_time_iso_8601": "2022-02-11T13:15:05.771056Z",
+                "url": "https://files.pythonhosted.org/packages/e6/bc/efbe6d1019b8d9a3cf8bbdfdb780b4e3f847055b9eba2a49ce5e02532e29/disnake-2.2.3-py3-none-any.whl",
+                "yanked": false,
+                "yanked_reason": null
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "6efa7c6383b453780addd415728fb6c6befd43c4090c82bfd8dd9380a0713e7b",
+                    "md5": "8c493fd993684aa609fb20b8eda47d61",
+                    "sha256": "3b4dbf353ce2454d3b5e3b989cb454f46d093efe15a7bdd7eac0bc2cee9edbfe"
+                },
+                "downloads": -1,
+                "filename": "disnake-2.2.3.tar.gz",
+                "has_sig": false,
+                "md5_digest": "8c493fd993684aa609fb20b8eda47d61",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": ">=3.8.0",
+                "size": 870772,
+                "upload_time": "2022-02-11T13:15:08",
+                "upload_time_iso_8601": "2022-02-11T13:15:08.147087Z",
+                "url": "https://files.pythonhosted.org/packages/6e/fa/7c6383b453780addd415728fb6c6befd43c4090c82bfd8dd9380a0713e7b/disnake-2.2.3.tar.gz",
+                "yanked": false,
+                "yanked_reason": null
+            }
+        ],
+        "2.3.0": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "0fe0aba57431741ee0b6e5e8749454488c301a363f8929a9fed40f227dfc5a60",
+                    "md5": "9caf31a0c1f281941f1924dde614b442",
+                    "sha256": "bc98d577e523d057714611f07782faa3e459c90300c51adb15c44fe0e480acf7"
+                },
+                "downloads": -1,
+                "filename": "disnake-2.3.0-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "9caf31a0c1f281941f1924dde614b442",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": ">=3.8.0",
+                "size": 993698,
+                "upload_time": "2021-12-21T19:14:36",
+                "upload_time_iso_8601": "2021-12-21T19:14:36.042956Z",
+                "url": "https://files.pythonhosted.org/packages/0f/e0/aba57431741ee0b6e5e8749454488c301a363f8929a9fed40f227dfc5a60/disnake-2.3.0-py3-none-any.whl",
+                "yanked": false,
+                "yanked_reason": null
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "b4d6e7f086a685627ea180ac19cfb5f84b6be205f002d45ae1d632e6cfe97aec",
+                    "md5": "f9b962182744ca5254c351eef5f2d050",
+                    "sha256": "fb0d393fdbdcc2bded7f323de7b3c3d2af7c066e039a7292a7ad404c463ff259"
+                },
+                "downloads": -1,
+                "filename": "disnake-2.3.0.tar.gz",
+                "has_sig": false,
+                "md5_digest": "f9b962182744ca5254c351eef5f2d050",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": ">=3.8.0",
+                "size": 887756,
+                "upload_time": "2021-12-21T19:14:47",
+                "upload_time_iso_8601": "2021-12-21T19:14:47.818619Z",
+                "url": "https://files.pythonhosted.org/packages/b4/d6/e7f086a685627ea180ac19cfb5f84b6be205f002d45ae1d632e6cfe97aec/disnake-2.3.0.tar.gz",
+                "yanked": false,
+                "yanked_reason": null
+            }
+        ],
+        "2.3.1": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "b88694556a345294f2c470824c7f034e1c811a8cf0ff361796b745d0f8a31006",
+                    "md5": "50d46465cb62b043134d774aae71a1b5",
+                    "sha256": "d9655031f5d781e070b6525ed830832b4c2ffa57e54d5526915e27fc119faa6e"
+                },
+                "downloads": -1,
+                "filename": "disnake-2.3.1-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "50d46465cb62b043134d774aae71a1b5",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": ">=3.8.0",
+                "size": 994114,
+                "upload_time": "2022-02-05T21:34:17",
+                "upload_time_iso_8601": "2022-02-05T21:34:17.150390Z",
+                "url": "https://files.pythonhosted.org/packages/b8/86/94556a345294f2c470824c7f034e1c811a8cf0ff361796b745d0f8a31006/disnake-2.3.1-py3-none-any.whl",
+                "yanked": false,
+                "yanked_reason": null
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "70e57188761870a5bcf043dde3fa7982f1f26fd785e7a268edf281f7e3902421",
+                    "md5": "301f9544f4370a5b767227e34fad45b8",
+                    "sha256": "33b2c021dd019a49b2b3df845b6f8cd7ac761601fcd3605e7f8cabf2534d9736"
+                },
+                "downloads": -1,
+                "filename": "disnake-2.3.1.tar.gz",
+                "has_sig": false,
+                "md5_digest": "301f9544f4370a5b767227e34fad45b8",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": ">=3.8.0",
+                "size": 887619,
+                "upload_time": "2022-02-05T21:34:18",
+                "upload_time_iso_8601": "2022-02-05T21:34:18.767624Z",
+                "url": "https://files.pythonhosted.org/packages/70/e5/7188761870a5bcf043dde3fa7982f1f26fd785e7a268edf281f7e3902421/disnake-2.3.1.tar.gz",
+                "yanked": false,
+                "yanked_reason": null
+            }
+        ],
+        "2.3.2": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "f8301f4b6bf3380284c40cd8d67fc85b13d641b7e6d8abcb9ebc6398a7a460af",
+                    "md5": "be4d0c11c6a68a7888d952b1093456c2",
+                    "sha256": "bbbfa7a7a1909e37c66bb7d60af5a63532d68a990e0b0569b339fa85db03a364"
+                },
+                "downloads": -1,
+                "filename": "disnake-2.3.2-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "be4d0c11c6a68a7888d952b1093456c2",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": ">=3.8.0",
+                "size": 994107,
+                "upload_time": "2022-02-11T13:16:50",
+                "upload_time_iso_8601": "2022-02-11T13:16:50.943865Z",
+                "url": "https://files.pythonhosted.org/packages/f8/30/1f4b6bf3380284c40cd8d67fc85b13d641b7e6d8abcb9ebc6398a7a460af/disnake-2.3.2-py3-none-any.whl",
+                "yanked": false,
+                "yanked_reason": null
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "4b639d0ee0a2640e5d494ba64738f75224c4ff695544a6d7177e5d295a60ab77",
+                    "md5": "f74ab8b65cf6d638f44085dd6f42e1ce",
+                    "sha256": "c5e6b849ea4cf2e3d1aba493013a8027a3e17a9b1d99e1eabb3598d94de7eaf0"
+                },
+                "downloads": -1,
+                "filename": "disnake-2.3.2.tar.gz",
+                "has_sig": false,
+                "md5_digest": "f74ab8b65cf6d638f44085dd6f42e1ce",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": ">=3.8.0",
+                "size": 887530,
+                "upload_time": "2022-02-11T13:16:52",
+                "upload_time_iso_8601": "2022-02-11T13:16:52.809717Z",
+                "url": "https://files.pythonhosted.org/packages/4b/63/9d0ee0a2640e5d494ba64738f75224c4ff695544a6d7177e5d295a60ab77/disnake-2.3.2.tar.gz",
+                "yanked": false,
+                "yanked_reason": null
+            }
+        ],
+        "2.4.0": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "ee83e97c1adc48ec46bb88aab84c23ac254b74cc68963392f775b43ab4e756af",
+                    "md5": "bbdfa2da797bc802db89c13b38a23d87",
+                    "sha256": "390250a55ed8bbcc8c5753a72fb8fff2376a30295476edfebd0d2301855fb919"
+                },
+                "downloads": -1,
+                "filename": "disnake-2.4.0-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "bbdfa2da797bc802db89c13b38a23d87",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": ">=3.8.0",
+                "size": 1019048,
+                "upload_time": "2022-02-14T15:08:48",
+                "upload_time_iso_8601": "2022-02-14T15:08:48.959101Z",
+                "url": "https://files.pythonhosted.org/packages/ee/83/e97c1adc48ec46bb88aab84c23ac254b74cc68963392f775b43ab4e756af/disnake-2.4.0-py3-none-any.whl",
+                "yanked": false,
+                "yanked_reason": null
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "ff24878e973367354f1d057429ccc5e02ed378764dd61c2f983444070fa33c95",
+                    "md5": "7ab0bd6a81627dd31e8c7a6dae9dabe9",
+                    "sha256": "d7a9c83d5cbfcec42441dae1d96744f82c2a22403934db5d8862a8279ca4989c"
+                },
+                "downloads": -1,
+                "filename": "disnake-2.4.0.tar.gz",
+                "has_sig": false,
+                "md5_digest": "7ab0bd6a81627dd31e8c7a6dae9dabe9",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": ">=3.8.0",
+                "size": 907630,
+                "upload_time": "2022-02-14T15:08:50",
+                "upload_time_iso_8601": "2022-02-14T15:08:50.974541Z",
+                "url": "https://files.pythonhosted.org/packages/ff/24/878e973367354f1d057429ccc5e02ed378764dd61c2f983444070fa33c95/disnake-2.4.0.tar.gz",
+                "yanked": false,
+                "yanked_reason": null
+            }
+        ],
+        "2.4.1": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "318a897ac1b65f1bde22dad63a26ec8e714b97026d73b50cc4c7421fa70bfa03",
+                    "md5": "e5325786d60c45b0add7005c7edccf80",
+                    "sha256": "52f95df19c26355bd7376a0c7316101247c6907cf32ea51126089152f15935bf"
+                },
+                "downloads": -1,
+                "filename": "disnake-2.4.1-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "e5325786d60c45b0add7005c7edccf80",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": ">=3.8.0",
+                "size": 1012862,
+                "upload_time": "2022-07-27T18:44:06",
+                "upload_time_iso_8601": "2022-07-27T18:44:06.554638Z",
+                "url": "https://files.pythonhosted.org/packages/31/8a/897ac1b65f1bde22dad63a26ec8e714b97026d73b50cc4c7421fa70bfa03/disnake-2.4.1-py3-none-any.whl",
+                "yanked": false,
+                "yanked_reason": null
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "f0f7a5427df1976e116b046e6e2066ac9caa8cba7526430921dccb75cf02e4fa",
+                    "md5": "ca1afff34254053a635f7838a6e23cb5",
+                    "sha256": "ba974336d96e349093a4c6948d85cce563602b4434bd65976b2084110885fc20"
+                },
+                "downloads": -1,
+                "filename": "disnake-2.4.1.tar.gz",
+                "has_sig": false,
+                "md5_digest": "ca1afff34254053a635f7838a6e23cb5",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": ">=3.8.0",
+                "size": 905036,
+                "upload_time": "2022-07-27T18:44:11",
+                "upload_time_iso_8601": "2022-07-27T18:44:11.483614Z",
+                "url": "https://files.pythonhosted.org/packages/f0/f7/a5427df1976e116b046e6e2066ac9caa8cba7526430921dccb75cf02e4fa/disnake-2.4.1.tar.gz",
+                "yanked": false,
+                "yanked_reason": null
+            }
+        ],
+        "2.4.2": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "80398179c3a198e6e608694fb272adf7307522d875fae2fca95b2aabfbde5a35",
+                    "md5": "cd920edac5728773e3794f325447aa17",
+                    "sha256": "ac1d7ffc037b260148f74bdf94a528ca955ec3291521484ad6a4b917a12c3580"
+                },
+                "downloads": -1,
+                "filename": "disnake-2.4.2-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "cd920edac5728773e3794f325447aa17",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": ">=3.8.0",
+                "size": 1012905,
+                "upload_time": "2022-09-02T22:15:58",
+                "upload_time_iso_8601": "2022-09-02T22:15:58.161562Z",
+                "url": "https://files.pythonhosted.org/packages/80/39/8179c3a198e6e608694fb272adf7307522d875fae2fca95b2aabfbde5a35/disnake-2.4.2-py3-none-any.whl",
+                "yanked": false,
+                "yanked_reason": null
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "dbfcac2b2610b77b2477f7d4c0c485ad2de40c0c67c44adeeb9e419005243c27",
+                    "md5": "ad981aa31203c2ff8a00679d5d2ab20c",
+                    "sha256": "79829b193f549760db59f0d8a6057d713f2d493a60363a6b06e25a6a5bf0e467"
+                },
+                "downloads": -1,
+                "filename": "disnake-2.4.2.tar.gz",
+                "has_sig": false,
+                "md5_digest": "ad981aa31203c2ff8a00679d5d2ab20c",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": ">=3.8.0",
+                "size": 905333,
+                "upload_time": "2022-09-02T22:16:00",
+                "upload_time_iso_8601": "2022-09-02T22:16:00.773111Z",
+                "url": "https://files.pythonhosted.org/packages/db/fc/ac2b2610b77b2477f7d4c0c485ad2de40c0c67c44adeeb9e419005243c27/disnake-2.4.2.tar.gz",
+                "yanked": false,
+                "yanked_reason": null
+            }
+        ],
+        "2.5.0": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "afac06dfc6994080189ecdc128cb9742e7a61423bc8d2ed4512a6388a320e4cb",
+                    "md5": "445860daf1655f95e75ff7e3d06ed4aa",
+                    "sha256": "8f64bfda301d4113bc05d2728448b87711e9d962d4428741c55b3018372c4753"
+                },
+                "downloads": -1,
+                "filename": "disnake-2.5.0-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "445860daf1655f95e75ff7e3d06ed4aa",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": ">=3.8.0",
+                "size": 1047000,
+                "upload_time": "2022-05-07T13:30:22",
+                "upload_time_iso_8601": "2022-05-07T13:30:22.125852Z",
+                "url": "https://files.pythonhosted.org/packages/af/ac/06dfc6994080189ecdc128cb9742e7a61423bc8d2ed4512a6388a320e4cb/disnake-2.5.0-py3-none-any.whl",
+                "yanked": false,
+                "yanked_reason": null
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "96ddb5fc58f1280117e545007f604296e14a9b17a5921f8743dd7db379307fca",
+                    "md5": "e3a782756a5944e1f001c97133c58032",
+                    "sha256": "116722e0a69549519cd97526bec54a33530d7c7059a21917b9c66073b2221fcb"
+                },
+                "downloads": -1,
+                "filename": "disnake-2.5.0.tar.gz",
+                "has_sig": false,
+                "md5_digest": "e3a782756a5944e1f001c97133c58032",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": ">=3.8.0",
+                "size": 933717,
+                "upload_time": "2022-05-07T13:30:24",
+                "upload_time_iso_8601": "2022-05-07T13:30:24.351094Z",
+                "url": "https://files.pythonhosted.org/packages/96/dd/b5fc58f1280117e545007f604296e14a9b17a5921f8743dd7db379307fca/disnake-2.5.0.tar.gz",
+                "yanked": false,
+                "yanked_reason": null
+            }
+        ],
+        "2.5.1": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "6b0101bb99d1597a920bca8892007dd6f8b24e1da1fe6806fd656397798dad47",
+                    "md5": "bd14a385c860fde0cf82d837b2607862",
+                    "sha256": "6ced40c52551408a13df454ab00063edcc30889d517a8e82c2b7fd04f1ce39c1"
+                },
+                "downloads": -1,
+                "filename": "disnake-2.5.1-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "bd14a385c860fde0cf82d837b2607862",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": ">=3.8.0",
+                "size": 1047064,
+                "upload_time": "2022-05-10T13:37:11",
+                "upload_time_iso_8601": "2022-05-10T13:37:11.456683Z",
+                "url": "https://files.pythonhosted.org/packages/6b/01/01bb99d1597a920bca8892007dd6f8b24e1da1fe6806fd656397798dad47/disnake-2.5.1-py3-none-any.whl",
+                "yanked": false,
+                "yanked_reason": null
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "0a08ebc92b50016bd04cf74ec139cdb17797a6a4594c0f1a38bcec863dadb0c9",
+                    "md5": "2b6c55481d4c328f53721a310f6a4d66",
+                    "sha256": "3890a6df75db4db8d4a81f0cbcb0051acf3ccbf88dabca3f76f67243c4e42921"
+                },
+                "downloads": -1,
+                "filename": "disnake-2.5.1.tar.gz",
+                "has_sig": false,
+                "md5_digest": "2b6c55481d4c328f53721a310f6a4d66",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": ">=3.8.0",
+                "size": 933674,
+                "upload_time": "2022-05-10T13:37:13",
+                "upload_time_iso_8601": "2022-05-10T13:37:13.643819Z",
+                "url": "https://files.pythonhosted.org/packages/0a/08/ebc92b50016bd04cf74ec139cdb17797a6a4594c0f1a38bcec863dadb0c9/disnake-2.5.1.tar.gz",
+                "yanked": false,
+                "yanked_reason": null
+            }
+        ],
+        "2.5.2": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "4f0a4ba2580db44d6e1b61db8e1a16e2a3729059796a369618a87cf8da86323a",
+                    "md5": "59b17e532eaeb4a0ce321e6ec19d366f",
+                    "sha256": "e36faa97afce4c8caacee1c68ba08903611bbb8dd455bd95e32867a1c6b0352a"
+                },
+                "downloads": -1,
+                "filename": "disnake-2.5.2-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "59b17e532eaeb4a0ce321e6ec19d366f",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": ">=3.8.0",
+                "size": 1047729,
+                "upload_time": "2022-07-27T18:44:09",
+                "upload_time_iso_8601": "2022-07-27T18:44:09.409167Z",
+                "url": "https://files.pythonhosted.org/packages/4f/0a/4ba2580db44d6e1b61db8e1a16e2a3729059796a369618a87cf8da86323a/disnake-2.5.2-py3-none-any.whl",
+                "yanked": false,
+                "yanked_reason": null
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "c9e198445dda21e892424ed6578a8c0c11859148ff31e9072555dca27eb55a52",
+                    "md5": "12735cbcfd343c0c16ef46444876f6bb",
+                    "sha256": "9fae801275b8ba448de9d9d3cc78b264bd5e1f9225292dad68e7b95eb5e6de68"
+                },
+                "downloads": -1,
+                "filename": "disnake-2.5.2.tar.gz",
+                "has_sig": false,
+                "md5_digest": "12735cbcfd343c0c16ef46444876f6bb",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": ">=3.8.0",
+                "size": 934557,
+                "upload_time": "2022-07-27T18:44:13",
+                "upload_time_iso_8601": "2022-07-27T18:44:13.277007Z",
+                "url": "https://files.pythonhosted.org/packages/c9/e1/98445dda21e892424ed6578a8c0c11859148ff31e9072555dca27eb55a52/disnake-2.5.2.tar.gz",
+                "yanked": false,
+                "yanked_reason": null
+            }
+        ],
+        "2.5.3": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "8e371edfc6bfe37d99874b15c817328af7cdd922aeaa0a701ca15ebb923f7c28",
+                    "md5": "69bdfa22c0ddcfe94e22a37907880e72",
+                    "sha256": "ebe1a3b4a991bcbafbfe974a55d88247a04026a62e709256ca2e7c046b570641"
+                },
+                "downloads": -1,
+                "filename": "disnake-2.5.3-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "69bdfa22c0ddcfe94e22a37907880e72",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": ">=3.8.0",
+                "size": 1047752,
+                "upload_time": "2022-09-29T19:54:50",
+                "upload_time_iso_8601": "2022-09-29T19:54:50.277066Z",
+                "url": "https://files.pythonhosted.org/packages/8e/37/1edfc6bfe37d99874b15c817328af7cdd922aeaa0a701ca15ebb923f7c28/disnake-2.5.3-py3-none-any.whl",
+                "yanked": false,
+                "yanked_reason": null
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "00e070c9fcc9aa38c03965c1f6761d34bee42517423f64eaa22cac2c84fd9538",
+                    "md5": "c453ea76cc6777605a6e5b6619d9a1c0",
+                    "sha256": "80f780a9b6ccdbc4cea66cfd276c2e6a8860fb628da65896864ab3c7dd0669c7"
+                },
+                "downloads": -1,
+                "filename": "disnake-2.5.3.tar.gz",
+                "has_sig": false,
+                "md5_digest": "c453ea76cc6777605a6e5b6619d9a1c0",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": ">=3.8.0",
+                "size": 934680,
+                "upload_time": "2022-09-29T19:54:54",
+                "upload_time_iso_8601": "2022-09-29T19:54:54.553582Z",
+                "url": "https://files.pythonhosted.org/packages/00/e0/70c9fcc9aa38c03965c1f6761d34bee42517423f64eaa22cac2c84fd9538/disnake-2.5.3.tar.gz",
+                "yanked": false,
+                "yanked_reason": null
+            }
+        ],
+        "2.6.0": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "9cfcdf9c84e02c019b70d879dda1ba0b1c6794e3f933ddc2b214c7f47bd79d58",
+                    "md5": "cc78a79fbb4c5cce2b91c0a67ae59042",
+                    "sha256": "d50c8aa7eac22bf46dd3ce1735225c7f140399343d641ffa968af5b6674c4c29"
+                },
+                "downloads": -1,
+                "filename": "disnake-2.6.0-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "cc78a79fbb4c5cce2b91c0a67ae59042",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": ">=3.8.0",
+                "size": 1021404,
+                "upload_time": "2022-09-29T19:54:52",
+                "upload_time_iso_8601": "2022-09-29T19:54:52.253649Z",
+                "url": "https://files.pythonhosted.org/packages/9c/fc/df9c84e02c019b70d879dda1ba0b1c6794e3f933ddc2b214c7f47bd79d58/disnake-2.6.0-py3-none-any.whl",
+                "yanked": false,
+                "yanked_reason": null
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "8a4f240f3953288989f02d1ad0afc1325c043f2f5d62ca25e6d6d296a4f435b6",
+                    "md5": "14996651e58a715b014ae34c97260bed",
+                    "sha256": "c6082b6ee57ee4d60ee8e9d1221110a384b26fa83808bede8a718ebf13cca3eb"
+                },
+                "downloads": -1,
+                "filename": "disnake-2.6.0.tar.gz",
+                "has_sig": false,
+                "md5_digest": "14996651e58a715b014ae34c97260bed",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": ">=3.8.0",
+                "size": 962790,
+                "upload_time": "2022-09-29T19:54:56",
+                "upload_time_iso_8601": "2022-09-29T19:54:56.807501Z",
+                "url": "https://files.pythonhosted.org/packages/8a/4f/240f3953288989f02d1ad0afc1325c043f2f5d62ca25e6d6d296a4f435b6/disnake-2.6.0.tar.gz",
+                "yanked": false,
+                "yanked_reason": null
+            }
+        ],
+        "2.6.1": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "f8edf95328bb9e05081da2bbc19cf8fbd2c9a869aaa1adc07ac208eab9a467c9",
+                    "md5": "5f08104e5aa2f55753d07cf2805317a4",
+                    "sha256": "800748d7c8065630b4b8924494c874616915d589d0ff5918a159021ca4d0fd7a"
+                },
+                "downloads": -1,
+                "filename": "disnake-2.6.1-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "5f08104e5aa2f55753d07cf2805317a4",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": ">=3.8.0",
+                "size": 1021378,
+                "upload_time": "2022-10-20T23:22:42",
+                "upload_time_iso_8601": "2022-10-20T23:22:42.844531Z",
+                "url": "https://files.pythonhosted.org/packages/f8/ed/f95328bb9e05081da2bbc19cf8fbd2c9a869aaa1adc07ac208eab9a467c9/disnake-2.6.1-py3-none-any.whl",
+                "yanked": false,
+                "yanked_reason": null
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "b7ff727dce87e1a9c0015515097b8204ac06054c22da67f3fb08ea0fff7a5ab8",
+                    "md5": "cdb70314237388802a20373d39305d08",
+                    "sha256": "51a1e8c6441fe80c6d62c8880718b2d2ab6834ffc5a5a20bfb0e063a3b60c338"
+                },
+                "downloads": -1,
+                "filename": "disnake-2.6.1.tar.gz",
+                "has_sig": false,
+                "md5_digest": "cdb70314237388802a20373d39305d08",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": ">=3.8.0",
+                "size": 962799,
+                "upload_time": "2022-10-20T23:22:45",
+                "upload_time_iso_8601": "2022-10-20T23:22:45.042656Z",
+                "url": "https://files.pythonhosted.org/packages/b7/ff/727dce87e1a9c0015515097b8204ac06054c22da67f3fb08ea0fff7a5ab8/disnake-2.6.1.tar.gz",
+                "yanked": false,
+                "yanked_reason": null
+            }
+        ],
+        "2.6.2": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "73dc98ede14e5d56204dceddd97b4db53f89793d599b2aa793e1f069667ff48a",
+                    "md5": "f520e916326caa96646d510333342fe7",
+                    "sha256": "9ab754dce3aef40b2e0b9c2002d29aeabbbf4efe887d14628a1044ba874b06ef"
+                },
+                "downloads": -1,
+                "filename": "disnake-2.6.2-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "f520e916326caa96646d510333342fe7",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": ">=3.8.0",
+                "size": 1021488,
+                "upload_time": "2022-11-01T19:45:31",
+                "upload_time_iso_8601": "2022-11-01T19:45:31.733640Z",
+                "url": "https://files.pythonhosted.org/packages/73/dc/98ede14e5d56204dceddd97b4db53f89793d599b2aa793e1f069667ff48a/disnake-2.6.2-py3-none-any.whl",
+                "yanked": false,
+                "yanked_reason": null
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "4025131ee13dd486d7f43ae711ebcee3739d669bb4f66ef893ed853d792445dd",
+                    "md5": "b887798e217ea583e6102dd79b25b787",
+                    "sha256": "7b4f064332caab64c3805742bf9052af0bea1d1483111cf5b7db19fc5343f997"
+                },
+                "downloads": -1,
+                "filename": "disnake-2.6.2.tar.gz",
+                "has_sig": false,
+                "md5_digest": "b887798e217ea583e6102dd79b25b787",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": ">=3.8.0",
+                "size": 963644,
+                "upload_time": "2022-11-01T19:45:36",
+                "upload_time_iso_8601": "2022-11-01T19:45:36.290071Z",
+                "url": "https://files.pythonhosted.org/packages/40/25/131ee13dd486d7f43ae711ebcee3739d669bb4f66ef893ed853d792445dd/disnake-2.6.2.tar.gz",
+                "yanked": false,
+                "yanked_reason": null
+            }
+        ],
+        "2.6.3": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "803708932d278f847558bca20b1a2f7c8d5a5121c5e900adccb669af305d06c5",
+                    "md5": "e2c7edb2117f50bfa8f0b0a6889307ee",
+                    "sha256": "1481bafde264d32f086a64ce126950021368ead2349bfb11dac43f2e92f7e25f"
+                },
+                "downloads": -1,
+                "filename": "disnake-2.6.3-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "e2c7edb2117f50bfa8f0b0a6889307ee",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": ">=3.8.0",
+                "size": 1021493,
+                "upload_time": "2023-02-05T22:10:40",
+                "upload_time_iso_8601": "2023-02-05T22:10:40.272831Z",
+                "url": "https://files.pythonhosted.org/packages/80/37/08932d278f847558bca20b1a2f7c8d5a5121c5e900adccb669af305d06c5/disnake-2.6.3-py3-none-any.whl",
+                "yanked": false,
+                "yanked_reason": null
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "665396aa3c025ab3d9869a172388924899f6894b7313ab5b1aec139409cc3ade",
+                    "md5": "743d22504b5d113bfe05eb400d012ccb",
+                    "sha256": "6398b6c745a8be34617d42a9439c337829106e87b8758fde794593cf145a147e"
+                },
+                "downloads": -1,
+                "filename": "disnake-2.6.3.tar.gz",
+                "has_sig": false,
+                "md5_digest": "743d22504b5d113bfe05eb400d012ccb",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": ">=3.8.0",
+                "size": 963111,
+                "upload_time": "2023-02-05T22:10:47",
+                "upload_time_iso_8601": "2023-02-05T22:10:47.381849Z",
+                "url": "https://files.pythonhosted.org/packages/66/53/96aa3c025ab3d9869a172388924899f6894b7313ab5b1aec139409cc3ade/disnake-2.6.3.tar.gz",
+                "yanked": false,
+                "yanked_reason": null
+            }
+        ],
+        "2.7.0": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "355dfc84bd2e28da9fdcd49c7e6af568d4c4c17f4eea8f9379cb9e057f68bb59",
+                    "md5": "78618c4ebdaa5afa97dc2e07b422bdb4",
+                    "sha256": "c13de5fcc6dc5442e6f1f5c62e7f24038ecbe7d629c0b3c5506bf1b3c706c26a"
+                },
+                "downloads": -1,
+                "filename": "disnake-2.7.0-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "78618c4ebdaa5afa97dc2e07b422bdb4",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": ">=3.8.0",
+                "size": 1039435,
+                "upload_time": "2022-11-01T19:45:34",
+                "upload_time_iso_8601": "2022-11-01T19:45:34.118034Z",
+                "url": "https://files.pythonhosted.org/packages/35/5d/fc84bd2e28da9fdcd49c7e6af568d4c4c17f4eea8f9379cb9e057f68bb59/disnake-2.7.0-py3-none-any.whl",
+                "yanked": false,
+                "yanked_reason": null
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "0535f82ebb534b01e4d392922b7ca5666edfc70657f567282119bd63d4748c45",
+                    "md5": "71c69d8b6a709f3841791ddb855bb16e",
+                    "sha256": "414a36c998826df2795aac946f867f3b13b6f15db456913425faa50b311f12d6"
+                },
+                "downloads": -1,
+                "filename": "disnake-2.7.0.tar.gz",
+                "has_sig": false,
+                "md5_digest": "71c69d8b6a709f3841791ddb855bb16e",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": ">=3.8.0",
+                "size": 973885,
+                "upload_time": "2022-11-01T19:45:38",
+                "upload_time_iso_8601": "2022-11-01T19:45:38.498116Z",
+                "url": "https://files.pythonhosted.org/packages/05/35/f82ebb534b01e4d392922b7ca5666edfc70657f567282119bd63d4748c45/disnake-2.7.0.tar.gz",
+                "yanked": false,
+                "yanked_reason": null
+            }
+        ],
+        "2.7.1": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "c8a6527728580716c61232d719a27e351a518e42316e4fa24b5888c0931532e0",
+                    "md5": "06540f13491579958bcbd334cdcb3063",
+                    "sha256": "0e3ad0fa799481d451e6b04e6402e2e659b5f6bc29f33320c342adcb7bb8b849"
+                },
+                "downloads": -1,
+                "filename": "disnake-2.7.1-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "06540f13491579958bcbd334cdcb3063",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": ">=3.8.0",
+                "size": 1039437,
+                "upload_time": "2023-02-05T22:10:42",
+                "upload_time_iso_8601": "2023-02-05T22:10:42.859469Z",
+                "url": "https://files.pythonhosted.org/packages/c8/a6/527728580716c61232d719a27e351a518e42316e4fa24b5888c0931532e0/disnake-2.7.1-py3-none-any.whl",
+                "yanked": false,
+                "yanked_reason": null
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "fb4772b235dc1a44ed4205d527b50d194687109f188fb4029fb1d22acde2f525",
+                    "md5": "f8fb40b3f664c1296dad738a133d65a5",
+                    "sha256": "8b03563eae418621dcc4c70b4ec38d300786ea101041d59645599a432fe6438f"
+                },
+                "downloads": -1,
+                "filename": "disnake-2.7.1.tar.gz",
+                "has_sig": false,
+                "md5_digest": "f8fb40b3f664c1296dad738a133d65a5",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": ">=3.8.0",
+                "size": 973567,
+                "upload_time": "2023-02-05T22:10:49",
+                "upload_time_iso_8601": "2023-02-05T22:10:49.650638Z",
+                "url": "https://files.pythonhosted.org/packages/fb/47/72b235dc1a44ed4205d527b50d194687109f188fb4029fb1d22acde2f525/disnake-2.7.1.tar.gz",
+                "yanked": false,
+                "yanked_reason": null
+            }
+        ],
+        "2.7.2": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "e9b2fa65576b239ba2319b3e5efc2ee7b721c41bdcbb9c08852b74a06698d7d2",
+                    "md5": "e155491b6023b6e9b53964970f3bc00b",
+                    "sha256": "bed89e2019d9dc3306be9b288c724474da52500bd299616ff55a16905271a74d"
+                },
+                "downloads": -1,
+                "filename": "disnake-2.7.2-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "e155491b6023b6e9b53964970f3bc00b",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": ">=3.8.0",
+                "size": 1039548,
+                "upload_time": "2023-03-02T19:52:01",
+                "upload_time_iso_8601": "2023-03-02T19:52:01.615198Z",
+                "url": "https://files.pythonhosted.org/packages/e9/b2/fa65576b239ba2319b3e5efc2ee7b721c41bdcbb9c08852b74a06698d7d2/disnake-2.7.2-py3-none-any.whl",
+                "yanked": false,
+                "yanked_reason": null
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "17c33884b5df865d536ac3c68fe2c1c9222490dc18e7bd0530d46db7bd42ccbe",
+                    "md5": "02f9717243ce3b1036c76b5d4259b46c",
+                    "sha256": "a0788376f9b0b0d3b768f3b84e7a70b2d41cd8fc859977bc8c7db846dd45bdf3"
+                },
+                "downloads": -1,
+                "filename": "disnake-2.7.2.tar.gz",
+                "has_sig": false,
+                "md5_digest": "02f9717243ce3b1036c76b5d4259b46c",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": ">=3.8.0",
+                "size": 990170,
+                "upload_time": "2023-03-02T19:52:06",
+                "upload_time_iso_8601": "2023-03-02T19:52:06.869697Z",
+                "url": "https://files.pythonhosted.org/packages/17/c3/3884b5df865d536ac3c68fe2c1c9222490dc18e7bd0530d46db7bd42ccbe/disnake-2.7.2.tar.gz",
+                "yanked": false,
+                "yanked_reason": null
+            }
+        ],
+        "2.8.0": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "e139be82029e27ce9b7e7613e9d34b001638ff0991905b538d2695c0fc8d01b7",
+                    "md5": "3d1504797995cde900eab91e22c6ed76",
+                    "sha256": "e49ea2ebc9f745ca60f8061e0c2adc32165e5edd869529994148b81ca8a0aa08"
+                },
+                "downloads": -1,
+                "filename": "disnake-2.8.0-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "3d1504797995cde900eab91e22c6ed76",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": ">=3.8",
+                "size": 1053230,
+                "upload_time": "2023-02-05T22:10:45",
+                "upload_time_iso_8601": "2023-02-05T22:10:45.441820Z",
+                "url": "https://files.pythonhosted.org/packages/e1/39/be82029e27ce9b7e7613e9d34b001638ff0991905b538d2695c0fc8d01b7/disnake-2.8.0-py3-none-any.whl",
+                "yanked": false,
+                "yanked_reason": null
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "bff46995df29f360cce70a100663072ec365d60abcb254ae400f5fff6378cc04",
+                    "md5": "905c9b7dde73daba2dffd1bf718441b2",
+                    "sha256": "08f832b48b9fb70bf3bf710f6b798ae3f12081763bcd4f6f6f991c958d201dc2"
+                },
+                "downloads": -1,
+                "filename": "disnake-2.8.0.tar.gz",
+                "has_sig": false,
+                "md5_digest": "905c9b7dde73daba2dffd1bf718441b2",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": ">=3.8",
+                "size": 985066,
+                "upload_time": "2023-02-05T22:10:52",
+                "upload_time_iso_8601": "2023-02-05T22:10:52.002976Z",
+                "url": "https://files.pythonhosted.org/packages/bf/f4/6995df29f360cce70a100663072ec365d60abcb254ae400f5fff6378cc04/disnake-2.8.0.tar.gz",
+                "yanked": false,
+                "yanked_reason": null
+            }
+        ],
+        "2.8.1": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "f91a6516ed6062ba469dcc2b2fa46317301490bc803025b7d3ba015b0fbc3975",
+                    "md5": "57370fb75354bf5667d87b12d4627fc1",
+                    "sha256": "54864c115107157c6fadeb6b5811bc73fdcaab1e71c00a3ef757560df3d49128"
+                },
+                "downloads": -1,
+                "filename": "disnake-2.8.1-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "57370fb75354bf5667d87b12d4627fc1",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": ">=3.8",
+                "size": 1053347,
+                "upload_time": "2023-03-02T19:52:04",
+                "upload_time_iso_8601": "2023-03-02T19:52:04.252741Z",
+                "url": "https://files.pythonhosted.org/packages/f9/1a/6516ed6062ba469dcc2b2fa46317301490bc803025b7d3ba015b0fbc3975/disnake-2.8.1-py3-none-any.whl",
+                "yanked": false,
+                "yanked_reason": null
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "e8fc3c081bab52da793864339eaf8d0961007cc1bcc6092f489d32331a15102a",
+                    "md5": "f98b96c42ce7f87471a5fc36282c8083",
+                    "sha256": "b05cdd1d0adbb06bc0f97906e6b9f0de58d7772bfa675c3866cd965fa5b2767a"
+                },
+                "downloads": -1,
+                "filename": "disnake-2.8.1.tar.gz",
+                "has_sig": false,
+                "md5_digest": "f98b96c42ce7f87471a5fc36282c8083",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": ">=3.8",
+                "size": 1002635,
+                "upload_time": "2023-03-02T19:52:08",
+                "upload_time_iso_8601": "2023-03-02T19:52:08.586862Z",
+                "url": "https://files.pythonhosted.org/packages/e8/fc/3c081bab52da793864339eaf8d0961007cc1bcc6092f489d32331a15102a/disnake-2.8.1.tar.gz",
+                "yanked": false,
+                "yanked_reason": null
+            }
+        ],
+        "2.8.2": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "5b6285d6c16bcc2cff4d4e53ce93ddb5e7da07ab93cb2b05606dc3647f0f8bcf",
+                    "md5": "b7b2f238b18356385838a464669b8b0b",
+                    "sha256": "80ae51b64fa44b4aa6f593febc6295355da414f474484d64dc6faef6dcc74f64"
+                },
+                "downloads": -1,
+                "filename": "disnake-2.8.2-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "b7b2f238b18356385838a464669b8b0b",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": ">=3.8",
+                "size": 1053464,
+                "upload_time": "2023-06-21T16:38:00",
+                "upload_time_iso_8601": "2023-06-21T16:38:00.064441Z",
+                "url": "https://files.pythonhosted.org/packages/5b/62/85d6c16bcc2cff4d4e53ce93ddb5e7da07ab93cb2b05606dc3647f0f8bcf/disnake-2.8.2-py3-none-any.whl",
+                "yanked": false,
+                "yanked_reason": null
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "2a846f9d51f367c17beffffe2751a010ea5d6bf31f98220619599c6d4bf2242e",
+                    "md5": "d9bb1cfddc4cd2785da4e367210654d0",
+                    "sha256": "cc48bd244b604e1b0e4e2fa134a1cf6b8bb7c1d7b3bce65b0f56190a95036912"
+                },
+                "downloads": -1,
+                "filename": "disnake-2.8.2.tar.gz",
+                "has_sig": false,
+                "md5_digest": "d9bb1cfddc4cd2785da4e367210654d0",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": ">=3.8",
+                "size": 1002957,
+                "upload_time": "2023-06-21T16:38:05",
+                "upload_time_iso_8601": "2023-06-21T16:38:05.285128Z",
+                "url": "https://files.pythonhosted.org/packages/2a/84/6f9d51f367c17beffffe2751a010ea5d6bf31f98220619599c6d4bf2242e/disnake-2.8.2.tar.gz",
+                "yanked": false,
+                "yanked_reason": null
+            }
+        ],
+        "2.9.0": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "3e6529d144bdddf4e922631df4a5f5a042bea9efe11a168e5d1162e87e2123f8",
+                    "md5": "2ee6d55c964b4883e068331bd403745f",
+                    "sha256": "0dcc1c4e4194e665254ad5533fc78563664ad267261489f6b4fa8e9ea8fcdc79"
+                },
+                "downloads": -1,
+                "filename": "disnake-2.9.0-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "2ee6d55c964b4883e068331bd403745f",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": ">=3.8",
+                "size": 1069326,
+                "upload_time": "2023-06-21T16:38:03",
+                "upload_time_iso_8601": "2023-06-21T16:38:03.098587Z",
+                "url": "https://files.pythonhosted.org/packages/3e/65/29d144bdddf4e922631df4a5f5a042bea9efe11a168e5d1162e87e2123f8/disnake-2.9.0-py3-none-any.whl",
+                "yanked": false,
+                "yanked_reason": null
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "blake2b_256": "72a0868b456a19699a51b8438a174214d222dfa7e5d3ccf102f3cd45e896f453",
+                    "md5": "b54fbec386d8cff8bf805e6c1392105f",
+                    "sha256": "9f237ea833d48b7470f6af49b352d744c81668c18fc6e5bb25c662560e33fac7"
+                },
+                "downloads": -1,
+                "filename": "disnake-2.9.0.tar.gz",
+                "has_sig": false,
+                "md5_digest": "b54fbec386d8cff8bf805e6c1392105f",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": ">=3.8",
+                "size": 1019878,
+                "upload_time": "2023-06-21T16:38:07",
+                "upload_time_iso_8601": "2023-06-21T16:38:07.507796Z",
+                "url": "https://files.pythonhosted.org/packages/72/a0/868b456a19699a51b8438a174214d222dfa7e5d3ccf102f3cd45e896f453/disnake-2.9.0.tar.gz",
+                "yanked": false,
+                "yanked_reason": null
+            }
+        ]
+    },
+    "urls": [
+        {
+            "comment_text": "",
+            "digests": {
+                "blake2b_256": "3e6529d144bdddf4e922631df4a5f5a042bea9efe11a168e5d1162e87e2123f8",
+                "md5": "2ee6d55c964b4883e068331bd403745f",
+                "sha256": "0dcc1c4e4194e665254ad5533fc78563664ad267261489f6b4fa8e9ea8fcdc79"
+            },
+            "downloads": -1,
+            "filename": "disnake-2.9.0-py3-none-any.whl",
+            "has_sig": false,
+            "md5_digest": "2ee6d55c964b4883e068331bd403745f",
+            "packagetype": "bdist_wheel",
+            "python_version": "py3",
+            "requires_python": ">=3.8",
+            "size": 1069326,
+            "upload_time": "2023-06-21T16:38:03",
+            "upload_time_iso_8601": "2023-06-21T16:38:03.098587Z",
+            "url": "https://files.pythonhosted.org/packages/3e/65/29d144bdddf4e922631df4a5f5a042bea9efe11a168e5d1162e87e2123f8/disnake-2.9.0-py3-none-any.whl",
+            "yanked": false,
+            "yanked_reason": null
+        },
+        {
+            "comment_text": "",
+            "digests": {
+                "blake2b_256": "72a0868b456a19699a51b8438a174214d222dfa7e5d3ccf102f3cd45e896f453",
+                "md5": "b54fbec386d8cff8bf805e6c1392105f",
+                "sha256": "9f237ea833d48b7470f6af49b352d744c81668c18fc6e5bb25c662560e33fac7"
+            },
+            "downloads": -1,
+            "filename": "disnake-2.9.0.tar.gz",
+            "has_sig": false,
+            "md5_digest": "b54fbec386d8cff8bf805e6c1392105f",
+            "packagetype": "sdist",
+            "python_version": "source",
+            "requires_python": ">=3.8",
+            "size": 1019878,
+            "upload_time": "2023-06-21T16:38:07",
+            "upload_time_iso_8601": "2023-06-21T16:38:07.507796Z",
+            "url": "https://files.pythonhosted.org/packages/72/a0/868b456a19699a51b8438a174214d222dfa7e5d3ccf102f3cd45e896f453/disnake-2.9.0.tar.gz",
+            "yanked": false,
+            "yanked_reason": null
+        }
+    ],
+    "vulnerabilities": []
+}

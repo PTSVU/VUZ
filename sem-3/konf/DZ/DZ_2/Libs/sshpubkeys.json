@@ -1,0 +1,11 @@
+{
+    "info": {
+        "requires_dist": [
+            "cryptography (>=2.1.4)",
+            "ecdsa (>=0.13)",
+            "twine ; extra == 'dev'",
+            "wheel ; extra == 'dev'",
+            "yapf ; extra == 'dev'"
+        ]
+    }
+}

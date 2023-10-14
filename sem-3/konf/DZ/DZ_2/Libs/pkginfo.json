@@ -1,0 +1,8 @@
+{
+    "info": {
+        "requires_dist": [
+            "pytest ; extra == 'testing'",
+            "pytest-cov ; extra == 'testing'"
+        ]
+    }
+}

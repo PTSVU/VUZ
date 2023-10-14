@@ -1,0 +1,12 @@
+{
+    "info": {
+        "requires_dist": [
+            "fancycompleter (>=0.8)",
+            "wmctrl",
+            "pygments",
+            "funcsigs ; extra == 'funcsigs'",
+            "funcsigs ; extra == 'testing'",
+            "pytest ; extra == 'testing'"
+        ]
+    }
+}

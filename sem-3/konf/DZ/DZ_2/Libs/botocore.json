@@ -1,0 +1,11 @@
+{
+    "info": {
+        "requires_dist": [
+            "jmespath (<2.0.0,>=0.7.1)",
+            "python-dateutil (<3.0.0,>=2.1)",
+            "urllib3 (<1.27,>=1.25.4) ; python_version < \"3.10\"",
+            "urllib3 (<2.1,>=1.25.4) ; python_version >= \"3.10\"",
+            "awscrt (==0.16.26) ; extra == 'crt'"
+        ]
+    }
+}

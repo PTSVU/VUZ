@@ -1,0 +1,10 @@
+{
+    "info": {
+        "requires_dist": [
+            "packaging",
+            "pytest !=7.0.0,!=7.0.1,>=6 ; extra == 'test'",
+            "pytest-cov >=3.0.0 ; extra == 'test'",
+            "pytest-qt ; extra == 'test'"
+        ]
+    }
+}

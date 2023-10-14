@@ -1,0 +1,13 @@
+{
+    "info": {
+        "requires_dist": [
+            "ipython ; extra == 'docs'",
+            "matplotlib ; extra == 'docs'",
+            "numpydoc ; extra == 'docs'",
+            "sphinx ; extra == 'docs'",
+            "pytest ; extra == 'tests'",
+            "pytest-cov ; extra == 'tests'",
+            "pytest-xdist ; extra == 'tests'"
+        ]
+    }
+}

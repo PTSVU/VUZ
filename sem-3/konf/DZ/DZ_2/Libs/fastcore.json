@@ -1,0 +1,15 @@
+{
+    "info": {
+        "requires_dist": [
+            "pip",
+            "packaging",
+            "numpy ; extra == 'dev'",
+            "nbdev (>=0.2.39) ; extra == 'dev'",
+            "matplotlib ; extra == 'dev'",
+            "pillow ; extra == 'dev'",
+            "torch ; extra == 'dev'",
+            "pandas ; extra == 'dev'",
+            "jupyterlab ; extra == 'dev'"
+        ]
+    }
+}

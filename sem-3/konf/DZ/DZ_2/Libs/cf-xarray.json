@@ -1,0 +1,13 @@
+{
+    "info": {
+        "requires_dist": [
+            "xarray",
+            "matplotlib ; extra == 'all'",
+            "pint ; extra == 'all'",
+            "shapely ; extra == 'all'",
+            "regex ; extra == 'all'",
+            "rich ; extra == 'all'",
+            "pooch ; extra == 'all'"
+        ]
+    }
+}

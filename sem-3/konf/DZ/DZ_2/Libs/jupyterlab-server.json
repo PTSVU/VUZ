@@ -1,0 +1,38 @@
+{
+    "info": {
+        "requires_dist": [
+            "babel>=2.10",
+            "importlib-metadata>=4.8.3; python_version < '3.10'",
+            "jinja2>=3.0.3",
+            "json5>=0.9.0",
+            "jsonschema>=4.18.0",
+            "jupyter-server<3,>=1.21",
+            "packaging>=21.3",
+            "requests>=2.31",
+            "autodoc-traits; extra == 'docs'",
+            "jinja2<3.2.0; extra == 'docs'",
+            "mistune<4; extra == 'docs'",
+            "myst-parser; extra == 'docs'",
+            "pydata-sphinx-theme; extra == 'docs'",
+            "sphinx; extra == 'docs'",
+            "sphinx-copybutton; extra == 'docs'",
+            "sphinxcontrib-openapi>0.8; extra == 'docs'",
+            "openapi-core~=0.18.0; extra == 'openapi'",
+            "ruamel-yaml; extra == 'openapi'",
+            "hatch; extra == 'test'",
+            "ipykernel; extra == 'test'",
+            "openapi-core~=0.18.0; extra == 'test'",
+            "openapi-spec-validator<0.7.0,>=0.6.0; extra == 'test'",
+            "pytest-console-scripts; extra == 'test'",
+            "pytest-cov; extra == 'test'",
+            "pytest-jupyter[server]>=0.6.2; extra == 'test'",
+            "pytest-timeout; extra == 'test'",
+            "pytest>=7.0; extra == 'test'",
+            "requests-mock; extra == 'test'",
+            "ruamel-yaml; extra == 'test'",
+            "sphinxcontrib-spelling; extra == 'test'",
+            "strict-rfc3339; extra == 'test'",
+            "werkzeug; extra == 'test'"
+        ]
+    }
+}

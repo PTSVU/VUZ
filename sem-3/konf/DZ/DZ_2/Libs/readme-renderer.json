@@ -1,0 +1,10 @@
+{
+    "info": {
+        "requires_dist": [
+            "nh3 >=0.2.14",
+            "docutils >=0.13.1",
+            "Pygments >=2.5.1",
+            "cmarkgfm >=0.8.0 ; extra == 'md'"
+        ]
+    }
+}

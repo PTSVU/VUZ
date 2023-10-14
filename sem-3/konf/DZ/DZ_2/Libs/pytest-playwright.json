@@ -1,0 +1,10 @@
+{
+    "info": {
+        "requires_dist": [
+            "playwright (>=1.18)",
+            "pytest (<8.0.0,>=6.2.4)",
+            "pytest-base-url (<3.0.0,>=1.0.0)",
+            "python-slugify (<9.0.0,>=6.0.0)"
+        ]
+    }
+}

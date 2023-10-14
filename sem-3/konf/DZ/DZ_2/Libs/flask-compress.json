@@ -1,0 +1,9 @@
+{
+    "info": {
+        "requires_dist": [
+            "flask",
+            "brotli ; platform_python_implementation != \"PyPy\"",
+            "brotlicffi ; platform_python_implementation == \"PyPy\""
+        ]
+    }
+}

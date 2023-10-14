@@ -1,0 +1,35 @@
+{
+    "info": {
+        "requires_dist": [
+            "fsspec <2023.9.0,>=0.8.0",
+            "pyyaml >=3.13",
+            "xxhash >=1.0.0",
+            "pandas >=0.23.0",
+            "jinja2 >=2.10.0",
+            "joblib >=0.12.0",
+            "importlib-metadata >=4.4",
+            "importlib-resources >=1.3",
+            "appdirs <2.0.0",
+            "humanize >=1.0.0",
+            "requests",
+            "s3fs ; extra == 'aws'",
+            "adlfs ; extra == 'azure'",
+            "ipython <=8.12.0 ; extra == 'doc'",
+            "ipykernel ; extra == 'doc'",
+            "nbformat ; extra == 'doc'",
+            "nbclient ; extra == 'doc'",
+            "quartodoc ; extra == 'doc'",
+            "gcsfs ; extra == 'gcs'",
+            "pip-tools ; extra == 'test'",
+            "pytest ==7.1.3 ; extra == 'test'",
+            "pytest-cases ; extra == 'test'",
+            "pytest-dotenv ; extra == 'test'",
+            "pytest-parallel ; extra == 'test'",
+            "s3fs ; extra == 'test'",
+            "adlfs ==2022.2.0 ; extra == 'test'",
+            "gcsfs ; extra == 'test'",
+            "fastparquet ; extra == 'test'",
+            "pyarrow ; extra == 'test'"
+        ]
+    }
+}

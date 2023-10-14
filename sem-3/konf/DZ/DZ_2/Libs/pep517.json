@@ -1,0 +1,9 @@
+{
+    "info": {
+        "requires_dist": [
+            "tomli >=1.1.0;python_version<'3.11'",
+            "importlib_metadata;python_version<'3.8'",
+            "zipp;python_version<'3.8'"
+        ]
+    }
+}

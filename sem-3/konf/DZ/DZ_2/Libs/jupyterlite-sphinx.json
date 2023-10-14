@@ -1,0 +1,15 @@
+{
+    "info": {
+        "requires_dist": [
+            "docutils",
+            "jupyter-server",
+            "jupyterlab-server",
+            "jupyterlite-core>=0.1.0",
+            "sphinx>=4",
+            "hatch; extra == 'dev'",
+            "jupyterlite-xeus-python<0.10.0,>=0.9.0; extra == 'docs'",
+            "myst-parser; extra == 'docs'",
+            "pydata-sphinx-theme; extra == 'docs'"
+        ]
+    }
+}

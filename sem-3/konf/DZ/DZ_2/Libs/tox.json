@@ -1,0 +1,43 @@
+{
+    "info": {
+        "requires_dist": [
+            "cachetools>=5.3.1",
+            "chardet>=5.2",
+            "colorama>=0.4.6",
+            "filelock>=3.12.3",
+            "importlib-metadata>=6.8; python_version < '3.8'",
+            "packaging>=23.1",
+            "platformdirs>=3.10",
+            "pluggy>=1.3",
+            "pyproject-api>=1.6.1",
+            "tomli>=2.0.1; python_version < '3.11'",
+            "typing-extensions>=4.7.1; python_version < '3.8'",
+            "virtualenv>=20.24.3",
+            "furo>=2023.8.19; extra == 'docs'",
+            "sphinx-argparse-cli>=1.11.1; extra == 'docs'",
+            "sphinx-autodoc-typehints!=1.23.4,>=1.24; extra == 'docs'",
+            "sphinx-copybutton>=0.5.2; extra == 'docs'",
+            "sphinx-inline-tabs>=2023.4.21; extra == 'docs'",
+            "sphinx>=7.2.4; extra == 'docs'",
+            "sphinxcontrib-towncrier>=0.2.1a0; extra == 'docs'",
+            "towncrier>=23.6; extra == 'docs'",
+            "build[virtualenv]>=0.10; extra == 'testing'",
+            "covdefaults>=2.3; extra == 'testing'",
+            "detect-test-pollution>=1.1.1; extra == 'testing'",
+            "devpi-process>=1; extra == 'testing'",
+            "diff-cover>=7.7; extra == 'testing'",
+            "distlib>=0.3.7; extra == 'testing'",
+            "flaky>=3.7; extra == 'testing'",
+            "hatch-vcs>=0.3; extra == 'testing'",
+            "hatchling>=1.18; extra == 'testing'",
+            "psutil>=5.9.5; extra == 'testing'",
+            "pytest-cov>=4.1; extra == 'testing'",
+            "pytest-mock>=3.11.1; extra == 'testing'",
+            "pytest-xdist>=3.3.1; extra == 'testing'",
+            "pytest>=7.4; extra == 'testing'",
+            "re-assert>=1.1; extra == 'testing'",
+            "time-machine>=2.12; implementation_name != 'pypy' and extra == 'testing'",
+            "wheel>=0.41.2; extra == 'testing'"
+        ]
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "info": {
+        "requires_dist": [
+            "packaging (>=17.0)",
+            "pytest ; extra == 'dev'",
+            "pytz ; extra == 'dev'",
+            "simplejson ; extra == 'dev'",
+            "mypy (==1.4.1) ; extra == 'dev'",
+            "flake8 (==6.0.0) ; extra == 'dev'",
+            "flake8-bugbear (==23.7.10) ; extra == 'dev'",
+            "pre-commit (<4.0,>=2.4) ; extra == 'dev'",
+            "tox ; extra == 'dev'",
+            "sphinx (==7.0.1) ; extra == 'docs'",
+            "sphinx-issues (==3.0.1) ; extra == 'docs'",
+            "alabaster (==0.7.13) ; extra == 'docs'",
+            "sphinx-version-warning (==1.1.2) ; extra == 'docs'",
+            "autodocsumm (==0.2.11) ; extra == 'docs'",
+            "mypy (==1.4.1) ; extra == 'lint'",
+            "flake8 (==6.0.0) ; extra == 'lint'",
+            "flake8-bugbear (==23.7.10) ; extra == 'lint'",
+            "pre-commit (<4.0,>=2.4) ; extra == 'lint'",
+            "pytest ; extra == 'tests'",
+            "pytz ; extra == 'tests'",
+            "simplejson ; extra == 'tests'"
+        ]
+    }
+}

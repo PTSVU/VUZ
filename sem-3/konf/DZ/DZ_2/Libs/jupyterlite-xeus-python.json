@@ -1,0 +1,11 @@
+{
+    "info": {
+        "requires_dist": [
+            "traitlets",
+            "jupyterlite-core<0.2,>=0.1",
+            "requests",
+            "empack<4,>=3.1",
+            "typer"
+        ]
+    }
+}

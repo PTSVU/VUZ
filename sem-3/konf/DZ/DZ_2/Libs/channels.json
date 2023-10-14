@@ -1,0 +1,14 @@
+{
+    "info": {
+        "requires_dist": [
+            "Django (>=3.2)",
+            "asgiref (<4,>=3.5.0)",
+            "daphne (>=4.0.0) ; extra == 'daphne'",
+            "pytest ; extra == 'tests'",
+            "pytest-django ; extra == 'tests'",
+            "pytest-asyncio ; extra == 'tests'",
+            "async-timeout ; extra == 'tests'",
+            "coverage (~=4.5) ; extra == 'tests'"
+        ]
+    }
+}

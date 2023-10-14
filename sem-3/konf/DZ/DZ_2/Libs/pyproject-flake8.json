@@ -1,0 +1,8 @@
+{
+    "info": {
+        "requires_dist": [
+            "tomli; python_version < '3.11'",
+            "flake8 == 6.1.0"
+        ]
+    }
+}

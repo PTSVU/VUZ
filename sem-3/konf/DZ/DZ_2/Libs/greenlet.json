@@ -1,0 +1,9 @@
+{
+    "info": {
+        "requires_dist": [
+            "Sphinx ; extra == 'docs'",
+            "objgraph ; extra == 'test'",
+            "psutil ; extra == 'test'"
+        ]
+    }
+}

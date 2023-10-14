@@ -1,0 +1,10 @@
+{
+    "info": {
+        "requires_dist": [
+            "flake8 (==3.8.3) ; extra == 'qa'",
+            "mypy (==0.782) ; extra == 'qa'",
+            "docopt ; extra == 'testing'",
+            "pytest (<6.0.0) ; extra == 'testing'"
+        ]
+    }
+}

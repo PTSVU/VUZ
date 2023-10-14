@@ -1,0 +1,11 @@
+{
+    "info": {
+        "requires_dist": [
+            "Sphinx (>=6.0) ; extra == 'docs'",
+            "sphinx-rtd-theme (>=1.1.0) ; extra == 'docs'",
+            "python-socks ; extra == 'optional'",
+            "wsaccel ; extra == 'optional'",
+            "websockets ; extra == 'test'"
+        ]
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "info": {
+        "requires_dist": [
+            "click",
+            "requests",
+            "importlib-resources ; python_version < \"3.9\"",
+            "AutoROM.accept-rom-license ; extra == 'accept-rom-license'"
+        ]
+    }
+}

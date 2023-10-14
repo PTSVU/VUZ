@@ -1,0 +1,29 @@
+{
+    "info": {
+        "requires_dist": [
+            "attrs (>=22.0)",
+            "marko (==1.*)",
+            "pyyaml (>=5.3)",
+            "jinja2 (>=3.0)",
+            "pyquery (==1.*)",
+            "deepmerge (>=0.3)",
+            "gitpython (>=3.1)",
+            "jsonschema (>=2.5)",
+            "typer[all] (>=0.3)",
+            "livereload (>=2.6)",
+            "giturlparse (>=0.10)",
+            "cached-property (>=1.5)",
+            "docstring-parser (>=0.10)",
+            "frictionless[excel,json] (>=4.0)",
+            "mypy ; extra == 'dev'",
+            "black ; extra == 'dev'",
+            "pyflakes (==2.4.0) ; extra == 'dev'",
+            "pylama ; extra == 'dev'",
+            "pytest ; extra == 'dev'",
+            "ipython ; extra == 'dev'",
+            "pytest-cov ; extra == 'dev'",
+            "pytest-vcr ; extra == 'dev'",
+            "pytest-only ; extra == 'dev'"
+        ]
+    }
+}

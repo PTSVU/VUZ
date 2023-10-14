@@ -1,0 +1,29 @@
+{
+    "info": {
+        "requires_dist": [
+            "amqp <6.0.0,>=5.1.1",
+            "vine",
+            "typing-extensions ; python_version < \"3.10\"",
+            "backports.zoneinfo[tzdata] >=0.2.1 ; python_version < \"3.9\"",
+            "azure-servicebus >=7.10.0 ; extra == 'azureservicebus'",
+            "azure-storage-queue >=12.6.0 ; extra == 'azurestoragequeues'",
+            "azure-identity >=1.12.0 ; extra == 'azurestoragequeues'",
+            "confluent-kafka ==2.1.1 ; extra == 'confluentkafka'",
+            "python-consul2 ; extra == 'consul'",
+            "librabbitmq >=2.0.0 ; (python_version < \"3.11\") and extra == 'librabbitmq'",
+            "pymongo >=4.1.1 ; extra == 'mongodb'",
+            "msgpack ; extra == 'msgpack'",
+            "pyro4 ; extra == 'pyro'",
+            "qpid-python >=0.26 ; extra == 'qpid'",
+            "qpid-tools >=0.26 ; extra == 'qpid'",
+            "redis >=4.5.2 ; extra == 'redis'",
+            "softlayer-messaging >=1.0.3 ; extra == 'slmq'",
+            "sqlalchemy <2.1,>=1.4.48 ; extra == 'sqlalchemy'",
+            "boto3 >=1.26.143 ; extra == 'sqs'",
+            "urllib3 >=1.26.16 ; extra == 'sqs'",
+            "pycurl >=7.43.0.5 ; (sys_platform != \"win32\" and platform_python_implementation == \"CPython\") and extra == 'sqs'",
+            "PyYAML >=3.10 ; extra == 'yaml'",
+            "kazoo >=2.8.0 ; extra == 'zookeeper'"
+        ]
+    }
+}

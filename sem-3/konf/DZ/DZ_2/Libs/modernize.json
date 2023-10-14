@@ -1,0 +1,11 @@
+{
+    "info": {
+        "requires_dist": [
+            "fissix",
+            "sphinx (~=3.2) ; extra == 'docs'",
+            "pytest ; extra == 'test'",
+            "pytest-cov ; extra == 'test'",
+            "coverage (>=5.3) ; extra == 'test'"
+        ]
+    }
+}

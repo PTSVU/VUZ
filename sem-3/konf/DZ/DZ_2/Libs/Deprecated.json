@@ -1,0 +1,12 @@
+{
+    "info": {
+        "requires_dist": [
+            "wrapt (<2,>=1.10)",
+            "tox ; extra == 'dev'",
+            "PyTest ; extra == 'dev'",
+            "PyTest-Cov ; extra == 'dev'",
+            "bump2version (<1) ; extra == 'dev'",
+            "sphinx (<2) ; extra == 'dev'"
+        ]
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "info": {
+        "requires_dist": [
+            "ninja >=1.8.2 ; extra == 'ninja'",
+            "tqdm ; extra == 'progress'",
+            "mypy ; extra == 'typing'",
+            "typing-extensions ; (python_version < \"3.8\") and extra == 'typing'"
+        ]
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "info": {
+        "requires_dist": [
+            "Werkzeug (>=2.0.0)"
+        ]
+    }
+}

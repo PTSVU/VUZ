@@ -1,0 +1,15 @@
+{
+    "info": {
+        "requires_dist": [
+            "argcomplete >= 2.0 ; extra == \"completion\"",
+            "sphinx >= 6.1 ; extra == \"docs\"",
+            "sphinx-pyproject == 0.1.0 ; extra == \"docs\"",
+            "sphinx_rtd_theme >= 1.2.0 ; extra == \"docs\"",
+            "readthedocs-sphinx-search == 0.2.0 ; extra == \"docs\"",
+            "pre-commit >= 3.0.4 ; extra == \"linters\"",
+            "tox >= 4.4 ; extra == \"test\"",
+            "pytest >= 7.2 ; extra == \"test\"",
+            "pytest-cov >= 4.0 ; extra == \"test\""
+        ]
+    }
+}

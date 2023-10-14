@@ -1,0 +1,10 @@
+{
+    "info": {
+        "requires_dist": [
+            "mando (<0.8,>=0.6)",
+            "colorama (==0.4.1) ; python_version <= \"3.4\"",
+            "colorama (>=0.4.1) ; python_version > \"3.4\"",
+            "tomli (>=2.0.1) ; extra == 'toml'"
+        ]
+    }
+}

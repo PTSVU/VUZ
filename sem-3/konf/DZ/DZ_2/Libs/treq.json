@@ -1,0 +1,15 @@
+{
+    "info": {
+        "requires_dist": [
+            "incremental",
+            "requests (>=2.1.0)",
+            "hyperlink (>=21.0.0)",
+            "Twisted[tls] (>=18.7.0)",
+            "attrs",
+            "pep8 ; extra == 'dev'",
+            "pyflakes ; extra == 'dev'",
+            "httpbin (==0.5.0) ; extra == 'dev'",
+            "sphinx (>=1.4.8) ; extra == 'docs'"
+        ]
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "info": {
+        "requires_dist": [
+            "pytest (>=4.0.0)",
+            "importlib-metadata (>=3.6) ; python_version < \"3.10\""
+        ]
+    }
+}

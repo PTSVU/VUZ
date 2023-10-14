@@ -1,0 +1,11 @@
+{
+    "info": {
+        "requires_dist": [
+            "pycryptodome (>=3.7.2) ; extra == 'accelerated'",
+            "uvloop (>=0.13.0) ; extra == 'accelerated'",
+            "python-daemon (>=2.2.3) ; extra == 'daemon'",
+            "aioquic (>=0.9.7) ; extra == 'quic'",
+            "asyncssh (>=2.5.0) ; extra == 'sshtunnel'"
+        ]
+    }
+}

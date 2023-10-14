@@ -1,0 +1,14 @@
+{
+    "info": {
+        "requires_dist": [
+            "executing >=1.2.0",
+            "asttokens >=2.1.0",
+            "pure-eval",
+            "pytest ; extra == 'tests'",
+            "typeguard ; extra == 'tests'",
+            "pygments ; extra == 'tests'",
+            "littleutils ; extra == 'tests'",
+            "cython ; extra == 'tests'"
+        ]
+    }
+}

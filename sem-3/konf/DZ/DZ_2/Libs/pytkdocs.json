@@ -1,0 +1,10 @@
+{
+    "info": {
+        "requires_dist": [
+            "astunparse>=1.6; python_version < '3.9'",
+            "cached-property>=1.5; python_version < '3.8'",
+            "typing-extensions>=3.7; python_version < '3.8'",
+            "docstring_parser>=0.7; extra == \"numpy-style\""
+        ]
+    }
+}

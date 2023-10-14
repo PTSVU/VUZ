@@ -1,0 +1,8 @@
+{
+    "info": {
+        "requires_dist": [
+            "psutil ; extra == 'cpu'",
+            "mkl ; extra == 'cpu'"
+        ]
+    }
+}

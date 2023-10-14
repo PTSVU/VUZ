@@ -1,0 +1,17 @@
+{
+    "info": {
+        "requires_dist": [
+            "arpeggio >=1.7",
+            "attrs >=19.2",
+            "typing-extensions ; python_version < \"3.10\"",
+            "sphinx ; extra == 'docs'",
+            "furo ; extra == 'docs'",
+            "doc8 ; extra == 'docstest'",
+            "flake8 ; extra == 'pep8test'",
+            "pep8-naming ; extra == 'pep8test'",
+            "pytest ; extra == 'test'",
+            "hypothesis ; extra == 'test'",
+            "pretend ; extra == 'test'"
+        ]
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "info": {
+        "requires_dist": [
+            "six",
+            "selectors2 (>=2.0.2) ; python_version < \"3.4.0\"",
+            "flake8 ; extra == 'alldeps'",
+            "eventlet (>=0.17.1) ; extra == 'alldeps'",
+            "gevent (>=1.2) ; extra == 'alldeps'",
+            "pure-sasl (>=0.5.1) ; extra == 'alldeps'",
+            "Sphinx (>=1.2.2) ; extra == 'alldeps'",
+            "flake8 ; extra == 'dev'",
+            "Sphinx (>=1.2.2) ; extra == 'docs'",
+            "eventlet (>=0.17.1) ; extra == 'eventlet'",
+            "gevent (>=1.2) ; extra == 'gevent'",
+            "pure-sasl (>=0.5.1) ; extra == 'sasl'",
+            "mock ; extra == 'test'",
+            "objgraph ; extra == 'test'",
+            "pytest ; extra == 'test'",
+            "pytest-cov ; extra == 'test'",
+            "gevent (>=1.2) ; (implementation_name != \"pypy\") and extra == 'test'",
+            "eventlet (>=0.17.1) ; (implementation_name != \"pypy\") and extra == 'test'"
+        ]
+    }
+}

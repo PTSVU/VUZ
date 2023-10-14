@@ -1,0 +1,13 @@
+{
+    "info": {
+        "requires_dist": [
+            "altair >=4.2.0",
+            "pyarrow >=5",
+            "pandas",
+            "psutil",
+            "protobuf",
+            "vegafusion-python-embed ==1.4.1 ; extra == 'embed'",
+            "vl-convert-python >=0.7.0 ; extra == 'embed'"
+        ]
+    }
+}

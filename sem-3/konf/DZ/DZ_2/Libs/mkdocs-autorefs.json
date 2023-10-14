@@ -1,0 +1,8 @@
+{
+    "info": {
+        "requires_dist": [
+            "Markdown>=3.3",
+            "mkdocs>=1.1"
+        ]
+    }
+}

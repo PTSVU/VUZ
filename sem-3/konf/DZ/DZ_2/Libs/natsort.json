@@ -1,0 +1,8 @@
+{
+    "info": {
+        "requires_dist": [
+            "fastnumbers (>=2.0.0) ; extra == 'fast'",
+            "PyICU (>=1.0.0) ; extra == 'icu'"
+        ]
+    }
+}

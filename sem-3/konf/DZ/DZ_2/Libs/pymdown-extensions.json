@@ -1,0 +1,9 @@
+{
+    "info": {
+        "requires_dist": [
+            "markdown>=3.2",
+            "pyyaml",
+            "pygments>=2.12; extra == 'extra'"
+        ]
+    }
+}

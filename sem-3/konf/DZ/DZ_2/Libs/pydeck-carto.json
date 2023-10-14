@@ -1,0 +1,8 @@
+{
+    "info": {
+        "requires_dist": [
+            "carto-auth (>=0.1.0)",
+            "pydeck (>=0.8.0)"
+        ]
+    }
+}

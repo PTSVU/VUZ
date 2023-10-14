@@ -1,0 +1,16 @@
+{
+    "info": {
+        "requires_dist": [
+            "jinja2",
+            "Sphinx>=5",
+            "sphinxcontrib-serializinghtml",
+            "flake8 ; extra == \"lint\"",
+            "mypy ; extra == \"lint\"",
+            "docutils-stubs ; extra == \"lint\"",
+            "pytest ; extra == \"test\"",
+            "sqlalchemy ; extra == \"test\"",
+            "whoosh ; extra == \"test\"",
+            "greenlet>=3.0.0a1 ; extra == \"test\" and ( python_version >= '3.12')"
+        ]
+    }
+}

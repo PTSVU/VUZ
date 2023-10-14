@@ -1,0 +1,20 @@
+{
+    "info": {
+        "requires_dist": [
+            "pip (>=20)",
+            "packaging",
+            "setuptools",
+            "wheel",
+            "pre-commit ; extra == 'dev'",
+            "nox ; extra == 'dev'",
+            "parver ; extra == 'dev'",
+            "sphinx (<2.0) ; extra == 'docs'",
+            "sphinx-rtd-theme ; extra == 'docs'",
+            "pytest-timeout ; extra == 'tests'",
+            "pytest ; extra == 'tests'",
+            "pytest-xdist ; extra == 'tests'",
+            "pytest-cov ; extra == 'tests'",
+            "readme-renderer[md] ; (python_version < \"3.8\") and extra == 'tests'"
+        ]
+    }
+}

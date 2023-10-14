@@ -1,0 +1,12 @@
+{
+    "info": {
+        "requires_dist": [
+            "packaging",
+            "importlib-metadata ; python_version < \"3.8\"",
+            "eventlet (>=0.24.1) ; extra == 'eventlet'",
+            "gevent (>=1.4.0) ; extra == 'gevent'",
+            "setproctitle ; extra == 'setproctitle'",
+            "tornado (>=0.2) ; extra == 'tornado'"
+        ]
+    }
+}

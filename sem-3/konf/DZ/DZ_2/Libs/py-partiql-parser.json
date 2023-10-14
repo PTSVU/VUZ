@@ -1,0 +1,10 @@
+{
+    "info": {
+        "requires_dist": [
+            "black ==22.6.0 ; extra == 'dev'",
+            "flake8 ; extra == 'dev'",
+            "mypy ==0.971 ; extra == 'dev'",
+            "pytest ; extra == 'dev'"
+        ]
+    }
+}

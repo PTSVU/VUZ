@@ -1,0 +1,8 @@
+{
+    "info": {
+        "requires_dist": [
+            "deprecated>=1.2.6",
+            "importlib-metadata<7.0,>=6.0"
+        ]
+    }
+}

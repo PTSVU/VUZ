@@ -1,0 +1,9 @@
+{
+    "info": {
+        "requires_dist": [
+            "shiboken6 (==6.5.3)",
+            "PySide6-Essentials (==6.5.3)",
+            "PySide6-Addons (==6.5.3)"
+        ]
+    }
+}

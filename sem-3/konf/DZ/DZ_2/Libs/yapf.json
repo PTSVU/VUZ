@@ -1,0 +1,9 @@
+{
+    "info": {
+        "requires_dist": [
+            "importlib-metadata >=6.6.0",
+            "platformdirs >=3.5.1",
+            "tomli >=2.0.1"
+        ]
+    }
+}

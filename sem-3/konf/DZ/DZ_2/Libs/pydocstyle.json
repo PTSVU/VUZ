@@ -1,0 +1,9 @@
+{
+    "info": {
+        "requires_dist": [
+            "snowballstemmer (>=2.2.0)",
+            "tomli (>=1.2.3) ; (python_version < \"3.11\") and (extra == \"toml\")",
+            "importlib-metadata (>=2.0.0,<5.0.0) ; python_version < \"3.8\""
+        ]
+    }
+}

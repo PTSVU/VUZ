@@ -1,0 +1,9 @@
+{
+    "info": {
+        "requires_dist": [
+            "nvidia-cublas-cu12",
+            "nvidia-nvjitlink-cu12",
+            "nvidia-cusparse-cu12"
+        ]
+    }
+}

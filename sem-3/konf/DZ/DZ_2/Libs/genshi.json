@@ -1,0 +1,9 @@
+{
+    "info": {
+        "requires_dist": [
+            "six",
+            "Babel (>=0.8) ; extra == 'i18n'",
+            "setuptools (>=0.6a2) ; extra == 'plugin'"
+        ]
+    }
+}

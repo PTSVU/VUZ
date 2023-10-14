@@ -1,0 +1,13 @@
+{
+    "info": {
+        "requires_dist": [
+            "devpi-client>=6.0.5",
+            "devpi-server>=6.9.2",
+            "typing-extensions>=4.7.1; python_version < '3.11'",
+            "covdefaults>=2.3; extra == 'test'",
+            "httpx>=0.24.1; extra == 'test'",
+            "pytest-cov>=4.1; extra == 'test'",
+            "pytest>=7.4; extra == 'test'"
+        ]
+    }
+}

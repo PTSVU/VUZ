@@ -1,0 +1,8 @@
+{
+    "info": {
+        "requires_dist": [
+            "attrs (>=16.0.0)",
+            "pluggy (>=0.4.0)"
+        ]
+    }
+}

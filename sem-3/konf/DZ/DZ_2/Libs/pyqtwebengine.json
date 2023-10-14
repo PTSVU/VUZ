@@ -1,0 +1,9 @@
+{
+    "info": {
+        "requires_dist": [
+            "PyQt5-sip (>=12.11, <13)",
+            "PyQtWebEngine-Qt5 (>=5.15.0)",
+            "PyQt5 (>=5.15.4)"
+        ]
+    }
+}

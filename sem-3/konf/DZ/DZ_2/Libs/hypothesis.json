@@ -1,0 +1,40 @@
+{
+    "info": {
+        "requires_dist": [
+            "attrs >=19.2.0",
+            "sortedcontainers <3.0.0,>=2.1.0",
+            "exceptiongroup >=1.0.0 ; python_version < \"3.11\"",
+            "black >=19.10b0 ; extra == 'all'",
+            "click >=7.0 ; extra == 'all'",
+            "django >=3.2 ; extra == 'all'",
+            "dpcontracts >=0.4 ; extra == 'all'",
+            "lark >=0.10.1 ; extra == 'all'",
+            "libcst >=0.3.16 ; extra == 'all'",
+            "numpy >=1.17.3 ; extra == 'all'",
+            "pandas >=1.1 ; extra == 'all'",
+            "pytest >=4.6 ; extra == 'all'",
+            "python-dateutil >=1.4 ; extra == 'all'",
+            "pytz >=2014.1 ; extra == 'all'",
+            "redis >=3.0.0 ; extra == 'all'",
+            "rich >=9.0.0 ; extra == 'all'",
+            "backports.zoneinfo >=0.2.1 ; (python_version < \"3.9\") and extra == 'all'",
+            "tzdata >=2023.3 ; (sys_platform == \"win32\") and extra == 'all'",
+            "click >=7.0 ; extra == 'cli'",
+            "black >=19.10b0 ; extra == 'cli'",
+            "rich >=9.0.0 ; extra == 'cli'",
+            "libcst >=0.3.16 ; extra == 'codemods'",
+            "python-dateutil >=1.4 ; extra == 'dateutil'",
+            "django >=3.2 ; extra == 'django'",
+            "dpcontracts >=0.4 ; extra == 'dpcontracts'",
+            "black >=19.10b0 ; extra == 'ghostwriter'",
+            "lark >=0.10.1 ; extra == 'lark'",
+            "numpy >=1.17.3 ; extra == 'numpy'",
+            "pandas >=1.1 ; extra == 'pandas'",
+            "pytest >=4.6 ; extra == 'pytest'",
+            "pytz >=2014.1 ; extra == 'pytz'",
+            "redis >=3.0.0 ; extra == 'redis'",
+            "backports.zoneinfo >=0.2.1 ; (python_version < \"3.9\") and extra == 'zoneinfo'",
+            "tzdata >=2023.3 ; (sys_platform == \"win32\") and extra == 'zoneinfo'"
+        ]
+    }
+}

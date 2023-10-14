@@ -1,0 +1,10 @@
+{
+    "info": {
+        "requires_dist": [
+            "coverage ; extra == 'test'",
+            "wheel ; extra == 'test'",
+            "ruff ; extra == 'test'",
+            "mypy ; extra == 'test'"
+        ]
+    }
+}

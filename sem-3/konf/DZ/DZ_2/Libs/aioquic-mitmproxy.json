@@ -1,0 +1,10 @@
+{
+    "info": {
+        "requires_dist": [
+            "certifi",
+            "cryptography (>=3.1)",
+            "pylsqpack (<0.4.0,>=0.3.3)",
+            "pyopenssl (>=20)"
+        ]
+    }
+}

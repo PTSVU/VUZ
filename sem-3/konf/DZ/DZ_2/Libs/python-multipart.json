@@ -1,0 +1,19 @@
+{
+    "info": {
+        "requires_dist": [
+            "atomicwrites==1.2.1; extra == 'dev'",
+            "attrs==19.2.0; extra == 'dev'",
+            "coverage==6.5.0; extra == 'dev'",
+            "hatch; extra == 'dev'",
+            "invoke==1.7.3; extra == 'dev'",
+            "more-itertools==4.3.0; extra == 'dev'",
+            "pbr==4.3.0; extra == 'dev'",
+            "pluggy==1.0.0; extra == 'dev'",
+            "py==1.11.0; extra == 'dev'",
+            "pytest-cov==4.0.0; extra == 'dev'",
+            "pytest-timeout==2.1.0; extra == 'dev'",
+            "pytest==7.2.0; extra == 'dev'",
+            "pyyaml==5.1; extra == 'dev'"
+        ]
+    }
+}

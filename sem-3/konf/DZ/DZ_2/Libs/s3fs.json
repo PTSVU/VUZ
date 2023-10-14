@@ -1,0 +1,11 @@
+{
+    "info": {
+        "requires_dist": [
+            "aiobotocore (~=2.5.4)",
+            "fsspec (==2023.9.2)",
+            "aiohttp (!=4.0.0a0,!=4.0.0a1)",
+            "aiobotocore[awscli] (~=2.5.4) ; extra == 'awscli'",
+            "aiobotocore[boto3] (~=2.5.4) ; extra == 'boto3'"
+        ]
+    }
+}

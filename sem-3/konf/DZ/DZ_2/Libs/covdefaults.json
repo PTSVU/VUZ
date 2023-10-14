@@ -1,0 +1,7 @@
+{
+    "info": {
+        "requires_dist": [
+            "coverage (>=6.0.2)"
+        ]
+    }
+}

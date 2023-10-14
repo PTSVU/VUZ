@@ -1,0 +1,11 @@
+{
+    "info": {
+        "requires_dist": [
+            "pytest-fixture-config",
+            "pytest-shutil",
+            "pytest",
+            "virtualenv",
+            "mock ; extra == 'tests'"
+        ]
+    }
+}

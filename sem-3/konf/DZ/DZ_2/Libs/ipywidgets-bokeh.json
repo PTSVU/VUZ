@@ -1,0 +1,14 @@
+{
+    "info": {
+        "requires_dist": [
+            "bokeh (==3.*)",
+            "ipywidgets (==8.*)",
+            "ipykernel (!=6.18.0,==6.*)",
+            "anywidget (>=0.3.0) ; extra == 'dev'",
+            "panel (>=1.0.4) ; extra == 'dev'",
+            "pytest (>=7.3.1) ; extra == 'dev'",
+            "pytest-cov (>=4.1.0) ; extra == 'dev'",
+            "pytest-playwright (>=0.3.3) ; extra == 'dev'"
+        ]
+    }
+}

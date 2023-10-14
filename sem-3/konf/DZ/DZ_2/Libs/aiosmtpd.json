@@ -1,0 +1,9 @@
+{
+    "info": {
+        "requires_dist": [
+            "atpublic",
+            "attrs",
+            "typing-extensions ; python_version < \"3.8\""
+        ]
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "info": {
+        "requires_dist": [
+            "trio (>=0.16.0)",
+            "typing-extensions (>=3.7.4)",
+            "mypy-extensions (>=0.4.2)",
+            "async-generator",
+            "packaging",
+            "importlib-metadata",
+            "mypy (>=0.920) ; extra == 'mypy'"
+        ]
+    }
+}

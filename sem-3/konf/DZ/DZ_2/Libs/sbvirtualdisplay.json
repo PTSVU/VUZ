@@ -1,0 +1,19 @@
+{
+    "info": {
+        "requires_dist": [
+            "coverage (==5.5) ; (python_version < \"3.6\") and extra == 'coverage'",
+            "pytest-cov (==2.12.1) ; (python_version < \"3.6\") and extra == 'coverage'",
+            "pytest-cov (==4.0.0) ; (python_version >= \"3.6\") and extra == 'coverage'",
+            "coverage (==6.2) ; (python_version >= \"3.6\" and python_version < \"3.7\") and extra == 'coverage'",
+            "coverage (==6.5.0) ; (python_version >= \"3.7\") and extra == 'coverage'",
+            "flake8 (==3.7.9) ; (python_version < \"3.6\") and extra == 'flake8'",
+            "mccabe (==0.6.1) ; (python_version < \"3.6\") and extra == 'flake8'",
+            "pyflakes (==2.1.1) ; (python_version < \"3.6\") and extra == 'flake8'",
+            "pycodestyle (==2.5.0) ; (python_version < \"3.6\") and extra == 'flake8'",
+            "flake8 (==5.0.4) ; (python_version >= \"3.6\") and extra == 'flake8'",
+            "mccabe (==0.7.0) ; (python_version >= \"3.6\") and extra == 'flake8'",
+            "pyflakes (==2.5.0) ; (python_version >= \"3.6\") and extra == 'flake8'",
+            "pycodestyle (==2.9.1) ; (python_version >= \"3.6\") and extra == 'flake8'"
+        ]
+    }
+}

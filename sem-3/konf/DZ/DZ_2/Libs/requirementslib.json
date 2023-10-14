@@ -1,0 +1,28 @@
+{
+    "info": {
+        "requires_dist": [
+            "distlib (>=0.2.8)",
+            "pep517 (>=0.5.0)",
+            "pip (>=23.1)",
+            "platformdirs",
+            "plette[validation]",
+            "pydantic",
+            "requests",
+            "setuptools (>=40.8)",
+            "tomlkit (>=0.5.3)",
+            "nox ; extra == 'dev'",
+            "twine ; extra == 'dev'",
+            "parver ; extra == 'dev'",
+            "towncrier ; extra == 'dev'",
+            "sphinx ; extra == 'docs'",
+            "sphinx-rtd-theme ; extra == 'docs'",
+            "pytest ; extra == 'tests'",
+            "readme-renderer[md] ; extra == 'tests'",
+            "pytest-xdist ; extra == 'tests'",
+            "pytest-cov ; extra == 'tests'",
+            "pytest-timeout ; extra == 'tests'",
+            "coverage ; extra == 'tests'",
+            "hypothesis ; extra == 'tests'"
+        ]
+    }
+}

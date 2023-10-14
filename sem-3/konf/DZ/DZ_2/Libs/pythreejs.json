@@ -1,0 +1,21 @@
+{
+    "info": {
+        "requires_dist": [
+            "ipywidgets (>=7.2.1)",
+            "ipydatawidgets (>=1.1.1)",
+            "numpy",
+            "traitlets",
+            "sphinx (>=1.5) ; extra == 'docs'",
+            "nbsphinx (>=0.2.13) ; extra == 'docs'",
+            "nbsphinx-link ; extra == 'docs'",
+            "sphinx-rtd-theme ; extra == 'docs'",
+            "scipy ; extra == 'examples'",
+            "matplotlib ; extra == 'examples'",
+            "scikit-image ; extra == 'examples'",
+            "ipywebrtc ; extra == 'examples'",
+            "nbval ; extra == 'test'",
+            "pytest-check-links ; extra == 'test'",
+            "numpy (>=1.14) ; extra == 'test'"
+        ]
+    }
+}

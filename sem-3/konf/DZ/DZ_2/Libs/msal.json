@@ -1,0 +1,11 @@
+{
+    "info": {
+        "requires_dist": [
+            "requests <3,>=2.0.0",
+            "PyJWT[crypto] <3,>=1.0.0",
+            "cryptography <44,>=0.6",
+            "mock ; python_version < \"3.3\"",
+            "pymsalruntime <0.14,>=0.13.2 ; (python_version >= \"3.6\" and platform_system == \"Windows\") and extra == 'broker'"
+        ]
+    }
+}

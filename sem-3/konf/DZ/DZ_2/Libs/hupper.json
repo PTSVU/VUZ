@@ -1,0 +1,14 @@
+{
+    "info": {
+        "requires_dist": [
+            "watchdog ; extra == 'docs'",
+            "setuptools ; extra == 'docs'",
+            "Sphinx ; extra == 'docs'",
+            "pylons-sphinx-themes ; extra == 'docs'",
+            "watchdog ; extra == 'testing'",
+            "pytest ; extra == 'testing'",
+            "pytest-cov ; extra == 'testing'",
+            "mock ; extra == 'testing'"
+        ]
+    }
+}

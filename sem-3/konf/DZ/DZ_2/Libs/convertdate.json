@@ -1,0 +1,15 @@
+{
+    "info": {
+        "requires_dist": [
+            "pymeeus (<=1,>=0.3.13)",
+            "build ; extra == 'dev'",
+            "black ; extra == 'dev'",
+            "isort ; extra == 'dev'",
+            "pylint ; extra == 'dev'",
+            "sphinx ; extra == 'docs'",
+            "sphinx-rtd-theme ; extra == 'docs'",
+            "myst-parser ; extra == 'docs'",
+            "coverage ; extra == 'tests'"
+        ]
+    }
+}

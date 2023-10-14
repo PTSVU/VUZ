@@ -1,0 +1,18 @@
+{
+    "info": {
+        "requires_dist": [
+            "sphinx",
+            "pygments",
+            "docutils (~=0.18.0)",
+            "pre-commit (==2.13.0) ; extra == 'code_style'",
+            "coverage ; extra == 'testing'",
+            "pytest (<8,>=7.1) ; extra == 'testing'",
+            "pytest-cov ; extra == 'testing'",
+            "pytest-regressions ; extra == 'testing'",
+            "pygments ; extra == 'testing'",
+            "sphinx-testing ; extra == 'testing'",
+            "bs4 ; extra == 'testing'",
+            "rinohtype ; extra == 'testing'"
+        ]
+    }
+}

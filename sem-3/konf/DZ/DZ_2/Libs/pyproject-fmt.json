@@ -1,0 +1,18 @@
+{
+    "info": {
+        "requires_dist": [
+            "natsort>=8.4",
+            "packaging>=23.1",
+            "tomlkit>=0.12.1",
+            "furo>=2023.7.26; extra == 'docs'",
+            "sphinx-argparse-cli>=1.11.1; extra == 'docs'",
+            "sphinx-autodoc-typehints>=1.24; extra == 'docs'",
+            "sphinx-copybutton>=0.5.2; extra == 'docs'",
+            "sphinx>=7.1.2; extra == 'docs'",
+            "covdefaults>=2.3; extra == 'test'",
+            "pytest-cov>=4.1; extra == 'test'",
+            "pytest-mock>=3.11.1; extra == 'test'",
+            "pytest>=7.4; extra == 'test'"
+        ]
+    }
+}

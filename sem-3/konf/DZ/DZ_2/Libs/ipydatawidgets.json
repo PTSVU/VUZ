@@ -1,0 +1,15 @@
+{
+    "info": {
+        "requires_dist": [
+            "ipywidgets (>=7.0.0)",
+            "numpy",
+            "traittypes (>=0.2.0)",
+            "sphinx ; extra == 'docs'",
+            "recommonmark ; extra == 'docs'",
+            "sphinx-rtd-theme ; extra == 'docs'",
+            "pytest (>=4) ; extra == 'test'",
+            "pytest-cov ; extra == 'test'",
+            "nbval (>=0.9.2) ; extra == 'test'"
+        ]
+    }
+}

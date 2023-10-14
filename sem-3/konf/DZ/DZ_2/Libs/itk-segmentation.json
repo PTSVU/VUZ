@@ -1,0 +1,7 @@
+{
+    "info": {
+        "requires_dist": [
+            "itk-filtering (==5.3.0)"
+        ]
+    }
+}

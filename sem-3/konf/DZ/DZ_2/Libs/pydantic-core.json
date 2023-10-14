@@ -1,0 +1,7 @@
+{
+    "info": {
+        "requires_dist": [
+            "typing-extensions >=4.6.0, !=4.7.0"
+        ]
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "info": {
+        "requires_dist": [
+            "requests",
+            "requests-cache",
+            "tqdm",
+            "PyGithub",
+            "pre-commit ==3.4.0 ; extra == 'lint'"
+        ]
+    }
+}

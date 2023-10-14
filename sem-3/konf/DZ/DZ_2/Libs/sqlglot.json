@@ -1,0 +1,17 @@
+{
+    "info": {
+        "requires_dist": [
+            "autoflake ; extra == 'dev'",
+            "black ; extra == 'dev'",
+            "duckdb >=0.6 ; extra == 'dev'",
+            "isort ; extra == 'dev'",
+            "mypy >=0.990 ; extra == 'dev'",
+            "pandas ; extra == 'dev'",
+            "pyspark ; extra == 'dev'",
+            "python-dateutil ; extra == 'dev'",
+            "pdoc ; extra == 'dev'",
+            "pre-commit ; extra == 'dev'",
+            "types-python-dateutil ; extra == 'dev'"
+        ]
+    }
+}

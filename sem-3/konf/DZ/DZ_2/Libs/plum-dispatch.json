@@ -1,0 +1,22 @@
+{
+    "info": {
+        "requires_dist": [
+            "beartype>=0.16.2",
+            "typing-extensions; python_version <= '3.10'",
+            "black==23.9.0; extra == 'dev'",
+            "build; extra == 'dev'",
+            "coveralls; extra == 'dev'",
+            "ghp-import; extra == 'dev'",
+            "ipython; extra == 'dev'",
+            "jupyter-book; extra == 'dev'",
+            "mypy; extra == 'dev'",
+            "numpy; extra == 'dev'",
+            "pre-commit; extra == 'dev'",
+            "pyright; extra == 'dev'",
+            "pytest-cov; extra == 'dev'",
+            "pytest>=6; extra == 'dev'",
+            "tox; extra == 'dev'",
+            "wheel; extra == 'dev'"
+        ]
+    }
+}

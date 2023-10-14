@@ -1,0 +1,27 @@
+{
+    "info": {
+        "requires_dist": [
+            "Cython (<0.30.0,>=0.29.32) ; extra == 'dev'",
+            "pytest (>=3.6.0) ; extra == 'dev'",
+            "Sphinx (~=4.1.2) ; extra == 'dev'",
+            "sphinxcontrib-asyncio (~=0.3.0) ; extra == 'dev'",
+            "sphinx-rtd-theme (~=0.5.2) ; extra == 'dev'",
+            "flake8 (~=3.9.2) ; extra == 'dev'",
+            "psutil ; extra == 'dev'",
+            "pycodestyle (~=2.7.0) ; extra == 'dev'",
+            "pyOpenSSL (~=22.0.0) ; extra == 'dev'",
+            "mypy (>=0.800) ; extra == 'dev'",
+            "aiohttp ; (python_version < \"3.11\") and extra == 'dev'",
+            "Sphinx (~=4.1.2) ; extra == 'docs'",
+            "sphinxcontrib-asyncio (~=0.3.0) ; extra == 'docs'",
+            "sphinx-rtd-theme (~=0.5.2) ; extra == 'docs'",
+            "flake8 (~=3.9.2) ; extra == 'test'",
+            "psutil ; extra == 'test'",
+            "pycodestyle (~=2.7.0) ; extra == 'test'",
+            "pyOpenSSL (~=22.0.0) ; extra == 'test'",
+            "mypy (>=0.800) ; extra == 'test'",
+            "Cython (<0.30.0,>=0.29.32) ; extra == 'test'",
+            "aiohttp ; (python_version < \"3.11\") and extra == 'test'"
+        ]
+    }
+}

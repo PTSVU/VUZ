@@ -1,0 +1,35 @@
+{
+    "info": {
+        "requires_dist": [
+            "docutils>=0.16,<0.21",
+            "jinja2",
+            "markdown-it-py~=3.0",
+            "mdit-py-plugins~=0.4",
+            "pyyaml",
+            "sphinx>=6,<8",
+            "pre-commit~=3.0 ; extra == \"code_style\"",
+            "linkify-it-py~=2.0 ; extra == \"linkify\"",
+            "ipython ; extra == \"rtd\"",
+            "sphinx-book-theme==1.0.0rc2 ; extra == \"rtd\"",
+            "pydata-sphinx-theme==v0.13.0rc4 ; extra == \"rtd\"",
+            "sphinx-design2 ; extra == \"rtd\"",
+            "sphinx-copybutton ; extra == \"rtd\"",
+            "sphinxext-rediraffe~=0.2.7 ; extra == \"rtd\"",
+            "sphinxext-opengraph~=0.8.2 ; extra == \"rtd\"",
+            "sphinx-pyscript ; extra == \"rtd\"",
+            "sphinx-tippy>=0.3.1 ; extra == \"rtd\"",
+            "sphinx-autodoc2~=0.4.2 ; extra == \"rtd\"",
+            "sphinx-togglebutton ; extra == \"rtd\"",
+            "beautifulsoup4 ; extra == \"testing\"",
+            "coverage[toml] ; extra == \"testing\"",
+            "pytest>=7,<8 ; extra == \"testing\"",
+            "pytest-cov ; extra == \"testing\"",
+            "pytest-regressions ; extra == \"testing\"",
+            "pytest-param-files~=0.3.4 ; extra == \"testing\"",
+            "sphinx-pytest ; extra == \"testing\"",
+            "pygments ; extra == \"testing-docutils\"",
+            "pytest>=7,<8 ; extra == \"testing-docutils\"",
+            "pytest-param-files~=0.3.4 ; extra == \"testing-docutils\""
+        ]
+    }
+}

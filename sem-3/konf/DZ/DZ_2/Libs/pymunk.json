@@ -1,0 +1,13 @@
+{
+    "info": {
+        "requires_dist": [
+            "cffi (>=1.15.0)",
+            "pyglet (<2.0.0) ; extra == 'dev'",
+            "pygame ; extra == 'dev'",
+            "sphinx ; extra == 'dev'",
+            "aafigure ; extra == 'dev'",
+            "wheel ; extra == 'dev'",
+            "matplotlib ; extra == 'dev'"
+        ]
+    }
+}

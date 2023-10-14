@@ -1,0 +1,15 @@
+{
+    "info": {
+        "requires_dist": [
+            "aiohttp (!=4.0.0a0,!=4.0.0a1)",
+            "decorator (>4.1.2)",
+            "fsspec (==2023.9.2)",
+            "google-auth (>=1.2)",
+            "google-auth-oauthlib",
+            "google-cloud-storage",
+            "requests",
+            "crcmod ; extra == 'crc'",
+            "fusepy ; extra == 'gcsfuse'"
+        ]
+    }
+}

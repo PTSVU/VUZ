@@ -1,0 +1,10 @@
+{
+    "info": {
+        "requires_dist": [
+            "mdformat>=0.7.5,<0.8.0",
+            "pytest~=6.0 ; extra == \"test\"",
+            "coverage ; extra == \"test\"",
+            "pytest-cov ; extra == \"test\""
+        ]
+    }
+}

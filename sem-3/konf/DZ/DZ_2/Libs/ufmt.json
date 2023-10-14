@@ -1,0 +1,23 @@
+{
+    "info": {
+        "requires_dist": [
+            "black>=20.8b0",
+            "click>=8.0",
+            "libcst>=0.4.0",
+            "moreorless>=0.4.0",
+            "tomlkit>=0.7.2",
+            "trailrunner>=1.2.1",
+            "typing-extensions>=4.0",
+            "usort>=1.0",
+            "attribution==1.6.2 ; extra == \"dev\"",
+            "black==23.7.0 ; extra == \"dev\"",
+            "coverage==7.2.7 ; extra == \"dev\"",
+            "flit==3.9.0 ; extra == \"dev\"",
+            "flake8==6.1.0 ; extra == \"dev\"",
+            "mypy==1.4.1 ; extra == \"dev\"",
+            "usort==1.0.7 ; extra == \"dev\"",
+            "sphinx==7.1.1 ; extra == \"docs\"",
+            "sphinx-mdinclude==0.5.3 ; extra == \"docs\""
+        ]
+    }
+}

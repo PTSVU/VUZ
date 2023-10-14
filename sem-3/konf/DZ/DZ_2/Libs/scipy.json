@@ -1,0 +1,35 @@
+{
+    "info": {
+        "requires_dist": [
+            "numpy<1.28.0,>=1.21.6",
+            "pytest; extra == \"test\"",
+            "pytest-cov; extra == \"test\"",
+            "pytest-timeout; extra == \"test\"",
+            "pytest-xdist; extra == \"test\"",
+            "asv; extra == \"test\"",
+            "mpmath; extra == \"test\"",
+            "gmpy2; extra == \"test\"",
+            "threadpoolctl; extra == \"test\"",
+            "scikit-umfpack; extra == \"test\"",
+            "pooch; extra == \"test\"",
+            "sphinx!=4.1.0; extra == \"doc\"",
+            "pydata-sphinx-theme==0.9.0; extra == \"doc\"",
+            "sphinx-design>=0.2.0; extra == \"doc\"",
+            "matplotlib>2; extra == \"doc\"",
+            "numpydoc; extra == \"doc\"",
+            "jupytext; extra == \"doc\"",
+            "myst-nb; extra == \"doc\"",
+            "pooch; extra == \"doc\"",
+            "mypy; extra == \"dev\"",
+            "typing_extensions; extra == \"dev\"",
+            "types-psutil; extra == \"dev\"",
+            "pycodestyle; extra == \"dev\"",
+            "ruff; extra == \"dev\"",
+            "cython-lint>=0.12.2; extra == \"dev\"",
+            "rich-click; extra == \"dev\"",
+            "click; extra == \"dev\"",
+            "doit>=0.36.0; extra == \"dev\"",
+            "pydevtool; extra == \"dev\""
+        ]
+    }
+}

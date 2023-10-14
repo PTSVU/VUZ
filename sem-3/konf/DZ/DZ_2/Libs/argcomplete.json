@@ -1,0 +1,12 @@
+{
+    "info": {
+        "requires_dist": [
+            "importlib-metadata <7,>=0.23 ; python_version < \"3.8\"",
+            "coverage ; extra == 'test'",
+            "pexpect ; extra == 'test'",
+            "wheel ; extra == 'test'",
+            "ruff ; extra == 'test'",
+            "mypy ; extra == 'test'"
+        ]
+    }
+}

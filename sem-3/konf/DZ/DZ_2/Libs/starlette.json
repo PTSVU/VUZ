@@ -1,0 +1,13 @@
+{
+    "info": {
+        "requires_dist": [
+            "anyio<5,>=3.4.0",
+            "typing-extensions>=3.10.0; python_version < '3.10'",
+            "httpx>=0.22.0; extra == 'full'",
+            "itsdangerous; extra == 'full'",
+            "jinja2; extra == 'full'",
+            "python-multipart; extra == 'full'",
+            "pyyaml; extra == 'full'"
+        ]
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "info": {
+        "requires_dist": [
+            "jsonschema (>=4.18.0,<5.0.0)",
+            "openapi-schema-validator (>=0.6.0,<0.7.0)",
+            "importlib-resources (>=5.8,<7.0) ; python_version < \"3.9\"",
+            "jsonschema-spec (>=0.2.3,<0.3.0)",
+            "lazy-object-proxy (>=1.7.1,<2.0.0)"
+        ]
+    }
+}

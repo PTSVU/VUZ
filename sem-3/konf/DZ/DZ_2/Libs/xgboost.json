@@ -1,0 +1,19 @@
+{
+    "info": {
+        "requires_dist": [
+            "numpy",
+            "scipy",
+            "dask; extra == 'dask'",
+            "distributed; extra == 'dask'",
+            "pandas; extra == 'dask'",
+            "datatable; extra == 'datatable'",
+            "pandas; extra == 'pandas'",
+            "graphviz; extra == 'plotting'",
+            "matplotlib; extra == 'plotting'",
+            "cloudpickle; extra == 'pyspark'",
+            "pyspark; extra == 'pyspark'",
+            "scikit-learn; extra == 'pyspark'",
+            "scikit-learn; extra == 'scikit-learn'"
+        ]
+    }
+}

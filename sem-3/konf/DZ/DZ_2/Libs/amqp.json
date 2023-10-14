@@ -1,0 +1,7 @@
+{
+    "info": {
+        "requires_dist": [
+            "vine (>=5.0.0)"
+        ]
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "info": {
+        "requires_dist": [
+            "twine ; extra == 'build'",
+            "wheel ; extra == 'build'",
+            "blurb ; extra == 'build'",
+            "sphinx ; extra == 'docs'",
+            "pytest ; extra == 'test'",
+            "pytest-cov ; extra == 'test'"
+        ]
+    }
+}

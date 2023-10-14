@@ -1,0 +1,11 @@
+{
+    "info": {
+        "requires_dist": [
+            "aiohttp; extra == 'test'",
+            "psutil; extra == 'test'",
+            "pytest; extra == 'test'",
+            "pytest-asyncio; extra == 'test'",
+            "pytest-cov; extra == 'test'"
+        ]
+    }
+}

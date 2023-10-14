@@ -1,0 +1,9 @@
+{
+    "info": {
+        "requires_dist": [
+            "opentelemetry-api~=1.4",
+            "setuptools>=16.0",
+            "wrapt<2.0.0,>=1.0.0"
+        ]
+    }
+}

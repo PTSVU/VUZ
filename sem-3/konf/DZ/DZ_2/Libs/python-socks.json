@@ -1,0 +1,10 @@
+{
+    "info": {
+        "requires_dist": [
+            "anyio (<5.0.0,>=3.3.4) ; extra == 'anyio'",
+            "async-timeout (>=3.0.1) ; extra == 'asyncio'",
+            "curio (>=1.4) ; extra == 'curio'",
+            "trio (>=0.16.0) ; extra == 'trio'"
+        ]
+    }
+}

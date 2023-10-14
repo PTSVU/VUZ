@@ -1,0 +1,17 @@
+{
+    "info": {
+        "requires_dist": [
+            "setuptools >=42.0.0",
+            "altgraph",
+            "pyinstaller-hooks-contrib >=2021.4",
+            "packaging >=20.0",
+            "importlib-metadata >=4.6 ; python_version < \"3.10\"",
+            "macholib >=1.8 ; sys_platform == \"darwin\"",
+            "pefile >=2022.5.30 ; sys_platform == \"win32\"",
+            "pywin32-ctypes >=0.2.1 ; sys_platform == \"win32\"",
+            "pytest >=2.7.3 ; extra == 'hook_testing'",
+            "execnet >=1.5.0 ; extra == 'hook_testing'",
+            "psutil ; extra == 'hook_testing'"
+        ]
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "info": {
+        "requires_dist": [
+            "pytest (!=3.3.0,>=3.2.1) ; extra == 'tests'",
+            "mypy ; extra == 'typecheck'"
+        ]
+    }
+}

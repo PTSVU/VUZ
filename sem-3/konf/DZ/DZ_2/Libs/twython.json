@@ -1,0 +1,8 @@
+{
+    "info": {
+        "requires_dist": [
+            "requests (>=2.1.0)",
+            "requests-oauthlib (>=0.4.0)"
+        ]
+    }
+}

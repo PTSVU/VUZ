@@ -1,0 +1,16 @@
+{
+    "info": {
+        "requires_dist": [
+            "cairocffi",
+            "cssselect2",
+            "defusedxml",
+            "pillow",
+            "tinycss2",
+            "sphinx ; extra == 'doc'",
+            "sphinx-rtd-theme ; extra == 'doc'",
+            "pytest ; extra == 'test'",
+            "flake8 ; extra == 'test'",
+            "isort ; extra == 'test'"
+        ]
+    }
+}

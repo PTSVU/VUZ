@@ -1,0 +1,8 @@
+{
+    "info": {
+        "requires_dist": [
+            "types-awscrt",
+            "typing-extensions (>=4.1.0) ; python_version < \"3.9\""
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "info": {
+        "requires_dist": [
+            "certifi",
+            "httpcore<0.19.0,>=0.18.0",
+            "idna",
+            "sniffio",
+            "brotli; platform_python_implementation == 'CPython' and extra == 'brotli'",
+            "brotlicffi; platform_python_implementation != 'CPython' and extra == 'brotli'",
+            "click==8.*; extra == 'cli'",
+            "pygments==2.*; extra == 'cli'",
+            "rich<14,>=10; extra == 'cli'",
+            "h2<5,>=3; extra == 'http2'",
+            "socksio==1.*; extra == 'socks'"
+        ]
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "info": {
+        "requires_dist": [
+            "typing-extensions",
+            "flake8 ; extra == 'dev'",
+            "flake8-black ; extra == 'dev'",
+            "pytest ; extra == 'dev'",
+            "black ; extra == 'dev'",
+            "isort ; extra == 'dev'",
+            "jupyter-console ; extra == 'dev'",
+            "mkdocs ; extra == 'dev'",
+            "mkdocs-include-markdown-plugin ; extra == 'dev'",
+            "mkdocstrings[python] ; extra == 'dev'",
+            "toml ; extra == 'dev'",
+            "tox ; extra == 'dev'",
+            "trio ; extra == 'dev'",
+            "twine ; extra == 'dev'",
+            "twisted ; extra == 'dev'",
+            "validate-pyproject[all] ; extra == 'dev'",
+            "trio ; (python_version > \"3.6\") and extra == 'dev'",
+            "trio-typing ; (python_version > \"3.6\") and extra == 'dev'",
+            "pytest-asyncio ; (python_version >= \"3.4\") and extra == 'dev'",
+            "pytest-trio ; (python_version >= \"3.7\") and extra == 'dev'"
+        ]
+    }
+}

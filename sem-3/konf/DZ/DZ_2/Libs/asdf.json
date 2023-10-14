@@ -1,0 +1,31 @@
+{
+    "info": {
+        "requires_dist": [
+            "asdf-standard >=1.0.1",
+            "asdf-transform-schemas >=0.3",
+            "asdf-unit-schemas >=0.1",
+            "importlib-metadata >=4.11.4",
+            "jmespath >=0.6.2",
+            "numpy >=1.22",
+            "packaging >=19",
+            "pyyaml >=5.4.1",
+            "semantic-version >=2.8",
+            "attrs >=20.1.0",
+            "jsonschema >=4.8",
+            "lz4 >=0.10 ; extra == 'all'",
+            "sphinx-asdf >=0.1.4 ; extra == 'docs'",
+            "graphviz ; extra == 'docs'",
+            "sphinx-inline-tabs ; extra == 'docs'",
+            "tomli ; (python_version < \"3.11\") and extra == 'docs'",
+            "astropy >=5.0.4 ; extra == 'tests'",
+            "fsspec[http] >=2022.8.2 ; extra == 'tests'",
+            "gwcs >=0.18.3 ; extra == 'tests'",
+            "lz4 >=0.10 ; extra == 'tests'",
+            "psutil ; extra == 'tests'",
+            "pytest >=6 ; extra == 'tests'",
+            "pytest-doctestplus ; extra == 'tests'",
+            "pytest-openfiles ; extra == 'tests'",
+            "pytest-remotedata ; extra == 'tests'"
+        ]
+    }
+}

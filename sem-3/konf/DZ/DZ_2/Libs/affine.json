@@ -1,0 +1,11 @@
+{
+    "info": {
+        "requires_dist": [
+            "pydocstyle ; extra == \"dev\"",
+            "flake8 ; extra == \"dev\"",
+            "coveralls ; extra == \"dev\"",
+            "pytest >=4.6 ; extra == \"test\"",
+            "pytest-cov ; extra == \"test\""
+        ]
+    }
+}

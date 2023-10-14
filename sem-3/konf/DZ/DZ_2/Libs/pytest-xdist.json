@@ -1,0 +1,11 @@
+{
+    "info": {
+        "requires_dist": [
+            "execnet (>=1.1)",
+            "pytest (>=6.2.0)",
+            "psutil (>=3.0) ; extra == 'psutil'",
+            "setproctitle ; extra == 'setproctitle'",
+            "filelock ; extra == 'testing'"
+        ]
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "info": {
+        "requires_dist": [
+            "fastcore (>=1.5.5)",
+            "ipython",
+            "matplotlib ; extra == 'dev'",
+            "Pillow ; extra == 'dev'"
+        ]
+    }
+}

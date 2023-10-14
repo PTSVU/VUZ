@@ -1,0 +1,11 @@
+{
+    "info": {
+        "requires_dist": [
+            "httplib2 (<1.dev0,>=0.15.0)",
+            "google-auth (<3.0.0.dev0,>=1.19.0)",
+            "google-auth-httplib2 (>=0.1.0)",
+            "google-api-core (!=2.0.*,!=2.1.*,!=2.2.*,!=2.3.0,<3.0.0.dev0,>=1.31.5)",
+            "uritemplate (<5,>=3.0.1)"
+        ]
+    }
+}

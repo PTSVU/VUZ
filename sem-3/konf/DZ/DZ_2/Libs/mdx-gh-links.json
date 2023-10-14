@@ -1,0 +1,7 @@
+{
+    "info": {
+        "requires_dist": [
+            "markdown (>=3.0.0)"
+        ]
+    }
+}

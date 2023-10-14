@@ -1,0 +1,14 @@
+{
+    "info": {
+        "requires_dist": [
+            "hatchling",
+            "tomli; python_version < '3.11'",
+            "typing-extensions; python_version < '3.8'",
+            "hatch-fancy-pypi-readme[tests]; extra == 'dev'",
+            "mypy; extra == 'dev'",
+            "build; extra == 'tests'",
+            "pytest; extra == 'tests'",
+            "wheel; extra == 'tests'"
+        ]
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "info": {
+        "requires_dist": [
+            "scipy >=1.7",
+            "numpy >=1.22",
+            "ml-dtypes >=0.2.0",
+            "nvidia-cublas-cu11 >=11.11 ; extra == 'cuda11_pip'",
+            "nvidia-cuda-cupti-cu11 >=11.8 ; extra == 'cuda11_pip'",
+            "nvidia-cuda-nvcc-cu11 >=11.8 ; extra == 'cuda11_pip'",
+            "nvidia-cuda-runtime-cu11 >=11.8 ; extra == 'cuda11_pip'",
+            "nvidia-cudnn-cu11 >=8.8 ; extra == 'cuda11_pip'",
+            "nvidia-cufft-cu11 >=10.9 ; extra == 'cuda11_pip'",
+            "nvidia-cusolver-cu11 >=11.4 ; extra == 'cuda11_pip'",
+            "nvidia-cusparse-cu11 >=11.7 ; extra == 'cuda11_pip'",
+            "nvidia-cublas-cu12 ; extra == 'cuda12_pip'",
+            "nvidia-cuda-cupti-cu12 ; extra == 'cuda12_pip'",
+            "nvidia-cuda-nvcc-cu12 ; extra == 'cuda12_pip'",
+            "nvidia-cuda-runtime-cu12 ; extra == 'cuda12_pip'",
+            "nvidia-cudnn-cu12 >=8.9 ; extra == 'cuda12_pip'",
+            "nvidia-cufft-cu12 ; extra == 'cuda12_pip'",
+            "nvidia-cusolver-cu12 ; extra == 'cuda12_pip'",
+            "nvidia-cusparse-cu12 ; extra == 'cuda12_pip'"
+        ]
+    }
+}

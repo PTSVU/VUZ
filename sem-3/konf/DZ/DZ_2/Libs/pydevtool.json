@@ -1,0 +1,7 @@
+{
+    "info": {
+        "requires_dist": [
+            "doit (>=0.36.0)"
+        ]
+    }
+}

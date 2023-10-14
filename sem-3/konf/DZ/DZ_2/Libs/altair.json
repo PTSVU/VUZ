@@ -1,0 +1,41 @@
+{
+    "info": {
+        "requires_dist": [
+            "jinja2",
+            "jsonschema>=3.0",
+            "numpy",
+            "packaging",
+            "pandas>=0.25",
+            "toolz",
+            "typing-extensions>=4.0.1; python_version < '3.11'",
+            "anywidget; extra == 'dev'",
+            "black<24; extra == 'dev'",
+            "hatch; extra == 'dev'",
+            "ipython; extra == 'dev'",
+            "m2r; extra == 'dev'",
+            "mypy; extra == 'dev'",
+            "pandas-stubs; extra == 'dev'",
+            "pyarrow>=11; extra == 'dev'",
+            "pytest; extra == 'dev'",
+            "pytest-cov; extra == 'dev'",
+            "ruff; extra == 'dev'",
+            "types-jsonschema; extra == 'dev'",
+            "types-setuptools; extra == 'dev'",
+            "vega-datasets; extra == 'dev'",
+            "vegafusion[embed]>=1.4.0; extra == 'dev'",
+            "vl-convert-python>=0.14.0; extra == 'dev'",
+            "docutils; extra == 'doc'",
+            "geopandas; extra == 'doc'",
+            "jinja2; extra == 'doc'",
+            "myst-parser; extra == 'doc'",
+            "numpydoc; extra == 'doc'",
+            "pillow<10,>=9; extra == 'doc'",
+            "pydata-sphinx-theme; extra == 'doc'",
+            "scipy; extra == 'doc'",
+            "sphinx; extra == 'doc'",
+            "sphinx-copybutton; extra == 'doc'",
+            "sphinx-design; extra == 'doc'",
+            "sphinxext-altair; extra == 'doc'"
+        ]
+    }
+}

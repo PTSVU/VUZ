@@ -1,0 +1,8 @@
+{
+    "info": {
+        "requires_dist": [
+            "dom-toml>=0.3.0",
+            "domdf-python-tools>=2.7.0"
+        ]
+    }
+}

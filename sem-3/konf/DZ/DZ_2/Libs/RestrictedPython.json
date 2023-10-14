@@ -1,0 +1,10 @@
+{
+    "info": {
+        "requires_dist": [
+            "Sphinx ; extra == 'docs'",
+            "sphinx-rtd-theme ; extra == 'docs'",
+            "pytest ; extra == 'test'",
+            "pytest-mock ; extra == 'test'"
+        ]
+    }
+}

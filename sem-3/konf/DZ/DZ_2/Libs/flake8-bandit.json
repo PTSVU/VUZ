@@ -1,0 +1,8 @@
+{
+    "info": {
+        "requires_dist": [
+            "flake8 (>=5.0.0)",
+            "bandit (>=1.7.3)"
+        ]
+    }
+}

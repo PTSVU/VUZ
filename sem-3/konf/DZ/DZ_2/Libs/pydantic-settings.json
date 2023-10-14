@@ -1,0 +1,8 @@
+{
+    "info": {
+        "requires_dist": [
+            "pydantic>=2.0.1",
+            "python-dotenv>=0.21.0"
+        ]
+    }
+}

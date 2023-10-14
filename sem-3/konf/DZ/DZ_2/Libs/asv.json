@@ -1,0 +1,32 @@
+{
+    "info": {
+        "requires_dist": [
+            "asv-runner >=v0.1.0",
+            "json5",
+            "tabulate",
+            "pyyaml ; platform_python_implementation != \"PyPy\"",
+            "pympler ; platform_python_implementation != \"PyPy\"",
+            "colorama ; platform_system == \"Windows\"",
+            "ruff ; extra == 'dev'",
+            "isort >=5.11.5 ; extra == 'dev'",
+            "sphinx ; extra == 'doc'",
+            "sphinx-bootstrap-theme ; extra == 'doc'",
+            "python-hglib ; extra == 'hg'",
+            "pytest ; extra == 'test'",
+            "pytest-xdist ; extra == 'test'",
+            "pytest-timeout ; extra == 'test'",
+            "pytest-rerunfailures >=10.0 ; extra == 'test'",
+            "filelock ; extra == 'test'",
+            "virtualenv ; extra == 'test'",
+            "numpy ; extra == 'test'",
+            "feedparser ; extra == 'test'",
+            "selenium ; extra == 'test'",
+            "pytest-rerunfailures ; extra == 'test'",
+            "scipy ; (platform_python_implementation != \"PyPy\") and extra == 'test'",
+            "python-hglib ; (platform_system != \"Windows\") and extra == 'test'",
+            "rpy2 ; (platform_system != \"Windows\" and platform_python_implementation != \"PyPy\") and extra == 'test'",
+            "virtualenv ; extra == 'virtualenv'",
+            "packaging ; extra == 'virtualenv'"
+        ]
+    }
+}

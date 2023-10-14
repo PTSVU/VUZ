@@ -1,0 +1,13 @@
+{
+    "info": {
+        "requires_dist": [
+            "jinja2 (>=2.10.1)",
+            "numpy (>=1.16.4)",
+            "pydeck-carto ; extra == 'carto'",
+            "ipywidgets (<8,>=7) ; extra == 'jupyter'",
+            "traitlets (>=4.3.2) ; extra == 'jupyter'",
+            "ipython (>=5.8.0) ; (python_version < \"3.4\") and extra == 'jupyter'",
+            "ipykernel (>=5.1.2) ; (python_version >= \"3.4\") and extra == 'jupyter'"
+        ]
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "info": {
+        "requires_dist": [
+            "six",
+            "repoze.lru (>=0.3)",
+            "Sphinx ; extra == 'docs'",
+            "webob ; extra == 'docs'",
+            "webob ; extra == 'middleware'"
+        ]
+    }
+}

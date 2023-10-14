@@ -1,0 +1,11 @@
+{
+    "info": {
+        "requires_dist": [
+            "fiona >=1.8.21",
+            "packaging",
+            "pandas >=1.4.0",
+            "pyproj >=3.3.0",
+            "shapely >=1.8.0"
+        ]
+    }
+}

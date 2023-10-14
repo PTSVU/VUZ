@@ -1,0 +1,7 @@
+{
+    "info": {
+        "requires_dist": [
+            "jsonpointer (>=1.9)"
+        ]
+    }
+}

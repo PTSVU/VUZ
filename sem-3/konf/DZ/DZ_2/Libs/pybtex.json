@@ -1,0 +1,10 @@
+{
+    "info": {
+        "requires_dist": [
+            "PyYAML (>=3.01)",
+            "latexcodec (>=1.0.4)",
+            "six",
+            "pytest ; extra == 'test'"
+        ]
+    }
+}

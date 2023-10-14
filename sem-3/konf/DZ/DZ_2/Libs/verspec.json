@@ -1,0 +1,11 @@
+{
+    "info": {
+        "requires_dist": [
+            "coverage ; extra == 'test'",
+            "flake8 (>=3.7) ; extra == 'test'",
+            "mypy ; extra == 'test'",
+            "pretend ; extra == 'test'",
+            "pytest ; extra == 'test'"
+        ]
+    }
+}

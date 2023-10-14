@@ -1,0 +1,7 @@
+{
+    "info": {
+        "requires_dist": [
+            "ukkonen ; extra == 'license'"
+        ]
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "info": {
+        "requires_dist": [
+            "google-crc32c (<2.0dev,>=1.0)",
+            "aiohttp (<4.0.0dev,>=3.6.2) ; extra == 'aiohttp'",
+            "google-auth (<2.0dev,>=1.22.0) ; extra == 'aiohttp'",
+            "requests (<3.0.0dev,>=2.18.0) ; extra == 'requests'"
+        ]
+    }
+}

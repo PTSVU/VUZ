@@ -1,0 +1,7 @@
+{
+    "info": {
+        "requires_dist": [
+            "nvidia-nvjitlink-cu12"
+        ]
+    }
+}

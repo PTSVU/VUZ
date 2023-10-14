@@ -1,0 +1,9 @@
+{
+    "info": {
+        "requires_dist": [
+            "six",
+            "scandir ; python_version<\"3.5\"",
+            "typing ; python_version<\"3.5\""
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "info": {
+        "requires_dist": [
+            "sphinx>=7.0.1",
+            "furo>=2023.5.20; extra == 'docs'",
+            "sphinx>=7.0.1; extra == 'docs'",
+            "nptyping>=2.5; extra == 'numpy'",
+            "covdefaults>=2.3; extra == 'testing'",
+            "coverage>=7.2.7; extra == 'testing'",
+            "diff-cover>=7.5; extra == 'testing'",
+            "pytest-cov>=4.1; extra == 'testing'",
+            "pytest>=7.3.1; extra == 'testing'",
+            "sphobjinv>=2.3.1; extra == 'testing'",
+            "typing-extensions>=4.6.3; extra == 'testing'"
+        ]
+    }
+}

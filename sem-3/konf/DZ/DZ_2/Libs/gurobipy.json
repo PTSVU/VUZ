@@ -1,0 +1,8 @@
+{
+    "info": {
+        "requires_dist": [
+            "numpy ; extra == 'matrixapi'",
+            "scipy ; extra == 'matrixapi'"
+        ]
+    }
+}

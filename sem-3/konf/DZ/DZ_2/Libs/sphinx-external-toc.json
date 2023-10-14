@@ -1,0 +1,16 @@
+{
+    "info": {
+        "requires_dist": [
+            "click>=7.1,<9",
+            "pyyaml",
+            "sphinx>=4,<6",
+            "pre-commit~=2.12 ; extra == \"code_style\"",
+            "myst-parser~=0.17.0 ; extra == \"rtd\"",
+            "sphinx-book-theme>=0.0.36 ; extra == \"rtd\"",
+            "coverage ; extra == \"testing\"",
+            "pytest~=7.1 ; extra == \"testing\"",
+            "pytest-cov ; extra == \"testing\"",
+            "pytest-regressions ; extra == \"testing\""
+        ]
+    }
+}

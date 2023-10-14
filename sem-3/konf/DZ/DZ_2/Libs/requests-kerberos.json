@@ -1,0 +1,9 @@
+{
+    "info": {
+        "requires_dist": [
+            "requests (>=1.1.0)",
+            "cryptography (>=1.3)",
+            "pyspnego[kerberos]"
+        ]
+    }
+}

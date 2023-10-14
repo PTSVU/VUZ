@@ -1,0 +1,33 @@
+{
+    "info": {
+        "requires_dist": [
+            "click",
+            "ghapi<=1.0.4",
+            "github-activity~=0.2",
+            "importlib-resources",
+            "jsonschema>=3.0.1",
+            "mdformat",
+            "packaging",
+            "pipx",
+            "pkginfo",
+            "pypiserver",
+            "requests",
+            "requests-cache",
+            "toml~=0.10",
+            "myst-parser; extra == 'docs'",
+            "numpydoc; extra == 'docs'",
+            "pip; extra == 'docs'",
+            "pydata-sphinx-theme; extra == 'docs'",
+            "sphinx; extra == 'docs'",
+            "sphinx-click; extra == 'docs'",
+            "sphinx-copybutton; extra == 'docs'",
+            "sphinxcontrib-spelling; extra == 'docs'",
+            "fastapi; extra == 'test'",
+            "pre-commit; extra == 'test'",
+            "pytest-mock; extra == 'test'",
+            "pytest-xdist[psutil]; extra == 'test'",
+            "pytest>=7.0; extra == 'test'",
+            "uvicorn; extra == 'test'"
+        ]
+    }
+}

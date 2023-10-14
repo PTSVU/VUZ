@@ -1,0 +1,8 @@
+{
+    "info": {
+        "requires_dist": [
+            "dnspython (>=2.0.0)",
+            "idna (>=2.0.0)"
+        ]
+    }
+}

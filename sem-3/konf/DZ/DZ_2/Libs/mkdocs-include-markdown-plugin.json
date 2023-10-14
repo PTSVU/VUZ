@@ -1,0 +1,8 @@
+{
+    "info": {
+        "requires_dist": [
+            "wcmatch<9,>=8",
+            "platformdirs; extra == 'cache'"
+        ]
+    }
+}

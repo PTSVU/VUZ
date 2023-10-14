@@ -1,0 +1,9 @@
+{
+    "info": {
+        "requires_dist": [
+            "makefun (>=1.5.0)",
+            "funcsigs ; python_version < \"3.3\"",
+            "enum34 ; python_version < \"3.4\""
+        ]
+    }
+}

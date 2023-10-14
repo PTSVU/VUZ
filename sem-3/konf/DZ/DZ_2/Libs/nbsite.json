@@ -1,0 +1,31 @@
+{
+    "info": {
+        "requires_dist": [
+            "param (>=1.7.0)",
+            "pyviz-comms",
+            "ipykernel",
+            "nbformat",
+            "nbconvert",
+            "jupyter-client",
+            "myst-nb (>=0.17)",
+            "sphinx-design",
+            "notebook",
+            "sphinx",
+            "beautifulsoup4",
+            "jinja2",
+            "pillow",
+            "pydata-sphinx-theme (<0.14,>=0.13.3)",
+            "myst-parser",
+            "sphinx-copybutton",
+            "urllib3 (<2.0.0)",
+            "setuptools ; extra == 'build'",
+            "param (>=1.6.1) ; extra == 'build'",
+            "selenium ; extra == 'gallery'",
+            "phantomjs ; extra == 'gallery'",
+            "graphviz ; extra == 'refman'",
+            "flake8 ; extra == 'tests'",
+            "pytest (>=3.9.1) ; extra == 'tests'",
+            "importlib-metadata (<5.0) ; extra == 'tests'"
+        ]
+    }
+}

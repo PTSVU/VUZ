@@ -1,0 +1,19 @@
+{
+    "info": {
+        "requires_dist": [
+            "packaging",
+            "sphinx (>=3.0.0)",
+            "astropy-sphinx-theme",
+            "numpydoc",
+            "sphinx-automodapi",
+            "sphinx-gallery",
+            "sphinxcontrib-jquery",
+            "pillow",
+            "pytest-doctestplus (>=0.11)",
+            "astropy ; extra == 'all'",
+            "pydata-sphinx-theme ; extra == 'confv2'",
+            "sphinx-copybutton ; extra == 'confv2'",
+            "pytest ; extra == 'tests'"
+        ]
+    }
+}

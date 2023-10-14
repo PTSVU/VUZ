@@ -1,0 +1,15 @@
+{
+    "info": {
+        "requires_dist": [
+            "param (>=1.7.0)",
+            "setuptools ; extra == 'build'",
+            "param (>=1.7.0) ; extra == 'build'",
+            "pyyaml ; extra == 'cmd'",
+            "requests ; extra == 'cmd'",
+            "nbsite ; extra == 'doc'",
+            "sphinx-ioam-theme ; extra == 'doc'",
+            "flake8 ; extra == 'tests'",
+            "pytest ; extra == 'tests'"
+        ]
+    }
+}

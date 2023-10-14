@@ -1,0 +1,38 @@
+{
+    "info": {
+        "requires_dist": [
+            "numpy >=1.21.0",
+            "gymnasium >=0.28.0",
+            "multi-agent-ale-py ==0.1.11 ; extra == 'all'",
+            "pygame ==2.3.0 ; extra == 'all'",
+            "chess ==1.9.4 ; extra == 'all'",
+            "rlcard ==1.0.5 ; extra == 'all'",
+            "shimmy[openspiel] >=1.2.0 ; extra == 'all'",
+            "pymunk ==6.2.0 ; extra == 'all'",
+            "box2d-py ==2.3.5 ; extra == 'all'",
+            "scipy >=1.4.1 ; extra == 'all'",
+            "pillow >=8.0.1 ; extra == 'all'",
+            "multi-agent-ale-py ==0.1.11 ; extra == 'atari'",
+            "pygame ==2.3.0 ; extra == 'atari'",
+            "pygame ==2.3.0 ; extra == 'butterfly'",
+            "pymunk ==6.2.0 ; extra == 'butterfly'",
+            "chess ==1.9.4 ; extra == 'classic'",
+            "rlcard ==1.0.5 ; extra == 'classic'",
+            "pygame ==2.3.0 ; extra == 'classic'",
+            "shimmy[openspiel] >=1.2.0 ; extra == 'classic'",
+            "pygame ==2.3.0 ; extra == 'mpe'",
+            "pillow >=8.0.1 ; extra == 'other'",
+            "pygame ==2.3.0 ; extra == 'sisl'",
+            "pymunk ==6.2.0 ; extra == 'sisl'",
+            "box2d-py ==2.3.5 ; extra == 'sisl'",
+            "scipy >=1.4.1 ; extra == 'sisl'",
+            "pynput ; extra == 'testing'",
+            "pytest ; extra == 'testing'",
+            "AutoROM ; extra == 'testing'",
+            "pytest-cov ; extra == 'testing'",
+            "pytest-xdist ; extra == 'testing'",
+            "pre-commit ; extra == 'testing'",
+            "pytest-markdown-docs ; extra == 'testing'"
+        ]
+    }
+}

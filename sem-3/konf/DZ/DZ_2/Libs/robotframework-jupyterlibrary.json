@@ -1,0 +1,10 @@
+{
+    "info": {
+        "requires_dist": [
+            "robotframework >=5",
+            "robotframework-seleniumlibrary >=5",
+            "robotframwork-tidy ; extra == \"tidy\"",
+            "ipywidgets ; extra == \"widgets\""
+        ]
+    }
+}

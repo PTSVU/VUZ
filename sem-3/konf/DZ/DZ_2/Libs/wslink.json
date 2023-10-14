@@ -1,0 +1,8 @@
+{
+    "info": {
+        "requires_dist": [
+            "aiohttp <4",
+            "cryptography ; extra == 'ssl'"
+        ]
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "info": {
+        "requires_dist": [
+            "reno ; extra == 'doc'",
+            "sphinx ; extra == 'doc'",
+            "tornado >=4.5 ; extra == 'doc'"
+        ]
+    }
+}

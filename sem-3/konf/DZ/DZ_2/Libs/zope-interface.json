@@ -1,0 +1,16 @@
+{
+    "info": {
+        "requires_dist": [
+            "setuptools",
+            "Sphinx ; extra == 'docs'",
+            "repoze.sphinx.autointerface ; extra == 'docs'",
+            "sphinx-rtd-theme ; extra == 'docs'",
+            "coverage >=5.0.3 ; extra == 'test'",
+            "zope.event ; extra == 'test'",
+            "zope.testing ; extra == 'test'",
+            "coverage >=5.0.3 ; extra == 'testing'",
+            "zope.event ; extra == 'testing'",
+            "zope.testing ; extra == 'testing'"
+        ]
+    }
+}

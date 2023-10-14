@@ -1,0 +1,13 @@
+{
+    "info": {
+        "requires_dist": [
+            "nbformat",
+            "pyyaml",
+            "toml",
+            "markdown-it-py >=1.0.0",
+            "mdit-py-plugins",
+            "sphinx-gallery ~=0.7.0 ; extra == 'rst2md'",
+            "toml ; extra == 'toml'"
+        ]
+    }
+}

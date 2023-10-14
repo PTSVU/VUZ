@@ -1,0 +1,10 @@
+{
+    "info": {
+        "requires_dist": [
+            "coverage ; extra == 'coverage_plugin'",
+            "Sphinx ; extra == 'dev'",
+            "sphinx-issues ; extra == 'dev'",
+            "sphinx-rtd-theme ; extra == 'dev'"
+        ]
+    }
+}

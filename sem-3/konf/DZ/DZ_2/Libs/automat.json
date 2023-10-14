@@ -1,0 +1,10 @@
+{
+    "info": {
+        "requires_dist": [
+            "attrs (>=19.2.0)",
+            "six",
+            "graphviz (>0.5.1) ; extra == 'visualize'",
+            "Twisted (>=16.1.1) ; extra == 'visualize'"
+        ]
+    }
+}

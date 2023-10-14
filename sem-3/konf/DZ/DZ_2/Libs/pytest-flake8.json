@@ -1,0 +1,8 @@
+{
+    "info": {
+        "requires_dist": [
+            "flake8 (>=4.0)",
+            "pytest (>=7.0)"
+        ]
+    }
+}

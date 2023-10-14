@@ -1,0 +1,11 @@
+{
+    "info": {
+        "requires_dist": [
+            "click (>=7.0)",
+            "prompt-toolkit (>=3.0.36)",
+            "pytest-cov (>=4.0.0) ; extra == 'testing'",
+            "pytest (>=7.2.1) ; extra == 'testing'",
+            "tox (>=4.4.3) ; extra == 'testing'"
+        ]
+    }
+}

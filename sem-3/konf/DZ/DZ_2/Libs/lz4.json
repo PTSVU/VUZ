@@ -1,0 +1,12 @@
+{
+    "info": {
+        "requires_dist": [
+            "sphinx (>=1.6.0) ; extra == 'docs'",
+            "sphinx-bootstrap-theme ; extra == 'docs'",
+            "flake8 ; extra == 'flake8'",
+            "pytest (!=3.3.0) ; extra == 'tests'",
+            "psutil ; extra == 'tests'",
+            "pytest-cov ; extra == 'tests'"
+        ]
+    }
+}

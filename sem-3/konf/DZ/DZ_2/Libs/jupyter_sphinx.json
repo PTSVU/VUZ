@@ -1,0 +1,11 @@
+{
+    "info": {
+        "requires_dist": [
+            "Sphinx (>=2)",
+            "ipywidgets (>=7.0.0)",
+            "IPython",
+            "nbconvert (>=5.5)",
+            "nbformat"
+        ]
+    }
+}

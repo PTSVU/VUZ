@@ -1,0 +1,21 @@
+{
+    "info": {
+        "requires_dist": [
+            "asciitree",
+            "numpy !=1.21.0,>=1.20",
+            "fasteners",
+            "numcodecs >=0.10.0",
+            "sphinx ; extra == 'docs'",
+            "sphinx-design ; extra == 'docs'",
+            "sphinx-issues ; extra == 'docs'",
+            "sphinx-copybutton ; extra == 'docs'",
+            "sphinx-rtd-theme ; extra == 'docs'",
+            "pydata-sphinx-theme ; extra == 'docs'",
+            "numpydoc ; extra == 'docs'",
+            "numcodecs[msgpack] ; extra == 'docs'",
+            "notebook ; extra == 'jupyter'",
+            "ipytree >=0.2.2 ; extra == 'jupyter'",
+            "ipywidgets >=8.0.0 ; extra == 'jupyter'"
+        ]
+    }
+}

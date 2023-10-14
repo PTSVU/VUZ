@@ -1,0 +1,14 @@
+{
+    "info": {
+        "requires_dist": [
+            "sphinx >=4",
+            "sphinx <7 ; extra == 'rtd'",
+            "sphinx-rtd-theme ; extra == 'rtd'",
+            "pytest ; extra == 'test'",
+            "pytest-cov ; extra == 'test'",
+            "cython ; extra == 'test'",
+            "coverage ; extra == 'test'",
+            "setuptools ; (python_version >= \"3.12\") and extra == 'test'"
+        ]
+    }
+}

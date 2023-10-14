@@ -1,0 +1,7 @@
+{
+    "info": {
+        "requires_dist": [
+            "pandas (>=1.2.0)"
+        ]
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "info": {
+        "requires_dist": [
+            "protobuf >=4.21.6",
+            "grpcio >=1.59.0",
+            "googleapis-common-protos >=1.5.5"
+        ]
+    }
+}

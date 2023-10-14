@@ -1,0 +1,10 @@
+{
+    "info": {
+        "requires_dist": [
+            "PasteDeploy (>=2.0)",
+            "plaster (>=0.5)",
+            "pytest ; extra == 'testing'",
+            "pytest-cov ; extra == 'testing'"
+        ]
+    }
+}

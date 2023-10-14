@@ -1,0 +1,7 @@
+{
+    "info": {
+        "requires_dist": [
+            "mkdocs>=1.0.3"
+        ]
+    }
+}

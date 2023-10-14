@@ -1,0 +1,10 @@
+{
+    "info": {
+        "requires_dist": [
+            "pygments (>=2.7.3) ; extra == 'all'",
+            "wavedrom ; (python_version >= \"3.7\") and extra == 'all'",
+            "pygments (>=2.7.3) ; extra == 'code_syntax_highlighting'",
+            "wavedrom ; (python_version >= \"3.7\") and extra == 'wavedrom'"
+        ]
+    }
+}

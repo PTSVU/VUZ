@@ -1,0 +1,9 @@
+{
+    "info": {
+        "requires_dist": [
+            "pip >=7",
+            "watchdog ; extra == 'cache'",
+            "passlib >=1.6 ; extra == 'passlib'"
+        ]
+    }
+}

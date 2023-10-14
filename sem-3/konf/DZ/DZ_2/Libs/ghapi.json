@@ -1,0 +1,11 @@
+{
+    "info": {
+        "requires_dist": [
+            "pip",
+            "packaging",
+            "fastcore (>=1.5.4)",
+            "jsonref ; extra == 'dev'",
+            "matplotlib ; extra == 'dev'"
+        ]
+    }
+}

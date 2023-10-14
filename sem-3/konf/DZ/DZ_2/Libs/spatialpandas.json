@@ -1,0 +1,34 @@
+{
+    "info": {
+        "requires_dist": [
+            "dask",
+            "fsspec",
+            "numba",
+            "pandas",
+            "param",
+            "pyarrow (>=1.0)",
+            "retrying",
+            "datashader ; extra == 'examples'",
+            "distributed ; extra == 'examples'",
+            "descartes ; extra == 'examples'",
+            "geopandas ; extra == 'examples'",
+            "holoviews ; extra == 'examples'",
+            "matplotlib ; extra == 'examples'",
+            "codecov ; extra == 'tests'",
+            "flake8 ; extra == 'tests'",
+            "hilbertcurve ; extra == 'tests'",
+            "geopandas ; extra == 'tests'",
+            "hypothesis ; extra == 'tests'",
+            "keyring ; extra == 'tests'",
+            "moto[s3,server] ; extra == 'tests'",
+            "pytest-cov ; extra == 'tests'",
+            "pytest ; extra == 'tests'",
+            "python-snappy ; extra == 'tests'",
+            "rfc3986 ; extra == 'tests'",
+            "s3fs ; extra == 'tests'",
+            "scipy ; extra == 'tests'",
+            "shapely ; extra == 'tests'",
+            "twine ; extra == 'tests'"
+        ]
+    }
+}

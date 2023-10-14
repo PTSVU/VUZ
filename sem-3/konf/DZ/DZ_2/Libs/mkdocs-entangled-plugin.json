@@ -1,0 +1,8 @@
+{
+    "info": {
+        "requires_dist": [
+            "entangled-cli[rich] (>=2.0.0a3,<3.0.0)",
+            "mkdocs (>=1.4.2,<2.0.0)"
+        ]
+    }
+}

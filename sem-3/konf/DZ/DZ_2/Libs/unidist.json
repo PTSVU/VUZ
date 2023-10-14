@@ -1,0 +1,20 @@
+{
+    "info": {
+        "requires_dist": [
+            "packaging",
+            "cloudpickle",
+            "ray[default] (>=1.13.0) ; extra == 'all'",
+            "pydantic (<2) ; extra == 'all'",
+            "dask[complete] (>=2.22.0) ; extra == 'all'",
+            "distributed (>=2.22.0) ; extra == 'all'",
+            "mpi4py-mpich ; extra == 'all'",
+            "msgpack (>=1.0.0) ; extra == 'all'",
+            "dask[complete] (>=2.22.0) ; extra == 'dask'",
+            "distributed (>=2.22.0) ; extra == 'dask'",
+            "mpi4py-mpich ; extra == 'mpi'",
+            "msgpack (>=1.0.0) ; extra == 'mpi'",
+            "ray[default] (>=1.13.0) ; extra == 'ray'",
+            "pydantic (<2) ; extra == 'ray'"
+        ]
+    }
+}

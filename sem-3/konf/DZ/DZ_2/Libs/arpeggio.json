@@ -1,0 +1,14 @@
+{
+    "info": {
+        "requires_dist": [
+            "wheel ; extra == 'dev'",
+            "mkdocs ; extra == 'dev'",
+            "mike ; extra == 'dev'",
+            "twine ; extra == 'dev'",
+            "flake8 ; extra == 'test'",
+            "coverage ; extra == 'test'",
+            "coveralls ; extra == 'test'",
+            "pytest ; extra == 'test'"
+        ]
+    }
+}

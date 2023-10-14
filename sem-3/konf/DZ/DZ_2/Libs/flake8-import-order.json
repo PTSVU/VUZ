@@ -1,0 +1,9 @@
+{
+    "info": {
+        "requires_dist": [
+            "pycodestyle",
+            "setuptools",
+            "enum34 ; python_version <= \"2.7\""
+        ]
+    }
+}

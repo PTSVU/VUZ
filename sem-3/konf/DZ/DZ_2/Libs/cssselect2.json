@@ -1,0 +1,13 @@
+{
+    "info": {
+        "requires_dist": [
+            "tinycss2",
+            "webencodings",
+            "sphinx ; extra == \"doc\"",
+            "sphinx_rtd_theme ; extra == \"doc\"",
+            "pytest ; extra == \"test\"",
+            "isort ; extra == \"test\"",
+            "flake8 ; extra == \"test\""
+        ]
+    }
+}

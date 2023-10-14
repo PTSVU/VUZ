@@ -1,0 +1,11 @@
+{
+    "info": {
+        "requires_dist": [
+            "tornado",
+            "toolz",
+            "zict",
+            "six",
+            "setuptools"
+        ]
+    }
+}

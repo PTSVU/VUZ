@@ -1,0 +1,16 @@
+{
+    "info": {
+        "requires_dist": [
+            "pint >=0.21",
+            "pandas >=1.5",
+            "pytest ; extra == 'test'",
+            "pytest-mpl ; extra == 'test'",
+            "pytest-cov ; extra == 'test'",
+            "pytest-subtests ; extra == 'test'",
+            "codecov ; extra == 'test'",
+            "coveralls ; extra == 'test'",
+            "nbval ; extra == 'test'",
+            "pyarrow ; extra == 'test'"
+        ]
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "info": {
+        "requires_dist": [
+            "altair>=4.0.0",
+            "docutils",
+            "jinja2",
+            "sphinx",
+            "typing-extensions>=4.0.1; python_version < '3.8'",
+            "black<24; extra == 'dev'",
+            "hatch; extra == 'dev'",
+            "ipython; extra == 'dev'",
+            "mypy; extra == 'dev'",
+            "pytest; extra == 'dev'",
+            "ruff; extra == 'dev'",
+            "types-docutils; extra == 'dev'"
+        ]
+    }
+}

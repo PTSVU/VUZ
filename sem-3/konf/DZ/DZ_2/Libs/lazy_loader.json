@@ -1,0 +1,9 @@
+{
+    "info": {
+        "requires_dist": [
+            "pre-commit >= 3.3 ; extra == \"lint\"",
+            "pytest >= 7.4 ; extra == \"test\"",
+            "pytest-cov >= 4.1 ; extra == \"test\""
+        ]
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "info": {
+        "requires_dist": [
+            "more-itertools (>=2.6)",
+            "jaraco.functools",
+            "importlib-metadata ; python_version < \"3.8\"",
+            "sphinx (>=1.8.2) ; extra == 'docs'",
+            "jaraco.packaging (>=3.2) ; extra == 'docs'",
+            "sphinx-tabs (>=1.1.0) ; extra == 'docs'",
+            "furo ; extra == 'docs'",
+            "python-dateutil ; extra == 'docs'",
+            "sphinxcontrib-apidoc (>=0.3.0) ; extra == 'docs'"
+        ]
+    }
+}

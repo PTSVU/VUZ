@@ -1,0 +1,8 @@
+{
+    "info": {
+        "requires_dist": [
+            "humanfriendly (>=9.1)",
+            "capturer (>=2.4) ; extra == 'cron'"
+        ]
+    }
+}

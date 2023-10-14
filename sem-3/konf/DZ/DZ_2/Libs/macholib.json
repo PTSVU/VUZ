@@ -1,0 +1,7 @@
+{
+    "info": {
+        "requires_dist": [
+            "altgraph (>=0.17)"
+        ]
+    }
+}

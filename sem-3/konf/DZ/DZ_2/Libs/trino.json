@@ -1,0 +1,24 @@
+{
+    "info": {
+        "requires_dist": [
+            "python-dateutil",
+            "pytz",
+            "requests >=2.31.0",
+            "tzlocal",
+            "backports.zoneinfo ; python_version < \"3.9\"",
+            "requests-kerberos ; extra == 'all'",
+            "sqlalchemy >=1.3 ; extra == 'all'",
+            "keyring ; extra == 'external-authentication-token-cache'",
+            "requests-kerberos ; extra == 'kerberos'",
+            "sqlalchemy >=1.3 ; extra == 'sqlalchemy'",
+            "requests-kerberos ; extra == 'tests'",
+            "sqlalchemy >=1.3 ; extra == 'tests'",
+            "httpretty <1.1 ; extra == 'tests'",
+            "pytest ; extra == 'tests'",
+            "pytest-runner ; extra == 'tests'",
+            "pre-commit ; extra == 'tests'",
+            "black ; extra == 'tests'",
+            "isort ; extra == 'tests'"
+        ]
+    }
+}

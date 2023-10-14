@@ -1,0 +1,29 @@
+{
+    "info": {
+        "requires_dist": [
+            "typing-extensions >=3.7.4.2",
+            "typing-inspect >=0.4.0",
+            "pyyaml >=5.2",
+            "black ==23.9.1 ; extra == 'dev'",
+            "coverage >=4.5.4 ; extra == 'dev'",
+            "build >=0.10.0 ; extra == 'dev'",
+            "fixit ==2.0.0.post1 ; extra == 'dev'",
+            "flake8 <5,>=3.7.8 ; extra == 'dev'",
+            "Sphinx >=5.1.1 ; extra == 'dev'",
+            "hypothesis >=4.36.0 ; extra == 'dev'",
+            "hypothesmith >=0.0.4 ; extra == 'dev'",
+            "jupyter >=1.0.0 ; extra == 'dev'",
+            "maturin <0.16,>=0.8.3 ; extra == 'dev'",
+            "nbsphinx >=0.4.2 ; extra == 'dev'",
+            "prompt-toolkit >=2.0.9 ; extra == 'dev'",
+            "setuptools-scm >=6.0.1 ; extra == 'dev'",
+            "sphinx-rtd-theme >=0.4.3 ; extra == 'dev'",
+            "ufmt ==2.2.0 ; extra == 'dev'",
+            "usort ==1.0.7 ; extra == 'dev'",
+            "setuptools-rust >=1.5.2 ; extra == 'dev'",
+            "slotscheck >=0.7.1 ; extra == 'dev'",
+            "jinja2 ==3.1.2 ; extra == 'dev'",
+            "pyre-check ==0.9.18 ; (platform_system != \"Windows\") and extra == 'dev'"
+        ]
+    }
+}

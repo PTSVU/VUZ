@@ -1,0 +1,39 @@
+{
+    "info": {
+        "requires_dist": [
+            "jinja2",
+            "tornado (>=6.1)",
+            "pyzmq (>=17)",
+            "argon2-cffi",
+            "traitlets (>=4.2.1)",
+            "jupyter-core (>=4.6.1)",
+            "jupyter-client (>=6.1.1)",
+            "ipython-genutils",
+            "jupyter-server (>=1.8)",
+            "nbformat",
+            "notebook-shim (>=0.2.3)",
+            "nbconvert (>=5)",
+            "nest-asyncio (>=1.5)",
+            "ipykernel",
+            "Send2Trash (>=1.8.0)",
+            "terminado (>=0.8.3)",
+            "prometheus-client",
+            "sphinx ; extra == 'docs'",
+            "nbsphinx ; extra == 'docs'",
+            "sphinxcontrib-github-alt ; extra == 'docs'",
+            "sphinx-rtd-theme ; extra == 'docs'",
+            "myst-parser ; extra == 'docs'",
+            "json-logging ; extra == 'json-logging'",
+            "pytest ; extra == 'test'",
+            "coverage ; extra == 'test'",
+            "requests ; extra == 'test'",
+            "testpath ; extra == 'test'",
+            "nbval ; extra == 'test'",
+            "pytest-playwright ; extra == 'test'",
+            "pytest-cov ; extra == 'test'",
+            "pytest-jupyter ; extra == 'test'",
+            "pytest-tornasync ; extra == 'test'",
+            "requests-unixsocket ; (sys_platform != \"win32\") and extra == 'test'"
+        ]
+    }
+}

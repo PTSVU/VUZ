@@ -1,0 +1,7 @@
+{
+    "info": {
+        "requires_dist": [
+            "bracex>=2.1.1"
+        ]
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "info": {
+        "requires_dist": [
+            "cffi >= 1.1.0",
+            "sphinx ; extra == \"doc\"",
+            "sphinx_rtd_theme ; extra == \"doc\"",
+            "pytest ; extra == \"test\"",
+            "flake8 ; extra == \"test\"",
+            "isort ; extra == \"test\"",
+            "numpy ; extra == \"test\"",
+            "pikepdf ; extra == \"test\"",
+            "xcffib >= 1.4.0 ; extra == \"xcb\""
+        ]
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "info": {
+        "requires_dist": [
+            "click (<9,>=6)",
+            "pyyaml (<7,>=3)",
+            "configparser ; extra == 'dev'",
+            "coverage ; extra == 'dev'",
+            "flake8 ; extra == 'dev'",
+            "pandocfilters ; extra == 'dev'",
+            "pytest-cov ; extra == 'dev'",
+            "pytest ; extra == 'dev'",
+            "requests ; extra == 'dev'",
+            "yamlloader (<2,>=1) ; extra == 'extras'",
+            "docutils ; extra == 'pypi'",
+            "Pygments ; extra == 'pypi'",
+            "twine ; extra == 'pypi'",
+            "wheel ; extra == 'pypi'"
+        ]
+    }
+}

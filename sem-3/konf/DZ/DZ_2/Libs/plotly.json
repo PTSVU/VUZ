@@ -1,0 +1,8 @@
+{
+    "info": {
+        "requires_dist": [
+            "tenacity (>=6.2.0)",
+            "packaging"
+        ]
+    }
+}

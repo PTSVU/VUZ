@@ -1,0 +1,7 @@
+{
+    "info": {
+        "requires_dist": [
+            "asn1crypto (>=1.5.1)"
+        ]
+    }
+}

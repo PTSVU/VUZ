@@ -1,0 +1,36 @@
+{
+    "info": {
+        "requires_dist": [
+            "sphinx<7,>=4",
+            "pydata-sphinx-theme>=0.13.3",
+            "pre-commit; extra == \"code-style\"",
+            "ablog; extra == \"doc\"",
+            "ipywidgets; extra == \"doc\"",
+            "folium; extra == \"doc\"",
+            "numpy; extra == \"doc\"",
+            "matplotlib; extra == \"doc\"",
+            "numpydoc; extra == \"doc\"",
+            "myst-nb; extra == \"doc\"",
+            "nbclient; extra == \"doc\"",
+            "pandas; extra == \"doc\"",
+            "plotly; extra == \"doc\"",
+            "sphinx-design; extra == \"doc\"",
+            "sphinx-examples; extra == \"doc\"",
+            "sphinx-copybutton; extra == \"doc\"",
+            "sphinx-tabs<=3.4.0; extra == \"doc\"",
+            "docutils==0.17.1; extra == \"doc\"",
+            "sphinx-togglebutton; extra == \"doc\"",
+            "sphinx-thebe; extra == \"doc\"",
+            "sphinxcontrib-bibtex; extra == \"doc\"",
+            "sphinxcontrib-youtube; extra == \"doc\"",
+            "sphinxext-opengraph; extra == \"doc\"",
+            "beautifulsoup4; extra == \"test\"",
+            "coverage; extra == \"test\"",
+            "myst-nb; extra == \"test\"",
+            "pytest; extra == \"test\"",
+            "pytest-cov; extra == \"test\"",
+            "pytest-regressions; extra == \"test\"",
+            "sphinx_thebe; extra == \"test\""
+        ]
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "info": {
+        "requires_dist": [
+            "jsonschema[format-nongpl]>=4.18.0",
+            "python-json-logger>=2.0.4",
+            "pyyaml>=5.3",
+            "referencing",
+            "rfc3339-validator",
+            "rfc3986-validator>=0.1.1",
+            "traitlets>=5.3",
+            "click; extra == 'cli'",
+            "rich; extra == 'cli'",
+            "jupyterlite-sphinx; extra == 'docs'",
+            "myst-parser; extra == 'docs'",
+            "pydata-sphinx-theme; extra == 'docs'",
+            "sphinxcontrib-spelling; extra == 'docs'",
+            "click; extra == 'test'",
+            "pre-commit; extra == 'test'",
+            "pytest-asyncio>=0.19.0; extra == 'test'",
+            "pytest-console-scripts; extra == 'test'",
+            "pytest>=7.0; extra == 'test'",
+            "rich; extra == 'test'"
+        ]
+    }
+}

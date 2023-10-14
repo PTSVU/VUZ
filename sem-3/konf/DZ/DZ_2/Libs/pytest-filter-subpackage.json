@@ -1,0 +1,10 @@
+{
+    "info": {
+        "requires_dist": [
+            "pytest (>=3.0)",
+            "pytest ; extra == 'test'",
+            "pytest-doctestplus ; extra == 'test'",
+            "pytest-cov ; extra == 'test'"
+        ]
+    }
+}

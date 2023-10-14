@@ -1,0 +1,7 @@
+{
+    "info": {
+        "requires_dist": [
+            "objgraph (>=1.7.2) ; extra == 'graph'"
+        ]
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "info": {
+        "requires_dist": [
+            "setuptools",
+            "wheel",
+            "sphinx",
+            "docutils",
+            "matplotlib ; extra == 'sphinx'",
+            "numpy ; extra == 'sphinx'",
+            "myst-nb ; extra == 'sphinx'",
+            "sphinx-book-theme ; extra == 'sphinx'",
+            "sphinx-design ; extra == 'sphinx'",
+            "sphinx-examples ; extra == 'sphinx'"
+        ]
+    }
+}

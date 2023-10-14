@@ -1,0 +1,8 @@
+{
+    "info": {
+        "requires_dist": [
+            "python-slugify; extra == \"toc\"",
+            "pygments; extra == \"codehilite\""
+        ]
+    }
+}

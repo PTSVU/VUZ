@@ -1,0 +1,20 @@
+{
+    "info": {
+        "requires_dist": [
+            "Jinja2 (>=2.11.0)",
+            "pygments (>=2.12.0)",
+            "MarkupSafe",
+            "astunparse ; python_version < \"3.9\"",
+            "tox ; extra == 'dev'",
+            "ruff ; extra == 'dev'",
+            "black ; extra == 'dev'",
+            "mypy ; extra == 'dev'",
+            "types-pygments ; extra == 'dev'",
+            "pytest ; extra == 'dev'",
+            "pytest-cov ; extra == 'dev'",
+            "pytest-timeout ; extra == 'dev'",
+            "hypothesis ; extra == 'dev'",
+            "pygments (>=2.14.0) ; extra == 'dev'"
+        ]
+    }
+}

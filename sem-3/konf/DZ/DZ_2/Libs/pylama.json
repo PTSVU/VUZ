@@ -1,0 +1,32 @@
+{
+    "info": {
+        "requires_dist": [
+            "mccabe (>=0.7.0)",
+            "pycodestyle (>=2.9.1)",
+            "pydocstyle (>=6.1.1)",
+            "pyflakes (>=2.5.0)",
+            "pylint ; extra == 'all'",
+            "eradicate ; extra == 'all'",
+            "radon ; extra == 'all'",
+            "mypy ; extra == 'all'",
+            "vulture ; extra == 'all'",
+            "eradicate ; extra == 'eradicate'",
+            "mypy ; extra == 'mypy'",
+            "pylint ; extra == 'pylint'",
+            "radon ; extra == 'radon'",
+            "pytest (>=7.1.2) ; extra == 'tests'",
+            "pytest-mypy ; extra == 'tests'",
+            "eradicate (>=2.0.0) ; extra == 'tests'",
+            "radon (>=5.1.0) ; extra == 'tests'",
+            "mypy ; extra == 'tests'",
+            "pylint (>=2.11.1) ; extra == 'tests'",
+            "pylama-quotes ; extra == 'tests'",
+            "toml ; extra == 'tests'",
+            "vulture ; extra == 'tests'",
+            "types-setuptools ; extra == 'tests'",
+            "types-toml ; extra == 'tests'",
+            "toml (>=0.10.2) ; extra == 'toml'",
+            "vulture ; extra == 'vulture'"
+        ]
+    }
+}

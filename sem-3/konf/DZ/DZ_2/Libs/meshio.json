@@ -1,0 +1,11 @@
+{
+    "info": {
+        "requires_dist": [
+            "numpy",
+            "rich",
+            "importlib-metadata ; python_version < \"3.8\"",
+            "netCDF4 ; extra == 'all'",
+            "h5py ; extra == 'all'"
+        ]
+    }
+}

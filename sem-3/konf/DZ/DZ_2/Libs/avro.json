@@ -1,0 +1,9 @@
+{
+    "info": {
+        "requires_dist": [
+            "typing-extensions; python_version < \"3.8\"",
+            "python-snappy; extra == \"snappy\"",
+            "zstandard; extra == \"zstandard\""
+        ]
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "info": {
+        "requires_dist": [
+            "Jinja2 (>=2.7.1)",
+            "Pygments (>=2.9.0,<3.0.0)",
+            "chardet (>=3.0.0)",
+            "pluggy (>=0.13.1,<2)",
+            "setuptools (>=17.0.0) ; python_version < \"3.8\"",
+            "tomli (>=1.2.1) ; extra == \"toml\""
+        ]
+    }
+}

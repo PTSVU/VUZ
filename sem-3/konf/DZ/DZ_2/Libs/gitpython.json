@@ -1,0 +1,16 @@
+{
+    "info": {
+        "requires_dist": [
+            "gitdb <5,>=4.0.1",
+            "typing-extensions >=3.7.4.3 ; python_version < \"3.8\"",
+            "black ; extra == 'test'",
+            "coverage[toml] ; extra == 'test'",
+            "ddt !=1.4.3,>=1.1.1 ; extra == 'test'",
+            "mypy ; extra == 'test'",
+            "pre-commit ; extra == 'test'",
+            "pytest ; extra == 'test'",
+            "pytest-cov ; extra == 'test'",
+            "pytest-sugar ; extra == 'test'"
+        ]
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "info": {
+        "requires_dist": [
+            "sphinx>=7.0.1",
+            "covdefaults>=2.3; extra == 'test'",
+            "pytest-cov>=4.1; extra == 'test'",
+            "pytest>=7.3.2; extra == 'test'"
+        ]
+    }
+}

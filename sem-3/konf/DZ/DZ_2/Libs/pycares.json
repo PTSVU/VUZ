@@ -1,0 +1,8 @@
+{
+    "info": {
+        "requires_dist": [
+            "cffi >=1.5.0",
+            "idna >=2.1 ; extra == 'idna'"
+        ]
+    }
+}

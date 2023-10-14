@@ -1,0 +1,22 @@
+{
+    "info": {
+        "requires_dist": [
+            "GitPython (>=1.0.1)",
+            "PyYAML (>=5.3.1)",
+            "stevedore (>=1.20.0)",
+            "rich",
+            "colorama (>=0.3.9) ; (platform_system==\"Windows\")",
+            "coverage (>=4.5.4) ; extra == 'test'",
+            "fixtures (>=3.0.0) ; extra == 'test'",
+            "flake8 (>=4.0.0) ; extra == 'test'",
+            "stestr (>=2.5.0) ; extra == 'test'",
+            "testscenarios (>=0.5.0) ; extra == 'test'",
+            "testtools (>=2.3.0) ; extra == 'test'",
+            "beautifulsoup4 (>=4.8.0) ; extra == 'test'",
+            "pylint (==1.9.4) ; extra == 'test'",
+            "tomli (>=1.1.0) ; ((python_version<\"3.11\")) and extra == 'test'",
+            "tomli (>=1.1.0) ; (python_version < \"3.11\") and extra == 'toml'",
+            "PyYAML ; extra == 'yaml'"
+        ]
+    }
+}

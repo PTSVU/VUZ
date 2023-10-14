@@ -1,0 +1,25 @@
+{
+    "info": {
+        "requires_dist": [
+            "pandas (<2.2,>=2.1)",
+            "packaging (>=21.0)",
+            "numpy (>=1.22.4)",
+            "fsspec (>=2022.05.0)",
+            "psutil (>=5.8.0)",
+            "dask (>=2.22.0) ; extra == 'all'",
+            "distributed (>=2.22.0) ; extra == 'all'",
+            "ray[default] (!=2.5.0,>=1.13.0) ; extra == 'all'",
+            "pyarrow (>=7.0.0) ; extra == 'all'",
+            "pydantic (<2) ; extra == 'all'",
+            "unidist[mpi] (>=0.2.1) ; extra == 'all'",
+            "modin-spreadsheet (>=0.1.0) ; extra == 'all'",
+            "dask (>=2.22.0) ; extra == 'dask'",
+            "distributed (>=2.22.0) ; extra == 'dask'",
+            "ray[default] (!=2.5.0,>=1.13.0) ; extra == 'ray'",
+            "pyarrow (>=7.0.0) ; extra == 'ray'",
+            "pydantic (<2) ; extra == 'ray'",
+            "modin-spreadsheet (>=0.1.0) ; extra == 'spreadsheet'",
+            "unidist[mpi] (>=0.2.1) ; extra == 'unidist'"
+        ]
+    }
+}

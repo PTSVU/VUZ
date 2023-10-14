@@ -1,0 +1,12 @@
+{
+    "info": {
+        "requires_dist": [
+            "sphinx >= 3",
+            "myst-parser ; extra == \"doc\"",
+            "furo ; extra == \"doc\"",
+            "pytest ; extra == \"test\"",
+            "pytest-cov ; extra == \"test\"",
+            "pytest-xdist ; extra == \"test\""
+        ]
+    }
+}

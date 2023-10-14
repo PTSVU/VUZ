@@ -1,0 +1,40 @@
+{
+    "info": {
+        "requires_dist": [
+            "appnope; platform_system == 'Darwin'",
+            "comm>=0.1.1",
+            "debugpy>=1.6.5",
+            "ipython>=7.23.1",
+            "jupyter-client>=6.1.12",
+            "jupyter-core!=5.0.*,>=4.12",
+            "matplotlib-inline>=0.1",
+            "nest-asyncio",
+            "packaging",
+            "psutil",
+            "pyzmq>=20",
+            "tornado>=6.1",
+            "traitlets>=5.4.0",
+            "coverage[toml]; extra == 'cov'",
+            "curio; extra == 'cov'",
+            "matplotlib; extra == 'cov'",
+            "pytest-cov; extra == 'cov'",
+            "trio; extra == 'cov'",
+            "myst-parser; extra == 'docs'",
+            "pydata-sphinx-theme; extra == 'docs'",
+            "sphinx; extra == 'docs'",
+            "sphinx-autodoc-typehints; extra == 'docs'",
+            "sphinxcontrib-github-alt; extra == 'docs'",
+            "sphinxcontrib-spelling; extra == 'docs'",
+            "trio; extra == 'docs'",
+            "pyqt5; extra == 'pyqt5'",
+            "pyside6; extra == 'pyside6'",
+            "flaky; extra == 'test'",
+            "ipyparallel; extra == 'test'",
+            "pre-commit; extra == 'test'",
+            "pytest-asyncio; extra == 'test'",
+            "pytest-cov; extra == 'test'",
+            "pytest-timeout; extra == 'test'",
+            "pytest>=7.0; extra == 'test'"
+        ]
+    }
+}

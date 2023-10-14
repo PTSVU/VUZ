@@ -1,0 +1,17 @@
+{
+    "info": {
+        "requires_dist": [
+            "furo>=2023.7.26; extra == 'docs'",
+            "sphinx-autodoc-typehints!=1.23.4,>=1.24; extra == 'docs'",
+            "sphinx>=7.1.2; extra == 'docs'",
+            "covdefaults>=2.3; extra == 'testing'",
+            "coverage>=7.3; extra == 'testing'",
+            "diff-cover>=7.7; extra == 'testing'",
+            "pytest-cov>=4.1; extra == 'testing'",
+            "pytest-mock>=3.11.1; extra == 'testing'",
+            "pytest-timeout>=2.1; extra == 'testing'",
+            "pytest>=7.4; extra == 'testing'",
+            "typing-extensions>=4.7.1; python_version < '3.11' and extra == 'typing'"
+        ]
+    }
+}

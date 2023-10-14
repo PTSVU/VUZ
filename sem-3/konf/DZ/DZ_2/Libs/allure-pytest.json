@@ -1,0 +1,8 @@
+{
+    "info": {
+        "requires_dist": [
+            "pytest (>=4.5.0)",
+            "allure-python-commons (==2.13.2)"
+        ]
+    }
+}

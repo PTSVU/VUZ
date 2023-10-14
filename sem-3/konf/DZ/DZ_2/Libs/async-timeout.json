@@ -1,0 +1,7 @@
+{
+    "info": {
+        "requires_dist": [
+            "typing-extensions >=3.6.5 ; python_version < \"3.8\""
+        ]
+    }
+}

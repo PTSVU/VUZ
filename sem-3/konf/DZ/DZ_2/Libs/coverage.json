@@ -1,0 +1,7 @@
+{
+    "info": {
+        "requires_dist": [
+            "tomli ; (python_full_version <= \"3.11.0a6\") and extra == 'toml'"
+        ]
+    }
+}

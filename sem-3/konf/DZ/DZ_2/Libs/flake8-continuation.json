@@ -1,0 +1,9 @@
+{
+    "info": {
+        "requires_dist": [
+            "flake8",
+            "pycodestyle",
+            "six"
+        ]
+    }
+}

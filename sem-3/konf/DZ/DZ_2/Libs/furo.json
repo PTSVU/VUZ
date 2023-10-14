@@ -1,0 +1,10 @@
+{
+    "info": {
+        "requires_dist": [
+            "beautifulsoup4",
+            "sphinx<8.0,>=6.0",
+            "sphinx-basic-ng",
+            "pygments>=2.7"
+        ]
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "info": {
+        "requires_dist": [
+            "appdirs",
+            "dask",
+            "entrypoints",
+            "fsspec (>=2021.7.0)",
+            "jinja2",
+            "msgpack",
+            "pyyaml",
+            "requests",
+            "bokeh ; extra == 'complete'",
+            "dask[dataframe] ; extra == 'complete'",
+            "hvplot ; extra == 'complete'",
+            "msgpack-numpy ; extra == 'complete'",
+            "msgpack-python ; extra == 'complete'",
+            "panel (>=0.7.0) ; extra == 'complete'",
+            "pyarrow ; extra == 'complete'",
+            "python-snappy ; extra == 'complete'",
+            "requests ; extra == 'complete'",
+            "tornado ; extra == 'complete'",
+            "dask[dataframe] ; extra == 'dataframe'",
+            "msgpack-numpy ; extra == 'dataframe'",
+            "pyarrow ; extra == 'dataframe'",
+            "hvplot ; extra == 'plot'",
+            "panel (>=0.7.0) ; extra == 'plot'",
+            "bokeh ; extra == 'plot'",
+            "requests ; extra == 'remote'",
+            "tornado ; extra == 'server'",
+            "python-snappy ; extra == 'server'",
+            "msgpack-python ; extra == 'server'"
+        ]
+    }
+}

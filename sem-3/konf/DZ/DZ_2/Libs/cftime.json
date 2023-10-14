@@ -1,0 +1,7 @@
+{
+    "info": {
+        "requires_dist": [
+            "numpy (>1.13.3)"
+        ]
+    }
+}

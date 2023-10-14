@@ -1,0 +1,9 @@
+{
+    "info": {
+        "requires_dist": [
+            "pydantic>=2.0.3",
+            "phonenumbers<9,>=8; extra == 'all'",
+            "pycountry<23,>=22; extra == 'all'"
+        ]
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "info": {
+        "requires_dist": [
+            "typing-extensions",
+            "babel (<=2.8) ; extra == 'babel'",
+            "dask ; extra == 'dask'",
+            "mip (>=1.13) ; extra == 'mip'",
+            "numpy (>=1.19.5) ; extra == 'numpy'",
+            "pint-pandas (>=0.3) ; extra == 'pandas'",
+            "pytest ; extra == 'test'",
+            "pytest-mpl ; extra == 'test'",
+            "pytest-cov ; extra == 'test'",
+            "pytest-subtests ; extra == 'test'",
+            "uncertainties (>=3.1.6) ; extra == 'uncertainties'",
+            "xarray ; extra == 'xarray'"
+        ]
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "info": {
+        "requires_dist": [
+            "flake8 (<7.0,>=3.8.0)",
+            "typing-extensions (>=3.7.4.2)",
+            "importlib-metadata (<5.0.0,>=4.0.0) ; python_version < \"3.8.0\"",
+            "mypy ; extra == 'dev'",
+            "flake8 (<6.0.0,>=3.8.0) ; extra == 'dev'",
+            "flake8-annotations ; extra == 'dev'",
+            "flake8-bandit ; extra == 'dev'",
+            "flake8-bugbear ; extra == 'dev'",
+            "flake8-commas ; extra == 'dev'",
+            "flake8-comprehensions ; extra == 'dev'",
+            "flake8-continuation ; extra == 'dev'",
+            "flake8-datetimez ; extra == 'dev'",
+            "flake8-docstrings ; extra == 'dev'",
+            "flake8-import-order ; extra == 'dev'",
+            "flake8-literal ; extra == 'dev'",
+            "flake8-noqa ; extra == 'dev'",
+            "flake8-polyfill ; extra == 'dev'",
+            "flake8-pyproject ; extra == 'dev'",
+            "flake8-modern-annotations ; extra == 'dev'",
+            "flake8-requirements ; extra == 'dev'",
+            "flake8-typechecking-import ; extra == 'dev'",
+            "flake8-use-fstring ; extra == 'dev'",
+            "pep8-naming ; extra == 'dev'"
+        ]
+    }
+}

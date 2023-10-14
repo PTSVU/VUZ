@@ -1,0 +1,8 @@
+{
+    "info": {
+        "requires_dist": [
+            "sphinx (>=1.2.0)",
+            "CommonMark (>=0.5.6); extra == \"markdown\""
+        ]
+    }
+}

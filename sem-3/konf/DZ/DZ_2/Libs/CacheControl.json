@@ -1,0 +1,21 @@
+{
+    "info": {
+        "requires_dist": [
+            "requests >= 2.16.0",
+            "msgpack >= 0.5.2",
+            "CacheControl[filecache,redis] ; extra == \"dev\"",
+            "build ; extra == \"dev\"",
+            "mypy ; extra == \"dev\"",
+            "tox ; extra == \"dev\"",
+            "pytest-cov ; extra == \"dev\"",
+            "pytest ; extra == \"dev\"",
+            "cherrypy ; extra == \"dev\"",
+            "sphinx ; extra == \"dev\"",
+            "black ; extra == \"dev\"",
+            "types-redis ; extra == \"dev\"",
+            "types-requests ; extra == \"dev\"",
+            "filelock >= 3.8.0 ; extra == \"filecache\"",
+            "redis>=2.10.5 ; extra == \"redis\""
+        ]
+    }
+}

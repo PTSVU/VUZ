@@ -1,0 +1,11 @@
+{
+    "info": {
+        "requires_dist": [
+            "click",
+            "colorama ; platform_system == \"Windows\"",
+            "tomli ; python_version < \"3.11\"",
+            "changelist ==0.3 ; extra == 'dev'",
+            "pre-commit ==3.4.0 ; extra == 'lint'"
+        ]
+    }
+}

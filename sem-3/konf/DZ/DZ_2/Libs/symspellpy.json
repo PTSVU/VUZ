@@ -1,0 +1,7 @@
+{
+    "info": {
+        "requires_dist": [
+            "editdistpy (>=0.1.3)"
+        ]
+    }
+}

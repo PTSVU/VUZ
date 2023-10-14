@@ -1,0 +1,12 @@
+{
+    "info": {
+        "requires_dist": [
+            "Sphinx>=5",
+            "flake8 ; extra == \"lint\"",
+            "mypy ; extra == \"lint\"",
+            "docutils-stubs ; extra == \"lint\"",
+            "pytest ; extra == \"test\"",
+            "html5lib ; extra == \"test\""
+        ]
+    }
+}

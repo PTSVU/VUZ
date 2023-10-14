@@ -1,0 +1,16 @@
+{
+    "info": {
+        "requires_dist": [
+            "flake8",
+            "dataclasses;python_version==\"3.6\"",
+            "black ; extra == \"dev\"",
+            "mypy ; extra == \"dev\"",
+            "tox ; extra == \"dev\"",
+            "pytest ; extra == \"test\"",
+            "pytest-sugar ; extra == \"test\"",
+            "pytest-coverage ; extra == \"test\"",
+            "coverage[toml] ; extra == \"test\"",
+            "types-dataclasses ; extra == \"test\""
+        ]
+    }
+}

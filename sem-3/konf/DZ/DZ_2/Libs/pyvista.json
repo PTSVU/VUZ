@@ -1,0 +1,25 @@
+{
+    "info": {
+        "requires_dist": [
+            "matplotlib >=3.0.1",
+            "numpy",
+            "pillow",
+            "pooch",
+            "scooby >=0.5.1",
+            "vtk",
+            "pyvista[colormaps,io,jupyter,trame] ; extra == 'all'",
+            "cmocean ; extra == 'colormaps'",
+            "colorcet ; extra == 'colormaps'",
+            "imageio ; extra == 'io'",
+            "meshio >=5.2 ; extra == 'io'",
+            "ipywidgets ; extra == 'jupyter'",
+            "jupyter-server-proxy ; extra == 'jupyter'",
+            "nest-asyncio ; extra == 'jupyter'",
+            "trame >=2.5.2 ; extra == 'jupyter'",
+            "trame-client >=2.10.0 ; extra == 'jupyter'",
+            "trame-server >=2.11.7 ; extra == 'jupyter'",
+            "trame-vtk >=2.5.8 ; extra == 'jupyter'",
+            "trame-vuetify >=2.3.1 ; extra == 'jupyter'"
+        ]
+    }
+}

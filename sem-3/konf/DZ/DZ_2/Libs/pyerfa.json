@@ -1,0 +1,10 @@
+{
+    "info": {
+        "requires_dist": [
+            "numpy (>=1.17)",
+            "sphinx-astropy (>=1.3) ; extra == 'docs'",
+            "pytest ; extra == 'test'",
+            "pytest-doctestplus (>=0.7) ; extra == 'test'"
+        ]
+    }
+}

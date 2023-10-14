@@ -1,0 +1,8 @@
+{
+    "info": {
+        "requires_dist": [
+            "wsproto",
+            "sphinx ; extra == 'docs'"
+        ]
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "info": {
+        "requires_dist": [
+            "pytest ; extra == \"test\"",
+            "pytest-trio ; extra == \"test\"",
+            "pytest-asyncio >=0.17 ; extra == \"test\"",
+            "testpath ; extra == \"test\"",
+            "trio ; extra == \"test\"",
+            "async-timeout ; extra == \"test\"",
+            "trio ; extra == \"trio\"",
+            "async_generator ; extra == \"trio\" and ( python_version == '3.6')"
+        ]
+    }
+}

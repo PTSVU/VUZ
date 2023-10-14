@@ -1,0 +1,9 @@
+{
+    "info": {
+        "requires_dist": [
+            "pytest",
+            "ruamel.yaml>=0.15",
+            "pytest-cov ; extra == \"codecov\""
+        ]
+    }
+}

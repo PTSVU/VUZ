@@ -1,0 +1,14 @@
+{
+    "info": {
+        "requires_dist": [
+            "numpy (>=1.14)",
+            "numpydoc (==1.1.*) ; extra == 'docs'",
+            "matplotlib ; extra == 'docs'",
+            "sphinx ; extra == 'docs'",
+            "sphinx-book-theme ; extra == 'docs'",
+            "sphinx-remove-toctrees ; extra == 'docs'",
+            "pytest ; extra == 'test'",
+            "pytest-cov ; extra == 'test'"
+        ]
+    }
+}

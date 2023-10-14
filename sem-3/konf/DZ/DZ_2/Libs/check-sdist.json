@@ -1,0 +1,14 @@
+{
+    "info": {
+        "requires_dist": [
+            "build",
+            "importlib-resources; python_version < '3.9'",
+            "pathspec",
+            "tomli; python_version < '3.11'",
+            "pytest-cov>=3; extra == 'dev'",
+            "pytest>=6; extra == 'dev'",
+            "pytest-cov>=3; extra == 'test'",
+            "pytest>=6; extra == 'test'"
+        ]
+    }
+}

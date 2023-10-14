@@ -1,0 +1,26 @@
+{
+    "info": {
+        "requires_dist": [
+            "numpy >=1.21",
+            "packaging >=21.3",
+            "pandas >=1.4",
+            "scipy ; extra == 'accel'",
+            "bottleneck ; extra == 'accel'",
+            "numbagg ; extra == 'accel'",
+            "flox ; extra == 'accel'",
+            "xarray[accel,io,parallel,viz] ; extra == 'complete'",
+            "netCDF4 ; extra == 'io'",
+            "h5netcdf ; extra == 'io'",
+            "scipy ; extra == 'io'",
+            "zarr ; extra == 'io'",
+            "fsspec ; extra == 'io'",
+            "cftime ; extra == 'io'",
+            "pooch ; extra == 'io'",
+            "pydap ; (python_version < \"3.10\") and extra == 'io'",
+            "dask[complete] ; extra == 'parallel'",
+            "matplotlib ; extra == 'viz'",
+            "seaborn ; extra == 'viz'",
+            "nc-time-axis ; extra == 'viz'"
+        ]
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "info": {
+        "requires_dist": [
+            "appdirs",
+            "networkx",
+            "pydantic<3,>=2",
+            "pyyaml",
+            "requests",
+            "typer",
+            "black; extra == 'dev'",
+            "pre-commit; extra == 'dev'",
+            "ruff==0.0.262; extra == 'dev'"
+        ]
+    }
+}

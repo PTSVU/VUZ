@@ -1,0 +1,16 @@
+{
+    "info": {
+        "requires_dist": [
+            "tzdata ; platform_system == \"Windows\"",
+            "backports.zoneinfo ; python_version < \"3.9\"",
+            "black ; extra == 'devenv'",
+            "check-manifest ; extra == 'devenv'",
+            "flake8 ; extra == 'devenv'",
+            "pyroma ; extra == 'devenv'",
+            "pytest-cov ; extra == 'devenv'",
+            "pytest-mock (>=3.3) ; extra == 'devenv'",
+            "pytest (>=4.3) ; extra == 'devenv'",
+            "zest.releaser ; extra == 'devenv'"
+        ]
+    }
+}

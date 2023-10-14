@@ -1,0 +1,11 @@
+{
+    "info": {
+        "requires_dist": [
+            "numpy",
+            "pytest ; extra == 'dev'",
+            "numba ; extra == 'dev'",
+            "pandas ; extra == 'dev'",
+            "numba ; extra == 'fast'"
+        ]
+    }
+}

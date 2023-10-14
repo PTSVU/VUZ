@@ -1,0 +1,24 @@
+{
+    "info": {
+        "requires_dist": [
+            "ipython (<6.0.0,>=5.1.0) ; python_version == \"2.7\"",
+            "toml (>=0.10.2) ; python_version == \"2.7\"",
+            "decorator (<5.0.0) ; python_version == \"2.7\"",
+            "pathlib ; python_version == \"2.7\"",
+            "ipython (<7.0.0,>=6.0.0) ; python_version == \"3.4\"",
+            "toml (>=0.10.2) ; python_version == \"3.4\"",
+            "decorator (<5.0.0) ; python_version == \"3.4\"",
+            "ipython (<7.10.0,>=7.0.0) ; python_version == \"3.5\"",
+            "toml (>=0.10.2) ; python_version == \"3.5\"",
+            "decorator ; python_version == \"3.5\"",
+            "ipython (<7.17.0,>=7.16.3) ; python_version == \"3.6\"",
+            "tomli ; python_version == \"3.6\"",
+            "decorator ; python_version == \"3.6\"",
+            "ipython (>=7.31.1) ; python_version > \"3.6\" and python_version < \"3.11\"",
+            "tomli ; python_version > \"3.6\" and python_version < \"3.11\"",
+            "decorator ; python_version > \"3.6\" and python_version < \"3.11\"",
+            "ipython (>=7.31.1) ; python_version >= \"3.11\"",
+            "decorator ; python_version >= \"3.11\""
+        ]
+    }
+}

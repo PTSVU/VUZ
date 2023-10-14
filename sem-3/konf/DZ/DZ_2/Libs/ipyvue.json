@@ -1,0 +1,9 @@
+{
+    "info": {
+        "requires_dist": [
+            "ipywidgets >=7.0.0",
+            "pre-commit ; extra == 'dev'",
+            "solara[pytest] ; extra == 'test'"
+        ]
+    }
+}

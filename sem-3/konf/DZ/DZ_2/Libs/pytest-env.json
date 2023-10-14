@@ -1,0 +1,9 @@
+{
+    "info": {
+        "requires_dist": [
+            "pytest>=7.3.1",
+            "coverage>=7.2.7; extra == 'test'",
+            "pytest-mock>=3.10; extra == 'test'"
+        ]
+    }
+}

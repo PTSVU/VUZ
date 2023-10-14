@@ -1,0 +1,27 @@
+{
+    "info": {
+        "requires_dist": [
+            "importlib-metadata; python_version < '3.8'",
+            "attrs[tests]; extra == 'cov'",
+            "coverage[toml]>=5.3; extra == 'cov'",
+            "attrs[docs,tests]; extra == 'dev'",
+            "pre-commit; extra == 'dev'",
+            "furo; extra == 'docs'",
+            "myst-parser; extra == 'docs'",
+            "sphinx; extra == 'docs'",
+            "sphinx-notfound-page; extra == 'docs'",
+            "sphinxcontrib-towncrier; extra == 'docs'",
+            "towncrier; extra == 'docs'",
+            "zope-interface; extra == 'docs'",
+            "attrs[tests-no-zope]; extra == 'tests'",
+            "zope-interface; extra == 'tests'",
+            "cloudpickle; platform_python_implementation == 'CPython' and extra == 'tests-no-zope'",
+            "hypothesis; extra == 'tests-no-zope'",
+            "mypy>=1.1.1; platform_python_implementation == 'CPython' and extra == 'tests-no-zope'",
+            "pympler; extra == 'tests-no-zope'",
+            "pytest-mypy-plugins; platform_python_implementation == 'CPython' and python_version < '3.11' and extra == 'tests-no-zope'",
+            "pytest-xdist[psutil]; extra == 'tests-no-zope'",
+            "pytest>=4.3.0; extra == 'tests-no-zope'"
+        ]
+    }
+}

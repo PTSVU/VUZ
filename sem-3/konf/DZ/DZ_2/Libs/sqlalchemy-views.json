@@ -1,0 +1,7 @@
+{
+    "info": {
+        "requires_dist": [
+            "sqlalchemy (>=1.0.0)"
+        ]
+    }
+}

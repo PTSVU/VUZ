@@ -1,0 +1,8 @@
+{
+    "info": {
+        "requires_dist": [
+            "botocore (<2.0a.0,>=1.12.36)",
+            "botocore[crt] (<2.0a.0,>=1.20.29) ; extra == 'crt'"
+        ]
+    }
+}

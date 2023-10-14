@@ -1,0 +1,22 @@
+{
+    "info": {
+        "requires_dist": [
+            "sphinx (<5.1,>=4)",
+            "importlib-resources ; python_version < \"3.9\"",
+            "pre-commit (~=2.12) ; extra == 'code_style'",
+            "myst-nb (<0.18,>=0.13) ; extra == 'myst'",
+            "myst-parser (<=0.18) ; extra == 'rtd'",
+            "sphinx-book-theme ; extra == 'rtd'",
+            "sphinx-design ; extra == 'rtd'",
+            "sphinx-jupyterbook-latex ; extra == 'rtd'",
+            "coverage (<5.0) ; extra == 'testing'",
+            "myst-nb (<0.18,>=0.13) ; extra == 'testing'",
+            "pytest (<4,>=3.6) ; extra == 'testing'",
+            "pytest-cov (~=2.8) ; extra == 'testing'",
+            "pytest-regressions ; extra == 'testing'",
+            "sphinx-external-toc (<0.3.0,>=0.1.0) ; extra == 'testing'",
+            "sphinxcontrib-bibtex (<2.3.0,>=2.2.1) ; extra == 'testing'",
+            "texsoup ; extra == 'testing'"
+        ]
+    }
+}

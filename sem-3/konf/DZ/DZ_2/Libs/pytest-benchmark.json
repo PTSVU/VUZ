@@ -1,0 +1,14 @@
+{
+    "info": {
+        "requires_dist": [
+            "pytest (>=3.8)",
+            "py-cpuinfo",
+            "statistics ; python_version < \"3.4\"",
+            "pathlib2 ; python_version < \"3.4\"",
+            "aspectlib ; extra == 'aspect'",
+            "elasticsearch ; extra == 'elasticsearch'",
+            "pygal ; extra == 'histogram'",
+            "pygaljs ; extra == 'histogram'"
+        ]
+    }
+}

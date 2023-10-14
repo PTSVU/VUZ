@@ -1,0 +1,12 @@
+{
+    "info": {
+        "requires_dist": [
+            "colorama (>=0.4.3) ; extra == \"colors\"",
+            "pip-api ; extra == \"requirements-deprecated-finder\"",
+            "pip-shims (>=0.5.2) ; extra == \"pipfile-deprecated-finder\"",
+            "pipreqs ; extra == \"pipfile-deprecated-finder\" or extra == \"requirements-deprecated-finder\"",
+            "requirementslib ; extra == \"pipfile-deprecated-finder\"",
+            "setuptools ; extra == \"plugins\""
+        ]
+    }
+}

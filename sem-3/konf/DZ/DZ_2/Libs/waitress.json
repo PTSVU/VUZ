@@ -1,0 +1,12 @@
+{
+    "info": {
+        "requires_dist": [
+            "Sphinx (>=1.8.1) ; extra == 'docs'",
+            "docutils ; extra == 'docs'",
+            "pylons-sphinx-themes (>=1.0.9) ; extra == 'docs'",
+            "pytest ; extra == 'testing'",
+            "pytest-cover ; extra == 'testing'",
+            "coverage (>=5.0) ; extra == 'testing'"
+        ]
+    }
+}

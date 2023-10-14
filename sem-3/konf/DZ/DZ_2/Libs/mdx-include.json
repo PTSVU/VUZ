@@ -1,0 +1,9 @@
+{
+    "info": {
+        "requires_dist": [
+            "Markdown (>=2.6)",
+            "rcslice (>=1.1.0)",
+            "cyclic"
+        ]
+    }
+}

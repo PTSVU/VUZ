@@ -1,0 +1,17 @@
+{
+    "info": {
+        "requires_dist": [
+            "asdf (>=2.12.1)",
+            "tomli ; extra == 'docs'",
+            "sphinx ; extra == 'docs'",
+            "sphinx-asdf (>=0.1.3) ; extra == 'docs'",
+            "sphinx-astropy ; extra == 'docs'",
+            "astropy (>=5.0.4) ; extra == 'docs'",
+            "graphviz ; extra == 'docs'",
+            "matplotlib ; extra == 'docs'",
+            "docutils ; extra == 'docs'",
+            "sphinx-rtd-theme ; extra == 'docs'",
+            "pytest ; extra == 'test'"
+        ]
+    }
+}

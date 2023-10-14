@@ -1,0 +1,20 @@
+{
+    "info": {
+        "requires_dist": [
+            "dnspython <3.0.0,>=1.16.0",
+            "pymongo-auth-aws <2.0.0 ; extra == 'aws'",
+            "pymongo[aws] ; extra == 'encryption'",
+            "pymongocrypt <2.0.0,>=1.6.0 ; extra == 'encryption'",
+            "certifi ; (os_name == \"nt\" or sys_platform == \"darwin\") and extra == 'encryption'",
+            "pykerberos ; (os_name != \"nt\") and extra == 'gssapi'",
+            "winkerberos >=0.5.0 ; (os_name == \"nt\") and extra == 'gssapi'",
+            "pyopenssl >=17.2.0 ; extra == 'ocsp'",
+            "requests <3.0.0 ; extra == 'ocsp'",
+            "cryptography >=2.5 ; extra == 'ocsp'",
+            "service-identity >=18.1.0 ; extra == 'ocsp'",
+            "certifi ; (os_name == \"nt\" or sys_platform == \"darwin\") and extra == 'ocsp'",
+            "python-snappy ; extra == 'snappy'",
+            "zstandard ; extra == 'zstd'"
+        ]
+    }
+}

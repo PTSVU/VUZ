@@ -1,0 +1,40 @@
+{
+    "info": {
+        "requires_dist": [
+            "affine",
+            "attrs",
+            "certifi",
+            "click (>=4.0)",
+            "cligj (>=0.5)",
+            "numpy (>=1.18)",
+            "snuggs (>=1.4.1)",
+            "click-plugins",
+            "setuptools",
+            "numpydoc ; extra == 'all'",
+            "boto3 (>=1.2.4) ; extra == 'all'",
+            "packaging ; extra == 'all'",
+            "sphinx-rtd-theme ; extra == 'all'",
+            "sphinx ; extra == 'all'",
+            "ghp-import ; extra == 'all'",
+            "ipython (>=2.0) ; extra == 'all'",
+            "hypothesis ; extra == 'all'",
+            "pytest (>=2.8.2) ; extra == 'all'",
+            "matplotlib ; extra == 'all'",
+            "shapely ; extra == 'all'",
+            "pytest-cov (>=2.2.0) ; extra == 'all'",
+            "ghp-import ; extra == 'docs'",
+            "numpydoc ; extra == 'docs'",
+            "sphinx ; extra == 'docs'",
+            "sphinx-rtd-theme ; extra == 'docs'",
+            "ipython (>=2.0) ; extra == 'ipython'",
+            "matplotlib ; extra == 'plot'",
+            "boto3 (>=1.2.4) ; extra == 's3'",
+            "boto3 (>=1.2.4) ; extra == 'test'",
+            "hypothesis ; extra == 'test'",
+            "packaging ; extra == 'test'",
+            "pytest-cov (>=2.2.0) ; extra == 'test'",
+            "pytest (>=2.8.2) ; extra == 'test'",
+            "shapely ; extra == 'test'"
+        ]
+    }
+}

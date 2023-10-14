@@ -1,0 +1,30 @@
+{
+    "info": {
+        "requires_dist": [
+            "doit<1,>=0.34",
+            "importlib-metadata>=3.6; python_version < '3.10'",
+            "jupyter-core>=4.7",
+            "jsonschema>=3; extra == 'all'",
+            "jupyter-server; extra == 'all'",
+            "jupyter-server-mathjax>=0.2.3; extra == 'all'",
+            "jupyterlab-server<3,>=2.8.1; extra == 'all'",
+            "jupyterlab<3.6,>=3.5.3; extra == 'all'",
+            "libarchive-c>=4.0; extra == 'all'",
+            "pkginfo; extra == 'all'",
+            "tornado>=6.1; extra == 'all'",
+            "jsonschema[format-nongpl]>=3; extra == 'check'",
+            "jupyter-server; extra == 'contents'",
+            "jupyterlab<3.6,>=3.5.3; extra == 'lab'",
+            "libarchive-c>=4.0; extra == 'libarchive'",
+            "jupyter-server-mathjax>=0.2.3; extra == 'mathjax'",
+            "tornado>=6.1; extra == 'serve'",
+            "ansi2html; extra == 'test'",
+            "diffoscope; sys_platform == 'linux' and extra == 'test'",
+            "pytest-console-scripts; extra == 'test'",
+            "pytest-cov; extra == 'test'",
+            "pytest-html; extra == 'test'",
+            "pytest-xdist; extra == 'test'",
+            "jupyterlab-server<3,>=2.8.1; extra == 'translation'"
+        ]
+    }
+}

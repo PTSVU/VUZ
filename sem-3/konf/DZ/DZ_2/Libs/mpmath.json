@@ -1,0 +1,14 @@
+{
+    "info": {
+        "requires_dist": [
+            "pytest (>=4.6) ; extra == 'develop'",
+            "pycodestyle ; extra == 'develop'",
+            "pytest-cov ; extra == 'develop'",
+            "codecov ; extra == 'develop'",
+            "wheel ; extra == 'develop'",
+            "sphinx ; extra == 'docs'",
+            "gmpy2 (>=2.1.0a4) ; (platform_python_implementation != \"PyPy\") and extra == 'gmpy'",
+            "pytest (>=4.6) ; extra == 'tests'"
+        ]
+    }
+}

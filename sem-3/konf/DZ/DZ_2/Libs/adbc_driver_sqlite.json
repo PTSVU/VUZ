@@ -1,0 +1,12 @@
+{
+    "info": {
+        "requires_dist": [
+            "adbc-driver-manager",
+            "pandas ; extra == 'dbapi'",
+            "pyarrow >=8.0.0 ; extra == 'dbapi'",
+            "pandas ; extra == 'test'",
+            "pyarrow >=8.0.0 ; extra == 'test'",
+            "pytest ; extra == 'test'"
+        ]
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "info": {
+        "requires_dist": [
+            "pyrepl (>=0.8.2)",
+            "pyreadline ; platform_system == \"Windows\""
+        ]
+    }
+}

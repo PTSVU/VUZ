@@ -1,0 +1,19 @@
+{
+    "info": {
+        "requires_dist": [
+            "sphinx (>=1.8)",
+            "flake8 (<3.8.0,>=3.7.0) ; extra == 'code_style'",
+            "black ; extra == 'code_style'",
+            "pre-commit (==1.17.0) ; extra == 'code_style'",
+            "sphinx (>=2) ; extra == 'sphinx'",
+            "sphinx-book-theme ; extra == 'sphinx'",
+            "myst-parser ; extra == 'sphinx'",
+            "beautifulsoup4 ; extra == 'testing'",
+            "myst-parser ; extra == 'testing'",
+            "pytest ; extra == 'testing'",
+            "pytest-regressions ; extra == 'testing'",
+            "sphinx (>=2) ; extra == 'testing'",
+            "sphinx-book-theme ; extra == 'testing'"
+        ]
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "info": {
+        "requires_dist": [
+            "asgiref >=3.2.10",
+            "click >=7.1.1",
+            "click-default-group >=1.2.3",
+            "Jinja2 >=2.10.3",
+            "hupper >=1.9",
+            "httpx >=0.20",
+            "pint >=0.9",
+            "pluggy >=1.0",
+            "uvicorn >=0.11",
+            "aiofiles >=0.4",
+            "janus >=0.6.2",
+            "asgi-csrf >=0.9",
+            "PyYAML >=5.3",
+            "mergedeep >=1.1.1",
+            "itsdangerous >=1.1",
+            "setuptools",
+            "pip",
+            "furo ==2022.9.29 ; extra == 'docs'",
+            "sphinx-autobuild ; extra == 'docs'",
+            "codespell ; extra == 'docs'",
+            "blacken-docs ; extra == 'docs'",
+            "sphinx-copybutton ; extra == 'docs'",
+            "rich ; extra == 'rich'",
+            "pytest >=5.2.2 ; extra == 'test'",
+            "pytest-xdist >=2.2.1 ; extra == 'test'",
+            "pytest-asyncio >=0.17 ; extra == 'test'",
+            "beautifulsoup4 >=4.8.1 ; extra == 'test'",
+            "black ==22.10.0 ; extra == 'test'",
+            "blacken-docs ==1.12.1 ; extra == 'test'",
+            "pytest-timeout >=1.4.2 ; extra == 'test'",
+            "trustme >=0.7 ; extra == 'test'",
+            "cogapp >=3.3.0 ; extra == 'test'"
+        ]
+    }
+}

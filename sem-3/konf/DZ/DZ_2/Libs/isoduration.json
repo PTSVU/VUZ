@@ -1,0 +1,7 @@
+{
+    "info": {
+        "requires_dist": [
+            "arrow (>=0.15.0)"
+        ]
+    }
+}

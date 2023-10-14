@@ -1,0 +1,10 @@
+{
+    "info": {
+        "requires_dist": [
+            "numpy",
+            "matplotlib; extra == \"all\"",
+            "tifffile; extra == \"all\"",
+            "numcodecs; extra == \"all\""
+        ]
+    }
+}

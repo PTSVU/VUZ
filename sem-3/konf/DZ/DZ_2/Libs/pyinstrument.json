@@ -1,0 +1,22 @@
+{
+    "info": {
+        "requires_dist": [
+            "click ; extra == 'bin'",
+            "nox ; extra == 'bin'",
+            "sphinx ==4.2.0 ; extra == 'docs'",
+            "myst-parser ==0.15.1 ; extra == 'docs'",
+            "furo ==2021.6.18b36 ; extra == 'docs'",
+            "sphinxcontrib-programoutput ==0.17 ; extra == 'docs'",
+            "numpy ; extra == 'examples'",
+            "django ; extra == 'examples'",
+            "pytest ; extra == 'test'",
+            "flaky ; extra == 'test'",
+            "trio ; extra == 'test'",
+            "greenlet >=3.0.0a1 ; extra == 'test'",
+            "pytest-asyncio ==0.12.0 ; extra == 'test'",
+            "sphinx-autobuild ==2021.3.14 ; extra == 'test'",
+            "ipython ; extra == 'test'",
+            "typing-extensions ; extra == 'types'"
+        ]
+    }
+}

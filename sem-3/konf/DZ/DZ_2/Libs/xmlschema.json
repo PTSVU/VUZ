@@ -1,0 +1,24 @@
+{
+    "info": {
+        "requires_dist": [
+            "elementpath <5.0.0,>=4.1.5",
+            "elementpath <5.0.0,>=4.1.5 ; extra == 'codegen'",
+            "jinja2 ; extra == 'codegen'",
+            "tox ; extra == 'dev'",
+            "coverage ; extra == 'dev'",
+            "lxml ; extra == 'dev'",
+            "elementpath <5.0.0,>=4.1.5 ; extra == 'dev'",
+            "memory-profiler ; extra == 'dev'",
+            "Sphinx ; extra == 'dev'",
+            "sphinx-rtd-theme ; extra == 'dev'",
+            "jinja2 ; extra == 'dev'",
+            "flake8 ; extra == 'dev'",
+            "mypy ; extra == 'dev'",
+            "lxml-stubs ; extra == 'dev'",
+            "elementpath <5.0.0,>=4.1.5 ; extra == 'docs'",
+            "Sphinx ; extra == 'docs'",
+            "sphinx-rtd-theme ; extra == 'docs'",
+            "jinja2 ; extra == 'docs'"
+        ]
+    }
+}

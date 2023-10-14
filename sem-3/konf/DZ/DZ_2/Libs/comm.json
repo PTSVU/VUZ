@@ -1,0 +1,13 @@
+{
+    "info": {
+        "requires_dist": [
+            "traitlets>=4",
+            "black>=22.6.0; extra == 'lint'",
+            "mdformat-gfm>=0.3.5; extra == 'lint'",
+            "mdformat>0.7; extra == 'lint'",
+            "ruff>=0.0.156; extra == 'lint'",
+            "pytest; extra == 'test'",
+            "mypy>=0.990; extra == 'typing'"
+        ]
+    }
+}

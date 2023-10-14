@@ -1,0 +1,29 @@
+{
+    "info": {
+        "requires_dist": [
+            "distlib<1,>=0.3.7",
+            "filelock<4,>=3.12.2",
+            "importlib-metadata>=6.6; python_version < '3.8'",
+            "platformdirs<4,>=3.9.1",
+            "furo>=2023.7.26; extra == 'docs'",
+            "proselint>=0.13; extra == 'docs'",
+            "sphinx-argparse>=0.4; extra == 'docs'",
+            "sphinx>=7.1.2; extra == 'docs'",
+            "sphinxcontrib-towncrier>=0.2.1a0; extra == 'docs'",
+            "towncrier>=23.6; extra == 'docs'",
+            "covdefaults>=2.3; extra == 'test'",
+            "coverage-enable-subprocess>=1; extra == 'test'",
+            "coverage>=7.2.7; extra == 'test'",
+            "flaky>=3.7; extra == 'test'",
+            "packaging>=23.1; extra == 'test'",
+            "pytest-env>=0.8.2; extra == 'test'",
+            "pytest-freezer>=0.4.8; platform_python_implementation == 'PyPy' and extra == 'test'",
+            "pytest-mock>=3.11.1; extra == 'test'",
+            "pytest-randomly>=3.12; extra == 'test'",
+            "pytest-timeout>=2.1; extra == 'test'",
+            "pytest>=7.4; extra == 'test'",
+            "setuptools>=68; extra == 'test'",
+            "time-machine>=2.10; platform_python_implementation == 'CPython' and extra == 'test'"
+        ]
+    }
+}

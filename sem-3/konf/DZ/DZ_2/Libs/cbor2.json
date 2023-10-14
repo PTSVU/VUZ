@@ -1,0 +1,10 @@
+{
+    "info": {
+        "requires_dist": [
+            "sphinx-rtd-theme ; extra == 'doc'",
+            "sphinx-autodoc-typehints (>=1.2.0) ; extra == 'doc'",
+            "pytest ; extra == 'test'",
+            "pytest-cov ; extra == 'test'"
+        ]
+    }
+}

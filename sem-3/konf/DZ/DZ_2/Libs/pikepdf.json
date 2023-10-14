@@ -1,0 +1,40 @@
+{
+    "info": {
+        "requires_dist": [
+            "Pillow >=10.0.1",
+            "deprecation",
+            "lxml >=4.8",
+            "packaging",
+            "pre-commit ; extra == 'dev'",
+            "typer[all] ; extra == 'dev'",
+            "GitPython ; extra == 'docs'",
+            "PyGithub ; extra == 'docs'",
+            "Sphinx >=3 ; extra == 'docs'",
+            "ipython ; extra == 'docs'",
+            "matplotlib ; extra == 'docs'",
+            "pybind11 ; extra == 'docs'",
+            "requests ; extra == 'docs'",
+            "sphinx-design ; extra == 'docs'",
+            "sphinx-issues ; extra == 'docs'",
+            "sphinx-rtd-theme ; extra == 'docs'",
+            "tomli ; (python_version < \"3.11\") and extra == 'docs'",
+            "lxml-stubs ; extra == 'mypy'",
+            "types-Pillow ; extra == 'mypy'",
+            "types-requests ; extra == 'mypy'",
+            "types-setuptools ; extra == 'mypy'",
+            "attrs >=20.2.0 ; extra == 'test'",
+            "coverage[toml] ; extra == 'test'",
+            "hypothesis >=6.36 ; extra == 'test'",
+            "psutil >=5.9 ; extra == 'test'",
+            "pybind11 ; extra == 'test'",
+            "pytest >=6.2.5 ; extra == 'test'",
+            "pytest-cov >=3.0.0 ; extra == 'test'",
+            "pytest-timeout >=2.1.0 ; extra == 'test'",
+            "pytest-xdist >=2.5.0 ; extra == 'test'",
+            "python-dateutil >=2.8.1 ; extra == 'test'",
+            "numpy >=1.21.0 ; (python_version != \"3.12\") and extra == 'test'",
+            "tomli ; (python_version < \"3.11\") and extra == 'test'",
+            "python-xmp-toolkit >=2.0.1 ; (sys_platform != \"nt\" and platform_machine == \"x86_64\") and extra == 'test'"
+        ]
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "info": {
+        "requires_dist": [
+            "fastcore (>=1.5.27)",
+            "execnb (>=0.1.4)",
+            "astunparse",
+            "ghapi (>=1.0.3)",
+            "watchdog",
+            "asttokens",
+            "PyYAML",
+            "nbdev-numpy ; extra == 'dev'",
+            "nbdev-stdlib ; extra == 'dev'",
+            "pandas ; extra == 'dev'",
+            "matplotlib ; extra == 'dev'",
+            "black ; extra == 'dev'",
+            "svg.py ; extra == 'dev'",
+            "jupyter ; extra == 'dev'"
+        ]
+    }
+}

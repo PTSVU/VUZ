@@ -1,0 +1,7 @@
+{
+    "info": {
+        "requires_dist": [
+            "manhole (>=1.5) ; platform_system != \"Windows\""
+        ]
+    }
+}

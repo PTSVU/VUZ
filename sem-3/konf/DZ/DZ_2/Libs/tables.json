@@ -1,0 +1,15 @@
+{
+    "info": {
+        "requires_dist": [
+            "numpy >=1.19.0",
+            "numexpr >=2.6.2",
+            "packaging",
+            "py-cpuinfo",
+            "blosc2 >=2.2.8",
+            "sphinx <6,>=1.1 ; extra == 'doc'",
+            "sphinx-rtd-theme ; extra == 'doc'",
+            "numpydoc ; extra == 'doc'",
+            "ipython ; extra == 'doc'"
+        ]
+    }
+}

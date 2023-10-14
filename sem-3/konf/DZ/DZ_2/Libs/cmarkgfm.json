@@ -1,0 +1,7 @@
+{
+    "info": {
+        "requires_dist": [
+            "cffi (>=1.15.0)"
+        ]
+    }
+}

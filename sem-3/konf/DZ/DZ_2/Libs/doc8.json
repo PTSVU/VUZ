@@ -1,0 +1,11 @@
+{
+    "info": {
+        "requires_dist": [
+            "docutils (<0.21,>=0.19)",
+            "restructuredtext-lint (>=0.7)",
+            "stevedore",
+            "Pygments",
+            "tomli ; python_version < \"3.11\""
+        ]
+    }
+}

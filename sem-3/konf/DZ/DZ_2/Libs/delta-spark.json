@@ -1,0 +1,8 @@
+{
+    "info": {
+        "requires_dist": [
+            "pyspark (<3.5.0,>=3.4.0)",
+            "importlib-metadata (>=1.0.0)"
+        ]
+    }
+}

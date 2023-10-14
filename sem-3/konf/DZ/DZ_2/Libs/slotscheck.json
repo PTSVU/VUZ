@@ -1,0 +1,8 @@
+{
+    "info": {
+        "requires_dist": [
+            "click (>=8.0,<9.0)",
+            "tomli (>=0.2.6,<3.0.0) ; python_version < \"3.11\""
+        ]
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "info": {
+        "requires_dist": [
+            "pre-commit ; extra == 'dev'",
+            "coverage ; extra == 'dev'",
+            "gcovr ; extra == 'dev'",
+            "sphinx ; extra == 'dev'",
+            "furo ; extra == 'dev'",
+            "sphinx-copybutton ; extra == 'dev'",
+            "sphinx-design ; extra == 'dev'",
+            "ipython ; extra == 'dev'",
+            "pytest ; extra == 'dev'",
+            "mypy ; extra == 'dev'",
+            "pyright ; extra == 'dev'",
+            "msgpack ; extra == 'dev'",
+            "attrs ; extra == 'dev'",
+            "pyyaml ; extra == 'dev'",
+            "tomli-w ; extra == 'dev'",
+            "tomli ; (python_version < \"3.11\") and extra == 'dev'",
+            "sphinx ; extra == 'doc'",
+            "furo ; extra == 'doc'",
+            "sphinx-copybutton ; extra == 'doc'",
+            "sphinx-design ; extra == 'doc'",
+            "ipython ; extra == 'doc'",
+            "pytest ; extra == 'test'",
+            "mypy ; extra == 'test'",
+            "pyright ; extra == 'test'",
+            "msgpack ; extra == 'test'",
+            "attrs ; extra == 'test'",
+            "pyyaml ; extra == 'test'",
+            "tomli-w ; extra == 'test'",
+            "tomli ; (python_version < \"3.11\") and extra == 'test'",
+            "tomli-w ; extra == 'toml'",
+            "tomli ; (python_version < \"3.11\") and extra == 'toml'",
+            "pyyaml ; extra == 'yaml'"
+        ]
+    }
+}

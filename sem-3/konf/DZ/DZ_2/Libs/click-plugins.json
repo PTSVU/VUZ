@@ -1,0 +1,11 @@
+{
+    "info": {
+        "requires_dist": [
+            "click (>=4.0)",
+            "pytest (>=3.6) ; extra == 'dev'",
+            "pytest-cov ; extra == 'dev'",
+            "wheel ; extra == 'dev'",
+            "coveralls ; extra == 'dev'"
+        ]
+    }
+}

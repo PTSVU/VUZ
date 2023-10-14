@@ -1,0 +1,27 @@
+{
+    "info": {
+        "requires_dist": [
+            "cffi >=1.10.0",
+            "jinja2",
+            "tzlocal",
+            "packaging ; platform_system == \"Windows\"",
+            "typing-extensions ; python_version < \"3.8\"",
+            "backports.zoneinfo ; python_version < \"3.9\"",
+            "pytest ; extra == 'all'",
+            "ipython ; extra == 'all'",
+            "pandas >=1.3.5 ; extra == 'all'",
+            "numpy ; extra == 'all'",
+            "numpy ; extra == 'pandas'",
+            "pandas >=1.3.5 ; extra == 'pandas'",
+            "pytest ; extra == 'test'",
+            "ipython ; extra == 'test'",
+            "numpy ; extra == 'test'",
+            "pandas >=1.3.5 ; extra == 'test'",
+            "pytest ; extra == 'test_minimal'",
+            "coverage ; extra == 'test_minimal'",
+            "pytest-cov ; extra == 'test_minimal'",
+            "mypy ; extra == 'types'",
+            "types-tzlocal ; extra == 'types'"
+        ]
+    }
+}

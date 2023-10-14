@@ -1,0 +1,17 @@
+{
+    "info": {
+        "requires_dist": [
+            "markdown",
+            "numpy",
+            "pandas",
+            "python-dateutil",
+            "requests",
+            "tqdm",
+            "sphinx ; extra == 'sphinx'",
+            "myst-parser ; extra == 'sphinx'",
+            "sphinx-book-theme ; extra == 'sphinx'",
+            "pytest ; extra == 'testing'",
+            "pytest-regressions ; extra == 'testing'"
+        ]
+    }
+}

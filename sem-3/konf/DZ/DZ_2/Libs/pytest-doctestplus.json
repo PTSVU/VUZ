@@ -1,0 +1,12 @@
+{
+    "info": {
+        "requires_dist": [
+            "pytest >=4.6",
+            "setuptools >=30.3.0",
+            "packaging >=17.0",
+            "numpy ; extra == 'test'",
+            "pytest-remotedata >=0.3.2 ; extra == 'test'",
+            "sphinx ; extra == 'test'"
+        ]
+    }
+}

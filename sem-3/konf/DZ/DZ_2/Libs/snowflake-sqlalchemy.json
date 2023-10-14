@@ -1,0 +1,17 @@
+{
+    "info": {
+        "requires_dist": [
+            "sqlalchemy <2.0.0,>=1.4.0",
+            "snowflake-connector-python <4.0.0",
+            "importlib-metadata ; python_version < \"3.8\"",
+            "pytest ; extra == 'development'",
+            "pytest-cov ; extra == 'development'",
+            "pytest-rerunfailures ; extra == 'development'",
+            "pytest-timeout ; extra == 'development'",
+            "mock ; extra == 'development'",
+            "pytz ; extra == 'development'",
+            "numpy ; extra == 'development'",
+            "snowflake-connector-python[pandas] <4.0.0 ; extra == 'pandas'"
+        ]
+    }
+}

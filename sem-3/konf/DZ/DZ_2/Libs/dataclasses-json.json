@@ -1,0 +1,8 @@
+{
+    "info": {
+        "requires_dist": [
+            "typing-inspect (>=0.4.0,<1)",
+            "marshmallow (>=3.18.0,<4.0.0)"
+        ]
+    }
+}

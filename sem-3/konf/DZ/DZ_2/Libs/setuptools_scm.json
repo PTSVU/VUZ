@@ -1,0 +1,21 @@
+{
+    "info": {
+        "requires_dist": [
+            "packaging >=20",
+            "setuptools",
+            "typing-extensions",
+            "tomli >=1 ; python_version < \"3.11\"",
+            "entangled-cli[rich] ; extra == 'docs'",
+            "mkdocs ; extra == 'docs'",
+            "mkdocs-entangled-plugin ; extra == 'docs'",
+            "mkdocs-material ; extra == 'docs'",
+            "mkdocstrings[python] ; extra == 'docs'",
+            "pygments ; extra == 'docs'",
+            "rich ; extra == 'rich'",
+            "build ; extra == 'test'",
+            "pytest ; extra == 'test'",
+            "rich ; extra == 'test'",
+            "wheel ; extra == 'test'"
+        ]
+    }
+}

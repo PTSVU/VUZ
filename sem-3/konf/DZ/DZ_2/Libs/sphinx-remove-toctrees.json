@@ -1,0 +1,15 @@
+{
+    "info": {
+        "requires_dist": [
+            "sphinx (>=1.8)",
+            "pre-commit (==2.12.1) ; extra == 'code_style'",
+            "ipython ; extra == 'docs'",
+            "sphinx-book-theme ; extra == 'docs'",
+            "myst-parser ; extra == 'docs'",
+            "ipython ; extra == 'tests'",
+            "sphinx-book-theme ; extra == 'tests'",
+            "myst-parser ; extra == 'tests'",
+            "pytest ; extra == 'tests'"
+        ]
+    }
+}

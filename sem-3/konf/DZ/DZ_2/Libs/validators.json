@@ -1,0 +1,26 @@
+{
+    "info": {
+        "requires_dist": [
+            "myst-parser >=2.0.0 ; extra == 'docs-offline'",
+            "pypandoc-binary >=1.11 ; extra == 'docs-offline'",
+            "sphinx >=7.1.1 ; extra == 'docs-offline'",
+            "mkdocs >=1.5.2 ; extra == 'docs-online'",
+            "mkdocs-git-revision-date-localized-plugin >=1.2.0 ; extra == 'docs-online'",
+            "mkdocs-material >=9.2.6 ; extra == 'docs-online'",
+            "mkdocstrings[python] >=0.22.0 ; extra == 'docs-online'",
+            "pyaml >=23.7.0 ; extra == 'docs-online'",
+            "pre-commit >=3.3.3 ; extra == 'hooks'",
+            "build >=1.0.0 ; extra == 'package'",
+            "twine >=4.0.2 ; extra == 'package'",
+            "tox >=4.11.1 ; extra == 'runner'",
+            "bandit[toml] >=1.7.5 ; extra == 'sast'",
+            "pytest >=7.4.0 ; extra == 'testing'",
+            "black >=23.7.0 ; extra == 'tooling'",
+            "ruff >=0.0.287 ; extra == 'tooling'",
+            "pyright >=1.1.325 ; extra == 'tooling'",
+            "pyaml >=23.7.0 ; extra == 'tooling-extras'",
+            "pypandoc-binary >=1.11 ; extra == 'tooling-extras'",
+            "pytest >=7.4.0 ; extra == 'tooling-extras'"
+        ]
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "info": {
+        "requires_dist": [
+            "typing-extensions >=4.1",
+            "backports.zoneinfo >=0.2.0 ; python_version < \"3.9\"",
+            "tzdata ; sys_platform == \"win32\"",
+            "psycopg-binary ==3.1.12 ; extra == 'binary'",
+            "psycopg-c ==3.1.12 ; extra == 'c'",
+            "black >=23.1.0 ; extra == 'dev'",
+            "dnspython >=2.1 ; extra == 'dev'",
+            "flake8 >=4.0 ; extra == 'dev'",
+            "mypy >=1.4.1 ; extra == 'dev'",
+            "types-setuptools >=57.4 ; extra == 'dev'",
+            "wheel >=0.37 ; extra == 'dev'",
+            "Sphinx >=5.0 ; extra == 'docs'",
+            "furo ==2022.6.21 ; extra == 'docs'",
+            "sphinx-autobuild >=2021.3.14 ; extra == 'docs'",
+            "sphinx-autodoc-typehints >=1.12 ; extra == 'docs'",
+            "psycopg-pool ; extra == 'pool'",
+            "anyio <4.0,>=3.6.2 ; extra == 'test'",
+            "mypy >=1.4.1 ; extra == 'test'",
+            "pproxy >=2.7 ; extra == 'test'",
+            "pytest >=6.2.5 ; extra == 'test'",
+            "pytest-cov >=3.0 ; extra == 'test'",
+            "pytest-randomly >=3.5 ; extra == 'test'"
+        ]
+    }
+}

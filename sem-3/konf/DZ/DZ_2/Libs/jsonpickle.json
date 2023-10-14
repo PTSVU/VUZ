@@ -1,0 +1,25 @@
+{
+    "info": {
+        "requires_dist": [
+            "importlib-metadata ; python_version < \"3.8\"",
+            "sphinx ; extra == 'docs'",
+            "jaraco.packaging (>=3.2) ; extra == 'docs'",
+            "rst.linker (>=1.9) ; extra == 'docs'",
+            "pytest (!=3.7.3,>=3.5) ; extra == 'testing'",
+            "pytest-checkdocs (>=1.2.3) ; extra == 'testing'",
+            "pytest-flake8 (>=1.1.1) ; extra == 'testing'",
+            "pytest-black-multipy ; extra == 'testing'",
+            "pytest-cov ; extra == 'testing'",
+            "ecdsa ; extra == 'testing'",
+            "feedparser ; extra == 'testing'",
+            "gmpy2 ; extra == 'testing'",
+            "numpy ; extra == 'testing'",
+            "pandas ; extra == 'testing'",
+            "pymongo ; extra == 'testing'",
+            "scikit-learn ; extra == 'testing'",
+            "sqlalchemy ; extra == 'testing'",
+            "simplejson ; extra == 'testing.libs'",
+            "ujson ; extra == 'testing.libs'"
+        ]
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "info": {
+        "requires_dist": [
+            "typing-extensions>=4.7.1; python_version < '3.8'",
+            "furo>=2023.7.26; extra == 'docs'",
+            "proselint>=0.13; extra == 'docs'",
+            "sphinx-autodoc-typehints>=1.24; extra == 'docs'",
+            "sphinx>=7.1.1; extra == 'docs'",
+            "appdirs==1.4.4; extra == 'test'",
+            "covdefaults>=2.3; extra == 'test'",
+            "pytest-cov>=4.1; extra == 'test'",
+            "pytest-mock>=3.11.1; extra == 'test'",
+            "pytest>=7.4; extra == 'test'"
+        ]
+    }
+}

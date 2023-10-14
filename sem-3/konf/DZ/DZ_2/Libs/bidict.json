@@ -1,0 +1,18 @@
+{
+    "info": {
+        "requires_dist": [
+            "sphinx ; extra == 'docs'",
+            "sphinx-copybutton ; extra == 'docs'",
+            "furo ; extra == 'docs'",
+            "pre-commit ; extra == 'lint'",
+            "hypothesis ; extra == 'test'",
+            "pytest ; extra == 'test'",
+            "pytest-benchmark[histogram] ; extra == 'test'",
+            "pytest-cov ; extra == 'test'",
+            "pytest-xdist ; extra == 'test'",
+            "sortedcollections ; extra == 'test'",
+            "sortedcontainers ; extra == 'test'",
+            "sphinx ; extra == 'test'"
+        ]
+    }
+}

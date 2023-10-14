@@ -1,0 +1,9 @@
+{
+    "info": {
+        "requires_dist": [
+            "pytest (>=6) ; extra == 'dev'",
+            "pytest-cov ; extra == 'dev'",
+            "pytest-timeout ; extra == 'dev'"
+        ]
+    }
+}

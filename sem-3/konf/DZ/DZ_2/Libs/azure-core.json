@@ -1,0 +1,10 @@
+{
+    "info": {
+        "requires_dist": [
+            "requests>=2.18.4",
+            "six>=1.11.0",
+            "typing-extensions>=4.6.0",
+            "aiohttp>=3.0; extra == \"aio\""
+        ]
+    }
+}

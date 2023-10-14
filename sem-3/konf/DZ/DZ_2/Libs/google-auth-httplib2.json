@@ -1,0 +1,8 @@
+{
+    "info": {
+        "requires_dist": [
+            "google-auth",
+            "httplib2 (>=0.19.0)"
+        ]
+    }
+}

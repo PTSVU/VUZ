@@ -1,0 +1,18 @@
+{
+    "info": {
+        "requires_dist": [
+            "Django (>=1.11) ; extra == 'dev'",
+            "nose2 ; extra == 'dev'",
+            "tox ; extra == 'dev'",
+            "check-manifest ; extra == 'dev'",
+            "coverage ; extra == 'dev'",
+            "flake8 ; extra == 'dev'",
+            "wheel ; extra == 'dev'",
+            "zest.releaser[recommended] ; extra == 'dev'",
+            "readme-renderer (<25.0) ; (python_version == \"3.4\") and extra == 'dev'",
+            "colorama (<=0.4.1) ; (python_version == \"3.4\") and extra == 'dev'",
+            "Sphinx ; extra == 'doc'",
+            "sphinx-rtd-theme ; extra == 'doc'"
+        ]
+    }
+}

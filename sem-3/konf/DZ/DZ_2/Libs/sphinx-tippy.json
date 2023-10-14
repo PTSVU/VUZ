@@ -1,0 +1,15 @@
+{
+    "info": {
+        "requires_dist": [
+            "sphinx>4",
+            "beautifulsoup4",
+            "jinja2",
+            "requests",
+            "myst-parser ; extra == \"docs\"",
+            "furo ; extra == \"docs\"",
+            "pytest ; extra == \"testing\"",
+            "sphinx-pytest ; extra == \"testing\"",
+            "pytest-regressions ; extra == \"testing\""
+        ]
+    }
+}

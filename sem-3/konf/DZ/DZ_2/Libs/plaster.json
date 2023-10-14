@@ -1,0 +1,11 @@
+{
+    "info": {
+        "requires_dist": [
+            "importlib-metadata ; python_version < \"3.8\"",
+            "Sphinx ; extra == 'docs'",
+            "pylons-sphinx-themes ; extra == 'docs'",
+            "pytest ; extra == 'testing'",
+            "pytest-cov ; extra == 'testing'"
+        ]
+    }
+}

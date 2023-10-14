@@ -1,0 +1,26 @@
+{
+    "info": {
+        "requires_dist": [
+            "click",
+            "joblib",
+            "regex (>=2021.8.3)",
+            "tqdm",
+            "scikit-learn ; extra == 'all'",
+            "python-crfsuite ; extra == 'all'",
+            "requests ; extra == 'all'",
+            "numpy ; extra == 'all'",
+            "pyparsing ; extra == 'all'",
+            "twython ; extra == 'all'",
+            "scipy ; extra == 'all'",
+            "matplotlib ; extra == 'all'",
+            "requests ; extra == 'corenlp'",
+            "numpy ; extra == 'machine_learning'",
+            "python-crfsuite ; extra == 'machine_learning'",
+            "scikit-learn ; extra == 'machine_learning'",
+            "scipy ; extra == 'machine_learning'",
+            "matplotlib ; extra == 'plot'",
+            "pyparsing ; extra == 'tgrep'",
+            "twython ; extra == 'twitter'"
+        ]
+    }
+}

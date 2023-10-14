@@ -1,0 +1,20 @@
+{
+    "info": {
+        "requires_dist": [
+            "sphinx (>=3.5) ; extra == 'docs'",
+            "jaraco.packaging (>=9.3) ; extra == 'docs'",
+            "rst.linker (>=1.9) ; extra == 'docs'",
+            "furo ; extra == 'docs'",
+            "sphinx-lint ; extra == 'docs'",
+            "jaraco.tidelift (>=1.4) ; extra == 'docs'",
+            "pytest (>=6) ; extra == 'testing'",
+            "pytest-checkdocs (>=2.4) ; extra == 'testing'",
+            "pytest-cov ; extra == 'testing'",
+            "pytest-enabler (>=2.2) ; extra == 'testing'",
+            "pytest-ruff ; extra == 'testing'",
+            "types-backports ; extra == 'testing'",
+            "pytest-black (>=0.3.7) ; (platform_python_implementation != \"PyPy\") and extra == 'testing'",
+            "pytest-mypy (>=0.9.1) ; (platform_python_implementation != \"PyPy\") and extra == 'testing'"
+        ]
+    }
+}

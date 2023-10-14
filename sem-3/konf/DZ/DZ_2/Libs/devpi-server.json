@@ -1,0 +1,22 @@
+{
+    "info": {
+        "requires_dist": [
+            "py >=1.4.23",
+            "aiohttp !=4.0.0a0,!=4.0.0a1",
+            "argon2-cffi",
+            "attrs >=21.3.0",
+            "defusedxml",
+            "devpi-common <5,>3.6.0",
+            "itsdangerous >=0.24",
+            "platformdirs",
+            "pyramid >=2",
+            "waitress >=1.0.1",
+            "repoze.lru >=0.6",
+            "passlib[argon2]",
+            "pluggy <2.0,>=0.6.0",
+            "ruamel.yaml",
+            "strictyaml",
+            "lazy"
+        ]
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "info": {
+        "requires_dist": [
+            "freezegun; extra == 'tests'",
+            "pytest; extra == 'tests'",
+            "pytest-cov; extra == 'tests'"
+        ]
+    }
+}

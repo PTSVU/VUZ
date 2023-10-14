@@ -1,0 +1,13 @@
+{
+    "info": {
+        "requires_dist": [
+            "pytest-black ; python_version >= \"3.6\"",
+            "sphinx ; extra == 'docs'",
+            "jaraco.packaging (>=3.2) ; extra == 'docs'",
+            "rst.linker (>=1.9) ; extra == 'docs'",
+            "pytest (!=3.7.3,>=3.5) ; extra == 'testing'",
+            "pytest-checkdocs ; extra == 'testing'",
+            "pytest-flake8 ; extra == 'testing'"
+        ]
+    }
+}

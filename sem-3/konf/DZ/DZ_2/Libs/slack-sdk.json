@@ -1,0 +1,26 @@
+{
+    "info": {
+        "requires_dist": [
+            "aiodns (>1.0) ; extra == 'optional'",
+            "aiohttp (<4,>=3.7.3) ; extra == 'optional'",
+            "boto3 (<=2) ; extra == 'optional'",
+            "SQLAlchemy (<3,>=1.4) ; extra == 'optional'",
+            "websockets (<11,>=10) ; extra == 'optional'",
+            "websocket-client (<2,>=1) ; extra == 'optional'",
+            "pytest (<7,>=6.2.5) ; extra == 'testing'",
+            "pytest-asyncio (<1) ; extra == 'testing'",
+            "Flask-Sockets (<1,>=0.2) ; extra == 'testing'",
+            "Flask (<2,>=1) ; extra == 'testing'",
+            "Werkzeug (<2) ; extra == 'testing'",
+            "itsdangerous (==1.1.0) ; extra == 'testing'",
+            "Jinja2 (==3.0.3) ; extra == 'testing'",
+            "pytest-cov (<3,>=2) ; extra == 'testing'",
+            "flake8 (<6,>=5) ; extra == 'testing'",
+            "black (==22.8.0) ; extra == 'testing'",
+            "click (==8.0.4) ; extra == 'testing'",
+            "psutil (<6,>=5) ; extra == 'testing'",
+            "boto3 (<=2) ; extra == 'testing'",
+            "moto (<4,>=3) ; extra == 'testing'"
+        ]
+    }
+}

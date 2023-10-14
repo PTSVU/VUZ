@@ -1,0 +1,9 @@
+{
+    "info": {
+        "requires_dist": [
+            "tomli >=1.1.0 ; python_version < '3.11'",
+            "ziglang ~=0.10.0 ; extra == 'zig'",
+            "patchelf ; extra == 'patchelf'"
+        ]
+    }
+}

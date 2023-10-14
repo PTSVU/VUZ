@@ -1,0 +1,10 @@
+{
+    "info": {
+        "requires_dist": [
+            "absl-py",
+            "glfw",
+            "numpy",
+            "pyopengl"
+        ]
+    }
+}

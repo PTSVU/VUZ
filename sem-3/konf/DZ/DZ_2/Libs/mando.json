@@ -1,0 +1,10 @@
+{
+    "info": {
+        "requires_dist": [
+            "six",
+            "argparse ; python_version <= \"2.6\"",
+            "funcsigs ; python_version <= \"3.2\"",
+            "rst2ansi ; extra == 'restructuredtext'"
+        ]
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "info": {
+        "requires_dist": [
+            "intel-openmp (==2023.*)",
+            "tbb (==2021.*)"
+        ]
+    }
+}

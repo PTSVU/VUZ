@@ -1,0 +1,7 @@
+{
+    "info": {
+        "requires_dist": [
+            "requests (>=2.25,<3.0)"
+        ]
+    }
+}

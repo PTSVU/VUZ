@@ -1,0 +1,12 @@
+{
+    "info": {
+        "requires_dist": [
+            "natsort (>=7.0.1)",
+            "typing-extensions (>=3.7.4.1)",
+            "importlib-resources (>=3.0.0) ; python_version < \"3.7\"",
+            "importlib-metadata (>=3.6.0) ; python_version < \"3.9\"",
+            "pytz (>=2019.1) ; extra == 'all'",
+            "pytz (>=2019.1) ; extra == 'dates'"
+        ]
+    }
+}

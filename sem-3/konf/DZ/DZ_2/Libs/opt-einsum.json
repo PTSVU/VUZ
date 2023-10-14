@@ -1,0 +1,14 @@
+{
+    "info": {
+        "requires_dist": [
+            "numpy (>=1.7)",
+            "sphinx (==1.2.3) ; extra == 'docs'",
+            "sphinxcontrib-napoleon ; extra == 'docs'",
+            "sphinx-rtd-theme ; extra == 'docs'",
+            "numpydoc ; extra == 'docs'",
+            "pytest ; extra == 'tests'",
+            "pytest-cov ; extra == 'tests'",
+            "pytest-pep8 ; extra == 'tests'"
+        ]
+    }
+}

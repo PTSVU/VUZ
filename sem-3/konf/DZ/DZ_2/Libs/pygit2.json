@@ -1,0 +1,8 @@
+{
+    "info": {
+        "requires_dist": [
+            "cffi >=1.9.1",
+            "setuptools ; python_version >= \"3.12\""
+        ]
+    }
+}

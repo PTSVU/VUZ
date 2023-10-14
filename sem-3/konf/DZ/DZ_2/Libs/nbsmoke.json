@@ -1,0 +1,39 @@
+{
+    "info": {
+        "requires_dist": [
+            "param (>=1.7.0)",
+            "pytest (>=3.1.1)",
+            "pyflakes",
+            "jupyter-client",
+            "nbformat",
+            "nbconvert",
+            "ipykernel",
+            "beautifulsoup4 ; extra == 'all'",
+            "coverage ; extra == 'all'",
+            "flake8 ; extra == 'all'",
+            "holoviews ; extra == 'all'",
+            "keyring ; extra == 'all'",
+            "param (>=1.7.0) ; extra == 'all'",
+            "pyct (>=0.4.4) ; extra == 'all'",
+            "requests ; extra == 'all'",
+            "rfc3986 ; extra == 'all'",
+            "setuptools (>=30.3.0) ; extra == 'all'",
+            "twine ; extra == 'all'",
+            "param (>=1.7.0) ; extra == 'build'",
+            "pyct (>=0.4.4) ; extra == 'build'",
+            "setuptools (>=30.3.0) ; extra == 'build'",
+            "holoviews ; extra == 'holoviews-magics'",
+            "flake8 ; extra == 'lint'",
+            "coverage ; extra == 'tests'",
+            "twine ; extra == 'tests'",
+            "rfc3986 ; extra == 'tests'",
+            "keyring ; extra == 'tests'",
+            "flake8 ; extra == 'tests'",
+            "holoviews ; extra == 'tests'",
+            "requests ; extra == 'tests'",
+            "beautifulsoup4 ; extra == 'tests'",
+            "requests ; extra == 'verify'",
+            "beautifulsoup4 ; extra == 'verify'"
+        ]
+    }
+}

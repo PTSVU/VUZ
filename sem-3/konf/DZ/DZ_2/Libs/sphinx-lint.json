@@ -1,0 +1,8 @@
+{
+    "info": {
+        "requires_dist": [
+            "regex",
+            "polib"
+        ]
+    }
+}

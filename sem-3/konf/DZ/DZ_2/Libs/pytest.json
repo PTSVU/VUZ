@@ -1,0 +1,22 @@
+{
+    "info": {
+        "requires_dist": [
+            "iniconfig",
+            "packaging",
+            "pluggy <2.0,>=0.12",
+            "exceptiongroup >=1.0.0rc8 ; python_version < \"3.11\"",
+            "tomli >=1.0.0 ; python_version < \"3.11\"",
+            "importlib-metadata >=0.12 ; python_version < \"3.8\"",
+            "colorama ; sys_platform == \"win32\"",
+            "argcomplete ; extra == 'testing'",
+            "attrs >=19.2.0 ; extra == 'testing'",
+            "hypothesis >=3.56 ; extra == 'testing'",
+            "mock ; extra == 'testing'",
+            "nose ; extra == 'testing'",
+            "pygments >=2.7.2 ; extra == 'testing'",
+            "requests ; extra == 'testing'",
+            "setuptools ; extra == 'testing'",
+            "xmlschema ; extra == 'testing'"
+        ]
+    }
+}

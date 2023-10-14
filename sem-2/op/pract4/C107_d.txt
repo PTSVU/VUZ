@@ -1,0 +1,6 @@
+('kod_nap', 'name_nap', 'kaf', [('name', 1, 'kaf', 'prepod', 'ekz')], ('name', 1, 'kaf', 'v_pract', 'ruk_pract', ['tem_pract']))
+Количество занятий для name:
+lek: 1
+lab: 2
+prakt: 3
+

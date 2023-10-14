@@ -1,0 +1,11 @@
+{
+    "info": {
+        "requires_dist": [
+            "sphinx",
+            "livereload",
+            "colorama",
+            "pytest ; extra == \"test\"",
+            "pytest-cov ; extra == \"test\""
+        ]
+    }
+}

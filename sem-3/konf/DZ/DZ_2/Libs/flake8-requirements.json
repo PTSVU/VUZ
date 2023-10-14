@@ -1,0 +1,9 @@
+{
+    "info": {
+        "requires_dist": [
+            "flake8 (>=2.0.0)",
+            "setuptools (>=10.0.0)",
+            "tomli (>=1.2.1) ; python_version < \"3.11\""
+        ]
+    }
+}

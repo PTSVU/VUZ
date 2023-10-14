@@ -1,0 +1,13 @@
+{
+    "info": {
+        "requires_dist": [
+            "lxml (>=2.1)",
+            "cssselect (>=1.2.0)",
+            "requests ; extra == 'test'",
+            "webob ; extra == 'test'",
+            "webtest ; extra == 'test'",
+            "pytest ; extra == 'test'",
+            "pytest-cov ; extra == 'test'"
+        ]
+    }
+}

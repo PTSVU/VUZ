@@ -1,0 +1,13 @@
+{
+    "info": {
+        "requires_dist": [
+            "attrs (>=21.2.0)",
+            "click (>=7.0.0)",
+            "LibCST (>=0.3.7)",
+            "moreorless (>=0.3.0)",
+            "stdlibs (>=2021.4.1)",
+            "toml (>=0.10.0)",
+            "trailrunner (>=1.0)"
+        ]
+    }
+}

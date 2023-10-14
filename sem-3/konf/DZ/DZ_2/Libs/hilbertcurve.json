@@ -1,0 +1,11 @@
+{
+    "info": {
+        "requires_dist": [
+            "numpy",
+            "sphinx ; extra == 'dev'",
+            "sphinx-rtd-theme ; extra == 'dev'",
+            "sphinx-autodoc-typehints ; extra == 'dev'",
+            "pytest ; extra == 'dev'"
+        ]
+    }
+}

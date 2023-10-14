@@ -1,0 +1,9 @@
+{
+    "info": {
+        "requires_dist": [
+            "mkdocs-spellcheck[codespell,symspellpy]; extra == \"all\"",
+            "codespell>=2.2.2; extra == \"codespell\"",
+            "symspellpy>=6.7.6; extra == \"symspellpy\""
+        ]
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "info": {
+        "requires_dist": [
+            "numpy >=1.20.3",
+            "ndindex >=1.4",
+            "msgpack",
+            "py-cpuinfo"
+        ]
+    }
+}

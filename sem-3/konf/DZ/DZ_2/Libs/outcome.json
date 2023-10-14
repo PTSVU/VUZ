@@ -1,0 +1,7 @@
+{
+    "info": {
+        "requires_dist": [
+            "attrs (>=19.2.0)"
+        ]
+    }
+}

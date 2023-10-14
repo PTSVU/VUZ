@@ -1,0 +1,23 @@
+{
+    "info": {
+        "requires_dist": [
+            "build ; extra == 'dev'",
+            "chardet ; extra == 'dev'",
+            "pre-commit ; extra == 'dev'",
+            "pytest ; extra == 'dev'",
+            "pytest-cov ; extra == 'dev'",
+            "pytest-dependency ; extra == 'dev'",
+            "Pygments ; extra == 'dev'",
+            "ruff ; extra == 'dev'",
+            "tomli ; extra == 'dev'",
+            "twine ; extra == 'dev'",
+            "chardet ; extra == 'hard-encoding-detection'",
+            "tomli ; (python_version < \"3.11\") and extra == 'toml'",
+            "chardet >=5.1.0 ; extra == 'types'",
+            "mypy ; extra == 'types'",
+            "pytest ; extra == 'types'",
+            "pytest-cov ; extra == 'types'",
+            "pytest-dependency ; extra == 'types'"
+        ]
+    }
+}

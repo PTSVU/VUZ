@@ -1,0 +1,24 @@
+{
+    "info": {
+        "requires_dist": [
+            "asdf (>=2.13)",
+            "asdf-coordinates-schemas (>=0.1)",
+            "asdf-transform-schemas (>=0.2.2)",
+            "astropy (>=5.0.4)",
+            "numpy (>=1.20)",
+            "packaging (>=19)",
+            "importlib-resources (>=3) ; python_version < \"3.9\"",
+            "docutils ; extra == 'docs'",
+            "graphviz ; extra == 'docs'",
+            "matplotlib ; extra == 'docs'",
+            "sphinx ; extra == 'docs'",
+            "sphinx-asdf ; extra == 'docs'",
+            "sphinx-astropy ; extra == 'docs'",
+            "sphinx-automodapi ; extra == 'docs'",
+            "tomli ; extra == 'docs'",
+            "coverage ; extra == 'test'",
+            "pytest-astropy ; extra == 'test'",
+            "scipy ; extra == 'test'"
+        ]
+    }
+}

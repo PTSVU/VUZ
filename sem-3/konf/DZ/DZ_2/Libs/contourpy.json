@@ -1,0 +1,23 @@
+{
+    "info": {
+        "requires_dist": [
+            "numpy<2.0,>=1.16; python_version <= \"3.11\"",
+            "numpy<2.0,>=1.26.0rc1; python_version >= \"3.12\"",
+            "furo; extra == \"docs\"",
+            "sphinx>=7.2; extra == \"docs\"",
+            "sphinx-copybutton; extra == \"docs\"",
+            "bokeh; extra == \"bokeh\"",
+            "selenium; extra == \"bokeh\"",
+            "contourpy[bokeh,docs]; extra == \"mypy\"",
+            "docutils-stubs; extra == \"mypy\"",
+            "mypy==1.4.1; extra == \"mypy\"",
+            "types-Pillow; extra == \"mypy\"",
+            "contourpy[test-no-images]; extra == \"test\"",
+            "matplotlib; extra == \"test\"",
+            "Pillow; extra == \"test\"",
+            "pytest; extra == \"test-no-images\"",
+            "pytest-cov; extra == \"test-no-images\"",
+            "wurlitzer; extra == \"test-no-images\""
+        ]
+    }
+}

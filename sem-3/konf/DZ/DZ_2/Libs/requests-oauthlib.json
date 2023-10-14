@@ -1,0 +1,9 @@
+{
+    "info": {
+        "requires_dist": [
+            "oauthlib (>=3.0.0)",
+            "requests (>=2.0.0)",
+            "oauthlib[signedtoken] (>=3.0.0) ; extra == 'rsa'"
+        ]
+    }
+}

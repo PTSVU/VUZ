@@ -1,0 +1,19 @@
+{
+    "info": {
+        "requires_dist": [
+            "black>=23.3.0",
+            "click>=8.0.0",
+            "mypy-extensions>=0.4.3",
+            "packaging>=22.0",
+            "pathspec>=0.9.0",
+            "platformdirs>=2",
+            "tomli>=1.1.0; python_version < '3.11'",
+            "typed-ast>=1.4.2; python_version < '3.8' and implementation_name == 'cpython'",
+            "typing-extensions>=3.10.0.0; python_version < '3.10'",
+            "colorama>=0.4.3; extra == 'colorama'",
+            "ipython>=7.8.0; extra == 'jupyter'",
+            "tokenize-rt>=3.2.0; extra == 'jupyter'",
+            "uvloop>=0.15.2; extra == 'uvloop'"
+        ]
+    }
+}

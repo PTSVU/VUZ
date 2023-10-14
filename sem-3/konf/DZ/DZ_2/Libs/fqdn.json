@@ -1,0 +1,7 @@
+{
+    "info": {
+        "requires_dist": [
+            "cached-property (>=1.3.0) ; python_version < \"3.8\""
+        ]
+    }
+}

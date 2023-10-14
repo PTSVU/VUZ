@@ -1,0 +1,10 @@
+{
+    "info": {
+        "requires_dist": [
+            "ipywidgets <9,>=7.6.0",
+            "traittypes <3,>=0.2.1",
+            "xyzservices >=2021.8.1",
+            "branca >=0.5.0"
+        ]
+    }
+}

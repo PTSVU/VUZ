@@ -1,0 +1,9 @@
+{
+    "info": {
+        "requires_dist": [
+            "trio >=0.11",
+            "wsproto >=0.14",
+            "exceptiongroup ; python_version < \"3.11\""
+        ]
+    }
+}

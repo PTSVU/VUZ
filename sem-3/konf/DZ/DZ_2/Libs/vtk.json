@@ -1,0 +1,9 @@
+{
+    "info": {
+        "requires_dist": [
+            "matplotlib (>=2.0.0)",
+            "numpy (>=1.9) ; extra == 'numpy'",
+            "wslink (>=1.0.4) ; extra == 'web'"
+        ]
+    }
+}

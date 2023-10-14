@@ -1,0 +1,11 @@
+{
+    "info": {
+        "requires_dist": [
+            "check-manifest ; extra == \"lint\"",
+            "mypy ; extra == \"lint\"",
+            "pytest-console-scripts ; extra == \"test\"",
+            "pytest-cov ; extra == \"test\"",
+            "pytest ; extra == \"test\""
+        ]
+    }
+}

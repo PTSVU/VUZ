@@ -1,0 +1,15 @@
+{
+    "info": {
+        "requires_dist": [
+            "furo; extra == \"docs\"",
+            "sphinx; extra == \"docs\"",
+            "sphinx-contributors; extra == \"docs\"",
+            "sphinx-copybutton; extra == \"docs\"",
+            "sphinx-design; extra == \"docs\"",
+            "sphinx-autobuild; extra == \"docs\"",
+            "sphinxcontrib-spelling; extra == \"docs\"",
+            "myst-parser>=2; extra == \"docs\"",
+            "sphinx-autodoc2>=0.4.2; extra == \"docs\""
+        ]
+    }
+}

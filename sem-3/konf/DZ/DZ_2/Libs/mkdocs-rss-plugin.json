@@ -1,0 +1,20 @@
+{
+    "info": {
+        "requires_dist": [
+            "GitPython (<3.2,>=3.1)",
+            "mkdocs (<2,>=1.1)",
+            "pytz (==2022.*) ; python_version < \"3.9\"",
+            "tzdata (==2023.*) ; python_version >= \"3.9\" and sys_platform == \"win32\"",
+            "black ; extra == 'dev'",
+            "feedparser (<6.1,>=6.0) ; extra == 'dev'",
+            "flake8 (<7,>=4) ; extra == 'dev'",
+            "pre-commit (<4,>=3) ; extra == 'dev'",
+            "pytest-cov (<4.2,>=4) ; extra == 'dev'",
+            "validator-collection (<1.6,>=1.5) ; extra == 'dev'",
+            "mkdocs-bootswatch (<2,>=1) ; extra == 'doc'",
+            "mkdocs-minify-plugin (==0.6.*) ; extra == 'doc'",
+            "pygments (<3,>=2.5) ; extra == 'doc'",
+            "pymdown-extensions (<11,>=10) ; extra == 'doc'"
+        ]
+    }
+}

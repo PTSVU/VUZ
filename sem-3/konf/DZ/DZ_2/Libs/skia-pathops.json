@@ -1,0 +1,10 @@
+{
+    "info": {
+        "requires_dist": [
+            "pytest ; extra == 'testing'",
+            "coverage ; extra == 'testing'",
+            "pytest-xdist ; extra == 'testing'",
+            "pytest-randomly ; extra == 'testing'"
+        ]
+    }
+}

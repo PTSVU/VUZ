@@ -1,0 +1,11 @@
+{
+    "info": {
+        "requires_dist": [
+            "branca (>=0.6.0)",
+            "jinja2 (>=2.9)",
+            "numpy",
+            "requests",
+            "pytest ; extra == 'testing'"
+        ]
+    }
+}

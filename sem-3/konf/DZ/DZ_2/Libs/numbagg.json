@@ -1,0 +1,11 @@
+{
+    "info": {
+        "requires_dist": [
+            "numpy",
+            "numba",
+            "pytest ; extra == 'test'",
+            "bottleneck ; extra == 'test'",
+            "pandas ; extra == 'test'"
+        ]
+    }
+}

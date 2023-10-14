@@ -1,0 +1,16 @@
+{
+    "info": {
+        "requires_dist": [
+            "docutils",
+            "html5lib",
+            "nbconvert",
+            "nbformat",
+            "pytest>=7.0",
+            "requests",
+            "requests-cache>=0.9.7; extra == 'cache'",
+            "flaky; extra == 'test'",
+            "pre-commit; extra == 'test'",
+            "requests-cache>=0.9.7; extra == 'test'"
+        ]
+    }
+}

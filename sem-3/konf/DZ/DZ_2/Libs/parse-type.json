@@ -1,0 +1,27 @@
+{
+    "info": {
+        "requires_dist": [
+            "six (>=1.15)",
+            "enum34 ; python_version < \"3.4\"",
+            "parse (>=1.13.1) ; python_version <= \"2.7\"",
+            "parse (>=1.18.0) ; python_version >= \"3.0\"",
+            "build (>=0.5.1) ; extra == 'develop'",
+            "twine (>=1.13.0) ; extra == 'develop'",
+            "coverage (>=4.4) ; extra == 'develop'",
+            "pytest-html (>=1.19.0) ; extra == 'develop'",
+            "pytest-cov ; extra == 'develop'",
+            "tox (<4.0,>=2.8) ; extra == 'develop'",
+            "pylint ; extra == 'develop'",
+            "pytest (<5.0) ; (python_version < \"3.0\") and extra == 'develop'",
+            "virtualenv (<20.22.0) ; (python_version <= \"3.6\") and extra == 'develop'",
+            "virtualenv (>=20.0.0) ; (python_version > \"3.6\") and extra == 'develop'",
+            "pytest (>=5.0) ; (python_version >= \"3.0\") and extra == 'develop'",
+            "ruff ; (python_version >= \"3.7\") and extra == 'develop'",
+            "Sphinx (>=1.6) ; extra == 'docs'",
+            "sphinx-bootstrap-theme (>=0.6.0) ; extra == 'docs'",
+            "pytest-html (>=1.19.0) ; extra == 'testing'",
+            "pytest (<5.0) ; (python_version < \"3.0\") and extra == 'testing'",
+            "pytest (>=5.0) ; (python_version >= \"3.0\") and extra == 'testing'"
+        ]
+    }
+}

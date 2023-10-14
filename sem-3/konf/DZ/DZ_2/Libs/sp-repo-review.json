@@ -1,0 +1,11 @@
+{
+    "info": {
+        "requires_dist": [
+            "pyyaml",
+            "repo-review",
+            "repo-review[cli]; extra == 'cli'",
+            "pytest>=7; extra == 'dev'",
+            "pytest>=7; extra == 'test'"
+        ]
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "info": {
+        "requires_dist": [
+            "setuptools",
+            "six >=1.4.0",
+            "flup ; extra == 'flup'",
+            "python-openid ; extra == 'openid'"
+        ]
+    }
+}

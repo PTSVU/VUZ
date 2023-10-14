@@ -1,0 +1,7 @@
+{
+    "info": {
+        "requires_dist": [
+            "ruff (>=0.0.242)"
+        ]
+    }
+}

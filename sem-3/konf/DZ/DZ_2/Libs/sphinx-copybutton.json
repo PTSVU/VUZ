@@ -1,0 +1,13 @@
+{
+    "info": {
+        "requires_dist": [
+            "sphinx (>=1.8)",
+            "pre-commit (==2.12.1) ; extra == 'code_style'",
+            "sphinx ; extra == 'rtd'",
+            "ipython ; extra == 'rtd'",
+            "myst-nb ; extra == 'rtd'",
+            "sphinx-book-theme ; extra == 'rtd'",
+            "sphinx-examples ; extra == 'rtd'"
+        ]
+    }
+}

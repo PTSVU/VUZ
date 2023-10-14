@@ -1,0 +1,13 @@
+{
+    "info": {
+        "requires_dist": [
+            "numpy",
+            "imagecodecs >=2023.8.12 ; extra == 'all'",
+            "matplotlib ; extra == 'all'",
+            "defusedxml ; extra == 'all'",
+            "lxml ; extra == 'all'",
+            "zarr ; extra == 'all'",
+            "fsspec ; extra == 'all'"
+        ]
+    }
+}

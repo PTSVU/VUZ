@@ -1,0 +1,8 @@
+{
+    "info": {
+        "requires_dist": [
+            "pytest (<7.1); python_version <= \"3.6\"",
+            "pytest (>=7.1); python_version >= \"3.7\" and python_version < \"4.0\""
+        ]
+    }
+}

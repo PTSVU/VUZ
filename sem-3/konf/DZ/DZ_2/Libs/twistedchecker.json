@@ -1,0 +1,10 @@
+{
+    "info": {
+        "requires_dist": [
+            "pylint (>=2.4.4)",
+            "twisted (>=15.0.0)",
+            "pyflakes ; extra == 'dev'",
+            "coverage ; extra == 'dev'"
+        ]
+    }
+}

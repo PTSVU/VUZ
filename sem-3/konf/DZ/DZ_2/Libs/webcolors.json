@@ -1,0 +1,14 @@
+{
+    "info": {
+        "requires_dist": [
+            "furo ; extra == 'docs'",
+            "sphinx ; extra == 'docs'",
+            "sphinx-copybutton ; extra == 'docs'",
+            "sphinx-inline-tabs ; extra == 'docs'",
+            "sphinx-notfound-page ; extra == 'docs'",
+            "sphinxext-opengraph ; extra == 'docs'",
+            "pytest ; extra == 'tests'",
+            "pytest-cov ; extra == 'tests'"
+        ]
+    }
+}

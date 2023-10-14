@@ -1,0 +1,15 @@
+{
+    "info": {
+        "requires_dist": [
+            "tox (>=2.0)",
+            "mock (>=2.0.0) ; extra == 'test'",
+            "pytest (>=4.0.0) ; extra == 'test'",
+            "pytest-cov ; extra == 'test'",
+            "pytest-mock ; extra == 'test'",
+            "pytest-sugar ; extra == 'test'",
+            "flake8 ; extra == 'test'",
+            "wheel ; extra == 'test'",
+            "pluggy (>=0.7) ; extra == 'test'"
+        ]
+    }
+}

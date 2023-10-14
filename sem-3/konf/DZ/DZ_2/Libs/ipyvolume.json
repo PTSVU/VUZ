@@ -1,0 +1,18 @@
+{
+    "info": {
+        "requires_dist": [
+            "ipywidgets (>=7.0.0)",
+            "bqplot",
+            "numpy",
+            "traittypes",
+            "traitlets",
+            "Pillow",
+            "ipywebrtc",
+            "requests",
+            "ipyvuetify",
+            "ipyvue (>=1.7.0)",
+            "pythreejs (>=2.4.0)",
+            "matplotlib"
+        ]
+    }
+}

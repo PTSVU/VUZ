@@ -1,0 +1,12 @@
+{
+    "info": {
+        "requires_dist": [
+            "iso8601",
+            "testtools (>=0.9.34)",
+            "docutils ; extra == 'docs'",
+            "fixtures ; extra == 'test'",
+            "testscenarios ; extra == 'test'",
+            "hypothesis ; extra == 'test'"
+        ]
+    }
+}

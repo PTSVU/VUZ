@@ -1,0 +1,7 @@
+{
+    "info": {
+        "requires_dist": [
+            "Sphinx (<8.0,>=2.2)"
+        ]
+    }
+}

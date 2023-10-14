@@ -1,0 +1,14 @@
+{
+    "info": {
+        "requires_dist": [
+            "python-utils (>=3.0.0)",
+            "sphinx (>=1.8.5) ; extra == 'docs'",
+            "flake8 (>=3.7.7) ; extra == 'tests'",
+            "pytest (>=4.6.9) ; extra == 'tests'",
+            "pytest-cov (>=2.6.1) ; extra == 'tests'",
+            "pytest-mypy ; extra == 'tests'",
+            "freezegun (>=0.3.11) ; extra == 'tests'",
+            "sphinx (>=1.8.5) ; extra == 'tests'"
+        ]
+    }
+}

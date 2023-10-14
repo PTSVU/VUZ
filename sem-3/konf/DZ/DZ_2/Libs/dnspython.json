@@ -1,0 +1,14 @@
+{
+    "info": {
+        "requires_dist": [
+            "aioquic (>=0.9.20) ; extra == \"doq\"",
+            "cryptography (>=2.6,<42.0) ; extra == \"dnssec\"",
+            "h2 (>=4.1.0) ; extra == \"doh\"",
+            "httpcore (>=0.17.3) ; extra == \"doh\"",
+            "httpx (>=0.24.1) ; extra == \"doh\"",
+            "idna (>=2.1,<4.0) ; extra == \"idna\"",
+            "trio (>=0.14,<0.23) ; extra == \"trio\"",
+            "wmi (>=1.5.1,<2.0.0) ; extra == \"wmi\""
+        ]
+    }
+}

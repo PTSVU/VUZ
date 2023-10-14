@@ -1,0 +1,10 @@
+{
+    "info": {
+        "requires_dist": [
+            "nodeenv >=1.6.0",
+            "typing-extensions >=3.7 ; python_version < \"3.8\"",
+            "twine >=3.4.1 ; extra == 'all'",
+            "twine >=3.4.1 ; extra == 'dev'"
+        ]
+    }
+}

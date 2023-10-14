@@ -1,0 +1,10 @@
+{
+    "info": {
+        "requires_dist": [
+            "setuptools",
+            "zope.interface",
+            "zope.publisher",
+            "zope.security"
+        ]
+    }
+}

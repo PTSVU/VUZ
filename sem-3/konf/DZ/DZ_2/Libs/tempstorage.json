@@ -1,0 +1,11 @@
+{
+    "info": {
+        "requires_dist": [
+            "setuptools",
+            "ZODB (>=5.6)",
+            "zope.testing",
+            "zope.testrunner ; extra == 'test'",
+            "mock ; (python_version < \"3\") and extra == 'test'"
+        ]
+    }
+}

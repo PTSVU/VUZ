@@ -1,0 +1,14 @@
+{
+    "info": {
+        "requires_dist": [
+            "flake8 >=6.0.0",
+            "attrs >=19.2.0",
+            "tox ; extra == 'dev'",
+            "coverage ; extra == 'dev'",
+            "hypothesis ; extra == 'dev'",
+            "hypothesmith >=0.2 ; extra == 'dev'",
+            "pre-commit ; extra == 'dev'",
+            "pytest ; extra == 'dev'"
+        ]
+    }
+}

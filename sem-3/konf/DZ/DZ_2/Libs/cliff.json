@@ -1,0 +1,12 @@
+{
+    "info": {
+        "requires_dist": [
+            "PrettyTable (>=0.7.2)",
+            "PyYAML (>=3.12)",
+            "autopage (>=0.4.0)",
+            "cmd2 (>=1.0.0)",
+            "importlib-metadata (>=4.4)",
+            "stevedore (>=2.0.1)"
+        ]
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "info": {
+        "requires_dist": [
+            "six >=1.12.0",
+            "typing ; python_version < \"3.5\"",
+            "astroid ; extra == 'test'",
+            "pytest ; extra == 'test'"
+        ]
+    }
+}

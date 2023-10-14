@@ -1,0 +1,18 @@
+{
+    "info": {
+        "requires_dist": [
+            "flit_core >=3.9.0",
+            "requests",
+            "docutils",
+            "tomli-w",
+            "sphinx ; extra == \"doc\"",
+            "sphinxcontrib_github_alt ; extra == \"doc\"",
+            "pygments-github-lexers ; extra == \"doc\"",
+            "testpath ; extra == \"test\"",
+            "responses ; extra == \"test\"",
+            "pytest>=2.7.3 ; extra == \"test\"",
+            "pytest-cov ; extra == \"test\"",
+            "tomli ; extra == \"test\""
+        ]
+    }
+}

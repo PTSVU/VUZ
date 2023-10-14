@@ -1,0 +1,13 @@
+{
+    "info": {
+        "requires_dist": [
+            "attrs (>=20.1.0)",
+            "sortedcontainers",
+            "idna",
+            "outcome",
+            "sniffio",
+            "cffi (>=1.14) ; os_name == \"nt\" and implementation_name != \"pypy\"",
+            "exceptiongroup (>=1.0.0rc9) ; python_version < \"3.11\""
+        ]
+    }
+}

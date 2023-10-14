@@ -1,0 +1,10 @@
+{
+    "info": {
+        "requires_dist": [
+            "cryptography (>=3.0.0) ; extra == 'rsa'",
+            "blinker (>=1.4.0) ; extra == 'signals'",
+            "cryptography (>=3.0.0) ; extra == 'signedtoken'",
+            "pyjwt (<3,>=2.0.0) ; extra == 'signedtoken'"
+        ]
+    }
+}

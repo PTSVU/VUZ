@@ -1,0 +1,8 @@
+{
+    "info": {
+        "requires_dist": [
+            "MarkupSafe>=2.1.1",
+            "watchdog>=2.3 ; extra == \"watchdog\""
+        ]
+    }
+}

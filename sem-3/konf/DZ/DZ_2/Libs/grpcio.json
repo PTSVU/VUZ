@@ -1,0 +1,7 @@
+{
+    "info": {
+        "requires_dist": [
+            "grpcio-tools >=1.59.0 ; extra == 'protobuf'"
+        ]
+    }
+}

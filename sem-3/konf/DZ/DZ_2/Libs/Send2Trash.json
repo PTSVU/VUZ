@@ -1,0 +1,10 @@
+{
+    "info": {
+        "requires_dist": [
+            "pyobjc-framework-Cocoa ; (sys_platform == \"darwin\") and extra == 'nativelib'",
+            "pywin32 ; (sys_platform == \"win32\") and extra == 'nativelib'",
+            "pyobjc-framework-Cocoa ; (sys_platform == \"darwin\") and extra == 'objc'",
+            "pywin32 ; (sys_platform == \"win32\") and extra == 'win32'"
+        ]
+    }
+}

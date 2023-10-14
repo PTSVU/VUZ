@@ -1,0 +1,21 @@
+{
+    "info": {
+        "requires_dist": [
+            "urllib3 <2,>=1.26.2",
+            "certifi",
+            "dataclasses ; python_version < \"3.7\"",
+            "pytest ; extra == 'develop'",
+            "pytest-cov ; extra == 'develop'",
+            "pytest-mock ; extra == 'develop'",
+            "pytest-asyncio ; extra == 'develop'",
+            "pytest-httpserver ; extra == 'develop'",
+            "trustme ; extra == 'develop'",
+            "mock ; extra == 'develop'",
+            "requests ; extra == 'develop'",
+            "aiohttp ; extra == 'develop'",
+            "sphinx >2 ; extra == 'develop'",
+            "furo ; extra == 'develop'",
+            "sphinx-autodoc-typehints ; extra == 'develop'"
+        ]
+    }
+}

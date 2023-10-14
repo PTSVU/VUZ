@@ -1,0 +1,7 @@
+{
+    "info": {
+        "requires_dist": [
+            "PyYAML (>=3.10) ; extra == 'watchmedo'"
+        ]
+    }
+}

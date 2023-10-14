@@ -1,0 +1,7 @@
+{
+    "info": {
+        "requires_dist": [
+            "pycares >=4.0.0"
+        ]
+    }
+}

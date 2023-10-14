@@ -1,0 +1,11 @@
+{
+    "info": {
+        "requires_dist": [
+            "attrs >= 19.2.0",
+            "click >= 8.0",
+            "jinja2 >= 2.7",
+            "packaging >= 16.2",
+            "tomlkit >= 0.7.0"
+        ]
+    }
+}

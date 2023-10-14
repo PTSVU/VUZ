@@ -1,0 +1,16 @@
+{
+    "info": {
+        "requires_dist": [
+            "django (>=3.2)",
+            "importlib-metadata ; python_version < \"3.8\"",
+            "django-cache-url ; extra == 'cache'",
+            "dj-database-url ; extra == 'database'",
+            "dj-email-url ; extra == 'email'",
+            "dj-search-url ; extra == 'search'",
+            "django-cache-url (>=1.0.0) ; extra == 'testing'",
+            "dj-database-url ; extra == 'testing'",
+            "dj-email-url ; extra == 'testing'",
+            "dj-search-url ; extra == 'testing'"
+        ]
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "info": {
+        "requires_dist": [
+            "sphinx ; extra == 'docs'",
+            "sphinx-rtd-theme ; extra == 'docs'",
+            "pygal-sphinx-directives ; extra == 'docs'",
+            "lxml ; extra == 'lxml'",
+            "cairosvg ; extra == 'png'",
+            "pyquery ; extra == 'test'",
+            "flask ; extra == 'test'",
+            "cairosvg ; extra == 'test'",
+            "lxml ; extra == 'test'",
+            "pygal-maps-world ; extra == 'test'",
+            "pygal-maps-fr ; extra == 'test'",
+            "pygal-maps-ch ; extra == 'test'",
+            "coveralls ; extra == 'test'",
+            "pytest-runner ; extra == 'test'",
+            "pytest-cov ; extra == 'test'",
+            "pytest-flake8 ; extra == 'test'",
+            "pytest-isort ; extra == 'test'",
+            "pytest ; extra == 'test'"
+        ]
+    }
+}

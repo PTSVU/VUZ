@@ -1,0 +1,12 @@
+{
+    "info": {
+        "requires_dist": [
+            "sphinx (>=4.0)",
+            "furo ; extra == 'docs'",
+            "myst-parser ; extra == 'docs'",
+            "sphinx-copybutton ; extra == 'docs'",
+            "sphinx-inline-tabs ; extra == 'docs'",
+            "ipython ; extra == 'docs'"
+        ]
+    }
+}

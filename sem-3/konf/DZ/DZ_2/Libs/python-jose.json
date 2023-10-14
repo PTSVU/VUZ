@@ -1,0 +1,14 @@
+{
+    "info": {
+        "requires_dist": [
+            "ecdsa (!=0.15)",
+            "rsa",
+            "pyasn1",
+            "cryptography (>=3.4.0) ; extra == 'cryptography'",
+            "pycrypto (<2.7.0,>=2.6.0) ; extra == 'pycrypto'",
+            "pyasn1 ; extra == 'pycrypto'",
+            "pycryptodome (<4.0.0,>=3.3.1) ; extra == 'pycryptodome'",
+            "pyasn1 ; extra == 'pycryptodome'"
+        ]
+    }
+}

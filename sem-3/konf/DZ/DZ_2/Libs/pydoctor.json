@@ -1,0 +1,32 @@
+{
+    "info": {
+        "requires_dist": [
+            "appdirs",
+            "CacheControl[filecache]",
+            "Twisted",
+            "urllib3 <2",
+            "requests",
+            "astor",
+            "attrs",
+            "docutils >=0.17",
+            "lunr ==0.6.2",
+            "configargparse",
+            "toml",
+            "importlib-metadata ; python_version < \"3.8\"",
+            "importlib-resources ; python_version < \"3.9\"",
+            "Sphinx ; extra == 'docs'",
+            "sphinx-rtd-theme ; extra == 'docs'",
+            "sphinxcontrib-spelling ; extra == 'docs'",
+            "sphinx-argparse ; extra == 'docs'",
+            "docutils ; extra == 'rst'",
+            "docutils >=0.18.1 ; extra == 'test'",
+            "coverage ; extra == 'test'",
+            "pytest ; extra == 'test'",
+            "hypothesis ; extra == 'test'",
+            "cython-test-exception-raiser ; extra == 'test'",
+            "bs4 ; extra == 'test'",
+            "Sphinx <7.0.0 ; extra == 'test'",
+            "pytest-subtests ; extra == 'test'"
+        ]
+    }
+}

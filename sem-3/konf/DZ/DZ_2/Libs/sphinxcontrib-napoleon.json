@@ -1,0 +1,8 @@
+{
+    "info": {
+        "requires_dist": [
+            "six (>=1.5.2)",
+            "pockets (>=0.3)"
+        ]
+    }
+}
