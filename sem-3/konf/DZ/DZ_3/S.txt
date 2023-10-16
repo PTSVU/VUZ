@@ -1,0 +1,45 @@
+{
+    # комментарий
+    subject = "Конфигурационное управление";
+    groups = for 1 25 1 "ИКБО-&-20";
+    student1 = (
+        age = (19)
+        group = ("ИКБО-4-20")
+        name = ("Иванов И.И.")
+    );
+    student2 = (
+        age = (18)
+        group = ("ИКБО-4-20")
+        name = ("Петров П.П.")
+    );
+    student3 = (
+        age = (18)
+        group = ("ИКБО-5-20")
+        name = ("Сидоров С.С.")
+    );
+}
+
+(
+    groups = (
+        &groups
+    )
+    students = (
+        for & 1 5 2 "student&"
+        (
+            age = (20)
+            group = ("ИКБО-6-20")
+            name = ("Козлов К.К.")
+        )
+        &student2
+    )
+    subject = (
+        &subject
+    )
+    op = (
+        for "or-&" 1 5 1 "hm&"
+    )
+    idiots = (
+        for "mda&" 1 3 1 "student&"
+    )
+
+)
