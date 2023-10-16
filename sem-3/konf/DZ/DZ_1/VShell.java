@@ -1,5 +1,4 @@
 package vuz.konf.dz1;
-
 import java.io.*;
 import java.util.*;
 import java.nio.file.*;
@@ -160,7 +159,7 @@ public class VShell {
                         System.out.println("Use 'get <variable>' to get the value of an environment variable.");
                     }
                 }
-                case "exit" -> System.exit(0);
+                case "exit" -> exit();
                 case "help" -> help();
                 default -> System.out.println("Unknown command: " + cmd);
             }
@@ -271,6 +270,7 @@ public class VShell {
         } else {
             System.out.println("Directory already exists: " + currentDirectory + "\\" + newDir.getName());
         }
+        zipAct();
     }
 
     private void rmdir(String directoryName) {
@@ -289,6 +289,7 @@ public class VShell {
         } else {
             System.out.println("Directory not found: " + currentDirectory + "\\" + dirToDelete.getName());
         }
+        zipAct();
     }
 
     private void rm(String fileName) {
@@ -303,6 +304,7 @@ public class VShell {
         } else {
             System.out.println("File not found: " + currentDirectory + "\\" + fileToDelete.getName());
         }
+        zipAct();
     }
 
     private void touch(String fileName) {
@@ -317,6 +319,7 @@ public class VShell {
         } catch (IOException e) {
             System.out.println("Failed to create file: " + currentDirectory + "\\" + newFile.getName());
         }
+        zipAct();
     }
 
     private void mv(String source, String destination) {
@@ -325,7 +328,8 @@ public class VShell {
 
         if (sourceFile.exists()) {
             if (sourceFile.renameTo(destFile)) {
-                System.out.println("Moved " + currentDirectory + "\\" + sourceFile.getName() + " to " + currentDirectory + "\\" + destFile.getName());
+                System.out.println("Moved " + currentDirectory + "\\" + sourceFile.getName() + " to " + currentDirectory +
+                        "\\" + destFile.getName());
             } else {
                 System.out.println("Failed to move " + currentDirectory + "\\" + sourceFile.getName());
             }
@@ -349,6 +353,7 @@ public class VShell {
         } catch (IOException e) {
             System.out.println("Error when reading the file: " + e.getMessage());
         }
+        zipAct();
     }
 
     private void find(String directoryPath, String fileName) {
@@ -497,7 +502,7 @@ public class VShell {
                         System.out.println("Use 'get <variable>' to get the value of an environment variable.");
                     }
                 }
-                case "exit" -> System.exit(0);
+                case "exit" -> exit();
                 case "help" -> help();
                 default -> System.out.println("Unknown command: " + cmd);
         }
@@ -527,12 +532,13 @@ public class VShell {
     }
 
     public static void clearZipArchive(String zipFileName) throws IOException {
-        try (FileOutputStream fos = new FileOutputStream(zipFileName);
-             ZipOutputStream zos = new ZipOutputStream(fos)) {
+        File zipFile = new File(zipFileName);
+        if (zipFile.exists()) {
+            zipFile.delete();
         }
     }
 
-public static void copyFolderToZip(String sourceFolderPath, String zipFileName) throws IOException {
+    public static void copyFolderToZip(String sourceFolderPath, String zipFileName) throws IOException {
         try (FileOutputStream fos = new FileOutputStream(zipFileName);
              ZipOutputStream zos = new ZipOutputStream(fos)) {
             File sourceFolder = new File(sourceFolderPath);
@@ -540,27 +546,24 @@ public static void copyFolderToZip(String sourceFolderPath, String zipFileName) 
         }
     }
 
-    private static void addToZip(File rootFolder, File fileOrFolder, ZipOutputStream zos) throws IOException {
-        if (fileOrFolder.isDirectory()) {
-            File[] files = fileOrFolder.listFiles();
-            if (files != null) {
-                for (File file : files) {
-                    addToZip(rootFolder, file, zos);
-                }
-            }
-        } else {
-            String entryName = fileOrFolder.getPath().substring(rootFolder.getPath().length() + 1);
-            try (FileInputStream fis = new FileInputStream(fileOrFolder)) {
+    private static void addToZip(File rootPath, File source, ZipOutputStream zos) throws IOException {
+        File[] files = source.listFiles();
+        byte[] buffer = new byte[1024];
+
+        for (File file : files) {
+            if (file.isDirectory()) {
+                addToZip(rootPath, file, zos);
+            } else {
+                FileInputStream fis = new FileInputStream(file);
+                String entryName = file.getCanonicalPath().substring(rootPath.getCanonicalPath().length() + 1);
                 ZipEntry zipEntry = new ZipEntry(entryName);
                 zos.putNextEntry(zipEntry);
 
-                byte[] buffer = new byte[1024];
-                int bytesRead;
-                while ((bytesRead = fis.read(buffer)) != -1) {
-                    zos.write(buffer, 0, bytesRead);
+                int length;
+                while ((length = fis.read(buffer)) > 0) {
+                    zos.write(buffer, 0, length);
                 }
-
-                zos.closeEntry();
+                fis.close();
             }
         }
     }
@@ -604,23 +607,31 @@ public static void copyFolderToZip(String sourceFolderPath, String zipFileName) 
         }
     }
 
-//    public static void deleteFolder(File folder) {
-//        if (folder.exists()) {
-//            File[] files = folder.listFiles();
-//            if (files != null) {
-//                for (File file : files) {
-//                    if (file.isDirectory()) {
-//                        deleteFolder(file);
-//                    }
-//                }
-//            }
-//        }
-//    }
-//
-//    public static void deleteVShellRootFolder() {
-//        File vShellRoot = new File(sourceFolderPath);
-//        deleteFolder(vShellRoot);
-//    }
+
+    public static void deleteFolder(File folder) {
+        File[] files = folder.listFiles();
+        if (files != null) {
+            for (File file : files) {
+                if (file.isDirectory()) {
+                    deleteFolder(file);
+                } else {
+                    file.delete();
+                }
+            }
+        }
+        folder.delete();
+    }
+
+    public static void deleteVShellRootFolder() {
+        File vShellRoot = new File(sourceFolderPath);
+        deleteFolder(vShellRoot);
+    }
+
+    public static void exit() {
+        zipAct();
+        deleteVShellRootFolder();
+        System.exit(0);
+    }
 
     public static void main(String[] args) {
         try {
@@ -630,7 +641,5 @@ public static void copyFolderToZip(String sourceFolderPath, String zipFileName) 
         }
         VShell vshell = new VShell();
         vshell.run();
-        zipAct();
-//        deleteVShellRootFolder();
     }
 }
