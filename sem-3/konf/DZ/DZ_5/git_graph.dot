@@ -1,0 +1,11 @@
+digraph G {
+    node [shape=box, style="rounded,filled", width=1.5, height=0.5, penwidth=0, fillcolor=gray]
+    _2094ee9 [label="2094ee9\l but", fillcolor=gray, fontcolor=black]
+    _68fe09a [label="68fe09a\l TEST", fillcolor=gray, fontcolor=black]
+    _f051507 [label="f051507\l Create text.txt", fillcolor=gray, fontcolor=black]
+    _819cef1 [label="819cef1\l Create test.txt", fillcolor=gray, fontcolor=black]
+    _2094ee9 [fillcolor=turquoise, fontcolor=white]
+    _68fe09a -> _2094ee9 [xlabel="but.txt", style="filled", color=gray]
+    _819cef1 -> _68fe09a [xlabel="testtt.txt", style="filled", color=gray]
+    _819cef1 -> _f051507 [xlabel="test.txt", style="filled", color=gray]
+}
