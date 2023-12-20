@@ -1,0 +1,3 @@
+||  ID  ||Product name  ||Product code  ||Manufacturer name  ||Price  ||Country||
+
+||   1  || 777  ||000777  || 777  || 777  || 777 ||
