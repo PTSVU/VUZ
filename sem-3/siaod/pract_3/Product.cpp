@@ -2,7 +2,7 @@
 
 Product::Product()
 {
-    cout << "Ââåäèòå íàçâàíèå ôàéëà: ";
+    cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð½Ð°Ð·Ð²Ð°Ð½Ð¸Ðµ Ñ„Ð°Ð¹Ð»Ð°: ";
     cin >> fileName;
     if (fileName.empty())
     {
@@ -12,7 +12,7 @@ Product::Product()
     int var;
     if (fileExists(textFileName))
     {
-        cout << "\nÏåðåçàïèñàòü ôàéë?\n\t0 - íåò\n\t1 - äà\n";
+        cout << "\nÐŸÐµÑ€ÐµÐ·Ð°Ð¿Ð¸ÑÐ°Ñ‚ÑŒ Ñ„Ð°Ð¹Ð»?\n\t0 - Ð½ÐµÑ‚\n\t1 - Ð´Ð°\n";
         cin >> var;
         if (var == 0)
         {
@@ -68,34 +68,34 @@ void Product::ProductAdd()
     {
         int ID = id[id.size() - 1] + 1;
         id.push_back(ID);
-        cout << "\nÂâåäèòå íàçâàíèå ïðîäóêòà: ";
+        cout << "\nÐ’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð½Ð°Ð·Ð²Ð°Ð½Ð¸Ðµ Ð¿Ñ€Ð¾Ð´ÑƒÐºÑ‚Ð°: ";
         cin >> temp;
         name.push_back(temp);
-        cout << "\nÂâåäèòå êîä ïðîäóêòà(íå áîëåå 6 öèôð): ";
+        cout << "\nÐ’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÐºÐ¾Ð´ Ð¿Ñ€Ð¾Ð´ÑƒÐºÑ‚Ð°(Ð½Ðµ Ð±Ð¾Ð»ÐµÐµ 6 Ñ†Ð¸Ñ„Ñ€): ";
         cin >> temp;
         while (temp.size() < 6)
         {
             temp = "0" + temp;
         }
         code.push_back(temp);
-        cout << "\nÂâåäèòå íàçâàíèå èçãîòîâèòåëÿ: ";
+        cout << "\nÐ’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð½Ð°Ð·Ð²Ð°Ð½Ð¸Ðµ Ð¸Ð·Ð³Ð¾Ñ‚Ð¾Ð²Ð¸Ñ‚ÐµÐ»Ñ: ";
         cin >> temp;
         manufacturer.push_back(temp);
-        cout << "\nÂâåäèòå öåíó: ";
+        cout << "\nÐ’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ†ÐµÐ½Ñƒ: ";
         cin >> d_temp;
         price.push_back(d_temp);
-        cout << "\nÂâåäèòå ñòðàíó: ";
+        cout << "\nÐ’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÑÑ‚Ñ€Ð°Ð½Ñƒ: ";
         cin >> temp;
         country.push_back(temp);
         TxtSave(ID);
-        cout << "\nÏðîäîëæèòü? (0 - íåò, 1 - äà)\n";
+        cout << "\nÐŸÑ€Ð¾Ð´Ð¾Ð»Ð¶Ð¸Ñ‚ÑŒ? (0 - Ð½ÐµÑ‚, 1 - Ð´Ð°)\n";
         cin >> temp;
         if (temp == "0")
         {
             break;
         }
     }
-    cout << "\nÂâîä îñòàíîâëåí\n";
+    cout << "\nÐ’Ð²Ð¾Ð´ Ð¾ÑÑ‚Ð°Ð½Ð¾Ð²Ð»ÐµÐ½\n";
 }
 
 void Product::print_bin() {
@@ -216,8 +216,8 @@ void Product::DelCh(int num)
 
 void Product::country_to_txt()
 {
-    cout << "\nÂûáèðåòå ñòðàíó:" 
-        << "\n\tÖèôðà - ñòðàíà";
+    cout << "\nÐ’Ñ‹Ð±Ð¸Ñ€ÐµÑ‚Ðµ ÑÑ‚Ñ€Ð°Ð½Ñƒ:" 
+        << "\n\tÐ¦Ð¸Ñ„Ñ€Ð° - ÑÑ‚Ñ€Ð°Ð½Ð°";
     vector <string> temp = { "" };
     bool ch = false;
     string con;
@@ -337,8 +337,8 @@ void Product::change_inf(int var)
             << "||" << setw(4) << "Price" << setw(4)
             << "||" << setw(4) << "Country" << setw(4) << "||\n";
         PrintCh(var);
-        cout << "\n×òî òóò òðåáóåòñÿ èçìåíèòü:"
-            << "\n\t0 - ïåðåñòàòü ìåíÿòü"
+        cout << "\nÐ§Ñ‚Ð¾ Ñ‚ÑƒÑ‚ Ñ‚Ñ€ÐµÐ±ÑƒÐµÑ‚ÑÑ Ð¸Ð·Ð¼ÐµÐ½Ð¸Ñ‚ÑŒ:"
+            << "\n\t0 - Ð¿ÐµÑ€ÐµÑÑ‚Ð°Ñ‚ÑŒ Ð¼ÐµÐ½ÑÑ‚ÑŒ"
             << "\n\t1 - Product name"
             << "\n\t2 - Product code"
             << "\n\t3 - Manufacturer name"
@@ -351,11 +351,11 @@ void Product::change_inf(int var)
             wh = false;
             break;
         case 1:
-            cout << "Ââåäèòå íîâîå Product name\n";
+            cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð½Ð¾Ð²Ð¾Ðµ Product name\n";
             cin >> name[var];
             break;
         case 2:
-            cout << "Ââåäèòå íîâîå Product code\n";
+            cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð½Ð¾Ð²Ð¾Ðµ Product code\n";
             cin >> code[var];
             while (code[var].size() < 6)
             {
@@ -363,15 +363,15 @@ void Product::change_inf(int var)
             }
             break;
         case 3:
-            cout << "Ââåäèòå íîâîå Manufacturer name\n";
+            cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð½Ð¾Ð²Ð¾Ðµ Manufacturer name\n";
             cin >> manufacturer[var];
             break;
         case 4:
-            cout << "Ââåäèòå íîâîå Price\n";
+            cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð½Ð¾Ð²Ð¾Ðµ Price\n";
             cin >> price[var];
             break;
         case 5:
-            cout << "Ââåäèòå íîâîå Country\n";
+            cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð½Ð¾Ð²Ð¾Ðµ Country\n";
             cin >> country[var];
             break;
         default:

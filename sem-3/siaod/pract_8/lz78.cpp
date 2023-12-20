@@ -7,7 +7,6 @@ std::vector<std::pair<int, char>> LZ78Encode(const std::string& data) {
 	int currentIndex = 0;
 	for (char c : data) {
 		std::string currentPhrase = std::string(1, c);
-		// Проверка, существует ли текущая фраза в словаре
 		if (dictionary.count(currentPhrase) > 0) {
 			currentIndex = dictionary[currentPhrase];
 		}
@@ -26,7 +25,6 @@ std::string LZ78Decode(const std::vector<std::pair<int, char>>& encodedData) {
 	for (const auto& pair : encodedData) {
 		int index = pair.first; char c = pair.second;
 		std::string currentPhrase;
-		// Проверка, существует ли текущий индекс в словаре
 		if (dictionary.count(index) > 0) {
 			currentPhrase = dictionary[index];
 		}

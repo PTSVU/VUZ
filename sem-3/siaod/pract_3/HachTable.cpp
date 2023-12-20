@@ -4,7 +4,7 @@ HashTable::HashTable() {
 }
 
 int HashTable::hashFunction(int key) const {
-    return key % tableSize; // Простейшая функция хеширования: остаток от деления
+    return key % tableSize; // РџСЂРѕСЃС‚РµР№С€Р°СЏ С„СѓРЅРєС†РёСЏ С…РµС€РёСЂРѕРІР°РЅРёСЏ: РѕСЃС‚Р°С‚РѕРє РѕС‚ РґРµР»РµРЅРёСЏ
 }
 
 bool HashTable::insert(int key, const Product& product) {
@@ -13,7 +13,7 @@ bool HashTable::insert(int key, const Product& product) {
 
     for (const auto& node : table[index]) {
         if (node.key == key) {
-            cout << "Ключ уже существует. Вставка не удалась." << endl;
+            cout << "РљР»СЋС‡ СѓР¶Рµ СЃСѓС‰РµСЃС‚РІСѓРµС‚. Р’СЃС‚Р°РІРєР° РЅРµ СѓРґР°Р»Р°СЃСЊ." << endl;
             return false;
         }
     }
@@ -34,7 +34,7 @@ bool HashTable::remove(int key) {
         }
     }
 
-    cout << "Ключ не найден. Удаление не удалось." << endl;
+    cout << "РљР»СЋС‡ РЅРµ РЅР°Р№РґРµРЅ. РЈРґР°Р»РµРЅРёРµ РЅРµ СѓРґР°Р»РѕСЃСЊ." << endl;
     return false;
 }
 

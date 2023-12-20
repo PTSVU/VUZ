@@ -10,16 +10,13 @@ std::vector<LZ77Token> LZ77Compress(const std::string& data, int windowSize) {
 		token.offset = 0;
 		token.length = 0;
 		token.nextChar = data[currentIndex];
-		// Поиск наилучшего совпадения в окне
 		int searchStart = std::max(currentIndex - windowSize, 0);
 		int searchEnd = currentIndex;
 		for (int i = searchStart; i < currentIndex; ++i) {
 			int currentLength = 0;
-			// Подсчет длины совпадения
 			while (currentIndex + currentLength < dataSize && data[i + currentLength] == data[currentIndex + currentLength]) {
 				++currentLength;
 			}
-			// Обновление наилучшего совпадения
 			if (currentLength > token.length) {
 				token.offset = currentIndex - i;
 				token.length = currentLength;
@@ -27,7 +24,7 @@ std::vector<LZ77Token> LZ77Compress(const std::string& data, int windowSize) {
 			}
 		}
 		compressedData.push_back(token);
-		currentIndex += token.length + 1; // Добавляем длину совпадения + следующий символ
+		currentIndex += token.length + 1;
 	}
 	return compressedData;
 }

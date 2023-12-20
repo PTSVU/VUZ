@@ -128,13 +128,13 @@ void AVLTree::insert(double value) {
 }
 
 void AVLTree::reverseInOrderTraversal() {
-    std::cout << "Îáðàòíûé îáõîä: ";
+    std::cout << "ÐžÐ±Ñ€Ð°Ñ‚Ð½Ñ‹Ð¹ Ð¾Ð±Ñ…Ð¾Ð´: ";
     reverseInOrderTraversal(root);
     std::cout << std::endl;
 }
 
 void AVLTree::inOrderTraversal() {
-    std::cout << "Ñèììåòðè÷íûé îáõîä: ";
+    std::cout << "Ð¡Ð¸Ð¼Ð¼ÐµÑ‚Ñ€Ð¸Ñ‡Ð½Ñ‹Ð¹ Ð¾Ð±Ñ…Ð¾Ð´: ";
     inOrderTraversal(root);
     std::cout << std::endl;
 }
@@ -152,21 +152,21 @@ double AVLTree::calculateAverage() {
 }
 
 void AVLTree::displayMenu() {
-    std::cout << "Ìåíþ AVL-äåðåâà:" << std::endl;
-    std::cout << "1. Âñòàâèòü ýëåìåíò" << std::endl;
-    std::cout << "2. Îáðàòíûé îáõîä" << std::endl;
-    std::cout << "3. Ñèììåòðè÷íûé îáõîä" << std::endl;
-    std::cout << "4. Ñóììà çíà÷åíèé ëèñòüåâ" << std::endl;
-    std::cout << "5. Ñðåäíåå çíà÷åíèå âñåõ óçëîâ" << std::endl;
-    std::cout << "0. Âûõîä" << std::endl;
-    std::cout << "Ââåäèòå âàø âûáîð: ";
+    std::cout << "ÐœÐµÐ½ÑŽ AVL-Ð´ÐµÑ€ÐµÐ²Ð°:" << std::endl;
+    std::cout << "1. Ð’ÑÑ‚Ð°Ð²Ð¸Ñ‚ÑŒ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚" << std::endl;
+    std::cout << "2. ÐžÐ±Ñ€Ð°Ñ‚Ð½Ñ‹Ð¹ Ð¾Ð±Ñ…Ð¾Ð´" << std::endl;
+    std::cout << "3. Ð¡Ð¸Ð¼Ð¼ÐµÑ‚Ñ€Ð¸Ñ‡Ð½Ñ‹Ð¹ Ð¾Ð±Ñ…Ð¾Ð´" << std::endl;
+    std::cout << "4. Ð¡ÑƒÐ¼Ð¼Ð° Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ð¹ Ð»Ð¸ÑÑ‚ÑŒÐµÐ²" << std::endl;
+    std::cout << "5. Ð¡Ñ€ÐµÐ´Ð½ÐµÐµ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ Ð²ÑÐµÑ… ÑƒÐ·Ð»Ð¾Ð²" << std::endl;
+    std::cout << "0. Ð’Ñ‹Ñ…Ð¾Ð´" << std::endl;
+    std::cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð²Ð°Ñˆ Ð²Ñ‹Ð±Ð¾Ñ€: ";
 }
 
 void AVLTree::processAction(int choice) {
     switch (choice) {
     case 1: {
         double value;
-        std::cout << "Ââåäèòå çíà÷åíèå äëÿ âñòàâêè: ";
+        std::cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ Ð´Ð»Ñ Ð²ÑÑ‚Ð°Ð²ÐºÐ¸: ";
         std::cin >> value;
         insert(value);
         break;
@@ -178,15 +178,15 @@ void AVLTree::processAction(int choice) {
         inOrderTraversal();
         break;
     case 4:
-        std::cout << "Ñóììà çíà÷åíèé ëèñòüåâ: " << sumLeafValues() << std::endl;
+        std::cout << "Ð¡ÑƒÐ¼Ð¼Ð° Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ð¹ Ð»Ð¸ÑÑ‚ÑŒÐµÐ²: " << sumLeafValues() << std::endl;
         break;
     case 5:
-        std::cout << "Ñðåäíåå çíà÷åíèå âñåõ óçëîâ: " << calculateAverage() << std::endl;
+        std::cout << "Ð¡Ñ€ÐµÐ´Ð½ÐµÐµ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ Ð²ÑÐµÑ… ÑƒÐ·Ð»Ð¾Ð²: " << calculateAverage() << std::endl;
         break;
     case 0:
-        std::cout << "Âûõîä èç ïðîãðàììû." << std::endl;
+        std::cout << "Ð’Ñ‹Ñ…Ð¾Ð´ Ð¸Ð· Ð¿Ñ€Ð¾Ð³Ñ€Ð°Ð¼Ð¼Ñ‹." << std::endl;
         break;
     default:
-        std::cout << "Íåâåðíûé âûáîð. Ïîæàëóéñòà, ââåäèòå ÷èñëî îò 0 äî 5." << std::endl;
+        std::cout << "ÐÐµÐ²ÐµÑ€Ð½Ñ‹Ð¹ Ð²Ñ‹Ð±Ð¾Ñ€. ÐŸÐ¾Ð¶Ð°Ð»ÑƒÐ¹ÑÑ‚Ð°, Ð²Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾ Ð¾Ñ‚ 0 Ð´Ð¾ 5." << std::endl;
     }
 }

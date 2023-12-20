@@ -37,8 +37,6 @@ void encode_haffman(std::string str) {
         queue.push_back(node);
     }
 
-
-
     sort(queue.begin(), queue.end(), [](const Node* a, const Node* b) {
         return a->val < b->val;
         });
@@ -71,8 +69,7 @@ void encode_haffman(std::string str) {
         code += code_table[str.at(i)];
         code_len += code_table[str.at(i)].length();
     }
-	std::cout << "Íåçàêîäèðîâàííàÿ ñòðîêà: " << str << ", ðàçìåð = " << str.length() << '\n';
-	std::cout << "Çàêîäèðîâàííàÿ ôðàçà: " << code << ", ðàçìåð = " << code_len << '\n';
-	std::cout << "Ýôôåêòèâíîñòü ñæàòèÿ: " << (1 - (code_len / ((double)str.length() * 8))) * 100 << '%';
-
+	std::cout << "ÐÐµÐ·Ð°ÐºÐ¾Ð´Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð½Ð°Ñ ÑÑ‚Ñ€Ð¾ÐºÐ°: " << str << ", Ñ€Ð°Ð·Ð¼ÐµÑ€ = " << str.length() << '\n';
+	std::cout << "Ð—Ð°ÐºÐ¾Ð´Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð½Ð°Ñ Ñ„Ñ€Ð°Ð·Ð°: " << code << ", Ñ€Ð°Ð·Ð¼ÐµÑ€ = " << code_len << '\n';
+	std::cout << "Ð­Ñ„Ñ„ÐµÐºÑ‚Ð¸Ð²Ð½Ð¾ÑÑ‚ÑŒ ÑÐ¶Ð°Ñ‚Ð¸Ñ: " << (1 - (code_len / ((double)str.length() * 8))) * 100 << '%';
 }

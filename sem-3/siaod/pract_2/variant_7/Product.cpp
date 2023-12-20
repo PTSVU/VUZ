@@ -2,7 +2,7 @@
 
 Product::Product()
 {
-    cout << "Ââåäèòå íàçâàíèå ôàéëà: ";
+    cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð½Ð°Ð·Ð²Ð°Ð½Ð¸Ðµ Ñ„Ð°Ð¹Ð»Ð°: ";
     cin >> fileName;
     if (fileName.empty())
     {
@@ -12,7 +12,7 @@ Product::Product()
     int var;
     if (fileExists(textFileName))
     {
-        cout << "\nÏåðåçàïèñàòü ôàéë?\n\t0 - íåò\n\t1 - äà\n";
+        cout << "\nÐŸÐµÑ€ÐµÐ·Ð°Ð¿Ð¸ÑÐ°Ñ‚ÑŒ Ñ„Ð°Ð¹Ð»?\n\t0 - Ð½ÐµÑ‚\n\t1 - Ð´Ð°\n";
         cin >> var;
         if (var == 0)
         {
@@ -61,24 +61,24 @@ void Product::ProductAdd()
     {
         int ID = id[id.size() - 1] + 1;
         id.push_back(ID);
-        cout << "\nÊîä ñïåöèàëüíîñòè: ";
+        cout << "\nÐšÐ¾Ð´ ÑÐ¿ÐµÑ†Ð¸Ð°Ð»ÑŒÐ½Ð¾ÑÑ‚Ð¸: ";
         cin >> temp;
         specCode.push_back(temp);
-        cout << "\nÍàçâàíèå âóçà: ";
+        cout << "\nÐÐ°Ð·Ð²Ð°Ð½Ð¸Ðµ Ð²ÑƒÐ·Ð°: ";
         cin >> temp;
         vuzName.push_back(temp);
-        cout << "\nÍàçâàíèå ñïåöèàëüíîñòè: ";
+        cout << "\nÐÐ°Ð·Ð²Ð°Ð½Ð¸Ðµ ÑÐ¿ÐµÑ†Ð¸Ð°Ð»ÑŒÐ½Ð¾ÑÑ‚Ð¸: ";
         cin >> temp;
         specName.push_back(temp);
         TxtSave(ID);
-        cout << "\nÏðîäîëæèòü? (0 - íåò, 1 - äà)\n";
+        cout << "\nÐŸÑ€Ð¾Ð´Ð¾Ð»Ð¶Ð¸Ñ‚ÑŒ? (0 - Ð½ÐµÑ‚, 1 - Ð´Ð°)\n";
         cin >> temp;
         if (temp == "0")
         {
             break;
         }
     }
-    cout << "\nÂâîä îñòàíîâëåí\n";
+    cout << "\nÐ’Ð²Ð¾Ð´ Ð¾ÑÑ‚Ð°Ð½Ð¾Ð²Ð»ÐµÐ½\n";
 }
 
 void Product::print_bin() {
@@ -189,8 +189,8 @@ void Product::DelCh(int num)
 
 void Product::country_to_txt()
 {
-    cout << "\nÂûáèðåòå ñïåöàëüíîñòü:" 
-        << "\n\tÖèôðà - êîä ñïåöàëüíîñòè";
+    cout << "\nÐ’Ñ‹Ð±Ð¸Ñ€ÐµÑ‚Ðµ ÑÐ¿ÐµÑ†Ð°Ð»ÑŒÐ½Ð¾ÑÑ‚ÑŒ:" 
+        << "\n\tÐ¦Ð¸Ñ„Ñ€Ð° - ÐºÐ¾Ð´ ÑÐ¿ÐµÑ†Ð°Ð»ÑŒÐ½Ð¾ÑÑ‚Ð¸";
     vector <string> temp = { "" };
     bool ch = false;
     string con;
@@ -298,8 +298,8 @@ void Product::change_inf(int var)
             << "||" << setw(4) << "Vuz name" << setw(4)
             << "||" << setw(4) << "Spec name" << setw(4) << "||\n";
         PrintCh(var);
-        cout << "\n×òî òóò òðåáóåòñÿ èçìåíèòü:"
-            << "\n\t0 - ïåðåñòàòü ìåíÿòü"
+        cout << "\nÐ§Ñ‚Ð¾ Ñ‚ÑƒÑ‚ Ñ‚Ñ€ÐµÐ±ÑƒÐµÑ‚ÑÑ Ð¸Ð·Ð¼ÐµÐ½Ð¸Ñ‚ÑŒ:"
+            << "\n\t0 - Ð¿ÐµÑ€ÐµÑÑ‚Ð°Ñ‚ÑŒ Ð¼ÐµÐ½ÑÑ‚ÑŒ"
             << "\n\t1 - Spec code"
             << "\n\t2 - Vuz name"
             << "\n\t3 - Spec name\n";
@@ -310,15 +310,15 @@ void Product::change_inf(int var)
             wh = false;
             break;
         case 1:
-            cout << "Ââåäèòå íîâîå Spec code\n";
+            cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð½Ð¾Ð²Ð¾Ðµ Spec code\n";
             cin >> specCode[var];
             break;
         case 2:
-            cout << "Ââåäèòå íîâîå Vuz name\n";
+            cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð½Ð¾Ð²Ð¾Ðµ Vuz name\n";
             cin >> vuzName[var];
             break;
         case 3:
-            cout << "Ââåäèòå íîâîå Spec name\n";
+            cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð½Ð¾Ð²Ð¾Ðµ Spec name\n";
             cin >> specName[var];
             break;
         default:

@@ -1,4 +1,4 @@
-﻿#include "FileWithHashTable.h"
+#include "FileWithHashTable.h"
 
 
 int main() {
