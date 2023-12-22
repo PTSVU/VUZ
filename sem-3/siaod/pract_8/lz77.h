@@ -1,4 +1,4 @@
-#ifndef __LZ77_H__
+﻿#ifndef __LZ77_H__
 #define __LZ77_H__
 
 #include <string>

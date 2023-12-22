@@ -1,4 +1,4 @@
-#include "lz78.h"
+﻿#include "lz78.h"
 #include <iostream>
 
 std::vector<std::pair<int, char>> LZ78Encode(const std::string& data) {

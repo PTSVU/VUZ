@@ -1,4 +1,4 @@
-#include "FileWithHashTable.h"
+﻿#include "FileWithHashTable.h"
 
 FileWithHashTable::FileWithHashTable() {
     binaryFilename = file.fileName;

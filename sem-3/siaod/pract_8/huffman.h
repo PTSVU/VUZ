@@ -1,4 +1,4 @@
-#ifndef __HUFFMAN_H__
+﻿#ifndef __HUFFMAN_H__
 #define __HUFFMAN_H__
 #include <map>
 #include <queue>

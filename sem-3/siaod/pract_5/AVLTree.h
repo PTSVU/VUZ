@@ -1,4 +1,4 @@
-#ifndef __AVLTREE_H__
+﻿#ifndef __AVLTREE_H__
 #define __AVLTREE_H__
 struct AVLNode {
     double value;

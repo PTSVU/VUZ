@@ -1,4 +1,4 @@
-#include "lz77.h"
+﻿#include "lz77.h"
 #include <iostream>
 
 std::vector<LZ77Token> LZ77Compress(const std::string& data, int windowSize) {

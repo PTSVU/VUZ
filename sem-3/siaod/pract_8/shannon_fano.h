@@ -1,4 +1,4 @@
-#ifndef __SHANNON_FANO_H__
+﻿#ifndef __SHANNON_FANO_H__
 #define __SHANNON_FANO_H__
 #include <string>
 #include <vector>

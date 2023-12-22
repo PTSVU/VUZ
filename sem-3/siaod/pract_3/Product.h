@@ -1,4 +1,4 @@
-#ifndef __PRODUCT_H__
+﻿#ifndef __PRODUCT_H__
 #define __PRODUCT_H__
 #include <iostream>
 #include <fstream>

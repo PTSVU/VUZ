@@ -1,4 +1,4 @@
-#ifndef __FILE_WITH_HASH_TABLE_H__
+﻿#ifndef __FILE_WITH_HASH_TABLE_H__
 #define __FILE_WITH_HASH_TABLE_H__
 
 #include "Product.h"
