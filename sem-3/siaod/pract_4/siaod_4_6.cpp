@@ -93,7 +93,7 @@ int main() {
     std::cout << "\nTree After Copying Left to Right:" << std::endl;
     show_tree(root);
 
-    // del_tree(root); // Освобождение памяти
+    del_tree(root); // Освобождение памяти
 
     return 0;
 }
