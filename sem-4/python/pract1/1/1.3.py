@@ -1,0 +1,1 @@
+print(divmod(42, 8))
