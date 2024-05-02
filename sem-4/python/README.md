@@ -3,6 +3,6 @@
 **Практические с -** https://github.com/true-grue/kispython/tree/main
 
 
-**Все задачи с** https://github.com/true-grue/kispython/tree/main **находятся в папке var7**
+**Все задачи с [kispython](https://kispython.ru/) находятся в папке var7**
 
 Задания из var7 решены всеми способами **x.y** где **x** - номер задачи, а **y** - решённый вариант, в случае такого названия **x.y.z**, **z** - обозначает другой вид этого варианта решения
